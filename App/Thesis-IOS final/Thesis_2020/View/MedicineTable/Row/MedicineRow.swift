@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MedicineRow: View {
-    var jokes: JokesData
+    var dlResult: DLResult
 
     var body: some View {
         HStack {
@@ -17,10 +17,10 @@ struct MedicineRow: View {
                 .frame(width: 50, height: 50)
             Spacer()
             VStack {
-                Text("Name")
+                Text(dlResult.name)
                     .font(.title2)
                     .frame(maxWidth: .infinity, alignment: .leading)
-                Text(jokes.joke)
+                Text("\(dlResult.accuracy)")
                     .font(.subheadline)
                     .frame(maxWidth: .infinity, alignment: .leading)
 

@@ -5,13 +5,14 @@
 //  Created by Triet Nguyen on 10/12/20.
 //
 
-struct ResultText : Identifiable {
+struct DLResult : Identifiable, Codable {
     public var id: Int
-    public var text: String
     public var px: Float
     public var py: Float
     public var width: Float
     public var height: Float
+    public var accuracy: Float
+    public var name: String
 }
 
 struct ResultModel : Codable{

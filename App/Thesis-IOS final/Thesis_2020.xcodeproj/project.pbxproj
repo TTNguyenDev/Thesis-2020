@@ -16,6 +16,7 @@
 		B501B18F25341F380066F4FD /* Thesis_2020UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501B18E25341F380066F4FD /* Thesis_2020UITests.swift */; };
 		B501B1A3253421AD0066F4FD /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501B1A2253421AD0066F4FD /* SplashView.swift */; };
 		B501B1B6253425DA0066F4FD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B501B1B5253425DA0066F4FD /* MainView.swift */; };
+		B54FE1822536D5C5001B7072 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54FE1812536D5C5001B7072 /* Constant.swift */; };
 		B5764C96253434DA00615D60 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5764C95253434DA00615D60 /* Coordinator.swift */; };
 		B5764C9B2534354400615D60 /* CaptureImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5764C9A2534354400615D60 /* CaptureImageView.swift */; };
 		B5764CA12534360300615D60 /* MedicineTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5764CA02534360300615D60 /* MedicineTable.swift */; };
@@ -65,6 +66,7 @@
 		B501B19025341F380066F4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B501B1A2253421AD0066F4FD /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		B501B1B5253425DA0066F4FD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B54FE1812536D5C5001B7072 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		B5764C95253434DA00615D60 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		B5764C9A2534354400615D60 /* CaptureImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureImageView.swift; sourceTree = "<group>"; };
 		B5764CA02534360300615D60 /* MedicineTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineTable.swift; sourceTree = "<group>"; };
@@ -151,16 +153,13 @@
 		B501B17025341F350066F4FD /* Thesis_2020 */ = {
 			isa = PBXGroup;
 			children = (
+				B54FE1802536D4AA001B7072 /* View */,
 				B5EFC1C3253482AB00333A2D /* Network */,
 				B5EFC1BA253481F900333A2D /* Model */,
-				B5764C9F253435EB00615D60 /* MedicineTable */,
-				B5764C94253434CA00615D60 /* CameraView */,
-				B501B1A2253421AD0066F4FD /* SplashView.swift */,
-				B501B17125341F350066F4FD /* Thesis_2020App.swift */,
-				B501B1B5253425DA0066F4FD /* MainView.swift */,
 				B501B17525341F370066F4FD /* Assets.xcassets */,
 				B501B17A25341F370066F4FD /* Info.plist */,
 				B501B17725341F370066F4FD /* Preview Content */,
+				B54FE1812536D5C5001B7072 /* Constant.swift */,
 			);
 			path = Thesis_2020;
 			sourceTree = "<group>";
@@ -189,6 +188,18 @@
 				B501B19025341F380066F4FD /* Info.plist */,
 			);
 			path = Thesis_2020UITests;
+			sourceTree = "<group>";
+		};
+		B54FE1802536D4AA001B7072 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5764C94253434CA00615D60 /* CameraView */,
+				B5764C9F253435EB00615D60 /* MedicineTable */,
+				B501B1B5253425DA0066F4FD /* MainView.swift */,
+				B501B17125341F350066F4FD /* Thesis_2020App.swift */,
+				B501B1A2253421AD0066F4FD /* SplashView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B5764C94253434CA00615D60 /* CameraView */ = {
@@ -479,6 +490,7 @@
 				B501B17225341F350066F4FD /* Thesis_2020App.swift in Sources */,
 				B5BB8FF02534944100366A6F /* MedicineDetail.swift in Sources */,
 				B501B1A3253421AD0066F4FD /* SplashView.swift in Sources */,
+				B54FE1822536D5C5001B7072 /* Constant.swift in Sources */,
 				B5BB8FE82534940200366A6F /* MedicineRow.swift in Sources */,
 				B5764C9B2534354400615D60 /* CaptureImageView.swift in Sources */,
 			);

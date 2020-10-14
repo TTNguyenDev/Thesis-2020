@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MedicineDetail: View {
-    var jokes: JokesData
+    var dlResult: DLResult
 
     var body: some View {
         VStack(alignment: .leading) {
@@ -25,25 +25,25 @@ struct MedicineDetail: View {
             
 
             VStack(alignment: .leading) {
-                Text("Name")
+                Text(dlResult.name)
                     .font(.largeTitle)
                     .padding(.all)
 
                 HStack(alignment: .top) {
-                    Text(jokes.joke)
+                    Text("\(dlResult.accuracy)")
                         .font(.subheadline)
                         .padding(.leading)
                 }
             }
         }
-        .navigationBarTitle(Text("Name"), displayMode: .inline)
+        .navigationBarTitle(Text(dlResult.name), displayMode: .inline)
     }
 }
 
-struct LandmarkDetail_Previews: PreviewProvider {
-    static var previews: some View {
-        let joke = JokesData(id: 1, joke: "Helo", categories: [])
-        MedicineDetail(jokes: joke)
-    }
-}
+//struct LandmarkDetail_Previews: PreviewProvider {
+//    static var previews: some View {
+//        let joke = JokesData(id: 1, joke: "Helo", categories: [])
+//        MedicineDetail(jokes: joke)
+//    }
+//}
 
