@@ -30,8 +30,8 @@ def upload_file():
 		file.save(filepath)
 		img = cv2.imread(filepath)
 		
-		config = ('-l eng --oem 1 --psm 7')
-		result = pytesseract.image_to_string(img, config=config)
+		# config = ('-l eng --oem 1 --psm 7')
+		result = pytesseract.image_to_string(img)
 		result = result.replace('\n\f', '')
 		print("aloooo" + result)
 		# file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
@@ -44,4 +44,4 @@ def upload_file():
 		return resp
 
 if __name__ == "__main__":
-    app.run(host='172.16.69.132')
+    app.run(host='172.29.71.206')

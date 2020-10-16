@@ -41,7 +41,7 @@ class Observer : ObservableObject{
         
         AF.upload(
             multipartFormData: { multipartFormData in
-                multipartFormData.append(image.jpegData(compressionQuality: 0.5)!, withName: "file" , fileName: "file.jpeg", mimeType: "image/jpeg")
+                multipartFormData.append(image.jpegData(compressionQuality: 0.1)!, withName: "file" , fileName: "file.jpeg", mimeType: "image/jpeg")
             },
             to: GET_TEXT_URL, method: .post , headers: headers)
             .response { resp in

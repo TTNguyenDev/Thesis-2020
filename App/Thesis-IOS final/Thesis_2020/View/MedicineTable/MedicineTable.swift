@@ -22,7 +22,7 @@ struct MedicineTable: View {
             .navigationBarTitle("Medicine List", displayMode: .inline)
             .onAppear() {
                
-                if (!firstLoading) {
+                if (!firstLoading && uiimage != nil) {
                     observed.getTextWithImage(image: uiimage!)
                     firstLoading = true
                 }

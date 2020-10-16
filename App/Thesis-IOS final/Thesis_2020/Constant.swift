@@ -7,5 +7,5 @@
 
 import Foundation
 
-let API_URL = "http://127.0.0.1:5000"
+let API_URL = "http://172.29.71.206:5000"
 let GET_TEXT_URL = API_URL + "/file-upload"
