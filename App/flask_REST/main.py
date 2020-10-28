@@ -6,6 +6,7 @@ from werkzeug.utils import secure_filename
 import cv2
 import pytesseract
 
+pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files\Tesseract-OCR/tesseract.exe'
 
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
@@ -33,9 +34,9 @@ def upload_file():
 		# config = ('-l eng --oem 1 --psm 7')
 		result = pytesseract.image_to_string(img)
 		result = result.replace('\n\f', '')
-		print("aloooo" + result)
+		print(result)
 		# file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-		resp = jsonify([{"id": 1, "px": 1, "py": 1, "width": 1, "height": 1, "accuracy": 99, "name": result}, {"id": 1, "px": 1, "py": 1, "width": 1, "height": 1, "accuracy": 99, "name": result}])
+		resp = jsonify([{"id": 1, "px": 1, "py": 1, "width": 1, "height": 1, "accuracy": "99", "name": "a"}, {"id": 1, "px": 1, "py": 1, "width": 1, "height": 1, "accuracy": "99", "name": "a"}])
 		resp.status_code = 201
 		return resp
 	else:
@@ -44,4 +45,7 @@ def upload_file():
 		return resp
 
 if __name__ == "__main__":
-    app.run(host='172.29.71.206')
+    app.run(host='192.168.1.92')
+	# print("hello")
+	# app.run()
+	
