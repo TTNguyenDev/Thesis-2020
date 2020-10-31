@@ -45,7 +45,7 @@ def upload_file():
 		return resp
 
 if __name__ == "__main__":
-    app.run(host='192.168.1.92')
+    app.run(host='192.168.1.5')
 	# print("hello")
 	# app.run()
 	

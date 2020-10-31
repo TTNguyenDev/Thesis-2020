@@ -2,30 +2,41 @@ import 'dart:io';
 import 'dart:typed_data';
 import 'package:dio/dio.dart';
 
+import 'package:flutter_camera_app/Model/ResponseData.dart';
 import 'package:esys_flutter_share/esys_flutter_share.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:path/path.dart';
+import 'package:http/http.dart' as http;
+import 'dart:convert' show json, jsonDecode;
 
 class MedicineList extends StatefulWidget {
-  MedicineList({Key key, title}) : super(key: key);
+  final List<User> user;
+  MedicineList({Key key, @required this.user}) : super(key: key);
 
   final String title = "Đơn Thuốc";
 
   @override
-  _MedicineListState createState() => _MedicineListState();
+  _MedicineListState createState() => _MedicineListState(user);
 }
 
 class _MedicineListState extends State<MedicineList> {
+  final List<User> user;
+  _MedicineListState(this.user);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back_ios, color: Colors.black),
+          onPressed: () => Navigator.of(context).pop(),
+        ),
+        backgroundColor: Colors.white,
+        title: Text(widget.title, style: TextStyle(color: Colors.black)),
       ),
       body: new ListView.builder(
-          itemCount: 50,
+          itemCount: user.length,
           itemBuilder: (BuildContext context, int index) {
             return new GestureDetector(
               child: new ListTile(
@@ -34,7 +45,7 @@ class _MedicineListState extends State<MedicineList> {
                 child: new Container(
                   alignment: Alignment.center,
                   margin: new EdgeInsets.only(top: 20.0, bottom: 20.0),
-                  child: new Text("ListItem $index"),
+                  child: new Text(user[index].name),
                 ),
               )),
               onTap: () {
@@ -64,19 +75,5 @@ class _MedicineListState extends State<MedicineList> {
             );
           }),
     );
-  }
-
-  List<Product> parseProducts(String responseBody) {
-    final parsed = json.decode(responseBody).cast<Map<String, dynamic>>();
-    return parsed.map<Product>((json) => Product.fromJson(json)).toList();
-  }
-
-  Future<List<Product>> fetchProducts() async {
-    final response = await http.get('http://192.168.1.2:8000/products.json');
-    if (response.statusCode == 200) {
-      return parseProducts(response.body);
-    } else {
-      throw Exception('Unable to fetch products from the REST API');
-    }
   }
 }

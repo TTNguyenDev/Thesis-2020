@@ -81,7 +81,7 @@ class _CameraScreenState extends State {
                   height: 120,
                   width: double.infinity,
                   padding: EdgeInsets.all(15),
-                  color: Colors.black,
+                  color: Colors.white,
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: <Widget>[
@@ -159,15 +159,13 @@ class _CameraScreenState extends State {
           onPressed: _onSwitchCamera,
           icon: Icon(
             _getCameraLensIcon(lensDirection),
-            color: Colors.white,
-            size: 24,
+            color: Colors.black,
+            size: 40,
           ),
           label: Text(
-              '${lensDirection.toString().substring(lensDirection.toString().indexOf('.') + 1).toUpperCase()}',
-              style: TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.w500
-              ),),
+            '${lensDirection.toString().substring(lensDirection.toString().indexOf('.') + 1).toUpperCase()}',
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.w500),
+          ),
         ),
       ),
     );

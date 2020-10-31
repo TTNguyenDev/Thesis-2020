@@ -5,6 +5,7 @@ import 'package:http/http.dart' as http;
 
 import 'package:flutter_camera_app/Model/ResponseData.dart';
 import 'package:esys_flutter_share/esys_flutter_share.dart';
+import 'package:flutter_camera_app/pages/MedicineList.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -26,6 +27,11 @@ class _PreviewScreenState extends State<PreviewScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back_ios, color: Colors.black),
+          onPressed: () => Navigator.of(context).pop(),
+        ),
+        backgroundColor: Colors.white,
         automaticallyImplyLeading: true,
       ),
       body: Container(
@@ -44,22 +50,17 @@ class _PreviewScreenState extends State<PreviewScreen> {
               child: Container(
                 width: double.infinity,
                 height: 60.0,
-                color: Colors.black,
+                color: Colors.white,
                 child: Center(
                   child: IconButton(
                     icon: Icon(
-                      Icons.share,
-                      color: Colors.white,
+                      Icons.send,
+                      color: Colors.black,
                     ),
                     onPressed: () {
                       // getBytesFromFile().then((bytes){
                       //   Share.file('Share via', basename(widget.imgPath), bytes.buffer.asUint8List(),'image/path');
                       _startUploading();
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(builder: (context) => MedicineList()),
-                      // );
-                      // });
                     },
                   ),
                 ),
@@ -76,42 +77,35 @@ class _PreviewScreenState extends State<PreviewScreen> {
     return ByteData.view(bytes.buffer);
   }
 
-  var apiUrl = Uri.parse('http://192.168.1.92:5000/file-upload');
-
+  var apiUrl = Uri.parse('http://192.168.1.5:5000/file-upload');
+  var response;
   void _startUploading() async {
-    Dio dio = new Dio();
-    FormData formdata = new FormData.fromMap(<String, dynamic>{
-      "file": await MultipartFile.fromFile(widget.imgPath, filename: 'abc.png')
-    });
-    print('Success');
-    // formdata.append("file",
-    // new MultipartFile.fromFile(widget.imgPath, basename(widget.imgPath)));
-    try {
-      //...
-      var response = await dio.post("http://192.168.1.92:5000/file-upload",
-          data: formdata);
-      print(response.data.toString());
-      // String arrayObjsText = response.data.toString();
-      // var tagObjsJson = jsonDecode(arrayObjsText) as List;
-      // // print(tagObjsJson);
-      // List<User> tagObjs =
-      //     tagObjsJson.map((tagJson) => User.fromJson(tagJson)).toList();
-      // // print(tagObjs);
-    } on DioError catch (e) {
-      print(e.error);
-      if (e.error is SocketException) {
-        // TODO: handle SocketException
-        print(e.error);
-      }
-      throw e.error;
-    }
+    // Dio dio = new Dio();
+    // FormData formdata = new FormData.fromMap(<String, dynamic>{
+    //   "file": await MultipartFile.fromFile(widget.imgPath, filename: 'abc.png')
+    // });
+    // print('Success');
+    // try {
+    //   response =
+    //       await dio.post("http://192.168.1.5:5000/file-upload", data: formdata);
+    //   print(response.data.toString());
+    // } on DioError catch (e) {
+    //   print(e.error);
+    //   if (e.error is SocketException) {
+    //     print(e.error);
+    //   }
+    //   throw e.error;
+    // }
+    String ResponeOutput =
+        '[{"id": 1, "px": 1, "py": 1, "width": 1, "height": 1, "accuracy": "99", "name": "a"}, {"id": 2, "px": 1, "py": 1, "width": 1, "height": 1, "accuracy": "99", "name": "b"}]';
+    List<User> users;
+    users = (json.decode(ResponeOutput) as List)
+        .map((i) => User.fromJson(i))
+        .toList(); // parse json to list
+    print("aaaa");
+    print(ResponeOutput[0]);
+    Navigator.push(this.context,
+        MaterialPageRoute(builder: (context) => MedicineList(user: users)));
     print("Hello");
-
-    // dio.post('http://127.0.0.1:5000/file-upload',
-    //     data: formdata,
-    //     options: Options(
-    //         method: 'POST',
-    //         responseType: ResponseType.plain // or ResponseType.JSON
-    //         ));
   }
 }

@@ -1,11 +1,11 @@
 class User {
-  int id;
-  int px;
-  int py;
-  int width;
-  int height;
-  String accuracy;
-  String name;
+  final int id;
+  final int px;
+  final int py;
+  final int width;
+  final int height;
+  final String accuracy;
+  final String name;
 
   User(this.id, this.px, this.py, this.width, this.height, this.accuracy,
       this.name);
@@ -19,10 +19,5 @@ class User {
         json['height'] as int,
         json['accuracy'] as String,
         json['name'] as String);
-  }
-
-  @override
-  String toString() {
-    return '{ ${this.id}, ${this.name} }';
   }
 }
