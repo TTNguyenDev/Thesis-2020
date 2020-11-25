@@ -97,15 +97,16 @@ class _PreviewScreenState extends State<PreviewScreen> {
     //   throw e.error;
     // }
     String ResponeOutput =
-        '[{"id": 1, "px": 1, "py": 1, "width": 1, "height": 1, "accuracy": "99", "name": "a"}, {"id": 2, "px": 1, "py": 1, "width": 1, "height": 1, "accuracy": "99", "name": "b"}]';
-    List<User> users;
-    users = (json.decode(ResponeOutput) as List)
-        .map((i) => User.fromJson(i))
+        '[{"id": "1", "name": "Paracetamol", "accuracy" : "0.98", "info" : "Paracetamol (Hapacol), là một loại thuốc giảm đau, hạ sốt được sử dụng để điều trị nhiều tình trạng như đau đầu, đau cơ, viêm khớp, đau lưng, đau răng, cảm lạnh và sốt. Thuốc có tác dụng giảm đau trong trường hợp viêm khớp nhẹ nhưng không có hiệu quả nếu tình trạng viêm và sưng khớp nặng hơn. Đôi khi bác sĩ sẽ chỉ định thuốc paracetamol cho những mục đích khác không được liệt kê trong tờ hướng dẫn sử dụng. Lúc ấy, bạn phải tuân thủ theo hướng dẫn của bác sĩ.", "time" : "Sáng 1 Chiều 1 Tối 1" }, {"id": "2", "name": "Paradol", "accuracy" : "0.6", "info" : "Paradol là một loại thuốc giảm đau, hạ sốt được sử dụng để điều trị nhiều tình trạng như đau đầu, đau cơ, viêm khớp, đau lưng, đau răng, cảm lạnh và sốt. Thuốc có tác dụng giảm đau trong trường hợp viêm khớp nhẹ nhưng không có hiệu quả nếu tình trạng viêm và sưng khớp nặng hơn. Đôi khi bác sĩ sẽ chỉ định thuốc paracetamol cho những mục đích khác không được liệt kê trong tờ hướng dẫn sử dụng. Lúc ấy, bạn phải tuân thủ theo hướng dẫn của bác sĩ.", "time" : "Sáng 1 Chiều 0 Tối 1" }]';
+    List<Medicine> medicines;
+    medicines = (json.decode(ResponeOutput) as List)
+        .map((i) => Medicine.fromJson(i))
         .toList(); // parse json to list
     print("aaaa");
     print(ResponeOutput[0]);
-    Navigator.push(this.context,
-        MaterialPageRoute(builder: (context) => MedicineList(user: users)));
-    print("Hello");
+    Navigator.push(
+        this.context,
+        MaterialPageRoute(
+            builder: (context) => MedicineList(medicine: medicines)));
   }
 }

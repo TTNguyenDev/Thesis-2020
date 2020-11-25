@@ -4,26 +4,28 @@ import 'package:dio/dio.dart';
 
 import 'package:flutter_camera_app/Model/ResponseData.dart';
 import 'package:esys_flutter_share/esys_flutter_share.dart';
+import 'package:flutter_camera_app/pages/MedicineInfo.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_launcher_icons/ios.dart';
 import 'package:path/path.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert' show json, jsonDecode;
 
 class MedicineList extends StatefulWidget {
-  final List<User> user;
-  MedicineList({Key key, @required this.user}) : super(key: key);
+  final List<Medicine> medicine;
+  MedicineList({Key key, @required this.medicine}) : super(key: key);
 
   final String title = "Đơn Thuốc";
 
   @override
-  _MedicineListState createState() => _MedicineListState(user);
+  _MedicineListState createState() => _MedicineListState(medicine);
 }
 
 class _MedicineListState extends State<MedicineList> {
-  final List<User> user;
-  _MedicineListState(this.user);
+  final List<Medicine> medicine;
+  _MedicineListState(this.medicine);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,45 +34,82 @@ class _MedicineListState extends State<MedicineList> {
           icon: Icon(Icons.arrow_back_ios, color: Colors.black),
           onPressed: () => Navigator.of(context).pop(),
         ),
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.blue[300],
         title: Text(widget.title, style: TextStyle(color: Colors.black)),
       ),
       body: new ListView.builder(
-          itemCount: user.length,
+          itemCount: medicine.length,
           itemBuilder: (BuildContext context, int index) {
             return new GestureDetector(
-              child: new ListTile(
-                  title: new Card(
-                elevation: 5.0,
-                child: new Container(
-                  alignment: Alignment.center,
-                  margin: new EdgeInsets.only(top: 20.0, bottom: 20.0),
-                  child: new Text(user[index].name),
-                ),
-              )),
-              onTap: () {
-                showDialog(
-                    context: context,
-                    barrierDismissible: false,
-                    child: new CupertinoAlertDialog(
-                      title: new Column(
+              child: Card(
+                  child: Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: Column(
                         children: <Widget>[
-                          new Text("Listview"),
-                          new Icon(
-                            Icons.favorite,
-                            color: Colors.green,
+                          Padding(
+                            padding:
+                                const EdgeInsets.only(top: 8.0, bottom: 4.0),
+                            child: Row(children: <Widget>[
+                              Text(
+                                medicine[index].name,
+                                style: new TextStyle(fontSize: 35.0),
+                              ),
+                              Icon(Icons.verified, color: Colors.blue),
+                              Spacer(),
+                              new Image.asset("assets/medicine.png"),
+                            ]),
+                          ),
+                          Padding(
+                            padding:
+                                const EdgeInsets.only(top: 4.0, bottom: 80.0),
+                            child: Row(children: <Widget>[
+                              Text(medicine[index].time),
+                            ]),
+                          ),
+                          Padding(
+                            padding:
+                                const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                            child: Row(
+                              children: <Widget>[
+                                Text(
+                                  "Uống trước khi ăn",
+                                  style: new TextStyle(fontSize: 20.0),
+                                ),
+                                Spacer(),
+                                Icon(Icons.lock_clock, color: Colors.blue),
+                              ],
+                            ),
                           )
                         ],
-                      ),
-                      content: new Text("Selected Item $index"),
-                      actions: <Widget>[
-                        new FlatButton(
-                            onPressed: () {
-                              Navigator.of(context).pop();
-                            },
-                            child: new Text("OK"))
-                      ],
-                    ));
+                      ))),
+              onTap: () {
+                // showDialog(
+                //     context: context,
+                //     barrierDismissible: false,
+                //     child: new CupertinoAlertDialog(
+                //       title: new Column(
+                //         children: <Widget>[
+                //           new Text("Time"),
+                //           new Icon(
+                //             Icons.lock_clock,
+                //             color: Colors.blue,
+                //           )
+                //         ],
+                //       ),
+                //       content: new Text(medicine[index].id),
+                //       actions: <Widget>[
+                //         new FlatButton(
+                //             onPressed: () {
+                //               Navigator.of(context).pop();
+                //             },
+                //             child: new Text("OK"))
+                //       ],
+                //     ));
+                Navigator.push(
+                    this.context,
+                    MaterialPageRoute(
+                        builder: (context) =>
+                            MedicineInfo(medicine: medicine[index])));
               },
             );
           }),

@@ -1,23 +1,21 @@
-class User {
-  final int id;
-  final int px;
-  final int py;
-  final int width;
-  final int height;
-  final String accuracy;
+import 'dart:ffi';
+
+class Medicine {
+  final String id;
   final String name;
+  final String accuracy;
+  final String info;
+  final String time;
 
-  User(this.id, this.px, this.py, this.width, this.height, this.accuracy,
-      this.name);
+  Medicine(this.id, this.name, this.accuracy, this.info, this.time);
 
-  factory User.fromJson(dynamic json) {
-    return User(
-        json['id'] as int,
-        json['px'] as int,
-        json['py'] as int,
-        json['width'] as int,
-        json['height'] as int,
-        json['accuracy'] as String,
-        json['name'] as String);
+  factory Medicine.fromJson(dynamic json) {
+    return Medicine(
+      json['id'] as String,
+      json['name'] as String,
+      json['accuracy'] as String,
+      json['info'] as String,
+      json['time'] as String,
+    );
   }
 }

@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_camera_app/pages/preview_screen.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:image_picker/image_picker.dart';
 
 class CameraScreen extends StatefulWidget {
   @override
@@ -83,10 +84,11 @@ class _CameraScreenState extends State {
                   padding: EdgeInsets.all(15),
                   color: Colors.white,
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
                       _cameraToggleRowWidget(),
                       _cameraControlWidget(context),
+                      // _imgGalleryWidget(context),
                       Spacer()
                     ],
                   ),
@@ -171,6 +173,31 @@ class _CameraScreenState extends State {
     );
   }
 
+  /// Display the control bar with buttons to take pictures
+  Widget _imgGalleryWidget(context) {
+    return Expanded(
+      child: Align(
+        alignment: Alignment.centerRight,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisSize: MainAxisSize.max,
+          children: <Widget>[
+            FloatingActionButton(
+              child: Icon(
+                Icons.photo_library,
+                color: Colors.black,
+              ),
+              backgroundColor: Colors.white,
+              onPressed: () {
+                _imgFromGallery(context);
+              },
+            )
+          ],
+        ),
+      ),
+    );
+  }
+
   IconData _getCameraLensIcon(CameraLensDirection direction) {
     switch (direction) {
       case CameraLensDirection.back:
@@ -212,5 +239,24 @@ class _CameraScreenState extends State {
         selectedCameraIndex < cameras.length - 1 ? selectedCameraIndex + 1 : 0;
     CameraDescription selectedCamera = cameras[selectedCameraIndex];
     _initCameraController(selectedCamera);
+  }
+
+  void _imgFromGallery(context) async {
+    // try {
+    //   final path =
+    //       join((await getTemporaryDirectory()).path, '${DateTime.now()}.png');
+    //   await ImagePicker.pickImage(
+    //       source: ImageSource.gallery, imageQuality: 50);
+
+    //   Navigator.push(
+    //     context,
+    //     MaterialPageRoute(
+    //         builder: (context) => PreviewScreen(
+    //               imgPath: path,
+    //             )),
+    //   );
+    // } catch (e) {
+    //   _showCameraException(e);
+    // }
   }
 }

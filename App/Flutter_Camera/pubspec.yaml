@@ -17,6 +17,8 @@ dependencies:
   esys_flutter_share: ^1.0.2
   dio: ^3.0.10
   http: any
+  image_picker: ^0.6.6+5
+  flutter_launcher_icons: "^0.8.0"
 
 dev_dependencies:
   flutter_test:
@@ -27,4 +29,11 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+  assets:
+    - assets/medicine.png
 
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/ic_launcher_round.png"
+  
