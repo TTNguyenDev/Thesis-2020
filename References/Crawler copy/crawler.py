@@ -5,6 +5,7 @@ import json
 import re
 import time
 
+
 def generateURL(index):
     base = "https://drugbank.vn/services/drugbank/api/public/thuoc?"
     page = "page="
@@ -22,8 +23,8 @@ def preprocessMedicineContain(contains):
     
     return test_list
 
-start = 4500
-end = 5000
+start = 1
+end = 1000
 medicine_list = []
 f = open('drugbank' + str(start) + '-' + str(end) +'.txt', 'a')
 for i in range(start, end):
@@ -37,17 +38,18 @@ for i in range(start, end):
             medicine_name = jsonData[item]['tenThuoc']
             contain = jsonData[item]['hoatChat']
             list_contains = preprocessMedicineContain(contain)
-            
-            medicine_row = {
-                'name': medicine_name,
-                'contains': list_contains
-            }
+        
+        medicine_row = {
+            'name': medicine_name,
+            'contains': list_contains
+        }
 
-            medicine_list.append(medicine_row)
+        medicine_list.append(medicine_row)
+    
     except ValueError as e:
         print(e)
-    
-    # time.sleep(3)
+    # time.sleep(1)
+   
 
 medicine_json  = json.dumps(medicine_list, indent = 4)  
 f.write(medicine_json)

@@ -1,0 +1,9413 @@
+[
+    {
+        "name": "Perigard-D",
+        "contains": [
+            "Perindopril erbumin",
+            "Indapamid"
+        ]
+    },
+    {
+        "name": "Perigard-DF",
+        "contains": [
+            "Perindopril",
+            "Indapamid"
+        ]
+    },
+    {
+        "name": "Pexate 500",
+        "contains": [
+            "Pemetrexed"
+        ]
+    },
+    {
+        "name": "Phacolugel",
+        "contains": [
+            "Nh\u00f4m phosphat gel 20%"
+        ]
+    },
+    {
+        "name": "Phamzopic 7.5mg",
+        "contains": [
+            "Zopiclon"
+        ]
+    },
+    {
+        "name": "Pharmox 200",
+        "contains": [
+            "Amoxicilin  200 mg"
+        ]
+    },
+    {
+        "name": "Phenobarbital 100mg",
+        "contains": [
+            "Phenobarbital 100mg"
+        ]
+    },
+    {
+        "name": "Philhyal-San",
+        "contains": [
+            "Natri hyaluronat"
+        ]
+    },
+    {
+        "name": "Ph\u1ee5 huy\u1ebft khang",
+        "contains": [
+            "M\u1ed7i vi\u00ean ch\u1ee9a 0,18 g cao kh\u00f4 h\u1ed7n h\u1ee3p d\u01b0\u1ee3c li\u1ec7u",
+            "\u0110\u01b0\u01a1ng quy 0,12 g",
+            "Sinh \u0111\u1ecba 0,12 g"
+        ]
+    },
+    {
+        "name": "Picaroxin 500 mg",
+        "contains": [
+            "Ciprofloxacin"
+        ]
+    },
+    {
+        "name": "Pidocar",
+        "contains": [
+            "Clopidogrel"
+        ]
+    },
+    {
+        "name": "Piracetam 400",
+        "contains": [
+            "Piracetam 400mg"
+        ]
+    },
+    {
+        "name": "Piracetam 400",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Piracetam 400 mg",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Piracetam 400mg",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Piracetam 400mg",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Piracetam 800",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Plavix",
+        "contains": [
+            "Clopidogrel"
+        ]
+    },
+    {
+        "name": "Pmx Ciprofloxacin 500mg Tab",
+        "contains": [
+            "Ciprofloxacin"
+        ]
+    },
+    {
+        "name": "Poltrapa",
+        "contains": [
+            "Tramadol hydrochloride",
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Potriolac",
+        "contains": [
+            "Calcipotriol",
+            "Betamethason"
+        ]
+    },
+    {
+        "name": "Pragibin",
+        "contains": [
+            "Pyridostigmin bromid 60 mg"
+        ]
+    },
+    {
+        "name": "Pramital",
+        "contains": [
+            "Citalopram"
+        ]
+    },
+    {
+        "name": "Pramital",
+        "contains": [
+            "Citalopram  40mg"
+        ]
+    },
+    {
+        "name": "Pregabalin Capsules 75 mg",
+        "contains": [
+            "Pregabalin"
+        ]
+    },
+    {
+        "name": "Pregabalin Sandoz",
+        "contains": [
+            "Pregabalin"
+        ]
+    },
+    {
+        "name": "Pregabalin capsule 150mg",
+        "contains": [
+            "Pregabalin"
+        ]
+    },
+    {
+        "name": "Presartan H 50",
+        "contains": [
+            "Losartan kali",
+            "Hydroclorothiazid"
+        ]
+    },
+    {
+        "name": "Preterax",
+        "contains": [
+            "Perindopril ter-butylamin",
+            "Indapamide"
+        ]
+    },
+    {
+        "name": "Primaquin",
+        "contains": [
+            "Primaquin"
+        ]
+    },
+    {
+        "name": "Primperan",
+        "contains": [
+            "Metoclopramide hydrochloride"
+        ]
+    },
+    {
+        "name": "Protamol",
+        "contains": [
+            "Ibuprofen",
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Pycalis 10",
+        "contains": [
+            "Tadalafil"
+        ]
+    },
+    {
+        "name": "Pycalis 20",
+        "contains": [
+            "Tadalafil"
+        ]
+    },
+    {
+        "name": "Pyfaclor 500mg",
+        "contains": [
+            "Cefaclor"
+        ]
+    },
+    {
+        "name": "Pyme AM10",
+        "contains": [
+            "Amlodipin"
+        ]
+    },
+    {
+        "name": "Pyme AM5",
+        "contains": [
+            "Amlodipin  5mg"
+        ]
+    },
+    {
+        "name": "Pyme Diapro MR",
+        "contains": [
+            "Gliclazid"
+        ]
+    },
+    {
+        "name": "PymeAZI 500",
+        "contains": [
+            "Azithromycin"
+        ]
+    },
+    {
+        "name": "Pymetphage 1000",
+        "contains": [
+            "Metformin HCl"
+        ]
+    },
+    {
+        "name": "Pymetphage-500",
+        "contains": [
+            "Metformin hydroclorid"
+        ]
+    },
+    {
+        "name": "Pymetphage_850",
+        "contains": [
+            "Metformin hydroclorid"
+        ]
+    },
+    {
+        "name": "Pythinam",
+        "contains": [
+            "Imipenem",
+            "Cilastatin"
+        ]
+    },
+    {
+        "name": "Pyvasart 80",
+        "contains": [
+            "Valsartan"
+        ]
+    },
+    {
+        "name": "QBI-Phadol 250mg",
+        "contains": [
+            "M\u1ed7i g\u00f3i 1,5g ch\u1ee9a: Paracetamol 250mg"
+        ]
+    },
+    {
+        "name": "QTAX 1.0 GM",
+        "contains": [
+            "Cefotaxim  1g"
+        ]
+    },
+    {
+        "name": "Qapanto",
+        "contains": [
+            "Pantoprazol"
+        ]
+    },
+    {
+        "name": "Quanolon",
+        "contains": [
+            "Prednisolon 5mg"
+        ]
+    },
+    {
+        "name": "Quy t\u1ef3 an th\u1ea7n ho\u00e0n P/H",
+        "contains": [
+            "B\u1ed9t T\u00e1o nh\u00e2n",
+            "B\u1ed9t B\u1ea1ch linh",
+            "B\u1ed9t B\u1ea1ch tru\u1eadt",
+            "B\u1ed9t Ho\u00e0ng K\u1ef3",
+            "B\u1ed9t \u0110\u01b0\u01a1ng quy",
+            "B\u1ed9t \u0110\u1ea3ng s\u00e2m",
+            "B\u1ed9t Vi\u1ec5n ch\u00ed B\u1ed9t Cam th\u1ea3o",
+            "B\u1ed9t \u0110\u1ea1i t\u00e1o",
+            "B\u1ed9t M\u1ed9c h\u01b0\u01a1ng",
+            "Long nh\u00e3n"
+        ]
+    },
+    {
+        "name": "Rabe-G",
+        "contains": [
+            "Rabeprazol natri"
+        ]
+    },
+    {
+        "name": "Rabedisun",
+        "contains": [
+            "Rabeprazol natri  20mg"
+        ]
+    },
+    {
+        "name": "Rabiswift 20",
+        "contains": [
+            "Rabeprazol"
+        ]
+    },
+    {
+        "name": "Ranciphex 20mg",
+        "contains": [
+            "Rabeprazol"
+        ]
+    },
+    {
+        "name": "Ranitidin DNPharm 150",
+        "contains": [
+            "Ranitidin"
+        ]
+    },
+    {
+        "name": "Rebamipide Invagen",
+        "contains": [
+            "Rebamipid"
+        ]
+    },
+    {
+        "name": "Rebastric",
+        "contains": [
+            "Rebamipid"
+        ]
+    },
+    {
+        "name": "Refresh Tears",
+        "contains": [
+            "Natri carboxymethylcellulose"
+        ]
+    },
+    {
+        "name": "Regaxidil 20mg/ml",
+        "contains": [
+            "Minoxidil"
+        ]
+    },
+    {
+        "name": "Reinal-5",
+        "contains": [
+            "Flunarizin"
+        ]
+    },
+    {
+        "name": "Relvar Ellipta 100/25",
+        "contains": [
+            "Fluticasone furoate",
+            "Vilanterol"
+        ]
+    },
+    {
+        "name": "Relvar Ellipta 200/25",
+        "contains": [
+            "Fluticasone furoate",
+            "Vilanterol"
+        ]
+    },
+    {
+        "name": "Renatab 10",
+        "contains": [
+            "Enalapril maleat 10mg"
+        ]
+    },
+    {
+        "name": "Renatab 5",
+        "contains": [
+            "Enalapril maleat"
+        ]
+    },
+    {
+        "name": "Rhetanol",
+        "contains": [
+            "Paracetamol",
+            "Clorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Rhetanol Fort",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Ridomaxkit",
+        "contains": [
+            "Cao \u0111\u1eb7c ch\u00e8 d\u00e2y"
+        ]
+    },
+    {
+        "name": "Risperdal",
+        "contains": [
+            "Risperidone"
+        ]
+    },
+    {
+        "name": "Rocinva 3M",
+        "contains": [
+            "Spiramycin"
+        ]
+    },
+    {
+        "name": "Rosina",
+        "contains": [
+            "Drospirenone",
+            "Ethinylestradiol"
+        ]
+    },
+    {
+        "name": "Rosuvastatin 5-US",
+        "contains": [
+            "Rosuvastatin"
+        ]
+    },
+    {
+        "name": "Rosuvastatin SaVi 10",
+        "contains": [
+            "Rosuvastatin  10mg"
+        ]
+    },
+    {
+        "name": "Rotacor 10mg",
+        "contains": [
+            "Atorvastatin"
+        ]
+    },
+    {
+        "name": "Rotacor 20mg",
+        "contains": [
+            "Atorvastatin"
+        ]
+    },
+    {
+        "name": "Rovatin Film-coated tablet",
+        "contains": [
+            "Rosuvastatin"
+        ]
+    },
+    {
+        "name": "Rupafin",
+        "contains": [
+            "Rupatadin"
+        ]
+    },
+    {
+        "name": "SaVi 3B",
+        "contains": [
+            "Vitamin B1",
+            "Vitamin B6",
+            "Vitamin B12"
+        ]
+    },
+    {
+        "name": "SaVi Betahistine 16",
+        "contains": [
+            "Betahistin dihydroclorid"
+        ]
+    },
+    {
+        "name": "SaVi Betahistine 8",
+        "contains": [
+            "Betahistin dihydroclorid"
+        ]
+    },
+    {
+        "name": "SaVi Candesartan 8",
+        "contains": [
+            "Candesartan cilexetil"
+        ]
+    },
+    {
+        "name": "SaVi Carvedilol 6.25",
+        "contains": [
+            "Carvedilol  6,25 mg"
+        ]
+    },
+    {
+        "name": "SaVi Galantamin 8",
+        "contains": [
+            "Galantamin"
+        ]
+    },
+    {
+        "name": "SaVi Lamotrigine",
+        "contains": [
+            "Lamotrigin  50 mg"
+        ]
+    },
+    {
+        "name": "SaVi Lisinopril 10",
+        "contains": [
+            "Lisinopril"
+        ]
+    },
+    {
+        "name": "SaVi Prolol 5",
+        "contains": [
+            "Bisoprolol fumarat"
+        ]
+    },
+    {
+        "name": "SaVi Telmisartan 40",
+        "contains": [
+            "Telmisartan"
+        ]
+    },
+    {
+        "name": "SaVi Urso 300",
+        "contains": [
+            "Acid ursodeoxycholic"
+        ]
+    },
+    {
+        "name": "SaVi Valsartan Plus HCT 80/12.5",
+        "contains": [
+            "Valsartan",
+            "Hydroclorothiazid"
+        ]
+    },
+    {
+        "name": "SaViCipro",
+        "contains": [
+            "Ciprofloxacin"
+        ]
+    },
+    {
+        "name": "SaViFibrat 200M",
+        "contains": [
+            "Fenofibrat"
+        ]
+    },
+    {
+        "name": "SaViLeucin",
+        "contains": [
+            "N-Acetyl DL-Leucin"
+        ]
+    },
+    {
+        "name": "SaViPamol 250",
+        "contains": [
+            "M\u1ed7i g\u00f3i 1,5g ch\u1ee9a: Paracetamol 250mg"
+        ]
+    },
+    {
+        "name": "SaViRisone 5",
+        "contains": [
+            "Risedronat natri"
+        ]
+    },
+    {
+        "name": "SaVipezil",
+        "contains": [
+            "Praziquantel 600mg"
+        ]
+    },
+    {
+        "name": "Sacendol E",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Safelevo 750",
+        "contains": [
+            "Levofloxacin"
+        ]
+    },
+    {
+        "name": "Saglip 100",
+        "contains": [
+            "Sitagliptin"
+        ]
+    },
+    {
+        "name": "Saglip 50",
+        "contains": [
+            "Sitagliptin  50mg"
+        ]
+    },
+    {
+        "name": "Salbutamol 2 mg",
+        "contains": [
+            "Salbutamol"
+        ]
+    },
+    {
+        "name": "Sandimmun Neoral",
+        "contains": [
+            "Ciclosporin"
+        ]
+    },
+    {
+        "name": "Sandoz Capecitabin 500mg",
+        "contains": [
+            "Capecitabin"
+        ]
+    },
+    {
+        "name": "Santios 80mg",
+        "contains": [
+            "Simethicon"
+        ]
+    },
+    {
+        "name": "SavNopain 250",
+        "contains": [
+            "Naproxen"
+        ]
+    },
+    {
+        "name": "SavNopain 500",
+        "contains": [
+            "Naproxen"
+        ]
+    },
+    {
+        "name": "Savdiaride 4",
+        "contains": [
+            "Glimepirid 4mg"
+        ]
+    },
+    {
+        "name": "Savi Etodolac 200",
+        "contains": [
+            "Etodolac"
+        ]
+    },
+    {
+        "name": "SaviDopril 4",
+        "contains": [
+            "Perindopril erbumin"
+        ]
+    },
+    {
+        "name": "Savijoi 625",
+        "contains": [
+            "Glucosamin hydroclorid"
+        ]
+    },
+    {
+        "name": "Sefonramid 2g",
+        "contains": [
+            "Ceftazidim"
+        ]
+    },
+    {
+        "name": "Sekaxi 100 DT",
+        "contains": [
+            "Cefpodoxime  100 mg"
+        ]
+    },
+    {
+        "name": "Seobtoam",
+        "contains": [
+            "Nabumetone"
+        ]
+    },
+    {
+        "name": "Sibucap",
+        "contains": [
+            "Paracetamol",
+            "Ibuprofen"
+        ]
+    },
+    {
+        "name": "Silybean-comp (CSNQ: Korea United Pharm. Inc - \u0110\u1ecba ch\u1ec9: 25-23, Nojanggongdan-gil, Jeondong-Myeon, Sejong-si, Korea)",
+        "contains": [
+            "Cao Carduus marianus",
+            "Thiamin HCl",
+            "Pyridoxin HCl",
+            "Nicotinamid",
+            "Riboflavin",
+            "Calci pantothenat",
+            "Cyanocobalamin"
+        ]
+    },
+    {
+        "name": "Simvastatin 10 Glomed",
+        "contains": [
+            "Simvastatin"
+        ]
+    },
+    {
+        "name": "Simvastatin 10 mg",
+        "contains": [
+            "Simvastatin 10 mg"
+        ]
+    },
+    {
+        "name": "Simvastatin 20",
+        "contains": [
+            "Simvastatin"
+        ]
+    },
+    {
+        "name": "Simvastatin 20 Glomed",
+        "contains": [
+            "Simvastatin"
+        ]
+    },
+    {
+        "name": "Singulair (\u0110\u00f3ng g\u00f3i c\u1ea5p 1: DSM Pharmaceutials, Inc, M\u1ef9; \u0111\u00f3ng g\u00f3i c\u1ea5p 2+ xu\u1ea5t x\u01b0\u1edfng: PT Merck Sharp Dohme Pharma Tbk, Indonesia)",
+        "contains": [
+            "Montelukast"
+        ]
+    },
+    {
+        "name": "Sir\u00f4 ho Antituss Plus",
+        "contains": [
+            "Dextromethorphan HBr",
+            "Chlorpheniramin maleat",
+            "Natri citrat dihydrat",
+            "Guaifenesin"
+        ]
+    },
+    {
+        "name": "Sitar",
+        "contains": [
+            "\u0110\u1ea3ng s\u00e2m",
+            "Ho\u00e0ng k\u1ef3",
+            "\u0110\u01b0\u01a1ng qui",
+            "B\u1ea1ch tru\u1eadt",
+            "Th\u0103ng ma",
+            "S\u00e0i h\u1ed3",
+            "Tr\u1ea7n b\u00ec",
+            "Cam th\u1ea3o",
+            "Sinh kh\u01b0\u01a1ng",
+            "\u0110\u1ea1i t\u00e1o"
+        ]
+    },
+    {
+        "name": "Slandom 4",
+        "contains": [
+            "Ondansetron  4mg"
+        ]
+    },
+    {
+        "name": "Smecta h\u01b0\u01a1ng d\u00e2u",
+        "contains": [
+            "Diosmectit"
+        ]
+    },
+    {
+        "name": "SmectaGo",
+        "contains": [
+            "Diosmectit"
+        ]
+    },
+    {
+        "name": "Smetstad",
+        "contains": [
+            "Diosmectit"
+        ]
+    },
+    {
+        "name": "Softtakan",
+        "contains": [
+            "Cao kh\u00f4 l\u00e1 b\u1ea1ch qu\u1ea3"
+        ]
+    },
+    {
+        "name": "Somazina",
+        "contains": [
+            "Citicoline"
+        ]
+    },
+    {
+        "name": "Somazina 1000mg",
+        "contains": [
+            "Citicolin"
+        ]
+    },
+    {
+        "name": "Somazina 500mg",
+        "contains": [
+            "Citicolin"
+        ]
+    },
+    {
+        "name": "Sorbitol Sanofi",
+        "contains": [
+            "M\u1ed7i g\u00f3i 5g ch\u1ee9a: Sorbitol 5g"
+        ]
+    },
+    {
+        "name": "SovaAPC",
+        "contains": [
+            "Sofosbuvir"
+        ]
+    },
+    {
+        "name": "Spamorin Injection",
+        "contains": [
+            "Thiocolchicosid"
+        ]
+    },
+    {
+        "name": "Spidextan",
+        "contains": [
+            "Alimemazin tartrat"
+        ]
+    },
+    {
+        "name": "Spiramycin 3.000.000I.U",
+        "contains": [
+            "Spiramycin"
+        ]
+    },
+    {
+        "name": "Spobavas 1,5 MIU",
+        "contains": [
+            "Spiramycin"
+        ]
+    },
+    {
+        "name": "Sporanox IV ",
+        "contains": [
+            "Itraconazol"
+        ]
+    },
+    {
+        "name": "Spydmax 1.5 M.IU",
+        "contains": [
+            "Spiramycin"
+        ]
+    },
+    {
+        "name": "Staga - 50",
+        "contains": [
+            "Sildenafil  50mg"
+        ]
+    },
+    {
+        "name": "Stamlo 5",
+        "contains": [
+            "Amlodipine"
+        ]
+    },
+    {
+        "name": "Star Benko",
+        "contains": [
+            "Benzalkonium clorid"
+        ]
+    },
+    {
+        "name": "Star sore throat",
+        "contains": [
+            "Tyrothricin",
+            "Cetrimonium bromid",
+            "Lidocain"
+        ]
+    },
+    {
+        "name": "Stebigs Tablet",
+        "contains": [
+            "Rebamipid"
+        ]
+    },
+    {
+        "name": "Stenac Effervescent Tablets 600mg",
+        "contains": [
+            "Acetylcysteine"
+        ]
+    },
+    {
+        "name": "Sterile Potassium Chloride Concentrate 14.9%",
+        "contains": [
+            "Kali chloride"
+        ]
+    },
+    {
+        "name": "Stivarga",
+        "contains": [
+            "Regorafenib"
+        ]
+    },
+    {
+        "name": "Sucar Suspension",
+        "contains": [
+            "Sucralfate hydrate 15 mg"
+        ]
+    },
+    {
+        "name": "Sucrafil Suspension",
+        "contains": [
+            "Sucralfate"
+        ]
+    },
+    {
+        "name": "Sucrapi",
+        "contains": [
+            "Sucralfat"
+        ]
+    },
+    {
+        "name": "Sulfaganin 500",
+        "contains": [
+            "Sulfaguanidin"
+        ]
+    },
+    {
+        "name": "Sumakin 250/125",
+        "contains": [
+            "Amoxicillin",
+            "Sulbactam"
+        ]
+    },
+    {
+        "name": "Sumakin 500/125",
+        "contains": [
+            "Amoxicillin",
+            "Sulbactam"
+        ]
+    },
+    {
+        "name": "Sumakin 625",
+        "contains": [
+            "Amoxicilin",
+            "Sulbactam"
+        ]
+    },
+    {
+        "name": "Sumatriptan",
+        "contains": [
+            "Sumatriptan"
+        ]
+    },
+    {
+        "name": "Sungemtaz 1g",
+        "contains": [
+            "Gemcitabin"
+        ]
+    },
+    {
+        "name": "Sungemtaz 200mg",
+        "contains": [
+            "Gemcitabin"
+        ]
+    },
+    {
+        "name": "Sunpexitaz 100",
+        "contains": [
+            "Pemetrexed"
+        ]
+    },
+    {
+        "name": "Sunpexitaz 500",
+        "contains": [
+            "Pemetrexed"
+        ]
+    },
+    {
+        "name": "Sunvesizen Tablets 5 mg",
+        "contains": [
+            "Solifenacin succinate 5 mg"
+        ]
+    },
+    {
+        "name": "Synapain 75",
+        "contains": [
+            "Pregabalin"
+        ]
+    },
+    {
+        "name": "Synatura Syrup",
+        "contains": [
+            "Cao kh\u00f4 l\u00e1 Th\u01b0\u1eddng xu\u00e2n",
+            "Cao kh\u00f4 r\u1ec5 Ho\u00e0ng li\u00ean"
+        ]
+    },
+    {
+        "name": "Synmacet film coated tablet",
+        "contains": [
+            "Tramadol hydrochlorid",
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Tabracef 300 cap",
+        "contains": [
+            "Cefdinir"
+        ]
+    },
+    {
+        "name": "Tabrison",
+        "contains": [
+            "Eperison HCl"
+        ]
+    },
+    {
+        "name": "Tacetinos Tab.",
+        "contains": [
+            "Acetaminophen",
+            "Tramadol HCl"
+        ]
+    },
+    {
+        "name": "Tacrohope",
+        "contains": [
+            "Tacrolimus monohydrat"
+        ]
+    },
+    {
+        "name": "Tadimax",
+        "contains": [
+            "Cao kh\u00f4 Trinh n\u1eef ho\u00e0ng cung",
+            "Cao kh\u00f4 h\u1ed7n h\u1ee3p",
+            "Nh\u1ee5c qu\u1ebf"
+        ]
+    },
+    {
+        "name": "Tadolfein extra",
+        "contains": [
+            "Paracetamol",
+            "Cafein"
+        ]
+    },
+    {
+        "name": "Taginba",
+        "contains": [
+            "Cao Ginkgo biloba"
+        ]
+    },
+    {
+        "name": "Tamgezyl ",
+        "contains": [
+            "N - Acetyl - DL - Leucin 500mg"
+        ]
+    },
+    {
+        "name": "Tamiacin 500mg",
+        "contains": [
+            "Vancomycin"
+        ]
+    },
+    {
+        "name": "Tamozeb 20mg",
+        "contains": [
+            "Tamoxifen"
+        ]
+    },
+    {
+        "name": "Tana-Nasidon",
+        "contains": [
+            "Nefopam hydroclorid"
+        ]
+    },
+    {
+        "name": "Tanacelest",
+        "contains": [
+            "Betamethason 0,25mg",
+            "Dexclorpheniramin maleat 2mg"
+        ]
+    },
+    {
+        "name": "Tanacinadvin",
+        "contains": [
+            "Ibuprofen",
+            "Phenylephrin hydroclorid"
+        ]
+    },
+    {
+        "name": "Tanaclaratyne",
+        "contains": [
+            "Loratadin"
+        ]
+    },
+    {
+        "name": "Tanafadol F",
+        "contains": [
+            "Paracetmol 500mg",
+            "Clorpheniramin maleat 2mg"
+        ]
+    },
+    {
+        "name": "Tanagel",
+        "contains": [
+            "Gelatin tannate"
+        ]
+    },
+    {
+        "name": "Tanapolormin",
+        "contains": [
+            "Dexclorpheniramin maleat 2mg"
+        ]
+    },
+    {
+        "name": "Tanovigin Extra",
+        "contains": [
+            "Cao kh\u00f4 l\u00e1 b\u1ea1ch qu\u1ea3"
+        ]
+    },
+    {
+        "name": "Tarvicetam",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Tarviluci",
+        "contains": [
+            "Meclofenoxat hydroclorid"
+        ]
+    },
+    {
+        "name": "Tatanol",
+        "contains": [
+            "Acetaminophen"
+        ]
+    },
+    {
+        "name": "Tatanol",
+        "contains": [
+            "Acetaminophen"
+        ]
+    },
+    {
+        "name": "Tatanol 150 mg",
+        "contains": [
+            "Acetaminophen"
+        ]
+    },
+    {
+        "name": "Tatanol 250 mg",
+        "contains": [
+            "Acetaminophen"
+        ]
+    },
+    {
+        "name": "Tatanol Children",
+        "contains": [
+            "Acetaminophen"
+        ]
+    },
+    {
+        "name": "Tatanol Extra",
+        "contains": [
+            "Acetaminophen",
+            "Ibuprofen"
+        ]
+    },
+    {
+        "name": "Tavanic",
+        "contains": [
+            "Levofloxacin"
+        ]
+    },
+    {
+        "name": "Taxefon",
+        "contains": [
+            "Cefotaxim"
+        ]
+    },
+    {
+        "name": "Taximmed",
+        "contains": [
+            "Cefotaxim"
+        ]
+    },
+    {
+        "name": "Tazando",
+        "contains": [
+            "Paracetamol",
+            "Codein phosphat"
+        ]
+    },
+    {
+        "name": "Tazoic",
+        "contains": [
+            "Piracetam",
+            "Cinnarizin"
+        ]
+    },
+    {
+        "name": "Tears Naturale II",
+        "contains": [
+            "Dextran 70",
+            "Hypromellose"
+        ]
+    },
+    {
+        "name": "Telmisartan 40",
+        "contains": [
+            "Telmisartan 40 mg"
+        ]
+    },
+    {
+        "name": "Telmisartan 80",
+        "contains": [
+            "Telmisartan"
+        ]
+    },
+    {
+        "name": "Telsar 40",
+        "contains": [
+            "Telmisartan"
+        ]
+    },
+    {
+        "name": "Telsar 80",
+        "contains": [
+            "Telmisartan"
+        ]
+    },
+    {
+        "name": "Telzartan 40",
+        "contains": [
+            "Telmisartan"
+        ]
+    },
+    {
+        "name": "Telzartan 80",
+        "contains": [
+            "Telmisartan"
+        ]
+    },
+    {
+        "name": "Tenecand 16",
+        "contains": [
+            "Candesartan cilexetil"
+        ]
+    },
+    {
+        "name": "Tenecand 4",
+        "contains": [
+            "Candesartan cilexetil"
+        ]
+    },
+    {
+        "name": "Tenecand 8",
+        "contains": [
+            "Candesartan cilexetil"
+        ]
+    },
+    {
+        "name": "Tenocar 100",
+        "contains": [
+            "Atenolol"
+        ]
+    },
+    {
+        "name": "Tenocar 50",
+        "contains": [
+            "Atenolol"
+        ]
+    },
+    {
+        "name": "Tenofadin",
+        "contains": [
+            "Efavirenz",
+            "Lamivudin",
+            "Tenofovir disoproxil fumarat"
+        ]
+    },
+    {
+        "name": "Tenofovir Disoproxil Fumarate Tablets 300mg",
+        "contains": [
+            "Tenofovir disoproxil fumarate"
+        ]
+    },
+    {
+        "name": "Tenofovir Stada 300 mg",
+        "contains": [
+            "Tenofovir disoprosil fumarat"
+        ]
+    },
+    {
+        "name": "Tenofovir disoproxil fumarate 300mg",
+        "contains": [
+            "Tenofovir disoproxil"
+        ]
+    },
+    {
+        "name": "Terbinafin Stada cream 1%",
+        "contains": [
+            "Terbinafin HCl"
+        ]
+    },
+    {
+        "name": "Terpin-Dextromethorphan",
+        "contains": [
+            "Terpin hydrat 100mg",
+            "Dextromethorphan hydrobromid 5mg"
+        ]
+    },
+    {
+        "name": "Tesimald-sulfamid",
+        "contains": [
+            "Sulfamethoxazol",
+            "Trimethoprim"
+        ]
+    },
+    {
+        "name": "Tetracyclin",
+        "contains": [
+            "Tetracyclin hydroclorid"
+        ]
+    },
+    {
+        "name": "Tetracyclin",
+        "contains": [
+            "Tetracyclin hydroclorid"
+        ]
+    },
+    {
+        "name": "Tetracyclin",
+        "contains": [
+            "Tetracyclin hydroclorid"
+        ]
+    },
+    {
+        "name": "Tetracyclin 500 mg",
+        "contains": [
+            "Tetracyclin hydrochlorid"
+        ]
+    },
+    {
+        "name": "Tetracyclin 500mg",
+        "contains": [
+            "Tetracyclin HCl"
+        ]
+    },
+    {
+        "name": "Tetracyclin 500mg",
+        "contains": [
+            "Tetracyclin hydroclorid 500mg"
+        ]
+    },
+    {
+        "name": "Thalidomid",
+        "contains": [
+            "Thalidomid"
+        ]
+    },
+    {
+        "name": "Theralene",
+        "contains": [
+            "Alimemazin  5mg"
+        ]
+    },
+    {
+        "name": "Thrombusal",
+        "contains": [
+            "Triflusal"
+        ]
+    },
+    {
+        "name": "Tiamadol-Cold and Flu",
+        "contains": [
+            "Paracetamol 500mg",
+            "Phenylephrin HCl 5mg",
+            "Cafein 25mg"
+        ]
+    },
+    {
+        "name": "Tienam (c\u01a1 s\u1edf s\u1ea3n xu\u1ea5t v\u00e0 \u0111\u00f3ng g\u00f3i c\u1ea5p 1: Merck Sharp &amp; Dohme Corp; \u0111\u1ecba ch\u1ec9: 2778 South East Side Highway, Elkton, Virginia 22827, USA)",
+        "contains": [
+            "Imipenem",
+            "Cilastatin"
+        ]
+    },
+    {
+        "name": "Tiffy (c\u01a1 s\u1edf nh\u01b0\u1ee3ng quy\u1ec1n: C\u00f4ng ty TNHH Thai Nakorn Patana- 94/7 Soi Ngamwongwan 8 (Yimprakorb), Ngamwongwan, Nonthaburi, Th\u00e1i Lan)",
+        "contains": [
+            "Paracetamol",
+            "Clorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Tinforova 3 M.I.U",
+        "contains": [
+            "Spiramycin"
+        ]
+    },
+    {
+        "name": "Tinidazol 500mg",
+        "contains": [
+            "Tinidazol"
+        ]
+    },
+    {
+        "name": "Tipha-C",
+        "contains": [
+            "Acid ascorbic"
+        ]
+    },
+    {
+        "name": "Tiphapred 5",
+        "contains": [
+            "Prednisolon"
+        ]
+    },
+    {
+        "name": "Tiphaprim 480",
+        "contains": [
+            "Sulfamethoxazol 400mg",
+            "Trimethoprim 80mg"
+        ]
+    },
+    {
+        "name": "Tipharmlor",
+        "contains": [
+            "Amlodipin"
+        ]
+    },
+    {
+        "name": "Tizalon 4",
+        "contains": [
+            "Tizanidin"
+        ]
+    },
+    {
+        "name": "Ti\u00eau \u0111\u1eddm V.A",
+        "contains": [
+            "M\u1ed7i 100 ml cao l\u1ecfng ch\u1ee9a c\u00e1c ch\u1ea5t chi\u1ebft t\u1eeb c\u00e1c d\u01b0\u1ee3c li\u1ec7u: B\u00e1ch b\u1ed9",
+            "H\u1ea1nh nh\u00e2n",
+            "Tr\u1ea7n b\u00ec",
+            "Tang b\u1ea1ch b\u00ec",
+            "Cam th\u1ea3o",
+            "C\u00e1t c\u00e1nh"
+        ]
+    },
+    {
+        "name": "Tnpsinlukast",
+        "contains": [
+            "Montelukast  10mg"
+        ]
+    },
+    {
+        "name": "Tobramycin",
+        "contains": [
+            "Tobramycin"
+        ]
+    },
+    {
+        "name": "Toganin-500",
+        "contains": [
+            "Arginin hydroclorid"
+        ]
+    },
+    {
+        "name": "Tonsga",
+        "contains": [
+            "Escitalopram"
+        ]
+    },
+    {
+        "name": "Topdolac 400",
+        "contains": [
+            "Etodolac"
+        ]
+    },
+    {
+        "name": "Topgalin 75",
+        "contains": [
+            "Pregabalin"
+        ]
+    },
+    {
+        "name": "Tot'h\u00e9ma",
+        "contains": [
+            "S\u1eaft",
+            "Mangan",
+            "\u0110\u1ed3ng"
+        ]
+    },
+    {
+        "name": "Tovalgan Ef 80",
+        "contains": [
+            "M\u1ed7i g\u00f3i 1,5 g ch\u1ee9a: Paracetamol 80 mg"
+        ]
+    },
+    {
+        "name": "Toxaxin 250mg Inj",
+        "contains": [
+            "Tranexamic acid"
+        ]
+    },
+    {
+        "name": "Tracrium",
+        "contains": [
+            "Atracurium besilate"
+        ]
+    },
+    {
+        "name": "Tradamadol",
+        "contains": [
+            "Paracetamol 325 mg",
+            "Tramadol hydroclorid 37,5 mg"
+        ]
+    },
+    {
+        "name": "Trahes 5 mg",
+        "contains": [
+            "Montelukast"
+        ]
+    },
+    {
+        "name": "Tramadol 50mg",
+        "contains": [
+            "Tramadol hydrochlorid"
+        ]
+    },
+    {
+        "name": "Tramadol-hameln 50mg/ml",
+        "contains": [
+            "Tramadol.HCl"
+        ]
+    },
+    {
+        "name": "Tranexamic Acid 1000mg/10ml",
+        "contains": [
+            "M\u1ed7i \u1ed1ng 10 ml ch\u1ee9a Acid tranexamic 1000 mg"
+        ]
+    },
+    {
+        "name": "Transamin Injection",
+        "contains": [
+            "Acid tranexamic  250mg/ 5ml"
+        ]
+    },
+    {
+        "name": "Travicol PA",
+        "contains": [
+            "Paracetamol",
+            "Ibuprofen"
+        ]
+    },
+    {
+        "name": "Triatec",
+        "contains": [
+            "Ramipril"
+        ]
+    },
+    {
+        "name": "Trivacintana",
+        "contains": [
+            "Paracetamol",
+            "Phenylephrin hydroclorid",
+            "Clorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Trivacintana",
+        "contains": [
+            "Paracetamol 500mg",
+            "Phenylephrin hydroclorid 10mg",
+            "Clorpheniramin maleat 2mg"
+        ]
+    },
+    {
+        "name": "Trymo tablets",
+        "contains": [
+            "Bismuth trioxid"
+        ]
+    },
+    {
+        "name": "Tr\u00e0ng ho\u00e0ng v\u1ecb khang",
+        "contains": [
+            "Cao kh\u00f4 Ng\u01b0u Nh\u0129 Phong t\u01b0\u01a1ng \u0111\u01b0\u01a1ng d\u01b0\u1ee3c li\u1ec7u th\u00f4",
+            "Cao kh\u00f4 La Li\u1ec5u t\u01b0\u01a1ng \u0111\u01b0\u01a1ng d\u01b0\u1ee3c li\u1ec7u th\u00f4"
+        ]
+    },
+    {
+        "name": "Tusalene",
+        "contains": [
+            "Alimemazin tartrat"
+        ]
+    },
+    {
+        "name": "Ucefraz Soft Capsule",
+        "contains": [
+            "Alverin citrat",
+            "Simethicon"
+        ]
+    },
+    {
+        "name": "Ulictan 200",
+        "contains": [
+            "Ursodeoxycholic acid"
+        ]
+    },
+    {
+        "name": "Usalukast 4",
+        "contains": [
+            "Montelukast  4 mg"
+        ]
+    },
+    {
+        "name": "Usalukast 5 ODT",
+        "contains": [
+            "Montelukast  5mg"
+        ]
+    },
+    {
+        "name": "Usapred",
+        "contains": [
+            "Prednison"
+        ]
+    },
+    {
+        "name": "Usarlosartan",
+        "contains": [
+            "Losartan kali"
+        ]
+    },
+    {
+        "name": "Usatenvir 300",
+        "contains": [
+            "Tenofovir disoproxil fumarat"
+        ]
+    },
+    {
+        "name": "Utrogestan 100mg",
+        "contains": [
+            "Progesterone"
+        ]
+    },
+    {
+        "name": "Utrogestan 200mg ",
+        "contains": [
+            "Progesterone"
+        ]
+    },
+    {
+        "name": "Vaco B-Neurine",
+        "contains": [
+            "Thiamin mononitrat",
+            "Pyridoxin hydroclorid",
+            "Cyanocobalamin"
+        ]
+    },
+    {
+        "name": "Vaco Loratadine",
+        "contains": [
+            "Loratadin"
+        ]
+    },
+    {
+        "name": "Vacomuc 100",
+        "contains": [
+            "M\u1ed7i g\u00f3i 1g ch\u1ee9a: Acetylcystein"
+        ]
+    },
+    {
+        "name": "Vagastat",
+        "contains": [
+            "Sucralfat"
+        ]
+    },
+    {
+        "name": "Vagsur",
+        "contains": [
+            "Clindamycin  100 mg",
+            "Clotrimazol 200 mg"
+        ]
+    },
+    {
+        "name": "Valacin 1000",
+        "contains": [
+            "Vancomycin"
+        ]
+    },
+    {
+        "name": "Valacin 500",
+        "contains": [
+            "Vancomycin"
+        ]
+    },
+    {
+        "name": "Valetol 5",
+        "contains": [
+            "Perindopril arginin"
+        ]
+    },
+    {
+        "name": "Valiera 2mg",
+        "contains": [
+            "Estradiol"
+        ]
+    },
+    {
+        "name": "Valsartan 160",
+        "contains": [
+            "Valsartan"
+        ]
+    },
+    {
+        "name": "Vaminolact",
+        "contains": [
+            "M\u1ed7i chai 1000ml ch\u1ee9a: Alanin",
+            "Arginin",
+            "Acid aspartic",
+            "Cystein",
+            "Acid Glutamic",
+            "Glycin",
+            "Histidin",
+            "Isoleucin",
+            "Leucin",
+            "Lysin",
+            "Methionin",
+            "Phenylalanin",
+            "Prolin"
+        ]
+    },
+    {
+        "name": "Vanober",
+        "contains": [
+            "Metronidazol",
+            "Miconazol nitrat"
+        ]
+    },
+    {
+        "name": "Varucefa F",
+        "contains": [
+            "Ceftizoxim  1g"
+        ]
+    },
+    {
+        "name": "Vasblock 160mg",
+        "contains": [
+            "Valsartan"
+        ]
+    },
+    {
+        "name": "Vasblock 80mg",
+        "contains": [
+            "Valsartan"
+        ]
+    },
+    {
+        "name": "Vastanlupi",
+        "contains": [
+            "Valsartan"
+        ]
+    },
+    {
+        "name": "Vazozid",
+        "contains": [
+            "Bezafibrat"
+        ]
+    },
+    {
+        "name": "Velaxin",
+        "contains": [
+            "Venlafaxin"
+        ]
+    },
+    {
+        "name": "Velcade ",
+        "contains": [
+            "Bortezomib"
+        ]
+    },
+    {
+        "name": "Venlafaxine Stada 75 mg",
+        "contains": [
+            "Venlafaxin  75 mg"
+        ]
+    },
+    {
+        "name": "Ventizam 37,5",
+        "contains": [
+            "Venlafaxin"
+        ]
+    },
+    {
+        "name": "Ventizam 75",
+        "contains": [
+            "Venlafaxin  75mg"
+        ]
+    },
+    {
+        "name": "Ventolin Inhaler (CS \u0111\u00f3ng g\u00f3i th\u1ee9 c\u1ea5p, xu\u1ea5t x\u01b0\u1edfng: GlaxoSmithKline Australia Pty. Ltd, \u0111\u1ecba ch\u1ec9: 1061 Mountain Highway, Boronia, 3155 Victoria, Australia)",
+        "contains": [
+            "Salbutamol"
+        ]
+    },
+    {
+        "name": "Verahep",
+        "contains": [
+            "Salbutamol"
+        ]
+    },
+    {
+        "name": "Verzat",
+        "contains": [
+            "Cefaclor"
+        ]
+    },
+    {
+        "name": "Viagra",
+        "contains": [
+            "Sildenafil"
+        ]
+    },
+    {
+        "name": "Viagra",
+        "contains": [
+            "Sildenafil"
+        ]
+    },
+    {
+        "name": "Viagra",
+        "contains": [
+            "Sildenafil"
+        ]
+    },
+    {
+        "name": "Vialexin 500",
+        "contains": [
+            "Cephalexin"
+        ]
+    },
+    {
+        "name": "Viartril-S",
+        "contains": [
+            "Glucosamin"
+        ]
+    },
+    {
+        "name": "Viciaxon 0,25g",
+        "contains": [
+            "Ceftriaxon"
+        ]
+    },
+    {
+        "name": "Viciaxon 0,5g",
+        "contains": [
+            "Ceftriaxon"
+        ]
+    },
+    {
+        "name": "Vidcaps",
+        "contains": [
+            "Vitamin B1",
+            "Vitamin B6",
+            "Vitamin B12"
+        ]
+    },
+    {
+        "name": "Vifamox 250",
+        "contains": [
+            "Amoxicilin  250mg"
+        ]
+    },
+    {
+        "name": "Vifaren",
+        "contains": [
+            "Diclofenac natri"
+        ]
+    },
+    {
+        "name": "Vifortiam 1g",
+        "contains": [
+            "Cefotiam"
+        ]
+    },
+    {
+        "name": "Vigisup Susp. Soft Capsule",
+        "contains": [
+            "Neomycin",
+            "Nystatin",
+            "Polymyxin B sulfat"
+        ]
+    },
+    {
+        "name": "Vinazol",
+        "contains": [
+            "Clotrimazol"
+        ]
+    },
+    {
+        "name": "Vincristine Sulphate Pharmachemie 1mg/ml",
+        "contains": [
+            "Vincristin sulphat"
+        ]
+    },
+    {
+        "name": "Vinfast 120",
+        "contains": [
+            "Fexofenadin hydroclorid"
+        ]
+    },
+    {
+        "name": "Vinfast 180",
+        "contains": [
+            "Fexofenadin hydroclorid"
+        ]
+    },
+    {
+        "name": "Vinfast 60",
+        "contains": [
+            "Fexofenadin hydroclorid"
+        ]
+    },
+    {
+        "name": "Vinsalmol 5",
+        "contains": [
+            "Salbutamol"
+        ]
+    },
+    {
+        "name": "Vitabactam 1g",
+        "contains": [
+            "Cefoperazon",
+            "Sulbactam"
+        ]
+    },
+    {
+        "name": "Vitamin A-D",
+        "contains": [
+            "Vitamin A palmitat 2000 IU",
+            "Vitamin D3 200 IU"
+        ]
+    },
+    {
+        "name": "Vitamin B1",
+        "contains": [
+            "Thiamin mononitrat"
+        ]
+    },
+    {
+        "name": "Vitamin B1 250",
+        "contains": [
+            "Vitamin B1"
+        ]
+    },
+    {
+        "name": "Vitamin B1 250mg",
+        "contains": [
+            "Thiamin nitrat  250mg"
+        ]
+    },
+    {
+        "name": "Vitamin B12",
+        "contains": [
+            "Cyanocobalamin"
+        ]
+    },
+    {
+        "name": "Vitamin B6",
+        "contains": [
+            "Pyridoxin hydroclorid 10mg"
+        ]
+    },
+    {
+        "name": "Vitamin B6 250 mg",
+        "contains": [
+            "Pyridoxin hydroclorid"
+        ]
+    },
+    {
+        "name": "Vitamin C",
+        "contains": [
+            "Vitamin C"
+        ]
+    },
+    {
+        "name": "Vitamin C",
+        "contains": [
+            "Acid ascorbic"
+        ]
+    },
+    {
+        "name": "Vitamin C 250",
+        "contains": [
+            "Acid ascorbic 250mg"
+        ]
+    },
+    {
+        "name": "Vitamin C 250mg",
+        "contains": [
+            "Acid ascorbic"
+        ]
+    },
+    {
+        "name": "Vitamin C 500",
+        "contains": [
+            "Acid ascorbic"
+        ]
+    },
+    {
+        "name": "Vitamin C 500",
+        "contains": [
+            "Vitamin C 500mg"
+        ]
+    },
+    {
+        "name": "Vitamin C 500",
+        "contains": [
+            "Acid ascorbic"
+        ]
+    },
+    {
+        "name": "Vitamin C 500 mg",
+        "contains": [
+            "Acid ascorbic"
+        ]
+    },
+    {
+        "name": "Vitamin E 1000",
+        "contains": [
+            "Vitamin E(DL-\u03b1-Tocopheryl acetat0"
+        ]
+    },
+    {
+        "name": "Vitaplex injection",
+        "contains": [
+            "Acid ascorbic",
+            "Dextrose",
+            "Nicotinamid",
+            "Dexpanthenol",
+            "Pyridoxin HCl",
+            "Riboflavin",
+            "Thiamin HCl"
+        ]
+    },
+    {
+        "name": "Vitazidim",
+        "contains": [
+            "Ceftazidim  1g"
+        ]
+    },
+    {
+        "name": "Vixbarin",
+        "contains": [
+            "Ribavirin"
+        ]
+    },
+    {
+        "name": "Vi\u00ean d\u01b0\u1ee1ng n\u00e3o O.P.CAN",
+        "contains": [
+            "Cao kh\u00f4 l\u00e1 b\u1ea1ch qu\u1ea3"
+        ]
+    },
+    {
+        "name": "Vi\u00ean nang ng\u1ecdc qu\u00fd",
+        "contains": [
+            "B\u1ea1ch t\u1eadt l\u00ea",
+            "M\u1eabu \u0111\u01a1n b\u00ec",
+            "S\u01a1n th\u00f9",
+            "B\u1ea1ch th\u01b0\u1ee3c",
+            "\u0110\u01b0\u01a1ng quy",
+            "Th\u1ea1ch quy\u1ebft minh",
+            "C\u00e2u k\u1ef7 t\u1eed",
+            "Ho\u00e0i s\u01a1n",
+            "Th\u1ee5c \u0111\u1ecba",
+            "C\u00fac hoa",
+            "Ph\u1ee5c linh",
+            "Tr\u1ea1ch t\u1ea3"
+        ]
+    },
+    {
+        "name": "Volfacine",
+        "contains": [
+            "Levofloxacin  500mg"
+        ]
+    },
+    {
+        "name": "Volhasan creamgel",
+        "contains": [
+            "Natri diclofenac"
+        ]
+    },
+    {
+        "name": "Voltaren 25",
+        "contains": [
+            "Diclofenac natri 25mg"
+        ]
+    },
+    {
+        "name": "Voritab - 200",
+        "contains": [
+            "Voriconazole"
+        ]
+    },
+    {
+        "name": "Walbratex",
+        "contains": [
+            "Tobramycin"
+        ]
+    },
+    {
+        "name": "Wontran",
+        "contains": [
+            "Acetaminophen 325mg",
+            "Tramadol hydrochlorid 37,5mg"
+        ]
+    },
+    {
+        "name": "Xarelto",
+        "contains": [
+            "Rivaroxaban"
+        ]
+    },
+    {
+        "name": "Xorimax 250mg",
+        "contains": [
+            "Cefuroxim"
+        ]
+    },
+    {
+        "name": "Xylobalan Nasal Drop 0,05%",
+        "contains": [
+            "Xylometazolin hydroclorid"
+        ]
+    },
+    {
+        "name": "Xylobalan Nasal Drop 0,1%",
+        "contains": [
+            "Xylometazolin hydroclorid"
+        ]
+    },
+    {
+        "name": "Yaguchi",
+        "contains": [
+            "Camphor",
+            "Menthol",
+            "Methyl salicylat"
+        ]
+    },
+    {
+        "name": "Yaz ",
+        "contains": [
+            "Drospirenone",
+            "Ethinylestradiol"
+        ]
+    },
+    {
+        "name": "Young Il Captopril",
+        "contains": [
+            "Captopril"
+        ]
+    },
+    {
+        "name": "Yspuripax",
+        "contains": [
+            "Flavoxat hydrochlorid"
+        ]
+    },
+    {
+        "name": "Yuraf tab.",
+        "contains": [
+            "Tramadol HCl",
+            "Acetaminophen"
+        ]
+    },
+    {
+        "name": "Zafular",
+        "contains": [
+            "Bezafibrat"
+        ]
+    },
+    {
+        "name": "Zanedip 10mg",
+        "contains": [
+            "Lercanidipin"
+        ]
+    },
+    {
+        "name": "Zasemer 1g",
+        "contains": [
+            "Ceftizoxim"
+        ]
+    },
+    {
+        "name": "Zasemer 2g",
+        "contains": [
+            "Ceftizoxim"
+        ]
+    },
+    {
+        "name": "Zedcal OP Tablets",
+        "contains": [
+            "Calci",
+            "Calcitriol",
+            "K\u1ebdm"
+        ]
+    },
+    {
+        "name": "Zedoxim Sachet",
+        "contains": [
+            "Cefpodoxim"
+        ]
+    },
+    {
+        "name": "Zevagra",
+        "contains": [
+            "Tadalafil"
+        ]
+    },
+    {
+        "name": "Zidolam",
+        "contains": [
+            "Lamivudin"
+        ]
+    },
+    {
+        "name": "Zidolam SaVi",
+        "contains": [
+            "Zidovudin",
+            "Lamivudin"
+        ]
+    },
+    {
+        "name": "Zokora-20",
+        "contains": [
+            "Olmesartan medoxomil"
+        ]
+    },
+    {
+        "name": "Zokora-HCTZ 20/12,5",
+        "contains": [
+            "Olmesartan medoxomil",
+            "Hydroclorothiazid"
+        ]
+    },
+    {
+        "name": "Zolastyn",
+        "contains": [
+            "Desloratadin 5mg"
+        ]
+    },
+    {
+        "name": "Zoledronic acid for injection 4mg",
+        "contains": [
+            "Acid zoledronic  4mg"
+        ]
+    },
+    {
+        "name": "Zoledronic acid-hameln 4mg/5ml solution for infusion",
+        "contains": [
+            "Acid zoledronic"
+        ]
+    },
+    {
+        "name": "Zomekal",
+        "contains": [
+            "Acid zoledronic"
+        ]
+    },
+    {
+        "name": "Zometa ",
+        "contains": [
+            "Acid zoledronic"
+        ]
+    },
+    {
+        "name": "Zopylas 4mg/5ml",
+        "contains": [
+            "M\u1ed7i l\u1ecd 5ml ch\u1ee9a: Acid Zoledronic  4mg"
+        ]
+    },
+    {
+        "name": "a-Tase",
+        "contains": [
+            "Alphachymotrypsin 4200 \u0111\u01a1n v\u1ecb USP"
+        ]
+    },
+    {
+        "name": "cardorite 20",
+        "contains": [
+            "Rosuvastatin"
+        ]
+    },
+    {
+        "name": "\u00c9loge Piracetam",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "\u1ed0ng h\u00edt sao v\u00e0ng",
+        "contains": [
+            "Menthol",
+            "Camphor",
+            "Tinh d\u1ea7u \u0111inh h\u01b0\u01a1ng",
+            "Tinh d\u1ea7u qu\u1ebf",
+            "Tinh d\u1ea7u tr\u00e0m"
+        ]
+    },
+    {
+        "name": "1-AL",
+        "contains": [
+            "Levocetirizine Dihydrochloride"
+        ]
+    },
+    {
+        "name": "A.T B\u00e1t v\u1ecb",
+        "contains": [
+            "Th\u1ee5c \u0111\u1ecba",
+            "Ho\u00e0i s\u01a1n",
+            "S\u01a1n th\u00f9",
+            "M\u1eabu \u0111\u01a1n b\u00ec",
+            "B\u1ea1ch linh",
+            "Tr\u1ea1ch t\u1ea3",
+            "Ph\u1ee5 t\u1eed ch\u1ebf",
+            "Qu\u1ebf nh\u1ee5c"
+        ]
+    },
+    {
+        "name": "Abacavir Tablets USP 300mg",
+        "contains": [
+            "Abacavir"
+        ]
+    },
+    {
+        "name": "Aceblue 100",
+        "contains": [
+            "Acetylcystein"
+        ]
+    },
+    {
+        "name": "Acedolflu",
+        "contains": [
+            "Paracetamol",
+            "Clorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Acefalgan 500",
+        "contains": [
+            "Acetaminophen"
+        ]
+    },
+    {
+        "name": "Acefalgan Codein",
+        "contains": [
+            "Paracetamol",
+            "Codein phosphat hemihydrat"
+        ]
+    },
+    {
+        "name": "Acehasan 100",
+        "contains": [
+            "M\u1ed7i g\u00f3i 2g ch\u1ee9a: Acetylcystein 100mg"
+        ]
+    },
+    {
+        "name": "Acemetin",
+        "contains": [
+            "Acetylcystein"
+        ]
+    },
+    {
+        "name": "Acemuc 200mg",
+        "contains": [
+            "Acetylcystein"
+        ]
+    },
+    {
+        "name": "Acepron 250 mg",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Acepron 325 mg",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Acepron Codein",
+        "contains": [
+            "Paracetamol",
+            "Codein phosphat hemihydrat"
+        ]
+    },
+    {
+        "name": "Acetylcystein",
+        "contains": [
+            "Acetylcystein"
+        ]
+    },
+    {
+        "name": "Acetylcystein  200mg",
+        "contains": [
+            "Acetylcystein"
+        ]
+    },
+    {
+        "name": "Acetylcystein 200mg",
+        "contains": [
+            "Acetylcystein"
+        ]
+    },
+    {
+        "name": "Acetylcystein Boston 100",
+        "contains": [
+            "Acetylcystein"
+        ]
+    },
+    {
+        "name": "Acetylcystein Boston 200",
+        "contains": [
+            "Acetylcystein"
+        ]
+    },
+    {
+        "name": "Acigmentin 1000",
+        "contains": [
+            "Amoxicilin",
+            "Acid Clavulanic"
+        ]
+    },
+    {
+        "name": "Acigmentin 312,5",
+        "contains": [
+            "Amoxicilin",
+            "Acid clavulanic"
+        ]
+    },
+    {
+        "name": "Acigmentin 375",
+        "contains": [
+            "Amoxicilin",
+            "Acid Clavulanic"
+        ]
+    },
+    {
+        "name": "Acigmentin 375",
+        "contains": [
+            "Amoxicilin",
+            "Acid clavulanic"
+        ]
+    },
+    {
+        "name": "Acigmentin 562,5",
+        "contains": [
+            "Amoxicilin",
+            "Acid clavulanic"
+        ]
+    },
+    {
+        "name": "Acigmentin 625",
+        "contains": [
+            "Amoxicilin  500 mg",
+            "Acid Clavulanic"
+        ]
+    },
+    {
+        "name": "Acinstad 500mg",
+        "contains": [
+            "Amikacin"
+        ]
+    },
+    {
+        "name": "Acitonal 5",
+        "contains": [
+            "Risedronat natri"
+        ]
+    },
+    {
+        "name": "Acneskinz",
+        "contains": [
+            "Isotretinoin"
+        ]
+    },
+    {
+        "name": "Acnol 10",
+        "contains": [
+            "Benzoyl peroxide"
+        ]
+    },
+    {
+        "name": "Actiso H\u0110",
+        "contains": [
+            "Cao \u0111\u1eb7c Actiso"
+        ]
+    },
+    {
+        "name": "Acyclovir  200 mg",
+        "contains": [
+            "Acyclovir"
+        ]
+    },
+    {
+        "name": "Acyclovir Stada 400 mg",
+        "contains": [
+            "Acyclovir"
+        ]
+    },
+    {
+        "name": "Acyclovir Stada 400mg",
+        "contains": [
+            "Acyclovir"
+        ]
+    },
+    {
+        "name": "Acyvir",
+        "contains": [
+            "Aciclovir"
+        ]
+    },
+    {
+        "name": "Adalat 10mg ",
+        "contains": [
+            "Nifedipin"
+        ]
+    },
+    {
+        "name": "Adalat retard",
+        "contains": [
+            "Nifedipin"
+        ]
+    },
+    {
+        "name": "Aderan 16",
+        "contains": [
+            "Candesartan cilexetil"
+        ]
+    },
+    {
+        "name": "Aderonat",
+        "contains": [
+            "Alendronic acid"
+        ]
+    },
+    {
+        "name": "Adhema",
+        "contains": [
+            "S\u1eaft II fumarat",
+            "Acid folic"
+        ]
+    },
+    {
+        "name": "Adrenaline-BFS 1mg",
+        "contains": [
+            "Adrenalin"
+        ]
+    },
+    {
+        "name": "Adrim 10mg/5ml",
+        "contains": [
+            "Doxorubicin hydrochloride  10mg/5ml"
+        ]
+    },
+    {
+        "name": "Adrim 50mg/25ml",
+        "contains": [
+            "Doxorubicin hydrochloride"
+        ]
+    },
+    {
+        "name": "Aerius",
+        "contains": [
+            "Desloratadine"
+        ]
+    },
+    {
+        "name": "Afulocin",
+        "contains": [
+            "Pefloxacin"
+        ]
+    },
+    {
+        "name": "Ag-Ome",
+        "contains": [
+            "Omeprazol"
+        ]
+    },
+    {
+        "name": "Aguzar 400",
+        "contains": [
+            "Etodolac"
+        ]
+    },
+    {
+        "name": "Akutim",
+        "contains": [
+            "Timolol"
+        ]
+    },
+    {
+        "name": "Albenca 400",
+        "contains": [
+            "Albendazol"
+        ]
+    },
+    {
+        "name": "Albevil",
+        "contains": [
+            "Ibuprofen"
+        ]
+    },
+    {
+        "name": "Alclav Forte Dry Syrup 312.5 mg/5ml",
+        "contains": [
+            "Amoxicilin",
+            "Acid Clavulanic"
+        ]
+    },
+    {
+        "name": "Aldarone",
+        "contains": [
+            "Amiodaron hydrochlorid"
+        ]
+    },
+    {
+        "name": "Aldoric fort",
+        "contains": [
+            "Celecoxib"
+        ]
+    },
+    {
+        "name": "Aledats 35 mg",
+        "contains": [
+            "Risedronat natri"
+        ]
+    },
+    {
+        "name": "Alembic Lamiwin",
+        "contains": [
+            "Levofloxacin"
+        ]
+    },
+    {
+        "name": "Alenbe 10 mg",
+        "contains": [
+            "Acid Alendronic"
+        ]
+    },
+    {
+        "name": "Alenbe 70mg",
+        "contains": [
+            "Acid Alendronic"
+        ]
+    },
+    {
+        "name": "Aleradin",
+        "contains": [
+            "Desloratadine"
+        ]
+    },
+    {
+        "name": "Alerday 120",
+        "contains": [
+            "Fexofenadin HCl"
+        ]
+    },
+    {
+        "name": "Alertin",
+        "contains": [
+            "Loratadin"
+        ]
+    },
+    {
+        "name": "Alexdoxim 100",
+        "contains": [
+            "Cefpodoxim"
+        ]
+    },
+    {
+        "name": "Allerba-10",
+        "contains": [
+            "Ebastin"
+        ]
+    },
+    {
+        "name": "Allipem 500 mg",
+        "contains": [
+            "Pemetrexed"
+        ]
+    },
+    {
+        "name": "Alpha Chymotrypsin",
+        "contains": [
+            "Chymotrypsin"
+        ]
+    },
+    {
+        "name": "Alpha-Ktal",
+        "contains": [
+            "Chymotrypsin"
+        ]
+    },
+    {
+        "name": "Alphachymotrypsin",
+        "contains": [
+            "Alphachymotrypsin"
+        ]
+    },
+    {
+        "name": "Alphachymotrypsin",
+        "contains": [
+            "Alphachymotrypsin"
+        ]
+    },
+    {
+        "name": "Alphachymotrypsin - BVP 8400",
+        "contains": [
+            "Chymotrypsin"
+        ]
+    },
+    {
+        "name": "Alumag-S",
+        "contains": [
+            "Nh\u00f4m oxyd",
+            "Magnesi hydroxyd",
+            "Simethicone"
+        ]
+    },
+    {
+        "name": "Aluvia",
+        "contains": [
+            "Lopinavir",
+            "Ritonavir"
+        ]
+    },
+    {
+        "name": "Alverin",
+        "contains": [
+            "Alverin"
+        ]
+    },
+    {
+        "name": "Ambidil 5",
+        "contains": [
+            "Amlodipin"
+        ]
+    },
+    {
+        "name": "Ambron",
+        "contains": [
+            "Ambroxol  hydroclorid"
+        ]
+    },
+    {
+        "name": "Ambron",
+        "contains": [
+            "Ambroxol  hydroclorid 30mg"
+        ]
+    },
+    {
+        "name": "Ambroxol",
+        "contains": [
+            "Ambroxol HCl"
+        ]
+    },
+    {
+        "name": "Amcoda 100",
+        "contains": [
+            "Amiodaron hydroclorid"
+        ]
+    },
+    {
+        "name": "Amikacin Kabi 250mg",
+        "contains": [
+            "Amikacin"
+        ]
+    },
+    {
+        "name": "Aminoplasmal B.Braun 10% E",
+        "contains": [
+            "Isoleucine",
+            "Leucine",
+            "Lysine hydrochloride",
+            "Methionine",
+            "Phenylalanine",
+            "Threonine",
+            "Tryptophan",
+            "Valine",
+            "Arginine glutamate",
+            "Histidine hydrochloride monohydrate",
+            "Alanine",
+            "Aspartic acid",
+            "Glutamic acid",
+            "Glycine",
+            "Proline",
+            "Serine",
+            "Magnesium acetate tetrahydrate",
+            ""
+        ]
+    },
+    {
+        "name": "Aminoplasmal B.Braun 5% E",
+        "contains": [
+            "Isoleucine",
+            "Leucine",
+            "Lysine hydrochloride",
+            "Methionine",
+            "Phenylalanine",
+            "Threonine",
+            "Tryptophan",
+            "Valine",
+            "Arginine glutamate",
+            "Histidine hydrochloride monohydrate",
+            "Alanine",
+            "Aspartic acid",
+            "Glutamic acid",
+            "Glycine",
+            "Proline",
+            "Serine",
+            "Magnesium acetate tetrahydrate",
+            "disodium phosphate dodecahydrate"
+        ]
+    },
+    {
+        "name": "Amo-Pharusa 500",
+        "contains": [
+            "Amoxicilin",
+            "Bromhexin hydroclorid"
+        ]
+    },
+    {
+        "name": "Amoxicilin 500mg",
+        "contains": [
+            "Amoxicilin"
+        ]
+    },
+    {
+        "name": "Amoxicillin/acid clavulanic Sandoz GmbH",
+        "contains": [
+            "Amoxicillin",
+            "Acid clavulanic"
+        ]
+    },
+    {
+        "name": "Amoxocilin 250mg",
+        "contains": [
+            "Amoxicillin"
+        ]
+    },
+    {
+        "name": "Amoxycilin 250mg",
+        "contains": [
+            "Amoxicilin"
+        ]
+    },
+    {
+        "name": "Amoxycilin 500mg",
+        "contains": [
+            "Amoxicilin"
+        ]
+    },
+    {
+        "name": "Ampetox",
+        "contains": [
+            "Almagat"
+        ]
+    },
+    {
+        "name": "Amphotret",
+        "contains": [
+            "Amphotericin B"
+        ]
+    },
+    {
+        "name": "Amsibed 10",
+        "contains": [
+            "Simvastatin"
+        ]
+    },
+    {
+        "name": "An th\u1ea7n b\u1ed5 t\u00e2m-F",
+        "contains": [
+            "M\u1ed7i vi\u00ean ch\u1ee9a: Cao kh\u00f4 d\u01b0\u1ee3c li\u1ec7u 260mg (t\u01b0\u01a1ng \u1ee9ng Sinh \u0111\u1ecba 400mg",
+            "M\u1ea1ch m\u00f4n 133,3mg",
+            "Thi\u00ean m\u00f4n \u0111\u00f4ng 133,3mg",
+            "T\u00e1o nh\u00e2n 133,3mg",
+            "B\u00e1 t\u1eed nh\u00e2n 133,3mg",
+            "Huy\u1ec1n s\u00e2m 66,7mg",
+            "Vi\u1ec5n ch\u00ed 66,7mg",
+            "Ng\u0169 v\u1ecb t\u1eed 66,7mg",
+            "\u0110\u1ea3ng s\u00e2m 53,3mg",
+            "\u0110\u01b0\u01a1ng quy 53,3mg",
+            "\u0110an s\u00e2m 46,7mg",
+            "Ph\u1ee5c th\u1ea7n 46,7mg",
+            "C\u00e1t c\u00e1nh 26,7mg",
+            "B\u1ed9t m\u1ecbn d\u01b0\u1ee3c li\u1ec7u g\u1ed3m \u0110\u01b0\u01a1ng quy 80mg",
+            "\u0110\u1ea3ng s\u00e2m 80mg",
+            "C\u00e1t c\u00e1nh 40mg",
+            "\u0110an s\u00e2m 20mg",
+            "Ph\u1ee5c th\u1ea7n 20mg"
+        ]
+    },
+    {
+        "name": "Andonbio",
+        "contains": [
+            "Lactobacillus acidophilus"
+        ]
+    },
+    {
+        "name": "Androgel",
+        "contains": [
+            "Testosteron"
+        ]
+    },
+    {
+        "name": "Anthmein",
+        "contains": [
+            "Diacerein"
+        ]
+    },
+    {
+        "name": "Anti Lidoxopta",
+        "contains": [
+            "Letrozol"
+        ]
+    },
+    {
+        "name": "Antinat",
+        "contains": [
+            "Etomidat"
+        ]
+    },
+    {
+        "name": "Anyfen",
+        "contains": [
+            "Dexibuprofen"
+        ]
+    },
+    {
+        "name": "Anzela Cream",
+        "contains": [
+            "Azelaic acid"
+        ]
+    },
+    {
+        "name": "Apdrops",
+        "contains": [
+            "Moxifloxacin hydrochlorid"
+        ]
+    },
+    {
+        "name": "Apimdo",
+        "contains": [
+            "Pantoprazol"
+        ]
+    },
+    {
+        "name": "Aplorar 150",
+        "contains": [
+            "Irbesartan"
+        ]
+    },
+    {
+        "name": "Aplorar 300",
+        "contains": [
+            "Irbesartan"
+        ]
+    },
+    {
+        "name": "Apuldon Paediatric Drops",
+        "contains": [
+            "Domperidon"
+        ]
+    },
+    {
+        "name": "Ardineclav 500/125",
+        "contains": [
+            "Amoxicilin",
+            "Acid Clavulanic"
+        ]
+    },
+    {
+        "name": "Aremta",
+        "contains": [
+            "Econazole"
+        ]
+    },
+    {
+        "name": "Arenmax Tab.",
+        "contains": [
+            "Acid Alendronic   70mg"
+        ]
+    },
+    {
+        "name": "Arizil 10",
+        "contains": [
+            "Donepezil hydrochlorid."
+        ]
+    },
+    {
+        "name": "Arme-cefu 500",
+        "contains": [
+            "Cefuroxim"
+        ]
+    },
+    {
+        "name": "Arotaz 1gm",
+        "contains": [
+            "Ceftazidime"
+        ]
+    },
+    {
+        "name": "Arotaz 2g",
+        "contains": [
+            "Ceftazidim"
+        ]
+    },
+    {
+        "name": "Ascarine",
+        "contains": [
+            "Aspirin",
+            "Caffein"
+        ]
+    },
+    {
+        "name": "AseAvalo",
+        "contains": [
+            "Levonorgestrel"
+        ]
+    },
+    {
+        "name": "Asgizole",
+        "contains": [
+            "Esomeprazole"
+        ]
+    },
+    {
+        "name": "Aspirin 81",
+        "contains": [
+            "Aspirin"
+        ]
+    },
+    {
+        "name": "Astymin Liquid",
+        "contains": [
+            "C\u1ee9 15ml si r\u00f4 ch\u1ee9a: L. Leucin",
+            "L. Isoleucine",
+            "L. Lysine HCl",
+            "L. Methionine",
+            "L. Phenylalamine",
+            "L. Threonine",
+            "L. Tryptophan",
+            "L. Valine",
+            "Thiamin HCl",
+            "Riboflavin"
+        ]
+    },
+    {
+        "name": "Atenolol",
+        "contains": [
+            "Atenolol"
+        ]
+    },
+    {
+        "name": "Atoris 10mg",
+        "contains": [
+            "Atorvastatin"
+        ]
+    },
+    {
+        "name": "Atorvastatin 10",
+        "contains": [
+            "Atorvastatin"
+        ]
+    },
+    {
+        "name": "Atorvastatin 10 mg",
+        "contains": [
+            "Atorvastatin"
+        ]
+    },
+    {
+        "name": "Atorvastatin 20",
+        "contains": [
+            "Atorvastatin"
+        ]
+    },
+    {
+        "name": "Atpure-25",
+        "contains": [
+            "S  Atenolol"
+        ]
+    },
+    {
+        "name": "Atropin sulfat kabi 0,1%",
+        "contains": [
+            "Atropin sulfat"
+        ]
+    },
+    {
+        "name": "Augclamox 1g",
+        "contains": [
+            "Amoxicilin",
+            "Acid clavulanic"
+        ]
+    },
+    {
+        "name": "Augclamox 250",
+        "contains": [
+            "Amoxicilin",
+            "Acid Clavulanic"
+        ]
+    },
+    {
+        "name": "Aukamox",
+        "contains": [
+            "Amoxicilin",
+            "Acid Clavulanic"
+        ]
+    },
+    {
+        "name": "Aukamox 250",
+        "contains": [
+            "M\u1ed7i g\u00f3i 1,5g ch\u1ee9a: Amoxicilin",
+            "Acid clavulanic"
+        ]
+    },
+    {
+        "name": "Aukamox 625",
+        "contains": [
+            "Amoxicilin",
+            "Acid Clavulanic"
+        ]
+    },
+    {
+        "name": "Auliplus",
+        "contains": [
+            "Atorvastatin"
+        ]
+    },
+    {
+        "name": "Aumakin 625",
+        "contains": [
+            "Amoxicilin",
+            "Acid Clavulanic"
+        ]
+    },
+    {
+        "name": "Auricularum",
+        "contains": [
+            "Oxytetracyclin HCl",
+            "Polymyxin B Sulphat",
+            "Nystatin",
+            "Dexmethason natri phosphat"
+        ]
+    },
+    {
+        "name": "Ausad",
+        "contains": [
+            "Retinol",
+            "Colecalciferol"
+        ]
+    },
+    {
+        "name": "Ausmezol-D",
+        "contains": [
+            "Esomeprazol",
+            "Domperidon"
+        ]
+    },
+    {
+        "name": "Avatrum",
+        "contains": [
+            "Atorvastatin"
+        ]
+    },
+    {
+        "name": "Avimci",
+        "contains": [
+            "Cefpodoxim"
+        ]
+    },
+    {
+        "name": "Axcel Cefaclor-125 Suspension",
+        "contains": [
+            "Cefaclor"
+        ]
+    },
+    {
+        "name": "Axibos 300",
+        "contains": [
+            "Allopurinol"
+        ]
+    },
+    {
+        "name": "Ayite",
+        "contains": [
+            "Rebamipid"
+        ]
+    },
+    {
+        "name": "Azap 1gm",
+        "contains": [
+            "Cefazolin"
+        ]
+    },
+    {
+        "name": "Azicine",
+        "contains": [
+            "Azithromycin"
+        ]
+    },
+    {
+        "name": "Azihasan 125",
+        "contains": [
+            "Azithromycin"
+        ]
+    },
+    {
+        "name": "Azipowder",
+        "contains": [
+            "Azithromycin"
+        ]
+    },
+    {
+        "name": "BASULTAM",
+        "contains": [
+            "Cefoperazon",
+            "sulbactam"
+        ]
+    },
+    {
+        "name": "BFS-Calciclorid",
+        "contains": [
+            "Calci clorid"
+        ]
+    },
+    {
+        "name": "BFS-Calcium folinate",
+        "contains": [
+            "Folinic acid"
+        ]
+    },
+    {
+        "name": "BFS-Noradrenaline 1mg",
+        "contains": [
+            "Noradrenalin"
+        ]
+    },
+    {
+        "name": "BFS-Piracetam",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "BFS-Tranexamic",
+        "contains": [
+            "Tranexamic acid"
+        ]
+    },
+    {
+        "name": "Babemol",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Babemol",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Babytrim - New",
+        "contains": [
+            "M\u1ed7i g\u00f3i 1,5g ch\u1ee9a: Sulfamethoxazol 200mg",
+            "Trimethoprim 40mg"
+        ]
+    },
+    {
+        "name": "Bakidol 650mg",
+        "contains": [
+            "Acetaminophen"
+        ]
+    },
+    {
+        "name": "Barihd",
+        "contains": [
+            "Bari sulfat"
+        ]
+    },
+    {
+        "name": "Basethyrox",
+        "contains": [
+            "Propylthiouracil"
+        ]
+    },
+    {
+        "name": "Bcinnalgine",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Becaspira 1.5M UI",
+        "contains": [
+            "Spiramycin"
+        ]
+    },
+    {
+        "name": "Bepracid inj. 20mg",
+        "contains": [
+            "Rabeprazol natri"
+        ]
+    },
+    {
+        "name": "Betadine Vaginal Gel 10% w/w",
+        "contains": [
+            "Povidone iodine"
+        ]
+    },
+    {
+        "name": "Betamethasone tablet BP 0.5mg",
+        "contains": [
+            "Betamethason"
+        ]
+    },
+    {
+        "name": "Bfs-Salbutamol",
+        "contains": [
+            "Salbutamol"
+        ]
+    },
+    {
+        "name": "Bicimax",
+        "contains": [
+            "Vitamin B1",
+            "Vitamin B2",
+            "Vitamin B3",
+            "Vitamin B5",
+            "Vitamin B6",
+            "Vitamin B8",
+            "Vitamin B12",
+            "Vitamin C",
+            "Calci carbonat",
+            "Magnesi hydroxyd"
+        ]
+    },
+    {
+        "name": "Bidinam",
+        "contains": [
+            "Imipenem",
+            "Cilastatin"
+        ]
+    },
+    {
+        "name": "Bifumax 1,5g",
+        "contains": [
+            "Cefuroxim"
+        ]
+    },
+    {
+        "name": "Bipando",
+        "contains": [
+            "Pantoprazol",
+            "Domperidon maleat"
+        ]
+    },
+    {
+        "name": "Biragan 150",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "BisacodylDHG",
+        "contains": [
+            "Bisacodyl"
+        ]
+    },
+    {
+        "name": "Bisepthabi",
+        "contains": [
+            "Sulfamethoxazol",
+            "Trimethoprim"
+        ]
+    },
+    {
+        "name": "Bisoprolol Fumarate 2.5mg",
+        "contains": [
+            "Bisoprolol fumarate"
+        ]
+    },
+    {
+        "name": "Bitalvic",
+        "contains": [
+            "Paracetamol",
+            "Ibuprofen"
+        ]
+    },
+    {
+        "name": "Bocartin 150",
+        "contains": [
+            "Carboplatin"
+        ]
+    },
+    {
+        "name": "Bocartin 50",
+        "contains": [
+            "Carboplatin"
+        ]
+    },
+    {
+        "name": "Bofalgan 1g/100ml Infusion",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Bostafed",
+        "contains": [
+            "Triprolidin hydroclorid",
+            "Pseudoephedrin hydroclorid"
+        ]
+    },
+    {
+        "name": "Bourabia-4",
+        "contains": [
+            "Thiocolchicosid"
+        ]
+    },
+    {
+        "name": "Branfangan",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Bretam 800",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Broncholax",
+        "contains": [
+            "Terbutalin sulfat",
+            "Guaifenesin"
+        ]
+    },
+    {
+        "name": "Brown Burk Cefalexin 500mg",
+        "contains": [
+            "Cephalexin"
+        ]
+    },
+    {
+        "name": "Budesma",
+        "contains": [
+            "Budesonide"
+        ]
+    },
+    {
+        "name": "Busadefone",
+        "contains": [
+            "Deferiprone"
+        ]
+    },
+    {
+        "name": "B\u00ecnh can ACP",
+        "contains": [
+            "Di\u1ec7p h\u1ea1 ch\u00e2u",
+            "Nh\u00e2n tr\u1ea7n",
+            "B\u1ed3 c\u00f4ng anh"
+        ]
+    },
+    {
+        "name": "B\u1ea3o c\u1ed1t \u0111an nam b\u1ea3o d\u01b0\u1ee3c",
+        "contains": [
+            "Cao kh\u00f4 r\u1ec5 \u0111\u1ed9c ho\u1ea1t",
+            "Cao kh\u00f4 tang k\u00fd sinh",
+            "Cao kh\u00f4 Qu\u1ebf chi",
+            "Cao kh\u00f4 r\u1ec5 ng\u01b0u t\u1ea5t",
+            "Cao kh\u00f4 v\u1ecf th\u00e2n \u0111\u1ed7 tr\u1ecdng",
+            "Cao kh\u00f4 r\u1ec5 Can sinh \u0111\u1ecba",
+            "Cao kh\u00f4 r\u1ec5 \u0111\u01b0\u01a1ng quy",
+            "Cao kh\u00f4 r\u1ec5 b\u1ea1ch th\u01b0\u1ee3c",
+            "Cao kh\u00f4 th\u00e2n r\u1ec5 Xuy\u00ean Khung",
+            "Cao kh\u00f4 r\u1ec5 Nh\u00e2n s\u00e2m",
+            "cao kh\u00f4 Ph\u1ee5c linh",
+            "cao kh\u00f4 r\u1ec5 cam th\u1ea3o"
+        ]
+    },
+    {
+        "name": "B\u1ed5 gan ti\u00eau \u0111\u1ed9c Livsin-94",
+        "contains": [
+            "Cao \u0111\u1eb7c h\u1ed7n h\u1ee3p c\u00e1c d\u01b0\u1ee3c li\u1ec7u t\u01b0\u01a1ng \u1ee9ng v\u1edbi: Di\u1ec7p h\u1ea1 ch\u00e2u  1500 mg",
+            "Chua g\u00fat 250 mg",
+            "C\u1ecf nh\u1ecd n\u1ed3i 250 mg"
+        ]
+    },
+    {
+        "name": "CIACCA",
+        "contains": [
+            "Adapalen",
+            "Clindamycin"
+        ]
+    },
+    {
+        "name": "CKDKmoxilin tab. 625mg",
+        "contains": [
+            "Amoxicillin",
+            "Clavulanic acid"
+        ]
+    },
+    {
+        "name": "Cabendaz",
+        "contains": [
+            "Mebendazol"
+        ]
+    },
+    {
+        "name": "Cadamide",
+        "contains": [
+            "Levetiracetam"
+        ]
+    },
+    {
+        "name": "Cadglim 2",
+        "contains": [
+            "Glimepiride"
+        ]
+    },
+    {
+        "name": "Calci - D",
+        "contains": [
+            "Calci carbonat",
+            "Vitamin D3"
+        ]
+    },
+    {
+        "name": "Calci 500",
+        "contains": [
+            "Calci lactat gluconat 2,94 g",
+            "Calci carbonat 0,3 g"
+        ]
+    },
+    {
+        "name": "Calci B1B2B6",
+        "contains": [
+            "Calci gluconat",
+            "Vitamin B1",
+            "Vitamin B2",
+            "Vitamin B6"
+        ]
+    },
+    {
+        "name": "Calci lactate 650mg",
+        "contains": [
+            "Calcium lactat pentahydrat"
+        ]
+    },
+    {
+        "name": "Calcilinat F50",
+        "contains": [
+            "Acid folinic"
+        ]
+    },
+    {
+        "name": "Calcimax",
+        "contains": [
+            "Calci ascorbat khan",
+            "Lysin hydroclorid",
+            "Acid ascorbic"
+        ]
+    },
+    {
+        "name": "Calcitra",
+        "contains": [
+            "Calci carbonat",
+            "Cholecalciferol"
+        ]
+    },
+    {
+        "name": "Calcitriol Me-Auspharm",
+        "contains": [
+            "Calcitriol"
+        ]
+    },
+    {
+        "name": "Calcium Hasan 500 mg",
+        "contains": [
+            "Calci"
+        ]
+    },
+    {
+        "name": "Calciumboston ascorbic",
+        "contains": [
+            "Calci glucoheptonat",
+            "Vitamin C",
+            "Vitamin PP"
+        ]
+    },
+    {
+        "name": "Caldihasan",
+        "contains": [
+            "Calci",
+            "Cholecalciferol"
+        ]
+    },
+    {
+        "name": "Camisept",
+        "contains": [
+            "Clotrimazol"
+        ]
+    },
+    {
+        "name": "Cancetil 16",
+        "contains": [
+            "Candesartan Cilexetil"
+        ]
+    },
+    {
+        "name": "Cancetil plus",
+        "contains": [
+            "Candesartan Cilexetil",
+            "Hydroclorothiazid"
+        ]
+    },
+    {
+        "name": "Cancidas",
+        "contains": [
+            "Caspofungin"
+        ]
+    },
+    {
+        "name": "Cancidas",
+        "contains": [
+            "Caspofungin"
+        ]
+    },
+    {
+        "name": "Candelong-8",
+        "contains": [
+            "Candesartan Cilexetil"
+        ]
+    },
+    {
+        "name": "Candesartan BluePharma",
+        "contains": [
+            "Candesartan cilexetil s"
+        ]
+    },
+    {
+        "name": "Canditral",
+        "contains": [
+            "Itraconazole"
+        ]
+    },
+    {
+        "name": "Canesten Cream",
+        "contains": [
+            "Clotrimazole"
+        ]
+    },
+    {
+        "name": "Canpaxel 100",
+        "contains": [
+            "Paclitaxel"
+        ]
+    },
+    {
+        "name": "Canpaxel 30",
+        "contains": [
+            "Paclitaxel"
+        ]
+    },
+    {
+        "name": "Cao l\u1ea1c ti\u00ean",
+        "contains": [
+            "L\u1ea1c ti\u00ean",
+            "V\u00f4ng nem",
+            "L\u00e1 d\u00e2u"
+        ]
+    },
+    {
+        "name": "Cao sao v\u00e0ng",
+        "contains": [
+            "Menthol",
+            "Long n\u00e3o",
+            "Tinh d\u1ea7u B\u1ea1c h\u00e0",
+            "Tinh d\u1ea7u Tr\u00e0m",
+            "Tinh d\u1ea7u \u0110inh H\u01b0\u01a1ng",
+            "Tinh d\u1ea7u Qu\u1ebf"
+        ]
+    },
+    {
+        "name": "Cao sao v\u00e0ng",
+        "contains": [
+            "Camphor",
+            "Menthol",
+            "Tinh d\u1ea7u B\u1ea1c h\u00e0",
+            "Tinh d\u1ea7u \u0111inh h\u01b0\u01a1ng",
+            "Tinh d\u1ea7u tr\u00e0m",
+            "Tinh d\u1ea7u qu\u1ebf"
+        ]
+    },
+    {
+        "name": "Cao \u00edch m\u1eabu",
+        "contains": [
+            "\u00cdch m\u1eabu",
+            "H\u01b0\u01a1ng ph\u1ee5",
+            "Ng\u1ea3i c\u1ee9u"
+        ]
+    },
+    {
+        "name": "Cao \u00edch m\u1eabu",
+        "contains": [
+            "\u00cdch m\u1eabu",
+            "ng\u1ea3i c\u1ee9u",
+            "h\u01b0\u01a1ng ph\u1ee5"
+        ]
+    },
+    {
+        "name": "Capbize 500mg",
+        "contains": [
+            "Capecitabine"
+        ]
+    },
+    {
+        "name": "Capetero 500",
+        "contains": [
+            "Capecitabine"
+        ]
+    },
+    {
+        "name": "Captopril",
+        "contains": [
+            "Captopril"
+        ]
+    },
+    {
+        "name": "Captopril 25 mg",
+        "contains": [
+            "Captopril"
+        ]
+    },
+    {
+        "name": "Carbothiol",
+        "contains": [
+            "Carbocistein"
+        ]
+    },
+    {
+        "name": "Cardimax MR 35mg",
+        "contains": [
+            "Trimetazidin dihydrochlorid"
+        ]
+    },
+    {
+        "name": "Carmanus",
+        "contains": [
+            "Cao Carduus marianus",
+            "Vitamin B1",
+            "Vitamin B2",
+            "Vitamin B6",
+            "Vitamin B3",
+            "Vitamin B5"
+        ]
+    },
+    {
+        "name": "Carvesyl",
+        "contains": [
+            "Carvedilol"
+        ]
+    },
+    {
+        "name": "Casilas-20",
+        "contains": [
+            "Tadalafil"
+        ]
+    },
+    {
+        "name": "Casodex ",
+        "contains": [
+            "Bicalutamide"
+        ]
+    },
+    {
+        "name": "Cavinton forte",
+        "contains": [
+            "Vinpocetin"
+        ]
+    },
+    {
+        "name": "Cavipi 10",
+        "contains": [
+            "Vinpocetin"
+        ]
+    },
+    {
+        "name": "Cavipi 5",
+        "contains": [
+            "Vinpocetin"
+        ]
+    },
+    {
+        "name": "Cavir 0.5",
+        "contains": [
+            "Entecavir  0,5mg"
+        ]
+    },
+    {
+        "name": "Cavired 10",
+        "contains": [
+            "Lisinopril"
+        ]
+    },
+    {
+        "name": "Cavired 2.5",
+        "contains": [
+            "Lisinopril"
+        ]
+    },
+    {
+        "name": "Cavired 20",
+        "contains": [
+            "Lisinopril"
+        ]
+    },
+    {
+        "name": "Cavired 5",
+        "contains": [
+            "Lisinopril"
+        ]
+    },
+    {
+        "name": "Cebastin 10",
+        "contains": [
+            "Ebastin"
+        ]
+    },
+    {
+        "name": "Cebastin 20",
+        "contains": [
+            "Ebastin"
+        ]
+    },
+    {
+        "name": "Ceditax 200",
+        "contains": [
+            "Ceftibuten"
+        ]
+    },
+    {
+        "name": "Ceditax 400",
+        "contains": [
+            "Ceftibuten"
+        ]
+    },
+    {
+        "name": "Cefaclor 125mg",
+        "contains": [
+            "Cefaclor"
+        ]
+    },
+    {
+        "name": "Cefaclor 500mg",
+        "contains": [
+            "Cefaclor"
+        ]
+    },
+    {
+        "name": "Cefadroxil  500-HV",
+        "contains": [
+            "Cefadroxil"
+        ]
+    },
+    {
+        "name": "Cefadroxil 500mg",
+        "contains": [
+            "Cefadroxil"
+        ]
+    },
+    {
+        "name": "Cefadroxil 500mg",
+        "contains": [
+            "Cefadroxil"
+        ]
+    },
+    {
+        "name": "Cefalexin TVP 250mg",
+        "contains": [
+            "Cefalexin"
+        ]
+    },
+    {
+        "name": "Cefastad 250",
+        "contains": [
+            "Cephalexin"
+        ]
+    },
+    {
+        "name": "Cefastad 500",
+        "contains": [
+            "Cephalexin"
+        ]
+    },
+    {
+        "name": "Cefatam 250",
+        "contains": [
+            "Cephalexin"
+        ]
+    },
+    {
+        "name": "Cefixim 400 tab",
+        "contains": [
+            "Cefixim"
+        ]
+    },
+    {
+        "name": "Cefoperamark-S 1,5g",
+        "contains": [
+            "Cefoperazon",
+            "sulbactam"
+        ]
+    },
+    {
+        "name": "Cefpas",
+        "contains": [
+            "Cefepim"
+        ]
+    },
+    {
+        "name": "Ceftacin",
+        "contains": [
+            "Cefmetazol"
+        ]
+    },
+    {
+        "name": "Ceftacin ",
+        "contains": [
+            "Cefmetazol"
+        ]
+    },
+    {
+        "name": "Ceftazidime Gerda 2g",
+        "contains": [
+            "Ceftazidim"
+        ]
+    },
+    {
+        "name": "Ceftriaxon EG 1g/3,5ml (CSNQ: EG LABO - Laboratoires EuroGenerics, \u0111\u1ecba ch\u1ec9: \"Le Quintet\" Bat A, 12 rue Danjou 92517 Boulogne Billancourt cedex France)",
+        "contains": [
+            "Ceftriaxon"
+        ]
+    },
+    {
+        "name": "Ceftriaxone 1g",
+        "contains": [
+            "Ceftriaxon"
+        ]
+    },
+    {
+        "name": "Cefuroxime Actavis 1,5g",
+        "contains": [
+            "Cefuroxim"
+        ]
+    },
+    {
+        "name": "Cefuroxime Panpharma",
+        "contains": [
+            "Cefuroxim"
+        ]
+    },
+    {
+        "name": "Celorstad kid",
+        "contains": [
+            "Cefaclor"
+        ]
+    },
+    {
+        "name": "Cephalexin 250mg",
+        "contains": [
+            "Cephalexin"
+        ]
+    },
+    {
+        "name": "Cephalexin 500 mg",
+        "contains": [
+            "Cephalexin"
+        ]
+    },
+    {
+        "name": "Cephalexin 500mg",
+        "contains": [
+            "Cephalexin"
+        ]
+    },
+    {
+        "name": "Cephalexin 500mg",
+        "contains": [
+            "Cephalexin"
+        ]
+    },
+    {
+        "name": "Cerazette",
+        "contains": [
+            "Desogestrel"
+        ]
+    },
+    {
+        "name": "Cetamvit",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Cetasone",
+        "contains": [
+            "Betamethason 0,5 mg"
+        ]
+    },
+    {
+        "name": "Cetecocenfast 60",
+        "contains": [
+            "Fexofenadin hydrochlorid"
+        ]
+    },
+    {
+        "name": "Cetecocensamin",
+        "contains": [
+            "Glucosamin sulfat"
+        ]
+    },
+    {
+        "name": "Cetecocensamin fort",
+        "contains": [
+            "Glucosamin sulfat"
+        ]
+    },
+    {
+        "name": "Cetecofermax",
+        "contains": [
+            "S\u1eaft fumarat",
+            "Acid folic"
+        ]
+    },
+    {
+        "name": "Cetirizine Stada 10 mg",
+        "contains": [
+            "Cetirizin dihydroclorid 10mg"
+        ]
+    },
+    {
+        "name": "Cetraxal",
+        "contains": [
+            "Ciprofloxacin"
+        ]
+    },
+    {
+        "name": "Cetrimaz",
+        "contains": [
+            "Ceftriaxon"
+        ]
+    },
+    {
+        "name": "Ceutocid 200 Capsule",
+        "contains": [
+            "Celecoxib"
+        ]
+    },
+    {
+        "name": "Chloramphenicol 250 mg",
+        "contains": [
+            "Cloramphenicol"
+        ]
+    },
+    {
+        "name": "Chlorpheniramin",
+        "contains": [
+            "Clorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Chung-na tablet",
+        "contains": [
+            "Citicolin"
+        ]
+    },
+    {
+        "name": "Ciaflam",
+        "contains": [
+            "Aceclofenac"
+        ]
+    },
+    {
+        "name": "Ciatic 20",
+        "contains": [
+            "Tadalafil"
+        ]
+    },
+    {
+        "name": "Cifga",
+        "contains": [
+            "Ciprofloxacin"
+        ]
+    },
+    {
+        "name": "Cinarizin 25 mg",
+        "contains": [
+            "Cinarizin"
+        ]
+    },
+    {
+        "name": "Ciprofloxacin 0,3%",
+        "contains": [
+            "M\u1ed7i l\u1ecd 5ml ch\u1ee9a: Ciprofloxacin  15mg"
+        ]
+    },
+    {
+        "name": "Ciprofloxacin Injection",
+        "contains": [
+            "Ciprofloxacin"
+        ]
+    },
+    {
+        "name": "Ciprofloxacin Kabi",
+        "contains": [
+            "Ciprofloxacin"
+        ]
+    },
+    {
+        "name": "Cisatracurium Kabi 2mg/ml",
+        "contains": [
+            "Cisatracurium"
+        ]
+    },
+    {
+        "name": "Cisatracurium-hameln 2mg/ml",
+        "contains": [
+            "Cisatracurium"
+        ]
+    },
+    {
+        "name": "Clacelor 125",
+        "contains": [
+            "Cefaclor"
+        ]
+    },
+    {
+        "name": "Claminat 1,2 g",
+        "contains": [
+            "Amoxicilin",
+            "Acid clavulanic"
+        ]
+    },
+    {
+        "name": "Clamoxyl 250mg",
+        "contains": [
+            "Amoxicilin"
+        ]
+    },
+    {
+        "name": "Clanoz",
+        "contains": [
+            "Loratadin"
+        ]
+    },
+    {
+        "name": "Clarisol-250",
+        "contains": [
+            "Clarithromycin"
+        ]
+    },
+    {
+        "name": "Clarividi 500",
+        "contains": [
+            "Clarithromycin"
+        ]
+    },
+    {
+        "name": "Clavophynamox 1000",
+        "contains": [
+            "Amoxicilin",
+            "Acid clavulanic"
+        ]
+    },
+    {
+        "name": "Clazidyne",
+        "contains": [
+            "Loratadin"
+        ]
+    },
+    {
+        "name": "Clealine 100mg ",
+        "contains": [
+            "Sertraline"
+        ]
+    },
+    {
+        "name": "Clindamycin",
+        "contains": [
+            "Clindamycin"
+        ]
+    },
+    {
+        "name": "Clonafos",
+        "contains": [
+            "Propylthiouracil"
+        ]
+    },
+    {
+        "name": "Cloramphenicol",
+        "contains": [
+            "Cloramphenicol"
+        ]
+    },
+    {
+        "name": "Cloramphenicol 250 mg",
+        "contains": [
+            "Cloramphenicol"
+        ]
+    },
+    {
+        "name": "Clorpheniramin",
+        "contains": [
+            "Clorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Clorpheniramin 4",
+        "contains": [
+            "Clorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Clorpheniramin 4mg",
+        "contains": [
+            "Clorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Clyodas 300",
+        "contains": [
+            "Clindamycin"
+        ]
+    },
+    {
+        "name": "Coafarmin 2mg",
+        "contains": [
+            "Dexchlorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Combiwave B 100",
+        "contains": [
+            "Beclometason dipropionat"
+        ]
+    },
+    {
+        "name": "Combiwave B 250",
+        "contains": [
+            "Beclometason dipropionat anhydrous"
+        ]
+    },
+    {
+        "name": "Combiwave B50",
+        "contains": [
+            "Beclometasone dipropionat"
+        ]
+    },
+    {
+        "name": "Combraton",
+        "contains": [
+            "Perindopril erbumin",
+            "Indapamid"
+        ]
+    },
+    {
+        "name": "Comvir APC",
+        "contains": [
+            "Lamivudin",
+            "Zidovudin"
+        ]
+    },
+    {
+        "name": "Conazonin",
+        "contains": [
+            "Itraconazol"
+        ]
+    },
+    {
+        "name": "Concor Cor (\u0110\u00f3ng g\u00f3i: Merck KGaA &amp; Co., Werk Spittal ; \u0111\u1ecba ch\u1ec9: Hoesslgasse 20 9800 Spittal, Drau, \u00c1o)",
+        "contains": [
+            "Bisoprolol fumarate"
+        ]
+    },
+    {
+        "name": "Corbis Tablet 5mg",
+        "contains": [
+            "Bisoprolol fumarat"
+        ]
+    },
+    {
+        "name": "Covaprile 4",
+        "contains": [
+            "Perindopril tert-butylamin"
+        ]
+    },
+    {
+        "name": "Coversyl Plus Arginine 5mg/1.25mg",
+        "contains": [
+            "Perindopril Arginine",
+            "Indapamide"
+        ]
+    },
+    {
+        "name": "Cragbalin 75",
+        "contains": [
+            "Pregabalin"
+        ]
+    },
+    {
+        "name": "Cuine Caps. 250mg",
+        "contains": [
+            "Glucosamin"
+        ]
+    },
+    {
+        "name": "Curam 1000mg",
+        "contains": [
+            "Amoxicilin",
+            "Acid Clavulanic"
+        ]
+    },
+    {
+        "name": "Curam 625mg",
+        "contains": [
+            "Amoxicillin",
+            "Acid clavulanic"
+        ]
+    },
+    {
+        "name": "Cynarix-Dragees",
+        "contains": [
+            "Cao kh\u00f4 l\u00e1 Actiso 4-6:1"
+        ]
+    },
+    {
+        "name": "Cyplosart plus 50/12,5 FC tablets",
+        "contains": [
+            "Losartan Kali",
+            "Hydrochlorothiazid"
+        ]
+    },
+    {
+        "name": "Cystincap",
+        "contains": [
+            "L-Cystine"
+        ]
+    },
+    {
+        "name": "C\u1ea3m c\u00fam b\u1ed1n m\u00f9a",
+        "contains": [
+            "Kh\u01b0\u01a1ng ho\u1ea1t",
+            "Ph\u00f2ng phong",
+            "Th\u01b0\u01a1ng tru\u1eadt",
+            "Xuy\u00ean khung",
+            "Cam th\u1ea3o",
+            "T\u1ebf t\u00e2n",
+            "Ho\u00e0ng c\u1ea7m",
+            "Sinh \u0111\u1ecba",
+            "B\u1ea1ch ch\u1ec9"
+        ]
+    },
+    {
+        "name": "C\u1ed1m h\u00f2a tan Hepagon",
+        "contains": [
+            "Di\u1ec7p h\u1ea1 ch\u00e2u \u0111\u1eafng"
+        ]
+    },
+    {
+        "name": "C\u1ed3n xoa b\u00f3p Jamda",
+        "contains": [
+            "\u00f4 \u0111\u1ea7u",
+            "\u0111\u1ecba li\u1ec1n",
+            "\u0111\u1ea1i h\u1ed3i",
+            "qu\u1ebf nh\u1ee5c",
+            "thi\u00ean ni\u00ean ki\u1ec7n",
+            "uy linh ti\u00ean",
+            "m\u00e3 ti\u1ec1n",
+            "huy\u1ebft gi\u00e1c",
+            "xuy\u00ean khung",
+            "t\u1ebf t\u00e2n",
+            "methyl salicylat"
+        ]
+    },
+    {
+        "name": "C\u1ed3n xoa b\u00f3p tr\u1eadt \u0111\u00e3 th\u1ea5p kh\u1edbp",
+        "contains": [
+            "\u00d4 \u0111\u1ea7u",
+            "M\u00e3 ti\u1ec1n",
+            "M\u1ed9t d\u01b0\u1ee3c",
+            "Qu\u1ebf",
+            "\u0110\u1ea1i h\u1ed3i",
+            "Huy\u1ebft gi\u00e1c",
+            "Long n\u00e3o",
+            "\u0110\u1ecba li\u1ec1n",
+            "Nh\u0169 h\u01b0\u01a1ng",
+            "\u0110inh h\u01b0\u01a1ng",
+            "G\u1eebng"
+        ]
+    },
+    {
+        "name": "DN-CAPE 500",
+        "contains": [
+            "Capecitabin"
+        ]
+    },
+    {
+        "name": "Dalacin T ",
+        "contains": [
+            "Clindamycin"
+        ]
+    },
+    {
+        "name": "Dantuoxin",
+        "contains": [
+            "Paracetamol",
+            "Dextromethorphan hydrobromid",
+            "Loratadin"
+        ]
+    },
+    {
+        "name": "Darian 1",
+        "contains": [
+            "Acenocoumarol"
+        ]
+    },
+    {
+        "name": "Darian 4",
+        "contains": [
+            "Acenocoumarol"
+        ]
+    },
+    {
+        "name": "Darintab",
+        "contains": [
+            "Sumatriptan"
+        ]
+    },
+    {
+        "name": "Datrieuchung-New",
+        "contains": [
+            "Paracetamol",
+            "Clorpheniramin maleat",
+            "Dextromethorphan.HBr",
+            "Phenylephrin. HCl"
+        ]
+    },
+    {
+        "name": "Davibest",
+        "contains": [
+            "Trazodon HCl"
+        ]
+    },
+    {
+        "name": "Davita bone",
+        "contains": [
+            "Calci",
+            "Vitamin D3"
+        ]
+    },
+    {
+        "name": "Degodas",
+        "contains": [
+            "Acid Ibandronic"
+        ]
+    },
+    {
+        "name": "Dehatacil 0,5 mg",
+        "contains": [
+            "Dexamethason"
+        ]
+    },
+    {
+        "name": "Derispan",
+        "contains": [
+            "Trimebutin"
+        ]
+    },
+    {
+        "name": "Dermaderm",
+        "contains": [
+            "Tretinoin"
+        ]
+    },
+    {
+        "name": "Desratel",
+        "contains": [
+            "Desloratadin"
+        ]
+    },
+    {
+        "name": "Dexalevo-drop",
+        "contains": [
+            "Levofloxacin",
+            "Dexamethason phosphat"
+        ]
+    },
+    {
+        "name": "Dexamethason",
+        "contains": [
+            "Dexamethason 0,5mg"
+        ]
+    },
+    {
+        "name": "Dexamethason",
+        "contains": [
+            "Dexamethason 0,5mg"
+        ]
+    },
+    {
+        "name": "Dexamethason",
+        "contains": [
+            "Dexamethason"
+        ]
+    },
+    {
+        "name": "Dexamethason",
+        "contains": [
+            "Dexamethason"
+        ]
+    },
+    {
+        "name": "Dexamethason",
+        "contains": [
+            "Dexamethason"
+        ]
+    },
+    {
+        "name": "Dexamethason",
+        "contains": [
+            "Dexamethason"
+        ]
+    },
+    {
+        "name": "Dexamethason",
+        "contains": [
+            "Dexamethason"
+        ]
+    },
+    {
+        "name": "Dexamethason",
+        "contains": [
+            "Dexamethason"
+        ]
+    },
+    {
+        "name": "Dexamethason",
+        "contains": [
+            "Dexamethason"
+        ]
+    },
+    {
+        "name": "Dexamethasone 0,5mg",
+        "contains": [
+            "Dexamethason"
+        ]
+    },
+    {
+        "name": "Dextromethorphan",
+        "contains": [
+            "Dextromethorphan HBr"
+        ]
+    },
+    {
+        "name": "Dextromethorphan",
+        "contains": [
+            "Dextromethorphan HBr"
+        ]
+    },
+    {
+        "name": "Dextromethorphan 15",
+        "contains": [
+            "Dextromethorphan hydrobromid"
+        ]
+    },
+    {
+        "name": "Di- anrus",
+        "contains": [
+            "Paracetamol",
+            "Tramadol hydroclorid"
+        ]
+    },
+    {
+        "name": "Diacera Capsule",
+        "contains": [
+            "Diacerhein"
+        ]
+    },
+    {
+        "name": "Diacerein",
+        "contains": [
+            "Diacerein"
+        ]
+    },
+    {
+        "name": "Diacerein 50-HV",
+        "contains": [
+            "Diacerein"
+        ]
+    },
+    {
+        "name": "Diaricin",
+        "contains": [
+            "Diacerein"
+        ]
+    },
+    {
+        "name": "Diclofenac",
+        "contains": [
+            "Diclofenac natri"
+        ]
+    },
+    {
+        "name": "Diclofenac 50",
+        "contains": [
+            "Diclofenac natri"
+        ]
+    },
+    {
+        "name": "Diclofenac 50",
+        "contains": [
+            "Diclofenac natri"
+        ]
+    },
+    {
+        "name": "Diclofenac 50mg",
+        "contains": [
+            "Diclofenac natri"
+        ]
+    },
+    {
+        "name": "Diclofenac 75",
+        "contains": [
+            "Diclofenac natri"
+        ]
+    },
+    {
+        "name": "Difelene (CSNQ: Cty TNHH Thai Nakorn Patana (Th\u00e1i Lan)- \u0111/c: 94/7 Soi Ngamwongwan 8 (Yimprakorb), \u0111\u01b0\u1eddng Ngamwongwan, Nonthaburi, Th\u00e1i Lan)",
+        "contains": [
+            "Natri diclofenac"
+        ]
+    },
+    {
+        "name": "Diintasic",
+        "contains": [
+            "Paracetamol",
+            "Tramadol HCl"
+        ]
+    },
+    {
+        "name": "Dinadryl",
+        "contains": [
+            "Diphenynhydramin HCl"
+        ]
+    },
+    {
+        "name": "Diprosalic Ointment",
+        "contains": [
+            "Betamethason  0,5mg",
+            "Salicylic acid 30mg"
+        ]
+    },
+    {
+        "name": "Dismolan",
+        "contains": [
+            "Acetylcystein"
+        ]
+    },
+    {
+        "name": "Doganci",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Domide Capsules 50mg",
+        "contains": [
+            "Thalidomid"
+        ]
+    },
+    {
+        "name": "Donaxib 35",
+        "contains": [
+            "Risedronate natri"
+        ]
+    },
+    {
+        "name": "Donaxib 5",
+        "contains": [
+            "Risedronate natri"
+        ]
+    },
+    {
+        "name": "Doromax 200 mg",
+        "contains": [
+            "Azithromycin"
+        ]
+    },
+    {
+        "name": "Dropstar",
+        "contains": [
+            "Levofloxacin"
+        ]
+    },
+    {
+        "name": "Dualcold PM",
+        "contains": [
+            "Paracetamol",
+            "Phenylephrin hydroclorid",
+            "Diphenhydramin hydroclorid"
+        ]
+    },
+    {
+        "name": "Duraject - 60",
+        "contains": [
+            "Dapoxetin"
+        ]
+    },
+    {
+        "name": "D\u00e9contractyl",
+        "contains": [
+            "Mephenesin"
+        ]
+    },
+    {
+        "name": "D\u00e9contractyl",
+        "contains": [
+            "Mephenesin"
+        ]
+    },
+    {
+        "name": "D\u01b0\u1ee1ng t\u00e2m an th\u1ea7n TW3",
+        "contains": [
+            "Ho\u00e0i s\u01a1n",
+            "Cao \u0111\u1eb7c h\u1ed7n h\u1ee3p d\u01b0\u1ee3c li\u1ec7u"
+        ]
+    },
+    {
+        "name": "D\u1ea7u gi\u00f3 Mekophar",
+        "contains": [
+            "Eucalyptol",
+            "Menthol",
+            "Methyl salicylat",
+            "Camphor"
+        ]
+    },
+    {
+        "name": "D\u1ea7u xanh con \u00f3/Eagle brand medicated oil",
+        "contains": [
+            "Levomenthol",
+            "Methyl salicylat",
+            "Eucalyptus oil"
+        ]
+    },
+    {
+        "name": "Ebasitin",
+        "contains": [
+            "Ebastin"
+        ]
+    },
+    {
+        "name": "Ebitac 12.5",
+        "contains": [
+            "Enalapril maleate",
+            "Hydrochlorothiazide"
+        ]
+    },
+    {
+        "name": "Ebitac Forte",
+        "contains": [
+            "Enalapril maleate",
+            "Hydrochlorothiazide"
+        ]
+    },
+    {
+        "name": "Eduar",
+        "contains": [
+            "Nevirapin"
+        ]
+    },
+    {
+        "name": "Efavirenz Stada 600 mg",
+        "contains": [
+            "Efavirenz  600mg"
+        ]
+    },
+    {
+        "name": "Effer-paralmax codein",
+        "contains": [
+            "Paracetamol",
+            "Codein phosphat"
+        ]
+    },
+    {
+        "name": "Eftifarene 20 mg",
+        "contains": [
+            "Trimetazidin dihydroclorid"
+        ]
+    },
+    {
+        "name": "Enalapril Stada 10 mg",
+        "contains": [
+            "Enalapril maleat"
+        ]
+    },
+    {
+        "name": "Enalapril VPC 5",
+        "contains": [
+            "Enalapril maleat"
+        ]
+    },
+    {
+        "name": "Enamigal 10 mg ",
+        "contains": [
+            "Enalapril maleat"
+        ]
+    },
+    {
+        "name": "Enpovid A, D",
+        "contains": [
+            "Vitamin A",
+            "Vitamin D3"
+        ]
+    },
+    {
+        "name": "Enteka-YB",
+        "contains": [
+            "Cao kh\u00f4 chi\u1ebft xu\u1ea5t t\u1eeb c\u00e1c d\u01b0\u1ee3c li\u1ec7u",
+            "\u0110\u01b0\u01a1ng quy"
+        ]
+    },
+    {
+        "name": "Enteravid",
+        "contains": [
+            "Entecavir g"
+        ]
+    },
+    {
+        "name": "Ephedrine Aguetant 30mg/10ml",
+        "contains": [
+            "Ephedrin hydroclorid"
+        ]
+    },
+    {
+        "name": "Eprazinone",
+        "contains": [
+            "Eprazinon dihydroclorid"
+        ]
+    },
+    {
+        "name": "Esomeprazole 40mg",
+        "contains": [
+            "Esomeprazole"
+        ]
+    },
+    {
+        "name": "Eszol Tablet",
+        "contains": [
+            "Itraconazole"
+        ]
+    },
+    {
+        "name": "Ethambutol 400 mg",
+        "contains": [
+            "Ethambutol hydrochlorid"
+        ]
+    },
+    {
+        "name": "Eumovate cream",
+        "contains": [
+            "Clobetasone butyrate"
+        ]
+    },
+    {
+        "name": "Eurganic",
+        "contains": [
+            "Cao \u0111\u1eb7c Actiso",
+            "Cao \u0111\u1eb7c Rau \u0111\u1eafng \u0111\u1ea5t",
+            "B\u1ed9t B\u00ecm b\u00ecm bi\u1ebfc"
+        ]
+    },
+    {
+        "name": "Eurostat-E",
+        "contains": [
+            "Atorvastatin",
+            "Ezetimibe"
+        ]
+    },
+    {
+        "name": "Fadolce",
+        "contains": [
+            "Cefamandol"
+        ]
+    },
+    {
+        "name": "Fahado extra",
+        "contains": [
+            "Paracetamol",
+            "Cafein"
+        ]
+    },
+    {
+        "name": "Falgankid 160",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Falgankid 250",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Falipan ",
+        "contains": [
+            "Lidocain hydroclorid"
+        ]
+    },
+    {
+        "name": "Famacin 500 mg",
+        "contains": [
+            "Ampicilin"
+        ]
+    },
+    {
+        "name": "Femara",
+        "contains": [
+            "Letrozole"
+        ]
+    },
+    {
+        "name": "Fenilham",
+        "contains": [
+            "Fentanyl critrate"
+        ]
+    },
+    {
+        "name": "Fenogetz capsules 200mg",
+        "contains": [
+            "Fenofibrat"
+        ]
+    },
+    {
+        "name": "Fevintamax",
+        "contains": [
+            "S\u1eaft nguy\u00ean t\u1ed1",
+            "Acid Folic"
+        ]
+    },
+    {
+        "name": "FexodineFast 180",
+        "contains": [
+            "Fexofenadin HCl"
+        ]
+    },
+    {
+        "name": "Fexodinefast 120",
+        "contains": [
+            "Fexofenadin HCl"
+        ]
+    },
+    {
+        "name": "Fexofenadin 180",
+        "contains": [
+            "Fexofenadin hydroclorid 180 mg"
+        ]
+    },
+    {
+        "name": "Flagyl 250 mg",
+        "contains": [
+            "Metronidazol"
+        ]
+    },
+    {
+        "name": "Flazole 400",
+        "contains": [
+            "Ribavirin"
+        ]
+    },
+    {
+        "name": "Flocaxin",
+        "contains": [
+            "Pentoxifyllin"
+        ]
+    },
+    {
+        "name": "Flodilan",
+        "contains": [
+            "Glimepirid"
+        ]
+    },
+    {
+        "name": "Flodilan-2",
+        "contains": [
+            "Glimepirid"
+        ]
+    },
+    {
+        "name": "Floxsafe 400",
+        "contains": [
+            "Moxifloxacin"
+        ]
+    },
+    {
+        "name": "Fludacil 250",
+        "contains": [
+            "5-Fluorouracil"
+        ]
+    },
+    {
+        "name": "Fludacil 500",
+        "contains": [
+            "5-Fluorouracil"
+        ]
+    },
+    {
+        "name": "Fludalym 25mg/ml",
+        "contains": [
+            "Fludarabin phosphat"
+        ]
+    },
+    {
+        "name": "Flurassel",
+        "contains": [
+            "Flunarizin"
+        ]
+    },
+    {
+        "name": "Foracort 200 Inhaler",
+        "contains": [
+            "Budesonide",
+            "Formoterol fumarat dihydrat"
+        ]
+    },
+    {
+        "name": "Forcimax ",
+        "contains": [
+            "Acid alendronic"
+        ]
+    },
+    {
+        "name": "Fortaacef 1g",
+        "contains": [
+            "Cefotaxim"
+        ]
+    },
+    {
+        "name": "Fortaacef 2g",
+        "contains": [
+            "Cefotaxim"
+        ]
+    },
+    {
+        "name": "Forvastin 10",
+        "contains": [
+            "Atorvastatin"
+        ]
+    },
+    {
+        "name": "Frolova 150 (CSNQ: Mibe Gmbh Arzneimittel; \u0110/c: s\u1ed1 15, \u0111\u01b0\u1eddng Muchener, D-06796 Brehna, CHLB \u0110\u1ee9c)",
+        "contains": [
+            "Fluconazol 150mg"
+        ]
+    },
+    {
+        "name": "Fumalic-TV",
+        "contains": [
+            "S\u1eaft fumarat",
+            "Acid Folic"
+        ]
+    },
+    {
+        "name": "G5 Enfankasst",
+        "contains": [
+            "Montelukast"
+        ]
+    },
+    {
+        "name": "Gabalept - 300",
+        "contains": [
+            "Gabapentin"
+        ]
+    },
+    {
+        "name": "Galcholic 100",
+        "contains": [
+            "Acid ursodeoxycholic 100mg"
+        ]
+    },
+    {
+        "name": "Galvus Met 50mg/1000mg",
+        "contains": [
+            "Vildagliptin",
+            "Metformin Hydrochlorid"
+        ]
+    },
+    {
+        "name": "Garlicap vi\u00ean t\u1ecfi ngh\u1ec7",
+        "contains": [
+            "B\u1ed9t t\u1ecfi  462mg",
+            "Cao ngh\u1ec7  12mg"
+        ]
+    },
+    {
+        "name": "Gastropulgite",
+        "contains": [
+            "Attapulgite",
+            "Aluminum hydroxide and magnesium carbonate"
+        ]
+    },
+    {
+        "name": "Gau misa",
+        "contains": [
+            "M\u1ed7i tu\u00fdp 30g ch\u1ee9a: Methylsalicylat 4,5g",
+            "Menthol 2,1g"
+        ]
+    },
+    {
+        "name": "Gayi",
+        "contains": [
+            "Anastrozol"
+        ]
+    },
+    {
+        "name": "Gemzar",
+        "contains": [
+            "Gemcitabin"
+        ]
+    },
+    {
+        "name": "Gentamicin 0,3%",
+        "contains": [
+            "Gentamicin"
+        ]
+    },
+    {
+        "name": "Gentamicin Kabi 80mg/2ml",
+        "contains": [
+            "Gentamicin"
+        ]
+    },
+    {
+        "name": "Gintana 120",
+        "contains": [
+            "Cao kh\u00f4 l\u00e1 b\u1ea1ch qu\u1ea3"
+        ]
+    },
+    {
+        "name": "Glentaz",
+        "contains": [
+            "Tazaroten"
+        ]
+    },
+    {
+        "name": "Gliovan-H 160",
+        "contains": [
+            "Valsartan"
+        ]
+    },
+    {
+        "name": "Glotasic extra",
+        "contains": [
+            "Paracetamol",
+            "Ibuprofen"
+        ]
+    },
+    {
+        "name": "Glucosamin",
+        "contains": [
+            "Glucosamin sulfat"
+        ]
+    },
+    {
+        "name": "Glucosamin 250 mg",
+        "contains": [
+            "Glucosamin"
+        ]
+    },
+    {
+        "name": "Glucosamin sulfat 250mg",
+        "contains": [
+            "Glucosamin sulfat"
+        ]
+    },
+    {
+        "name": "Glucosamine 500",
+        "contains": [
+            "Glucosamin"
+        ]
+    },
+    {
+        "name": "Gludipha 500",
+        "contains": [
+            "Metformin hydroclorid"
+        ]
+    },
+    {
+        "name": "Glumarix",
+        "contains": [
+            "Oxetacain",
+            "Nh\u00f4m hydroxid",
+            "Magnesi hydroxid"
+        ]
+    },
+    {
+        "name": "Glusamin",
+        "contains": [
+            "Glucosamin sulfat"
+        ]
+    },
+    {
+        "name": "Gofen 400 clearcap",
+        "contains": [
+            "Ibuprofen"
+        ]
+    },
+    {
+        "name": "Goldcefta 1g",
+        "contains": [
+            "Ceftazidim"
+        ]
+    },
+    {
+        "name": "Graftac",
+        "contains": [
+            "Tacrolimus"
+        ]
+    },
+    {
+        "name": "Graftac 0,5mg",
+        "contains": [
+            "Tacrolimus"
+        ]
+    },
+    {
+        "name": "Gratronset 1",
+        "contains": [
+            "Granisetron"
+        ]
+    },
+    {
+        "name": "Greentamin",
+        "contains": [
+            "S\u1eaft  fumarat",
+            "Acid Folic"
+        ]
+    },
+    {
+        "name": "Gynapax",
+        "contains": [
+            "Acid boric",
+            "Ph\u00e8n chua",
+            "Berberin clorid"
+        ]
+    },
+    {
+        "name": "H-Vacolaren",
+        "contains": [
+            "Trimetazidin dihydroclorid"
+        ]
+    },
+    {
+        "name": "Haditalvic-Effe",
+        "contains": [
+            "Paracetamol",
+            "Diclofenac natri"
+        ]
+    },
+    {
+        "name": "Hagifen",
+        "contains": [
+            "Ibuprofen"
+        ]
+    },
+    {
+        "name": "Hagizin",
+        "contains": [
+            "Flunarizin"
+        ]
+    },
+    {
+        "name": "Halfhuid-20",
+        "contains": [
+            "Isotretinoin"
+        ]
+    },
+    {
+        "name": "Haloperidol",
+        "contains": [
+            "Haloperidol"
+        ]
+    },
+    {
+        "name": "Haloperidol 1,5 mg",
+        "contains": [
+            "Haloperidol"
+        ]
+    },
+    {
+        "name": "Hamett",
+        "contains": [
+            "Diosmectit"
+        ]
+    },
+    {
+        "name": "Hamistyl",
+        "contains": [
+            "Loratadin"
+        ]
+    },
+    {
+        "name": "Hangitor 40",
+        "contains": [
+            "Telmisartan"
+        ]
+    },
+    {
+        "name": "Hapacol 150",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Hapacol 150 flu",
+        "contains": [
+            "Paracetamol",
+            "Clorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Hapacol 250",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Hapacol 325",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Hapacol 325 Flu",
+        "contains": [
+            "Paracetamol",
+            "Clorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Hapacol 80",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Hapacol CF",
+        "contains": [
+            "Paracetamol",
+            "Dextromethophan HBr",
+            "Loratadin"
+        ]
+    },
+    {
+        "name": "Hapacol Caplet 500",
+        "contains": [
+            "Acetaminophen"
+        ]
+    },
+    {
+        "name": "Hapacol s\u1ee7i",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Hapacol \u0111au nh\u1ee9c",
+        "contains": [
+            "Paracetamol",
+            "Ibuprofen"
+        ]
+    },
+    {
+        "name": "Hapenxin capsules",
+        "contains": [
+            "Cephalexin"
+        ]
+    },
+    {
+        "name": "Hapukgo 40",
+        "contains": [
+            "Cao kh\u00f4 l\u00e1 b\u1ea1ch qu\u1ea3"
+        ]
+    },
+    {
+        "name": "Haratac 150",
+        "contains": [
+            "Ranitidin"
+        ]
+    },
+    {
+        "name": "Hasalbu 2",
+        "contains": [
+            "Salbutamol"
+        ]
+    },
+    {
+        "name": "Hasanbin 100",
+        "contains": [
+            "Trimebutin maleat"
+        ]
+    },
+    {
+        "name": "Hazitac 150",
+        "contains": [
+            "Ranitidin  150mg"
+        ]
+    },
+    {
+        "name": "Hazitac 300",
+        "contains": [
+            "Ranitidin"
+        ]
+    },
+    {
+        "name": "Helirab-20",
+        "contains": [
+            "Rabeprazol natri"
+        ]
+    },
+    {
+        "name": "Hemisan 250",
+        "contains": [
+            "Acid tranexamic"
+        ]
+    },
+    {
+        "name": "Heparin-Belmed",
+        "contains": [
+            "Heparin natri"
+        ]
+    },
+    {
+        "name": "Hepatymo",
+        "contains": [
+            "Tenofovir disoproxil fumarat"
+        ]
+    },
+    {
+        "name": "Hept-A-Myl 187,8mg",
+        "contains": [
+            "Heptaminol hydroclorid"
+        ]
+    },
+    {
+        "name": "Hoa \u0111\u00e0 Thephaco",
+        "contains": [
+            "Xuy\u00ean khung",
+            "T\u1ea7n giao",
+            "B\u1ea1ch ch\u1ec9",
+            "\u0110\u01b0\u01a1ng quy",
+            "M\u1ea1ch m\u00f4n",
+            "H\u1ed3ng s\u00e2m",
+            "Ng\u00f4 th\u00f9 du",
+            "Ng\u0169 v\u1ecb t\u1eed",
+            "Borneol"
+        ]
+    },
+    {
+        "name": "Hoanidol Soft Cap.",
+        "contains": [
+            "Alfacalcidol"
+        ]
+    },
+    {
+        "name": "Homepen 500mg/vial",
+        "contains": [
+            "Meropenem"
+        ]
+    },
+    {
+        "name": "Hotapas",
+        "contains": [
+            "Levomenthol",
+            "Methylsalicylat"
+        ]
+    },
+    {
+        "name": "Ho\u1ea1t huy\u1ebft Thephaco",
+        "contains": [
+            "\u0111\u01b0\u01a1ng quy, sinh \u0111\u1ecba, xuy\u00ean khung, ng\u01b0u t\u1ea5t, \u00edch m\u1eabu"
+        ]
+    },
+    {
+        "name": "Ho\u1ea1t huy\u1ebft d\u01b0\u1ee1ng n\u00e3o ACP",
+        "contains": [
+            "R\u1ec5 \u0110inh l\u0103ng",
+            "Cao l\u00e1 B\u1ea1ch qu\u1ea3"
+        ]
+    },
+    {
+        "name": "Hyaron-400 Chewable Tablet",
+        "contains": [
+            "Albendazole"
+        ]
+    },
+    {
+        "name": "Hydrocolacyl",
+        "contains": [
+            "Prednisolon"
+        ]
+    },
+    {
+        "name": "Hydrocortison-Lidocain-Richter",
+        "contains": [
+            "Hydrocortisone acetate",
+            "Lidocaine hydrocloride"
+        ]
+    },
+    {
+        "name": "H\u01b0\u01a1ng sa l\u1ee5c qu\u00e2n",
+        "contains": [
+            "Cao kh\u00f4 d\u01b0\u1ee3c li\u1ec7u",
+            "B\u1ea1ch tru\u1eadt",
+            "M\u1ed9c h\u01b0\u01a1ng",
+            "Tr\u1ea7n b\u00ec"
+        ]
+    },
+    {
+        "name": "H\u01b0\u01a1ng sa l\u1ee5c qu\u00e2n",
+        "contains": [
+            "M\u1ed9c h\u01b0\u01a1ng",
+            "Ph\u1ee5c linh",
+            "Sa nh\u00e2n",
+            "\u0110\u1ea3ng s\u00e2m",
+            "B\u1ea1ch tru\u1eadt",
+            "Cam th\u1ea3o"
+        ]
+    },
+    {
+        "name": "IPEC-PLUS TABLET",
+        "contains": [
+            "S\u1eaft nguy\u00ean t\u1ed1  hydroxid polymaltose)",
+            "Acid Folic",
+            "K\u1ebdm"
+        ]
+    },
+    {
+        "name": "Ibaliver-H",
+        "contains": [
+            "Cao \u0111\u1eb7c Actiso",
+            "Cao \u0111\u1eb7c Rau \u0111\u1eafng \u0111\u1ea5t",
+            "Cao \u0111\u1eb7c B\u00ecm b\u00ecm bi\u1ebfc"
+        ]
+    },
+    {
+        "name": "Imanmj 250mg",
+        "contains": [
+            "Imipenem",
+            "Cilastatin"
+        ]
+    },
+    {
+        "name": "Incamix",
+        "contains": [
+            "L-Ornithin  L-Aspartat"
+        ]
+    },
+    {
+        "name": "Incat",
+        "contains": [
+            "Calci lactat"
+        ]
+    },
+    {
+        "name": "Incepban 400 chewable tablet",
+        "contains": [
+            "Albendazol"
+        ]
+    },
+    {
+        "name": "Incobal Inj. 1ml",
+        "contains": [
+            "Mecobalamin"
+        ]
+    },
+    {
+        "name": "Ingair 5mg",
+        "contains": [
+            "Montelukast"
+        ]
+    },
+    {
+        "name": "Ingaron 200 DST",
+        "contains": [
+            "Cefpodoxim"
+        ]
+    },
+    {
+        "name": "Inta-DX 20 (C\u01a1 s\u1edf s\u1ea3n xu\u1ea5t v\u00e0 \u0111\u00f3ng g\u00f3i s\u01a1 c\u1ea5p: Intas Pharmaceuticals Ltd. \u0110\u1ecba ch\u1ec9: Plot Numbers 457, 458 &amp; 191/218 P, Sarkhej-Bavla Highway, Matoda, Sanand, Ahmedabad, Gujarat, In-382210, India)",
+        "contains": [
+            "Docetaxel khan"
+        ]
+    },
+    {
+        "name": "Inta-DX 80 (C\u01a1 s\u1edf s\u1ea3n xu\u1ea5t v\u00e0 \u0111\u00f3ng g\u00f3i s\u01a1 c\u1ea5p: Intas Pharmaceuticals Ltd. \u0110\u1ecba ch\u1ec9: Plot Numbers 457, 458 &amp; 191/218 P, Sarkhej-Bavla Highway, Matoda, Sanand, Ahmedabad, Gujarat, In-382210, India)",
+        "contains": [
+            "M\u1ed7i l\u1ecd 4ml dung d\u1ecbch ch\u1ee9a Docetaxel khan 80 mg"
+        ]
+    },
+    {
+        "name": "Intagra 100",
+        "contains": [
+            "Sildenafil"
+        ]
+    },
+    {
+        "name": "Intolacin",
+        "contains": [
+            "Tobramycin"
+        ]
+    },
+    {
+        "name": "Iopamiro",
+        "contains": [
+            "Iod"
+        ]
+    },
+    {
+        "name": "Iopamiro",
+        "contains": [
+            "Iod"
+        ]
+    },
+    {
+        "name": "Iopamiro ",
+        "contains": [
+            "Iod"
+        ]
+    },
+    {
+        "name": "Iopamiro ",
+        "contains": [
+            "Iod"
+        ]
+    },
+    {
+        "name": "Irsatim 75",
+        "contains": [
+            "Irbesartan"
+        ]
+    },
+    {
+        "name": "Isavent",
+        "contains": [
+            "Cefoperazon"
+        ]
+    },
+    {
+        "name": "Isoniazid 150mg",
+        "contains": [
+            "Isoniazid"
+        ]
+    },
+    {
+        "name": "Isoniazid 300 mg",
+        "contains": [
+            "Isoniazid"
+        ]
+    },
+    {
+        "name": "Itrakon",
+        "contains": [
+            "Itraconazole"
+        ]
+    },
+    {
+        "name": "JW Amigold 8,5% Injection",
+        "contains": [
+            "L-Isoleucin",
+            "L-Leucin",
+            "L-Lysin acetat",
+            "L-methionin",
+            "L-phenylalanin",
+            "L-threonin",
+            "L-tryptophan",
+            "L-valin",
+            "L-alanin",
+            "L-arginin",
+            "L-histidin",
+            "L-Prolin",
+            "L-Serin",
+            "glycin",
+            "L-cystein Hydroclorid"
+        ]
+    },
+    {
+        "name": "Jikagra",
+        "contains": [
+            "Sildenafil"
+        ]
+    },
+    {
+        "name": "Jiracek",
+        "contains": [
+            "Esomeprazol magnesi dihydrat t\u01b0\u01a1ng \u0111\u01b0\u01a1ng Esomeprazol"
+        ]
+    },
+    {
+        "name": "Julitam 1000",
+        "contains": [
+            "Levetiracetam"
+        ]
+    },
+    {
+        "name": "Juvicap Injection",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "KM Cephalexin 250mg",
+        "contains": [
+            "Cephalexin"
+        ]
+    },
+    {
+        "name": "Kacetam plus",
+        "contains": [
+            "Piracetam",
+            "Cinarizin"
+        ]
+    },
+    {
+        "name": "Kakama",
+        "contains": [
+            "Cao \u0111\u1eb7c h\u1ed7n h\u1ee3p d\u01b0\u1ee3c li\u1ec7u",
+            "B\u1ed9t xuy\u00ean khung"
+        ]
+    },
+    {
+        "name": "Kali clorid-BFS",
+        "contains": [
+            "Kali clorid"
+        ]
+    },
+    {
+        "name": "Kalxetin",
+        "contains": [
+            "Fluoxetine"
+        ]
+    },
+    {
+        "name": "Kamelox 15",
+        "contains": [
+            "Meloxicam"
+        ]
+    },
+    {
+        "name": "Kamicingsv",
+        "contains": [
+            "Clindamycin"
+        ]
+    },
+    {
+        "name": "Katrypsin Fort",
+        "contains": [
+            "Alphachymotrypsin"
+        ]
+    },
+    {
+        "name": "Kavasdin 10",
+        "contains": [
+            "Amlodipin"
+        ]
+    },
+    {
+        "name": "Kavasdin 5",
+        "contains": [
+            "Amlodipin"
+        ]
+    },
+    {
+        "name": "Keikai",
+        "contains": [
+            "Melatonin 3mg"
+        ]
+    },
+    {
+        "name": "Kelac",
+        "contains": [
+            "Ketoconazol"
+        ]
+    },
+    {
+        "name": "Kem b\u00f4i da AVI-O5",
+        "contains": [
+            "Vitamin A Palmitat"
+        ]
+    },
+    {
+        "name": "Ketocol cream",
+        "contains": [
+            "Ketoconazol"
+        ]
+    },
+    {
+        "name": "Khang Minh b\u00e1t tr\u00e2n nang",
+        "contains": [
+            "Th\u1ee5c \u0111\u1ecba",
+            "\u0110\u01b0\u01a1ng quy",
+            "\u0110\u1ea3ng s\u00e2m",
+            "B\u1ea1ch tru\u1eadt",
+            "B\u1ea1ch th\u01b0\u1ee3c",
+            "Xuy\u00ean khung",
+            "Cam th\u1ea3o",
+            "B\u1ea1ch linh"
+        ]
+    },
+    {
+        "name": "Khang Minh l\u1ee5c v\u1ecb nang",
+        "contains": [
+            "Th\u1ee5c \u0111\u1ecba",
+            "S\u01a1n th\u00f9",
+            "Tr\u1ea1ch t\u1ea3",
+            "Ho\u00e0i s\u01a1n",
+            "M\u1eabu \u0111\u01a1n b\u00ec",
+            "Ph\u1ee5c linh"
+        ]
+    },
+    {
+        "name": "Khang Minh t\u1ef7 vi\u00eam nang",
+        "contains": [
+            "T\u00e2n di hoa",
+            "Xuy\u00ean khung",
+            "Th\u0103ng ma",
+            "Cam th\u1ea3o",
+            "B\u1ea1ch ch\u1ec9"
+        ]
+    },
+    {
+        "name": "Kievidol extra",
+        "contains": [
+            "Paracetamol",
+            "Cafein"
+        ]
+    },
+    {
+        "name": "Koact 625",
+        "contains": [
+            "Amoxicilin",
+            "Acid clavulanic"
+        ]
+    },
+    {
+        "name": "Lactated ringer's and dextrose",
+        "contains": [
+            "Dextrose khan",
+            "Natri clorid",
+            "Kali clorid",
+            "Natri lactat",
+            "Calci clorid.2H2O"
+        ]
+    },
+    {
+        "name": "Lamepil-25",
+        "contains": [
+            "Lamotrigin"
+        ]
+    },
+    {
+        "name": "Lamepil-50",
+        "contains": [
+            "Lamotrigin"
+        ]
+    },
+    {
+        "name": "Lamivudin Stada 100mg",
+        "contains": [
+            "Lamivudin"
+        ]
+    },
+    {
+        "name": "Lamivudine Savi 100",
+        "contains": [
+            "Lamivudin"
+        ]
+    },
+    {
+        "name": "Lamivudine Savi 150",
+        "contains": [
+            "Lamivudin"
+        ]
+    },
+    {
+        "name": "Lamivudine Tablets 150mg",
+        "contains": [
+            "Lamivudine"
+        ]
+    },
+    {
+        "name": "Lamivudine/Zidovudine 150mg/300mg",
+        "contains": [
+            "Lamivudine",
+            "Zidovudine"
+        ]
+    },
+    {
+        "name": "Lamotrigin SPM 50",
+        "contains": [
+            "Lamotrigin"
+        ]
+    },
+    {
+        "name": "Lampine 2",
+        "contains": [
+            "Lacidipin"
+        ]
+    },
+    {
+        "name": "Lampine 4",
+        "contains": [
+            "Lacidipin"
+        ]
+    },
+    {
+        "name": "Lansoprazol",
+        "contains": [
+            "Lansoprazol"
+        ]
+    },
+    {
+        "name": "Lansoprazol Stada 30 mg",
+        "contains": [
+            "Lansoprazol"
+        ]
+    },
+    {
+        "name": "Lastinem",
+        "contains": [
+            "Imipenem",
+            "Cilastatin"
+        ]
+    },
+    {
+        "name": "Laxee",
+        "contains": [
+            "M\u1ed7i g\u00f3i 10g ch\u1ee9a: Macrogol 4000"
+        ]
+    },
+    {
+        "name": "Lepatis",
+        "contains": [
+            "L-Ornithin L-Aspartat",
+            "DL-Alpha tocopheryl acetat"
+        ]
+    },
+    {
+        "name": "Lercastad 10",
+        "contains": [
+            "Lercanidipin hydroclorid"
+        ]
+    },
+    {
+        "name": "Leurakin",
+        "contains": [
+            "Mercaptopurin"
+        ]
+    },
+    {
+        "name": "Levetstad 500",
+        "contains": [
+            "Levetiracetam"
+        ]
+    },
+    {
+        "name": "Levitra",
+        "contains": [
+            "Vardenafil"
+        ]
+    },
+    {
+        "name": "Levitra 20 mg",
+        "contains": [
+            "Vardenafil"
+        ]
+    },
+    {
+        "name": "Levofloxacin 250",
+        "contains": [
+            "Levofloxacin"
+        ]
+    },
+    {
+        "name": "Levofloxacin 500",
+        "contains": [
+            "Levofloxacin"
+        ]
+    },
+    {
+        "name": "Lidocain 1%",
+        "contains": [
+            "Lidocain hydroclorid"
+        ]
+    },
+    {
+        "name": "Lidocain 2%",
+        "contains": [
+            "Lidocain hydroclorid"
+        ]
+    },
+    {
+        "name": "Lidocain-BFS",
+        "contains": [
+            "Lidocain hydroclorid"
+        ]
+    },
+    {
+        "name": "Lidocaine Injection BP 1% w/v",
+        "contains": [
+            "Lidocaine hydrochloride"
+        ]
+    },
+    {
+        "name": "Lidonalin",
+        "contains": [
+            "Lidocain HCl",
+            "Adrenalin"
+        ]
+    },
+    {
+        "name": "Lifezar",
+        "contains": [
+            "Losartan potassium"
+        ]
+    },
+    {
+        "name": "Lignopad",
+        "contains": [
+            "Lidocain"
+        ]
+    },
+    {
+        "name": "Lipidtab 10",
+        "contains": [
+            "Atorvastatin"
+        ]
+    },
+    {
+        "name": "Lisinopril Stada 10 mg",
+        "contains": [
+            "Lisinopril"
+        ]
+    },
+    {
+        "name": "Livethine tab",
+        "contains": [
+            "L-Ornithin-L-Aspartat"
+        ]
+    },
+    {
+        "name": "Lodsan",
+        "contains": [
+            "Levofloxacin"
+        ]
+    },
+    {
+        "name": "Loperamid",
+        "contains": [
+            "Loperamid HCl"
+        ]
+    },
+    {
+        "name": "Lopinavir 200 mg and Ritonavir 50mg tablets",
+        "contains": [
+            "Lopinavir",
+            "Ritonavir"
+        ]
+    },
+    {
+        "name": "Loraar 25",
+        "contains": [
+            "Losartan kali"
+        ]
+    },
+    {
+        "name": "Lorasweet",
+        "contains": [
+            "Loratadin"
+        ]
+    },
+    {
+        "name": "Loratadine",
+        "contains": [
+            "Loratadin"
+        ]
+    },
+    {
+        "name": "Lorfast",
+        "contains": [
+            "Loratadin"
+        ]
+    },
+    {
+        "name": "Lorista H",
+        "contains": [
+            "Losartan potassium",
+            "Hydrochlorothiazide"
+        ]
+    },
+    {
+        "name": "Losagen 50",
+        "contains": [
+            "Losartan kali"
+        ]
+    },
+    {
+        "name": "Losarlife-H",
+        "contains": [
+            "Losartan kali",
+            "Hydrochlorothiazide 12,5mg"
+        ]
+    },
+    {
+        "name": "Losartan 25 mg",
+        "contains": [
+            "Losartan kali"
+        ]
+    },
+    {
+        "name": "Losartan Stada 25mg",
+        "contains": [
+            "Losartan kali"
+        ]
+    },
+    {
+        "name": "Lotemax",
+        "contains": [
+            "Loteprednol etabonate"
+        ]
+    },
+    {
+        "name": "Lousartan",
+        "contains": [
+            "Losartan kali",
+            "Hydrochlorothiazide"
+        ]
+    },
+    {
+        "name": "Lucass sachet",
+        "contains": [
+            "Cefpodoxim"
+        ]
+    },
+    {
+        "name": "Lumigan",
+        "contains": [
+            "Bimatoprost"
+        ]
+    },
+    {
+        "name": "Lumigan",
+        "contains": [
+            "Bimatoprost"
+        ]
+    },
+    {
+        "name": "Lungastic 10",
+        "contains": [
+            "Bambuterol hydroclorid"
+        ]
+    },
+    {
+        "name": "Luotai",
+        "contains": [
+            "Saponin to\u00e0n ph\u1ea7n chi\u1ebft xu\u1ea5t t\u1eeb r\u1ec5 tam th\u1ea5t"
+        ]
+    },
+    {
+        "name": "L\u1ee5c v\u1ecb ACP",
+        "contains": [
+            "Cao kh\u00f4 Th\u1ee5c \u0111\u1ecba",
+            "Cao kh\u00f4 Ho\u00e0i s\u01a1n",
+            "Cao kh\u00f4 S\u01a1n th\u00f9",
+            "Cao kh\u00f4 M\u1eabu \u0111\u01a1n b\u00ec",
+            "Cao kh\u00f4 Tr\u1ea1ch t\u1ea3",
+            "Cao kh\u00f4 Ph\u1ee5c linh"
+        ]
+    },
+    {
+        "name": "Macetux 100",
+        "contains": [
+            "M\u1ed7i g\u00f3i 1g ch\u1ee9a: Acetylcystein 100mg"
+        ]
+    },
+    {
+        "name": "Macozteo",
+        "contains": [
+            "Diacerein"
+        ]
+    },
+    {
+        "name": "Magaluzel",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Magiebion",
+        "contains": [
+            "Magnesium lactat dihydrat 470mg",
+            "Pyridoxin HCl 5mg"
+        ]
+    },
+    {
+        "name": "Magne B6 Corbiere",
+        "contains": [
+            "Magnesi lactat dihydrat",
+            "Magnesi pidolat",
+            "Pyridoxin hydroclorid"
+        ]
+    },
+    {
+        "name": "Magne-B6",
+        "contains": [
+            "Magnesi lactat dihydrat",
+            "Pyridoxin Hydroclorid"
+        ]
+    },
+    {
+        "name": "Magne-B6 Boston",
+        "contains": [
+            "Magnesi lactat dihydrat",
+            "Pyridoxin hydrochlorid"
+        ]
+    },
+    {
+        "name": "Magne-B6 Hasan",
+        "contains": [
+            "Magnesi lactat dihydrat",
+            "Pyridoxin hydroclorid"
+        ]
+    },
+    {
+        "name": "Magnesi - B6",
+        "contains": [
+            "Magnesium lactat dihydrat",
+            "Pyridoxin HCl"
+        ]
+    },
+    {
+        "name": "Magnesi-B6",
+        "contains": [
+            "Magnesi lactat dihydrat",
+            "Vitamin B6"
+        ]
+    },
+    {
+        "name": "Magnesi-B6",
+        "contains": [
+            "Magnesi lactat dihydrat",
+            "Vitamin B6"
+        ]
+    },
+    {
+        "name": "Magnesium - B6",
+        "contains": [
+            "Magnesium lactat dihydrat",
+            "Pyridoxin HCl"
+        ]
+    },
+    {
+        "name": "Magovite ",
+        "contains": [
+            "Magnesium lactat dihydrat",
+            "Pyridoxine HCl"
+        ]
+    },
+    {
+        "name": "Mahead",
+        "contains": [
+            "Magnesi lactat dihydrat",
+            "Pyridoxin hydroclorid"
+        ]
+    },
+    {
+        "name": "Mallote",
+        "contains": [
+            "Magnesi hydroxyd",
+            "Nh\u00f4m hydroxyd kh\u00f4"
+        ]
+    },
+    {
+        "name": "Mangoherpin 5%",
+        "contains": [
+            "Mangiferin"
+        ]
+    },
+    {
+        "name": "Martinez 10",
+        "contains": [
+            "Monetlukast"
+        ]
+    },
+    {
+        "name": "Maxlucat",
+        "contains": [
+            "Montelukast"
+        ]
+    },
+    {
+        "name": "Maxocef-200",
+        "contains": [
+            "Cefixime"
+        ]
+    },
+    {
+        "name": "Maxxacne-T",
+        "contains": [
+            "Tretinoin"
+        ]
+    },
+    {
+        "name": "Maxxcardio - p 150",
+        "contains": [
+            "Propafenon hydroclorid"
+        ]
+    },
+    {
+        "name": "Maxxcardio-L 10",
+        "contains": [
+            "Lisinopril"
+        ]
+    },
+    {
+        "name": "Maxxcardio-L 5",
+        "contains": [
+            "Lisinopril"
+        ]
+    },
+    {
+        "name": "Maxxmucous-AB 30",
+        "contains": [
+            "Ambroxol  hydrochlorid"
+        ]
+    },
+    {
+        "name": "Maxxmucous-AC 200",
+        "contains": [
+            "Acetylcystein"
+        ]
+    },
+    {
+        "name": "Maxxmucous-CC 200",
+        "contains": [
+            "Carbocisteine"
+        ]
+    },
+    {
+        "name": "Maxxpla 75",
+        "contains": [
+            "Clopidogrel"
+        ]
+    },
+    {
+        "name": "Maxxprolol 10 - plus",
+        "contains": [
+            "Bisoprolol fumarat",
+            "Hydroclorothiazid"
+        ]
+    },
+    {
+        "name": "Maxxprolol 5",
+        "contains": [
+            "Bisoprolol fumarat"
+        ]
+    },
+    {
+        "name": "Mebilax 15",
+        "contains": [
+            "Meloxicam"
+        ]
+    },
+    {
+        "name": "Mebilax 7,5",
+        "contains": [
+            "Meloxicam"
+        ]
+    },
+    {
+        "name": "Medi-Paroxetin",
+        "contains": [
+            "Paroxetine"
+        ]
+    },
+    {
+        "name": "Medi-Piracetam 800",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Medi-Silymarin",
+        "contains": [
+            "Cao kh\u00f4 Cardus marianus"
+        ]
+    },
+    {
+        "name": "Medintrale",
+        "contains": [
+            "Olanzapin"
+        ]
+    },
+    {
+        "name": "Medoxicam 15mg",
+        "contains": [
+            "Meloxicam"
+        ]
+    },
+    {
+        "name": "Medskin Acyclovir 200",
+        "contains": [
+            "Acyclovir"
+        ]
+    },
+    {
+        "name": "Medytorphan 15",
+        "contains": [
+            "Dextromethorphan HBr"
+        ]
+    },
+    {
+        "name": "Meiact 200mg",
+        "contains": [
+            "Cefditoren"
+        ]
+    },
+    {
+        "name": "Mekoaryl 4",
+        "contains": [
+            "Glimepirid"
+        ]
+    },
+    {
+        "name": "Mekocefal",
+        "contains": [
+            "Cefadroxil"
+        ]
+    },
+    {
+        "name": "Meloxicam Stada 7.5mg",
+        "contains": [
+            "Meloxicam"
+        ]
+    },
+    {
+        "name": "Meronem (CS\u0110G1: Zambon Switzerland Ltd. \u0110\u1ecba ch\u1ec9: Via Industria N.13, Cadempino, 6814- Switzerlan/CS\u0110G2: AstraZeneca UK Limited- \u0110\u1ecba ch\u1ec9: Silk Road Business Park, Macclesfield, Cheshire, SK 10 2NA, UK)",
+        "contains": [
+            "Meropenem"
+        ]
+    },
+    {
+        "name": "Mesulpine Tab. 20mg",
+        "contains": [
+            "Natri rabeprazole 20mg"
+        ]
+    },
+    {
+        "name": "Metazrel",
+        "contains": [
+            "Trimetazidin dihydroclorid"
+        ]
+    },
+    {
+        "name": "Methadon",
+        "contains": [
+            "Methadon hydroclorid"
+        ]
+    },
+    {
+        "name": "Methotrexate-Belmed",
+        "contains": [
+            "Methotrexat"
+        ]
+    },
+    {
+        "name": "Metronidazol 250",
+        "contains": [
+            "Metronidazol"
+        ]
+    },
+    {
+        "name": "Metronidazol 250 mg",
+        "contains": [
+            "Metronidazol"
+        ]
+    },
+    {
+        "name": "Metrospiral",
+        "contains": [
+            "Spiramycin",
+            "Metronidazol"
+        ]
+    },
+    {
+        "name": "Meyerator 40",
+        "contains": [
+            "Atorvastatin"
+        ]
+    },
+    {
+        "name": "Meyerbastin 10",
+        "contains": [
+            "Ebastin"
+        ]
+    },
+    {
+        "name": "Meyerlapril 10",
+        "contains": [
+            "Enalapril maleat"
+        ]
+    },
+    {
+        "name": "Mezacosid",
+        "contains": [
+            "Thiocolchicosid"
+        ]
+    },
+    {
+        "name": "Mezalin",
+        "contains": [
+            "Citicolin"
+        ]
+    },
+    {
+        "name": "Mezamazol",
+        "contains": [
+            "Thiamazol"
+        ]
+    },
+    {
+        "name": "Mezapizin 5",
+        "contains": [
+            "Flunarizin"
+        ]
+    },
+    {
+        "name": "Mezavitin",
+        "contains": [
+            "Vincamin",
+            "Rutin"
+        ]
+    },
+    {
+        "name": "Miacalcic",
+        "contains": [
+            "Calcitonin"
+        ]
+    },
+    {
+        "name": "Mibedatril 10",
+        "contains": [
+            "Imidapril hydroclorid"
+        ]
+    },
+    {
+        "name": "Mibelaxol 500",
+        "contains": [
+            "Methocarbamol"
+        ]
+    },
+    {
+        "name": "Midakacin 250",
+        "contains": [
+            "Amikacin"
+        ]
+    },
+    {
+        "name": "Midakacin 500",
+        "contains": [
+            "Amikacin"
+        ]
+    },
+    {
+        "name": "Midantin 250/31,25",
+        "contains": [
+            "Amoxicillin",
+            "Acid clavulanic"
+        ]
+    },
+    {
+        "name": "Midantin 250/31,25",
+        "contains": [
+            "Amoxicillin",
+            "Acid clavulanic"
+        ]
+    },
+    {
+        "name": "Midataxim 2g",
+        "contains": [
+            "Cefotaxim"
+        ]
+    },
+    {
+        "name": "Midazoxim 1g",
+        "contains": [
+            "Ceftizoxim"
+        ]
+    },
+    {
+        "name": "Milgamma N",
+        "contains": [
+            "Thiamin HCl",
+            "Pyridoxin HCl",
+            "Cyanocobalamin"
+        ]
+    },
+    {
+        "name": "Mimosa vi\u00ean an th\u1ea7n",
+        "contains": [
+            "Cao b\u00ecnh v\u00f4i  49,5mg",
+            "Cao mimosa  242mg"
+        ]
+    },
+    {
+        "name": "Mirzaten 30mg",
+        "contains": [
+            "Mirtazapine"
+        ]
+    },
+    {
+        "name": "Mitoxantron \"ebewe\"",
+        "contains": [
+            "Mitoxantron"
+        ]
+    },
+    {
+        "name": "Mizapenem 0,5g",
+        "contains": [
+            "Meropenem"
+        ]
+    },
+    {
+        "name": "Mizapenem 1g",
+        "contains": [
+            "Meropenem"
+        ]
+    },
+    {
+        "name": "Momate",
+        "contains": [
+            "Mometasone furoate"
+        ]
+    },
+    {
+        "name": "Montelast 4",
+        "contains": [
+            "Montelukast"
+        ]
+    },
+    {
+        "name": "Motarute Eye Drops",
+        "contains": [
+            "Moxifloxacin"
+        ]
+    },
+    {
+        "name": "Mother's trimebutine tab.",
+        "contains": [
+            "Trimebutin maleat"
+        ]
+    },
+    {
+        "name": "Movabis 10mg",
+        "contains": [
+            "Montelukast"
+        ]
+    },
+    {
+        "name": "Moxydar",
+        "contains": [
+            "Nh\u00f4m oxid hydrat h\u00f3a",
+            "Magnesi hydroxyd",
+            "Nh\u00f4m Phosphat hydrat h\u00f3a",
+            "G\u00f4m Guar"
+        ]
+    },
+    {
+        "name": "Mumcal",
+        "contains": [
+            "Calci lactat"
+        ]
+    },
+    {
+        "name": "Mycalcium",
+        "contains": [
+            "Calcitriol"
+        ]
+    },
+    {
+        "name": "Mycokem capsules 250mg",
+        "contains": [
+            "Mycophenolat mofetil"
+        ]
+    },
+    {
+        "name": "Mydocalm 150",
+        "contains": [
+            "Tolperison hydrochlorid"
+        ]
+    },
+    {
+        "name": "Mypara 250",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Mypara 500",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Mypara Flu daytime",
+        "contains": [
+            "Paracetamol",
+            "Dextromethorphan HBr",
+            "Phenylephrin HCl"
+        ]
+    },
+    {
+        "name": "Mypara cold",
+        "contains": [
+            "Paracetamol",
+            "Acid ascorbic",
+            "Clorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Mypara flu nighttime",
+        "contains": [
+            "Paracetamol",
+            "Diphenhydramin HCl",
+            "Phenylephrin HCl"
+        ]
+    },
+    {
+        "name": "NA Neurocard Plus",
+        "contains": [
+            "Eicosapentaenoic acid",
+            "Docosahexaenoic acid",
+            "Magie",
+            "Canxi",
+            "Extractum Herba Bacopa monnieri"
+        ]
+    },
+    {
+        "name": "Naciti 500",
+        "contains": [
+            "Citicolin  500mg"
+        ]
+    },
+    {
+        "name": "Nady- spasmyl",
+        "contains": [
+            "Simethicon",
+            "Alverin citrat"
+        ]
+    },
+    {
+        "name": "Nadygenor",
+        "contains": [
+            "Arginin aspartat"
+        ]
+    },
+    {
+        "name": "Nafamedil 75mg Film-coated tablet",
+        "contains": [
+            "Clopidogrel"
+        ]
+    },
+    {
+        "name": "Nafluextra",
+        "contains": [
+            "Paracetamol",
+            "Cafein"
+        ]
+    },
+    {
+        "name": "Nalidixic-500",
+        "contains": [
+            "Nalidixic acid"
+        ]
+    },
+    {
+        "name": "Namuvit",
+        "contains": [
+            "Pentoxifyllin"
+        ]
+    },
+    {
+        "name": "Nanfizy",
+        "contains": [
+            "Natamycin"
+        ]
+    },
+    {
+        "name": "Naphacogyl",
+        "contains": [
+            "Acetyl Spiramycin",
+            "Metronidazol"
+        ]
+    },
+    {
+        "name": "Natacare",
+        "contains": [
+            "Natamycin"
+        ]
+    },
+    {
+        "name": "Nataplex",
+        "contains": [
+            "Dextrose",
+            "D-Pantothenol",
+            "Acid ascorbic",
+            "Thiamin hydroclorid",
+            "Riboflavin",
+            "Niacinamide",
+            "Pyridoxin hydroclorid"
+        ]
+    },
+    {
+        "name": "Natri Clorid 0,9%",
+        "contains": [
+            "Natri clorid"
+        ]
+    },
+    {
+        "name": "Natri clorid 0,9%",
+        "contains": [
+            "Natri clorid"
+        ]
+    },
+    {
+        "name": "Natri clorid 0,9%",
+        "contains": [
+            "Natri clorid"
+        ]
+    },
+    {
+        "name": "Natri clorid 10%",
+        "contains": [
+            "Natri clorid"
+        ]
+    },
+    {
+        "name": "Navacarzol",
+        "contains": [
+            "Carbimazole"
+        ]
+    },
+    {
+        "name": "Neo-Maxxacne T 20",
+        "contains": [
+            "Isotretinoin"
+        ]
+    },
+    {
+        "name": "Neocilor tablet",
+        "contains": [
+            "Desloratadin"
+        ]
+    },
+    {
+        "name": "Nerazzu-25",
+        "contains": [
+            "Losartan kali"
+        ]
+    },
+    {
+        "name": "Neuralmin 75",
+        "contains": [
+            "Pregabalin"
+        ]
+    },
+    {
+        "name": "Neustam",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Newvarax",
+        "contains": [
+            "M\u1ed7i 5g ch\u1ee9a: Acyclovir"
+        ]
+    },
+    {
+        "name": "Nootripam 800",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Novator 500",
+        "contains": [
+            "Deferipron"
+        ]
+    },
+    {
+        "name": "Novutrax",
+        "contains": [
+            "Doxorubicin hydrochlorid"
+        ]
+    },
+    {
+        "name": "N\u01b0\u1edbc c\u1ea5t pha ti\u00eam 10 ml",
+        "contains": [
+            "N\u01b0\u1edbc c\u1ea5t pha ti\u00eam"
+        ]
+    },
+    {
+        "name": "N\u01b0\u1edbc c\u1ea5t pha ti\u00eam 2ml",
+        "contains": [
+            "N\u01b0\u1edbc c\u1ea5t pha ti\u00eam"
+        ]
+    },
+    {
+        "name": "N\u01b0\u1edbc c\u1ea5t pha ti\u00eam 8ml",
+        "contains": [
+            "N\u01b0\u1edbc c\u1ea5t pha ti\u00eam"
+        ]
+    },
+    {
+        "name": "Ofreal",
+        "contains": [
+            "Ciprofloxacin"
+        ]
+    },
+    {
+        "name": "Olanzap 5",
+        "contains": [
+            "Olanzapin"
+        ]
+    },
+    {
+        "name": "Olepa Injection",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Omag-20",
+        "contains": [
+            "Omeprazol  20mg"
+        ]
+    },
+    {
+        "name": "Omeprazol",
+        "contains": [
+            "Omeprazol"
+        ]
+    },
+    {
+        "name": "Omeprazol",
+        "contains": [
+            "Omeprazol"
+        ]
+    },
+    {
+        "name": "Omeprazol DHG",
+        "contains": [
+            "Omeprazol"
+        ]
+    },
+    {
+        "name": "Omnivastin",
+        "contains": [
+            "Quetiapin"
+        ]
+    },
+    {
+        "name": "Ondansetron-BFS",
+        "contains": [
+            "Ondansetron"
+        ]
+    },
+    {
+        "name": "Oraliver",
+        "contains": [
+            "Cao \u0111\u1eb7c h\u1ed7n h\u1ee3p d\u01b0\u1ee3c li\u1ec7u"
+        ]
+    },
+    {
+        "name": "Orgynax 100mg",
+        "contains": [
+            "Cefpodoxime"
+        ]
+    },
+    {
+        "name": "Orlistat Stada 120 mg",
+        "contains": [
+            "Orlistat"
+        ]
+    },
+    {
+        "name": "Orlistat Stada 120 mg",
+        "contains": [
+            "Orlistat"
+        ]
+    },
+    {
+        "name": "Oslenat plus",
+        "contains": [
+            "Acid Alendronic",
+            "Colecalciferol"
+        ]
+    },
+    {
+        "name": "Ovuclon Tablet",
+        "contains": [
+            "Clomifen citrat"
+        ]
+    },
+    {
+        "name": "Oxaliplatin \"Ebewe\" 150 mg/30ml",
+        "contains": [
+            "Oxaliplatin"
+        ]
+    },
+    {
+        "name": "Oxcarbazepine Tablets 300mg",
+        "contains": [
+            "Oxcarbazepine"
+        ]
+    },
+    {
+        "name": "Oxciu Ophthalmic Solution",
+        "contains": [
+            "Ofloxacin"
+        ]
+    },
+    {
+        "name": "Oxetine tablets 60mg",
+        "contains": [
+            "Dapoxetine"
+        ]
+    },
+    {
+        "name": "PMS-Irbesartan 150 mg",
+        "contains": [
+            "Irbesartan"
+        ]
+    },
+    {
+        "name": "PMS-Irbesartan 300 mg",
+        "contains": [
+            "Irbesartan"
+        ]
+    },
+    {
+        "name": "PMS-Irbesartan 75 mg",
+        "contains": [
+            "Irbesartan"
+        ]
+    },
+    {
+        "name": "Pacetcool 1g (CSNQ: C\u00f4ng ty c\u1ed5 ph\u1ea7n Nipro Pharma; \u0110\u1ecba ch\u1ec9: 2-2-7, Dosho-machi, Chuo-ku, Osaka, Japan)",
+        "contains": [
+            "Cefotiam"
+        ]
+    },
+    {
+        "name": "Paciflam",
+        "contains": [
+            "Midazolam"
+        ]
+    },
+    {
+        "name": "Paclispec 30",
+        "contains": [
+            "Paclitaxel"
+        ]
+    },
+    {
+        "name": "Paclitaxel \"Ebewe\"",
+        "contains": [
+            "Paclitaxel"
+        ]
+    },
+    {
+        "name": "Paclitaxel Onkovis 6mg/ml",
+        "contains": [
+            "Paclitaxel"
+        ]
+    },
+    {
+        "name": "Palristat",
+        "contains": [
+            "Epalrestat"
+        ]
+    },
+    {
+        "name": "Panactol - Extra",
+        "contains": [
+            "Paracetamol",
+            "Cafein"
+        ]
+    },
+    {
+        "name": "Panactol 650",
+        "contains": [
+            "Acetaminophen"
+        ]
+    },
+    {
+        "name": "Panactol Enfant",
+        "contains": [
+            "Paracetamol",
+            "Chlorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Panataxel 150mg (C\u01a1 s\u1edf \u0111\u00f3ng g\u00f3i v\u00e0 xu\u1ea5t x\u01b0\u1edfng: Bioprofarma S.A, \u0110/c: Terrada 1270, Ciudad Aut\u00f3noma de Buenos Aires Argentina)",
+        "contains": [
+            "M\u1ed7i 25ml dung d\u1ecbch ch\u1ee9a: Paclitaxel 150mg"
+        ]
+    },
+    {
+        "name": "Pantoprazol",
+        "contains": [
+            "Pantoprazol"
+        ]
+    },
+    {
+        "name": "Paparin",
+        "contains": [
+            "Papaverin hydroclorid"
+        ]
+    },
+    {
+        "name": "Para-Codein 10",
+        "contains": [
+            "Paracetamol",
+            "Codein phosphat"
+        ]
+    },
+    {
+        "name": "Para-Codein 20",
+        "contains": [
+            "Paracetamol",
+            "Codein phosphat"
+        ]
+    },
+    {
+        "name": "Para-codein 30",
+        "contains": [
+            "Paracetamol",
+            "Codein phosphat"
+        ]
+    },
+    {
+        "name": "Paracetamol 250",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Paracetamol 500 mg",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Paracetamol 500mg",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Paracetamol 500mg",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Paracetamol 80",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Paracetamol Boston 500",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Paracetamol sanofi",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Paracold 325",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Paracold Fort",
+        "contains": [
+            "Paracetamol",
+            "Phenylephrine HCl",
+            "Chlorpheniramine maleate"
+        ]
+    },
+    {
+        "name": "Paracold Infants F",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Paracold MKP",
+        "contains": [
+            "Paracetamol",
+            "Phenylephrin HCl",
+            "Chlorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Paracold-MKP",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Paradau 325mg",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Paradau 500mg",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Paralmax 500 caps.",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Paralmax softcaps",
+        "contains": [
+            "Paracetamol",
+            "Codein phosphat"
+        ]
+    },
+    {
+        "name": "Paratramol",
+        "contains": [
+            "Tramadol hydrochloride",
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Parazacol 80",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Pargine",
+        "contains": [
+            "Arginin HCl"
+        ]
+    },
+    {
+        "name": "Partamol 325",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Partamol 500",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Pastitussin",
+        "contains": [
+            "Menthol",
+            "Eucalyptol"
+        ]
+    },
+    {
+        "name": "Penicilin V Kali 1.000.000I.U",
+        "contains": [
+            "Penicilin V"
+        ]
+    },
+    {
+        "name": "Penicilin V Kali 400.000I.U",
+        "contains": [
+            "Penicilin V"
+        ]
+    },
+    {
+        "name": "Pentasa ",
+        "contains": [
+            "Mesalazine"
+        ]
+    },
+    {
+        "name": "Pepsia",
+        "contains": [
+            "Guaiazulen",
+            "Dimethicon"
+        ]
+    },
+    {
+        "name": "Peptan",
+        "contains": [
+            "Omeprazol"
+        ]
+    },
+    {
+        "name": "Perigard-2",
+        "contains": [
+            "Perindopril erbumine"
+        ]
+    },
+    {
+        "name": "Perigard-4",
+        "contains": [
+            "Perindopril erbumine"
+        ]
+    },
+    {
+        "name": "Perihapy 8",
+        "contains": [
+            "Perindopril tert-butylamin"
+        ]
+    },
+    {
+        "name": "Pharcotinex",
+        "contains": [
+            "Pinene",
+            "Camphene",
+            "Borneol",
+            "Fenchone",
+            "Anethole",
+            "Cineol"
+        ]
+    },
+    {
+        "name": "Pharmaton Kiddi",
+        "contains": [
+            "Calci",
+            "Thiamin HCl",
+            "Riboflavin natri phosphat Pyridoxin HCl",
+            "Cholecalciferol",
+            "\u03b1-tocopheryl acetat",
+            "Nicotinamide",
+            "Dexpanthenol",
+            "Lysine HCl"
+        ]
+    },
+    {
+        "name": "Pharmox 875",
+        "contains": [
+            "Amoxicilin"
+        ]
+    },
+    {
+        "name": "Phazandol",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Phazandol Extra",
+        "contains": [
+            "Paracetamol",
+            "Caffein"
+        ]
+    },
+    {
+        "name": "Philmoxista Eye Drops",
+        "contains": [
+            "Moxifloxacin"
+        ]
+    },
+    {
+        "name": "Philtadol",
+        "contains": [
+            "Cefpodoxim"
+        ]
+    },
+    {
+        "name": "Phong li\u1ec5u Tr\u00e0ng v\u1ecb khang",
+        "contains": [
+            "Ng\u01b0u nh\u0129 phong",
+            "La li\u1ec5u"
+        ]
+    },
+    {
+        "name": "Phong th\u1ea5p ACP",
+        "contains": [
+            "Cao kh\u00f4 Hy thi\u00eam",
+            "Cao kh\u00f4 Ng\u0169 gia b\u00ec gai",
+            "Cao kh\u00f4 Thi\u00ean ni\u00ean ki\u1ec7n",
+            "Cao kh\u00f4 C\u1ea9u t\u00edch",
+            "Cao kh\u00f4 Th\u1ed5 ph\u1ee5c linh"
+        ]
+    },
+    {
+        "name": "Pinrota",
+        "contains": [
+            "Betamethason dipropionat",
+            "Clotrimazol",
+            "Gentamycin sulfat"
+        ]
+    },
+    {
+        "name": "Piracetam",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Piracetam 1,2g/6ml",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Piracetam 800",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Piracetam 800",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Piracetam Kabi 12g/60ml",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Piracetam injection 1g/5ml",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Piromax 10 mg",
+        "contains": [
+            "Piroxicam"
+        ]
+    },
+    {
+        "name": "Piromax 20 mg",
+        "contains": [
+            "Piroxicam"
+        ]
+    },
+    {
+        "name": "Pirostad 20mg",
+        "contains": [
+            "Piroxicam"
+        ]
+    },
+    {
+        "name": "Pivalone 1%",
+        "contains": [
+            "Tixocortol pivalate 1%"
+        ]
+    },
+    {
+        "name": "Planovir",
+        "contains": [
+            "Tenofovir disoproxil fumarat"
+        ]
+    },
+    {
+        "name": "Ponysta",
+        "contains": [
+            "Clindamycin",
+            "Clotrimazol"
+        ]
+    },
+    {
+        "name": "Pranstad 1",
+        "contains": [
+            "Repaglinid"
+        ]
+    },
+    {
+        "name": "Prasogem 40",
+        "contains": [
+            "Esomeprazol"
+        ]
+    },
+    {
+        "name": "Praxinstad 400",
+        "contains": [
+            "Moxifloxacin"
+        ]
+    },
+    {
+        "name": "Prazodom",
+        "contains": [
+            "Lansoprazol",
+            "Domperidon"
+        ]
+    },
+    {
+        "name": "Prazone-S 2.0g",
+        "contains": [
+            "Cefoperazon",
+            "Sulbactam"
+        ]
+    },
+    {
+        "name": "Predsantyl 16 mg ",
+        "contains": [
+            "Methylprednisolon"
+        ]
+    },
+    {
+        "name": "Predsantyl 4mg ",
+        "contains": [
+            "Methylprednisolon"
+        ]
+    },
+    {
+        "name": "Pregarin Cap 150mg",
+        "contains": [
+            "Pregabalin"
+        ]
+    },
+    {
+        "name": "Pregasafe 150",
+        "contains": [
+            "Pregabalin"
+        ]
+    },
+    {
+        "name": "Pregasafe 300",
+        "contains": [
+            "Pregabalin"
+        ]
+    },
+    {
+        "name": "Pregasv",
+        "contains": [
+            "Pregabalin"
+        ]
+    },
+    {
+        "name": "Prololsavi 2,5",
+        "contains": [
+            "Bisoprolol fumarat"
+        ]
+    },
+    {
+        "name": "Promethazin",
+        "contains": [
+            "Promethazin hydroclorid"
+        ]
+    },
+    {
+        "name": "Propranolol",
+        "contains": [
+            "Propranolol HCl"
+        ]
+    },
+    {
+        "name": "Prospan Cough Liquid",
+        "contains": [
+            "Cao kh\u00f4 l\u00e1 th\u01b0\u1eddng xu\u00e2n chi\u1ebft b\u1eb1ng ethanol 30% theo t\u1ef7 l\u1ec7 /1"
+        ]
+    },
+    {
+        "name": "Protopan-40",
+        "contains": [
+            "Pantoprazol"
+        ]
+    },
+    {
+        "name": "Pyme Am5 caps",
+        "contains": [
+            "Amlodipin"
+        ]
+    },
+    {
+        "name": "Pymeginmacton 120",
+        "contains": [
+            "Cao Ginkgo biloba"
+        ]
+    },
+    {
+        "name": "Pyvasart HCT 80/12.5",
+        "contains": [
+            "Valsartan",
+            "Hydroclorothiazid"
+        ]
+    },
+    {
+        "name": "Pyzacar HCT 100/25mg",
+        "contains": [
+            "Losartan kali 100mg",
+            "Hydroclorothiazid 25mg"
+        ]
+    },
+    {
+        "name": "Pyzacar HCT 50/12,5mg",
+        "contains": [
+            "Losartan kali",
+            "Hydroclorothiazid"
+        ]
+    },
+    {
+        "name": "Q-mumasa baby",
+        "contains": [
+            "Natri clorid"
+        ]
+    },
+    {
+        "name": "Quanliver",
+        "contains": [
+            "Cao \u0111\u1eb7c Actiso",
+            "Cao \u0111\u1eb7c Rau \u0111\u1eafng \u0111\u1ea5t",
+            "B\u1ed9t b\u00ecm b\u00ecm bi\u1ebfc"
+        ]
+    },
+    {
+        "name": "Quetiapin Stada 100 mg",
+        "contains": [
+            "Quetiapin"
+        ]
+    },
+    {
+        "name": "Quetiapin Stada 25 mg",
+        "contains": [
+            "Quetiapin"
+        ]
+    },
+    {
+        "name": "Racediar 30",
+        "contains": [
+            "Racecadotril"
+        ]
+    },
+    {
+        "name": "Racesec",
+        "contains": [
+            "Racecadotril"
+        ]
+    },
+    {
+        "name": "Ramesun",
+        "contains": [
+            "Pantoprazol"
+        ]
+    },
+    {
+        "name": "Ramsey",
+        "contains": [
+            "Glucosamin hydroclorid"
+        ]
+    },
+    {
+        "name": "Ranihasan 150",
+        "contains": [
+            "Ranitidin"
+        ]
+    },
+    {
+        "name": "Ranitidin 150mg",
+        "contains": [
+            "Ranitidin"
+        ]
+    },
+    {
+        "name": "Ranitidin DNPharm 300",
+        "contains": [
+            "Ranitidin"
+        ]
+    },
+    {
+        "name": "Rapiclav-625",
+        "contains": [
+            "Amoxicillin",
+            "Acid clavulanic"
+        ]
+    },
+    {
+        "name": "Ravastel-20",
+        "contains": [
+            "Rosuvastatin"
+        ]
+    },
+    {
+        "name": "Raxnazole",
+        "contains": [
+            "Itraconazol"
+        ]
+    },
+    {
+        "name": "Reamemton 500",
+        "contains": [
+            "Nabumetone"
+        ]
+    },
+    {
+        "name": "Recita-20",
+        "contains": [
+            "Escitalopram"
+        ]
+    },
+    {
+        "name": "Redamox 156 Dry syrup",
+        "contains": [
+            "Amoxicilin",
+            "Acid clavulanic"
+        ]
+    },
+    {
+        "name": "Redoxon Double Action",
+        "contains": [
+            "Vitamin C",
+            "K\u1ebdm"
+        ]
+    },
+    {
+        "name": "Relotabin",
+        "contains": [
+            "Capecitabin"
+        ]
+    },
+    {
+        "name": "Renapril 10mg",
+        "contains": [
+            "Enalapril maleat"
+        ]
+    },
+    {
+        "name": "Renapril 5mg",
+        "contains": [
+            "Enalapril maleat"
+        ]
+    },
+    {
+        "name": "Resbat\u00e9 300",
+        "contains": [
+            "Clopidogrel"
+        ]
+    },
+    {
+        "name": "Rhaminas",
+        "contains": [
+            "Glucosamin",
+            "Chondroitin sulfat natri"
+        ]
+    },
+    {
+        "name": "Rhomezi - AD",
+        "contains": [
+            "Paracetamol",
+            "Chlorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Ripratine 5",
+        "contains": [
+            "Levocetirizin dihydroclorid"
+        ]
+    },
+    {
+        "name": "Rizax-10",
+        "contains": [
+            "Donepezil HCl"
+        ]
+    },
+    {
+        "name": "Rocuronium Kabi 10mg/ml",
+        "contains": [
+            "Rocuronium bromide"
+        ]
+    },
+    {
+        "name": "Rocuronium-hameln 10mg/ml",
+        "contains": [
+            "Rocuronium bromide"
+        ]
+    },
+    {
+        "name": "Rolapain",
+        "contains": [
+            "Thymomodulin"
+        ]
+    },
+    {
+        "name": "Rosalin 2g",
+        "contains": [
+            "Ceftazidim"
+        ]
+    },
+    {
+        "name": "Rosenax 35",
+        "contains": [
+            "Natri risedronat  35mg"
+        ]
+    },
+    {
+        "name": "Rosuvastatin 10",
+        "contains": [
+            "Rosuvastatin"
+        ]
+    },
+    {
+        "name": "Rovas 0.75M",
+        "contains": [
+            "Spiramycin"
+        ]
+    },
+    {
+        "name": "Rovas 1.5M",
+        "contains": [
+            "Spiramycin"
+        ]
+    },
+    {
+        "name": "Rovas 3M",
+        "contains": [
+            "Spiramycin"
+        ]
+    },
+    {
+        "name": "Roxirock Tablet",
+        "contains": [
+            "Roxithromycin"
+        ]
+    },
+    {
+        "name": "Rubina 40",
+        "contains": [
+            "Atorvastatin"
+        ]
+    },
+    {
+        "name": "ST-Pase",
+        "contains": [
+            "Streptokinase"
+        ]
+    },
+    {
+        "name": "SaVi Acarbose 50",
+        "contains": [
+            "Acarbose"
+        ]
+    },
+    {
+        "name": "SaVi Montelukast 5",
+        "contains": [
+            "Montelukast"
+        ]
+    },
+    {
+        "name": "SaVi Rosuvastatin 5",
+        "contains": [
+            "Rosuvastatin"
+        ]
+    },
+    {
+        "name": "SaVi Telmisartan 80",
+        "contains": [
+            "Telmisartan"
+        ]
+    },
+    {
+        "name": "SaViPamol Plus",
+        "contains": [
+            "Paracetamol",
+            "Tramadol HCl"
+        ]
+    },
+    {
+        "name": "SaViSinus",
+        "contains": [
+            "Pseudoephedrin HCl",
+            "Triprolidin HCl"
+        ]
+    },
+    {
+        "name": "Sacendol",
+        "contains": [
+            "Paracetamol",
+            "Clorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Sagolair",
+        "contains": [
+            "Montelukast"
+        ]
+    },
+    {
+        "name": "Sagophytol",
+        "contains": [
+            "Cao \u0111\u1eb7c Actiso"
+        ]
+    },
+    {
+        "name": "Salmeflo",
+        "contains": [
+            "Salmeterol",
+            "Fluticason propionat"
+        ]
+    },
+    {
+        "name": "Salonpas Liniment",
+        "contains": [
+            "Methyl salicylate",
+            "L-Menthol",
+            "dl-Camphor",
+            "Thymol",
+            "Tocopherol acetat",
+            "Tinh d\u1ea7u b\u1ea1c h\u00e0",
+            "Nonoyl vanillylamid"
+        ]
+    },
+    {
+        "name": "Salonsip gel-patch ",
+        "contains": [
+            "Glycol salisylate",
+            "L-menthol",
+            "dl-Camphor",
+            "Tocopherol acetat"
+        ]
+    },
+    {
+        "name": "Samtoxim",
+        "contains": [
+            "Cefotaxim"
+        ]
+    },
+    {
+        "name": "Sancefur",
+        "contains": [
+            "Risedronat natri"
+        ]
+    },
+    {
+        "name": "Saranin",
+        "contains": [
+            "L-Arginin HCl"
+        ]
+    },
+    {
+        "name": "Savi Celecoxib",
+        "contains": [
+            "Celecoxib"
+        ]
+    },
+    {
+        "name": "Savi Eperisone 50",
+        "contains": [
+            "Eperison hydroclorid"
+        ]
+    },
+    {
+        "name": "Savi Eprazinone 50",
+        "contains": [
+            "Eprazinon dihydroclorid"
+        ]
+    },
+    {
+        "name": "Savi Esomeprazole 10",
+        "contains": [
+            "Esomeprazol"
+        ]
+    },
+    {
+        "name": "Savi Losartan plus HCT 50/12.5",
+        "contains": [
+            "Losartan kali",
+            "Hydrochlorothiazid"
+        ]
+    },
+    {
+        "name": "SaviProlol Plus HCT 5/6.25",
+        "contains": [
+            "Bisoprolol fumarat",
+            "Hydrochlorothiazid"
+        ]
+    },
+    {
+        "name": "Savispirono-Plus",
+        "contains": [
+            "Spironolacton",
+            "Furosemid"
+        ]
+    },
+    {
+        "name": "Saviwel",
+        "contains": [
+            "vitamin C"
+        ]
+    },
+    {
+        "name": "Sayana Press",
+        "contains": [
+            "Medroxyprogesteron acetat"
+        ]
+    },
+    {
+        "name": "Scanneuron-Forte",
+        "contains": [
+            "Thiamin nitrat",
+            "Pyridoxin HCl",
+            "Cyanocobalamin"
+        ]
+    },
+    {
+        "name": "Seabibol",
+        "contains": [
+            "Natri citicolin"
+        ]
+    },
+    {
+        "name": "Seaoflura",
+        "contains": [
+            "Sevoflurane"
+        ]
+    },
+    {
+        "name": "Seasonix oral solution",
+        "contains": [
+            "Levocetirizin dihydroclorid"
+        ]
+    },
+    {
+        "name": "Seasonix tablet",
+        "contains": [
+            "Levocetirizin dihydroclorid"
+        ]
+    },
+    {
+        "name": "Seatrimaxi",
+        "contains": [
+            "Nari clorid"
+        ]
+    },
+    {
+        "name": "Secnidaz",
+        "contains": [
+            "Secnidazol"
+        ]
+    },
+    {
+        "name": "Sedupam",
+        "contains": [
+            "M\u1ed7i \u1ed1ng 2ml ch\u1ee9a: Diazepam 10mg"
+        ]
+    },
+    {
+        "name": "Sekaf",
+        "contains": [
+            "Citicolin"
+        ]
+    },
+    {
+        "name": "Selamax Injection",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Semirad",
+        "contains": [
+            "Nicergoline"
+        ]
+    },
+    {
+        "name": "Sevoflurane",
+        "contains": [
+            "Sevoflurane 100%"
+        ]
+    },
+    {
+        "name": "Sevorane",
+        "contains": [
+            "Sevofluran"
+        ]
+    },
+    {
+        "name": "Sezstad 10",
+        "contains": [
+            "Ezetimib"
+        ]
+    },
+    {
+        "name": "Shinpoong Cristan",
+        "contains": [
+            "Clotrimazol"
+        ]
+    },
+    {
+        "name": "Sibalyn tab",
+        "contains": [
+            "Acid alpha lipoic"
+        ]
+    },
+    {
+        "name": "Sifstad 0,7",
+        "contains": [
+            "Pramipexol"
+        ]
+    },
+    {
+        "name": "Silymax Complex",
+        "contains": [
+            "Cao kh\u00f4 Cardus marianus"
+        ]
+    },
+    {
+        "name": "Simhasan 10",
+        "contains": [
+            "Simvastatin"
+        ]
+    },
+    {
+        "name": "Simhasan 20",
+        "contains": [
+            "Simvastatin 20mg"
+        ]
+    },
+    {
+        "name": "Simvastatin",
+        "contains": [
+            "Simvastatin"
+        ]
+    },
+    {
+        "name": "Sintason 200",
+        "contains": [
+            "Amisulpride"
+        ]
+    },
+    {
+        "name": "Siqueira",
+        "contains": [
+            "Arginin HCl"
+        ]
+    },
+    {
+        "name": "Siro Snapcef",
+        "contains": [
+            "K\u1ebdm nguy\u00ean t\u1ed1"
+        ]
+    },
+    {
+        "name": "Sir\u00f4 B.a.r",
+        "contains": [
+            "M\u1ed7i chai 90mlL\u00e1 Actiso",
+            "Rau \u0111\u1eafng \u0111\u1ea5t",
+            "R\u00e2u b\u1eafp",
+            "L\u00e1 Mu\u1ed3ng tr\u00e2u"
+        ]
+    },
+    {
+        "name": "Skdol baby 250 mg",
+        "contains": [
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Slimgar 60",
+        "contains": [
+            "Orlistat"
+        ]
+    },
+    {
+        "name": "Solacy Adulte",
+        "contains": [
+            "L-cystin",
+            "L\u01b0u hu\u1ef3nh k\u1ebft t\u1ee7a",
+            "Retino",
+            "N\u1ea5m men Saccharomyces cerevisiae"
+        ]
+    },
+    {
+        "name": "Sompraz IV",
+        "contains": [
+            "Esomeprazol"
+        ]
+    },
+    {
+        "name": "Sosallergy",
+        "contains": [
+            "Desloratadin"
+        ]
+    },
+    {
+        "name": "Sosallergy",
+        "contains": [
+            "Desloratadin"
+        ]
+    },
+    {
+        "name": "Sosnam",
+        "contains": [
+            "Tadalafil 2"
+        ]
+    },
+    {
+        "name": "Sovalimus 0,1%",
+        "contains": [
+            "Tacrolimus"
+        ]
+    },
+    {
+        "name": "Sozol Gastro-resistant tablet",
+        "contains": [
+            "Pantoprazol"
+        ]
+    },
+    {
+        "name": "Spiramycin 1,5 MIU",
+        "contains": [
+            "Spiramycin"
+        ]
+    },
+    {
+        "name": "Spirastad 1,5 M.I.U",
+        "contains": [
+            "Spiramycin"
+        ]
+    },
+    {
+        "name": "Spirastad Plus",
+        "contains": [
+            "Spiramycin",
+            "Metronidazol"
+        ]
+    },
+    {
+        "name": "Stacetam 3g",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Stadasone 4",
+        "contains": [
+            "Methylprednisolon"
+        ]
+    },
+    {
+        "name": "Stamlo 10",
+        "contains": [
+            "Amlodipin"
+        ]
+    },
+    {
+        "name": "Stasamin",
+        "contains": [
+            "Piracetam"
+        ]
+    },
+    {
+        "name": "Statripsine",
+        "contains": [
+            "Alphachymotrypsin"
+        ]
+    },
+    {
+        "name": "Stawin",
+        "contains": [
+            "Bezafibrat"
+        ]
+    },
+    {
+        "name": "Sterilised water for injection BP",
+        "contains": [
+            "N\u01b0\u1edbc c\u1ea5t pha ti\u00eam"
+        ]
+    },
+    {
+        "name": "Sterilised water for injection BP",
+        "contains": [
+            "N\u01b0\u1edbc c\u1ea5t pha ti\u00eam"
+        ]
+    },
+    {
+        "name": "Stogurad",
+        "contains": [
+            "Sulpirid"
+        ]
+    },
+    {
+        "name": "Sucramed",
+        "contains": [
+            "Sucralfat"
+        ]
+    },
+    {
+        "name": "Sufat gel",
+        "contains": [
+            "M\u1ed7i g\u00f3i 15g ch\u1ee9a: Sucaralfat  1000mg"
+        ]
+    },
+    {
+        "name": "Sulcilat 250mg/5ml",
+        "contains": [
+            "Sultamicillin"
+        ]
+    },
+    {
+        "name": "Sulcilat 750",
+        "contains": [
+            "Sultamicillin"
+        ]
+    },
+    {
+        "name": "Superadol Extra",
+        "contains": [
+            "Paracetamol",
+            "Caffein"
+        ]
+    },
+    {
+        "name": "Superbrain",
+        "contains": [
+            "Citicoline"
+        ]
+    },
+    {
+        "name": "Superkan",
+        "contains": [
+            "Cao kh\u00f4 l\u00e1 b\u1ea1ch qu\u1ea3"
+        ]
+    },
+    {
+        "name": "Surotadina",
+        "contains": [
+            "Rosuvastatin"
+        ]
+    },
+    {
+        "name": "TS-One capsule 20",
+        "contains": [
+            "Tegafur",
+            "Gimeracil",
+            "Oteracil kali"
+        ]
+    },
+    {
+        "name": "TS-One capsule 25",
+        "contains": [
+            "Tegafur",
+            "Gimeracil",
+            "Oteracil kali"
+        ]
+    },
+    {
+        "name": "TV.Pantoprazol",
+        "contains": [
+            "Pantoprazol"
+        ]
+    },
+    {
+        "name": "Tacodolgen",
+        "contains": [
+            "Paracetamol",
+            "Clorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Tacodolgen",
+        "contains": [
+            "Paracetamol",
+            "Clorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Tacroz",
+        "contains": [
+            "Tacrolimus"
+        ]
+    },
+    {
+        "name": "Tadalafil Stada 10mg",
+        "contains": [
+            "Tadalafil"
+        ]
+    },
+    {
+        "name": "Tadocel 20mg/0.5ml",
+        "contains": [
+            "Docetaxel"
+        ]
+    },
+    {
+        "name": "Tadocel 80mg/2ml",
+        "contains": [
+            "Docetaxel"
+        ]
+    },
+    {
+        "name": "Talorix 200",
+        "contains": [
+            "Teicoplanin"
+        ]
+    },
+    {
+        "name": "Talorix 400",
+        "contains": [
+            "Teicoplanin"
+        ]
+    },
+    {
+        "name": "Tanacitoux",
+        "contains": [
+            "Eprazinon dihydroclorid"
+        ]
+    },
+    {
+        "name": "Tanametrol",
+        "contains": [
+            "Methyl prednisolon"
+        ]
+    },
+    {
+        "name": "Tanarhunamol",
+        "contains": [
+            "Paracetamol",
+            "Dextromethorphan hydrobromid",
+            "Clorpheniramin maleat"
+        ]
+    },
+    {
+        "name": "Tanarhunamol-flu",
+        "contains": [
+            "Paracetamol",
+            "Dextromethorphan hydrobromid",
+            "Loratadin"
+        ]
+    },
+    {
+        "name": "Tanganil 500",
+        "contains": [
+            "Acetyl leucin"
+        ]
+    },
+    {
+        "name": "Tarcefoksym",
+        "contains": [
+            "Cefotaxime"
+        ]
+    },
+    {
+        "name": "Taxel-CSC 80mg/2ml",
+        "contains": [
+            "Docetaxel"
+        ]
+    },
+    {
+        "name": "Tazopelin 4,5g",
+        "contains": [
+            "Piperacillin",
+            "Tazobactam"
+        ]
+    },
+    {
+        "name": "Tebantin 300mg",
+        "contains": [
+            "Gabapentin"
+        ]
+    },
+    {
+        "name": "Telfast BD",
+        "contains": [
+            "Fexofenadin hydroclorid 60mg"
+        ]
+    },
+    {
+        "name": "Telmisartan 40",
+        "contains": [
+            "Telmisartan"
+        ]
+    },
+    {
+        "name": "Telmisartan 80",
+        "contains": [
+            "Telmisartan"
+        ]
+    },
+    {
+        "name": "Telmisartan Stada 40 mg",
+        "contains": [
+            "Telmisartan"
+        ]
+    },
+    {
+        "name": "Temifut Soft Capsule",
+        "contains": [
+            "Isotretinoin"
+        ]
+    },
+    {
+        "name": "Terinale Vaginal Soft Capsule",
+        "contains": [
+            "Neomycin  35mg",
+            "Nystatin 100.000 IU",
+            "Polymycin B sulfat 35.000 IU"
+        ]
+    },
+    {
+        "name": "Terpin Stada",
+        "contains": [
+            "Terpin hydrat 100mg",
+            "Codein  15mg"
+        ]
+    },
+    {
+        "name": "Tetracyclin 250 mg",
+        "contains": [
+            "Tetracyclin"
+        ]
+    },
+    {
+        "name": "Tetracyclin TW3",
+        "contains": [
+            "Tetracyclin hydroclorid"
+        ]
+    },
+    {
+        "name": "Tetraspan 6% ",
+        "contains": [
+            "Poly starch"
+        ]
+    },
+    {
+        "name": "Thanh nhi\u1ec7t ti\u00eau \u0111\u1ed9c-F",
+        "contains": [
+            "M\u1ed7i vi\u00ean ch\u1ee9a: Cao kh\u00f4 d\u01b0\u1ee3c li\u1ec7u 340mg",
+            "B\u1ed9t m\u1ecbn d\u01b0\u1ee3c li\u1ec7u g\u1ed3m: Th\u1ed5 ph\u1ee5c linh 85mg",
+            "Kim ng\u00e2n 30mg",
+            "B\u1ea1ch ch\u1ec9 25mg",
+            "Th\u01b0\u01a1ng nh\u0129 t\u1eed 20mg"
+        ]
+    },
+    {
+        "name": "Thekati",
+        "contains": [
+            "Xylometazolin hydroclorid"
+        ]
+    },
+    {
+        "name": "Theratussine 5mg",
+        "contains": [
+            "Alimemazin tartrat"
+        ]
+    },
+    {
+        "name": "Thexamix",
+        "contains": [
+            "Acid tranexamic"
+        ]
+    },
+    {
+        "name": "Thu\u1ed1c ho ma h\u1ea1nh P/H",
+        "contains": [
+            "cao l\u1ecfng  \u0111\u01b0\u1ee3c b\u00e0o ch\u1ebf t\u1eeb: Cao \u0111\u1eb7c d\u01b0\u1ee3c li\u1ec7u",
+            "Cao \u0111\u1eb7c B\u00e1ch b\u1ed9"
+        ]
+    },
+    {
+        "name": "Thu\u1ed1c r\u1eeda ph\u1ee5 khoa Meseptic",
+        "contains": [
+            "Metronidazol"
+        ]
+    },
+    {
+        "name": "Th\u00f4ng xoang ACP",
+        "contains": [
+            "B\u1ea1ch ch\u1ec9",
+            "Kim ng\u00e2n hoa",
+            "Cao kh\u00f4 Ph\u00f2ng phong",
+            "cao kh\u00f4 Ho\u00e0ng c\u1ea7m",
+            "cao kh\u00f4 K\u00e9 \u0111\u1ea7u ng\u1ef1a",
+            "cao kh\u00f4 H\u1ea1 kh\u00f4 th\u1ea3o",
+            "cao kh\u00f4 C\u1ecf h\u00f4i"
+        ]
+    },
+    {
+        "name": "Th\u1eadp to\u00e0n \u0111\u1ea1i b\u1ed5 Oratonmaxx",
+        "contains": [
+            "\u0110\u1ea3ng s\u00e2m",
+            "B\u1ea1ch tru\u1eadt",
+            "Ph\u1ee5c linh",
+            "Cam th\u1ea3o",
+            "\u0110\u01b0\u01a1ng quy",
+            "Xuy\u00ean khung",
+            "B\u1ea1ch th\u01b0\u1ee3c",
+            "Th\u1ee5c \u0111\u1ecba",
+            "Ho\u00e0ng k\u1ef3",
+            "Qu\u1ebf nh\u1ee5c"
+        ]
+    },
+    {
+        "name": "Tibandex",
+        "contains": [
+            "Loratadin"
+        ]
+    },
+    {
+        "name": "Tidacotrim",
+        "contains": [
+            "Sulfamethoxazol",
+            "Trimethoprim"
+        ]
+    },
+    {
+        "name": "Tinidazol 500",
+        "contains": [
+            "Tinidazol"
+        ]
+    },
+    {
+        "name": "Tiphacor",
+        "contains": [
+            "Bisoprolol fumarat"
+        ]
+    },
+    {
+        "name": "Tiphaneuron",
+        "contains": [
+            "Vitamin B1",
+            "Vitamin B6",
+            "Vitamin B12"
+        ]
+    },
+    {
+        "name": "Tiphapred M 16",
+        "contains": [
+            "Methylprednisolon"
+        ]
+    },
+    {
+        "name": "Tiphapred M 4",
+        "contains": [
+            "Methylprednisolon"
+        ]
+    },
+    {
+        "name": "Ti\u00eau dao",
+        "contains": [
+            "Cao kh\u00f4 d\u01b0\u1ee3c li\u1ec7u 267mg t\u01b0\u01a1ng \u0111\u01b0\u01a1ng: S\u00e0i h\u1ed3",
+            "B\u1ea1ch tru\u1eadt",
+            "G\u1eebng t\u01b0\u01a1i",
+            "B\u1ea1ch linh",
+            "\u0110\u01b0\u01a1ng quy",
+            "B\u1ea1ch th\u01b0\u1ee3c",
+            "Cam th\u1ea3o",
+            "B\u1ea1c h\u00e0",
+            "B\u1ed9t m\u1ecbn d\u01b0\u1ee3c li\u1ec7u g\u1ed3m: B\u1ea1ch linh",
+            "\u0110\u01b0\u01a1ng quy",
+            "B\u1ea1ch th\u01b0\u1ee3c",
+            "Cam th\u1ea3o"
+        ]
+    },
+    {
+        "name": "Toganin",
+        "contains": [
+            "L-Arginine hydroclorid"
+        ]
+    },
+    {
+        "name": "Tottim Extra",
+        "contains": [
+            "Cao \u0111\u1eb7c \u0111an s\u00e2m",
+            "B\u1ed9t tam th\u1ea5t",
+            "Borneol"
+        ]
+    },
+    {
+        "name": "Tracleer (CS xu\u1ea5t x\u01b0\u1edfng: Actelion Pharmaceuticals Ltd, \u0111/c: Gewerbestrasse 16, CH-4123 Allschwil, Switzerland)",
+        "contains": [
+            "Bosentan"
+        ]
+    },
+    {
+        "name": "Tranbleed 500",
+        "contains": [
+            "Tranexamic acid"
+        ]
+    },
+    {
+        "name": "Tranfaximox 375",
+        "contains": [
+            "Amoxicilin",
+            "Acid clavulanic"
+        ]
+    },
+    {
+        "name": "Transamin Capsules 250mg",
+        "contains": [
+            "Tranexamic acid"
+        ]
+    },
+    {
+        "name": "Travinat 250mg",
+        "contains": [
+            "Cefuroxim"
+        ]
+    },
+    {
+        "name": "Trianic-day",
+        "contains": [
+            "Paracetamol",
+            "Dextromethorphan hydrobromid",
+            "Phenylephrin hydroclorid"
+        ]
+    },
+    {
+        "name": "Trifamox IBL 500",
+        "contains": [
+            "Amoxicillin",
+            "Sulbactam"
+        ]
+    },
+    {
+        "name": "Triflusal ",
+        "contains": [
+            "Triflusal"
+        ]
+    },
+    {
+        "name": "Triglo 200 capsule",
+        "contains": [
+            "Fenofibrat"
+        ]
+    },
+    {
+        "name": "Trizomibe cream",
+        "contains": [
+            "Clotrimazol"
+        ]
+    },
+    {
+        "name": "Tygacil",
+        "contains": [
+            "Tigecyclin"
+        ]
+    },
+    {
+        "name": "Ufur capsule",
+        "contains": [
+            "Tegafur",
+            "Uracil"
+        ]
+    },
+    {
+        "name": "Ultrastar 500",
+        "contains": [
+            "Acyclovir"
+        ]
+    },
+    {
+        "name": "Unamoc",
+        "contains": [
+            "Amoxicilin",
+            "Sulbactam"
+        ]
+    },
+    {
+        "name": "Unamoc 1000",
+        "contains": [
+            "Amoxicilin",
+            "Sulbactam"
+        ]
+    },
+    {
+        "name": "Ursachol",
+        "contains": [
+            "Ursodeoxycholic acid"
+        ]
+    },
+    {
+        "name": "Usabetic 2",
+        "contains": [
+            "Glimepirid"
+        ]
+    },
+    {
+        "name": "Usabetic 4",
+        "contains": [
+            "Glimepirid"
+        ]
+    },
+    {
+        "name": "Usalukast 5",
+        "contains": [
+            "Monetlukast"
+        ]
+    },
+    {
+        "name": "Usamagsium Fort",
+        "contains": [
+            "Magnesi lactat dihydrat",
+            "Pyridoxin HCl"
+        ]
+    },
+    {
+        "name": "Usarcoxib",
+        "contains": [
+            "Celecoxib"
+        ]
+    },
+    {
+        "name": "Usarglim 2",
+        "contains": [
+            "Glimepirid"
+        ]
+    },
+    {
+        "name": "Usarglim 4",
+        "contains": [
+            "Glimepirid"
+        ]
+    },
+    {
+        "name": "Usarican",
+        "contains": [
+            "Candesartan cilexetil"
+        ]
+    },
+    {
+        "name": "Usarichcatrol",
+        "contains": [
+            "Calcitrol"
+        ]
+    },
+    {
+        "name": "Usarirsartan",
+        "contains": [
+            "Irbesartan"
+        ]
+    },
+    {
+        "name": "Usasartim 150",
+        "contains": [
+            "Irbesartan"
+        ]
+    },
+    {
+        "name": "Uscefdin tab",
+        "contains": [
+            "Cefdinir"
+        ]
+    },
+    {
+        "name": "Utrazo 20",
+        "contains": [
+            "Pantoprazol natri"
+        ]
+    },
+    {
+        "name": "Vacoomez S 20",
+        "contains": [
+            "Esomeprazol"
+        ]
+    },
+    {
+        "name": "Vadol Codein",
+        "contains": [
+            "Paracetamol",
+            "Codein phosphat"
+        ]
+    },
+    {
+        "name": "Valcyte",
+        "contains": [
+            "Valganciclovir"
+        ]
+    },
+    {
+        "name": "Valzaar H",
+        "contains": [
+            "Valsartan",
+            "Hydrochlorothiazide"
+        ]
+    },
+    {
+        "name": "Vancomycin hydrocloride powder for solution for injection 500mg",
+        "contains": [
+            "Vancomycin"
+        ]
+    },
+    {
+        "name": "Vantamox 500",
+        "contains": [
+            "Amoxicilin"
+        ]
+    },
+    {
+        "name": "Vasomin 500",
+        "contains": [
+            "Glucosamin hydroclorid"
+        ]
+    },
+    {
+        "name": "Vasopren 10mg",
+        "contains": [
+            "Enalapril maleat"
+        ]
+    },
+    {
+        "name": "Vastarel MR",
+        "contains": [
+            "Trimetazidine dihydrochloride"
+        ]
+    },
+    {
+        "name": "Vasulax-10",
+        "contains": [
+            "Rosuvastatin"
+        ]
+    },
+    {
+        "name": "Vi nang Cetirizin",
+        "contains": [
+            "Cetirizin hydroclorid"
+        ]
+    },
+    {
+        "name": "Vida up",
+        "contains": [
+            "Simvastatin"
+        ]
+    },
+    {
+        "name": "Vida up",
+        "contains": [
+            "Simvastatin"
+        ]
+    },
+    {
+        "name": "Vidalgesic tab.",
+        "contains": [
+            "Tramadol HCl",
+            "Paracetamol"
+        ]
+    },
+    {
+        "name": "Vincopane",
+        "contains": [
+            "Hyoscin-N-Butylbromid"
+        ]
+    },
+    {
+        "name": "Vinlaril",
+        "contains": [
+            "Enalapril maleat"
+        ]
+    },
+    {
+        "name": "Vinocerate",
+        "contains": [
+            "Cholin alfoscerat"
+        ]
+    },
+    {
+        "name": "Vipkan",
+        "contains": [
+            "Cao kh\u00f4 l\u00e1 b\u1ea1ch qu\u1ea3"
+        ]
+    },
+    {
+        "name": "Visipaque",
+        "contains": [
+            "Iodixanol"
+        ]
+    },
+    {
+        "name": "Vistorax",
+        "contains": [
+            "Tobramycin"
+        ]
+    },
+    {
+        "name": "Vitafxim 2g",
+        "contains": [
+            "Cefotaxim"
+        ]
+    },
+    {
+        "name": "Vitamin A-D",
+        "contains": [
+            "Vitamin A",
+            "Vitamin D3"
+        ]
+    },
+    {
+        "name": "Vitamin A-D",
+        "contains": [
+            "Retinol palmitat",
+            "Colecalciferol"
+        ]
+    },
+    {
+        "name": "Vitamin B1",
+        "contains": [
+            "Thiamin mononitrat"
+        ]
+    },
+    {
+        "name": "Vitamin B1",
+        "contains": [
+            "Thiamin hydroclorid"
+        ]
+    },
+    {
+        "name": "Vitamin B1-HD",
+        "contains": [
+            "Vitamin B1"
+        ]
+    },
+    {
+        "name": "Vitamin B12 1000 mcg/1ml",
+        "contains": [
+            "Cyanocobalamin"
+        ]
+    },
+    {
+        "name": "Vitamin B2",
+        "contains": [
+            "Riboflavin"
+        ]
+    },
+    {
+        "name": "Vitamin B2 2 mg",
+        "contains": [
+            "Riboflavin"
+        ]
+    },
+    {
+        "name": "Vitamin B6",
+        "contains": [
+            "Pyridoxine HCl"
+        ]
+    },
+    {
+        "name": "Vitamin C",
+        "contains": [
+            "Acid ascorbic"
+        ]
+    },
+    {
+        "name": "Vitamin C 250",
+        "contains": [
+            "Acid ascorbic"
+        ]
+    },
+    {
+        "name": "Vitamin C 250",
+        "contains": [
+            "Acid ascorbic"
+        ]
+    },
+    {
+        "name": "Vitamin C 250",
+        "contains": [
+            "Acid ascorbic"
+        ]
+    },
+    {
+        "name": "Vitamin C 250 mg",
+        "contains": [
+            "Acid ascorbic"
+        ]
+    },
+    {
+        "name": "Vitamin C 250 mg",
+        "contains": [
+            "Acid ascorbic"
+        ]
+    },
+    {
+        "name": "Vitamin C 250mg",
+        "contains": [
+            "Acid ascorbic"
+        ]
+    },
+    {
+        "name": "Vitamin C500",
+        "contains": [
+            "Acid ascorbic"
+        ]
+    },
+    {
+        "name": "Vitamin PP 50 mg",
+        "contains": [
+            "Nicotinamid"
+        ]
+    },
+    {
+        "name": "Vitaphol",
+        "contains": [
+            "L-ornithin-L-aspartat"
+        ]
+    },
+    {
+        "name": "Vi\u00ean Di\u1ec7p H\u1ea1 Ch\u00e2u PYLANTIN",
+        "contains": [
+            "Cao Di\u1ec7p h\u1ea1 ch\u00e2u \u0111\u1eafng"
+        ]
+    },
+    {
+        "name": "Vi\u00ean nang B\u1ed5 trung \u00edch kh\u00ed",
+        "contains": [
+            "Ho\u00e0ng k\u1ef3",
+            "B\u1ea1ch tru\u1eadt",
+            "\u0110\u1ea3ng s\u00e2m",
+            "S\u00e0i h\u1ed3",
+            "Th\u0103ng ma",
+            "\u0110\u01b0\u01a1ng quy",
+            "Tr\u1ea7n b\u00ec",
+            "Cam th\u1ea3o",
+            "G\u1eebng t\u01b0\u01a1i",
+            "Ho\u00e0ng k\u1ef3"
+        ]
+    },
+    {
+        "name": "Vi\u00ean n\u00e9n bao \u0111\u01b0\u1eddng Usarichdetratyls",
+        "contains": [
+            "Mefenesin"
+        ]
+    },
+    {
+        "name": "Vi\u00ean x\u00f4ng EUCA-OPC",
+        "contains": [
+            "Menthol",
+            "Eucalytol",
+            "Camphor"
+        ]
+    },
+    {
+        "name": "Vocanz 40",
+        "contains": [
+            "Febuxostat"
+        ]
+    },
+    {
+        "name": "Volaren 75",
+        "contains": [
+            "Diclofenac natri"
+        ]
+    },
+    {
+        "name": "Warfarin 1",
+        "contains": [
+            "Warfarin natri"
+        ]
+    },
+    {
+        "name": "Warfarin 4",
+        "contains": [
+            "Warfarin natri"
+        ]
+    },
+    {
+        "name": "Warfarin 5",
+        "contains": [
+            "Warfarin natri"
+        ]
+    },
+    {
+        "name": "Water for injection 10ml (N\u01b0\u1edbc c\u1ea5t pha ti\u00eam 10ml)",
+        "contains": [
+            "N\u01b0\u1edbc c\u1ea5t pha ti\u00eam  10ml"
+        ]
+    },
+    {
+        "name": "Wintovas 10 Tablet",
+        "contains": [
+            "Atorvastatin"
+        ]
+    },
+    {
+        "name": "Xacimax new",
+        "contains": [
+            "Amoxicilin",
+            "Cloxacilin"
+        ]
+    },
+    {
+        "name": "Xafen 180",
+        "contains": [
+            "Fexofenadin hydroclorid"
+        ]
+    },
+    {
+        "name": "Xeloda ",
+        "contains": [
+            "Capecitabin"
+        ]
+    },
+    {
+        "name": "Xilavic - 625",
+        "contains": [
+            "Amoxicilin",
+            "Acid clavulanic"
+        ]
+    },
+    {
+        "name": "Xoangspray",
+        "contains": [
+            "Li\u00ean ki\u1ec1u",
+            "Kim ng\u00e2n hoa",
+            "Ho\u00e0ng c\u1ea7m",
+            "Menthol",
+            "Eucalyptol",
+            "Camphor"
+        ]
+    },
+    {
+        "name": "Yanbiwa",
+        "contains": [
+            "Diacerein"
+        ]
+    },
+    {
+        "name": "Yumangel",
+        "contains": [
+            "Almagat"
+        ]
+    },
+    {
+        "name": "Zalrinol",
+        "contains": [
+            "Allopurinol"
+        ]
+    },
+    {
+        "name": "Zensalbu nebules 2.5",
+        "contains": [
+            "Salbutamol"
+        ]
+    },
+    {
+        "name": "Zeprilnas",
+        "contains": [
+            "Itoprid hydrochlorid"
+        ]
+    },
+    {
+        "name": "Zincoxia 90",
+        "contains": [
+            "Etoricoxib"
+        ]
+    },
+    {
+        "name": "Zlatko-50",
+        "contains": [
+            "Sitagliptin"
+        ]
+    },
+    {
+        "name": "Zoacnel",
+        "contains": [
+            "Isotretinoin"
+        ]
+    },
+    {
+        "name": "Zoacnel-5",
+        "contains": [
+            "Isotretinoin"
+        ]
+    },
+    {
+        "name": "Zolasta (C\u01a1 s\u1edf s\u1ea3n xu\u1ea5t v\u00e0 \u0111\u00f3ng g\u00f3i s\u01a1 c\u1ea5p: Intas Pharmaceuticals Ltd. \u0110\u1ecba ch\u1ec9: Plot Numbers 457, 458 &amp; 191/218 P, Sarkhej-Bavla Highway, Matoda, Sanand, Ahmedabad, Gujarat, In-382210, India)",
+        "contains": [
+            "Zoledronic Acid anhydrous"
+        ]
+    },
+    {
+        "name": "Zolaxa Rapid",
+        "contains": [
+            "Olanzapine"
+        ]
+    },
+    {
+        "name": "Zoruxa",
+        "contains": [
+            "Zoledronic acid"
+        ]
+    },
+    {
+        "name": "incepdazol 250 tablet",
+        "contains": [
+            "Metronidazol"
+        ]
+    },
+    {
+        "name": "pms - Bactamox 375",
+        "contains": [
+            "Amoxicillin",
+            "Sulbactam"
+        ]
+    },
+    {
+        "name": "pms - Bactamox 625",
+        "contains": [
+            "Amoxicillin",
+            "Sulbactam"
+        ]
+    },
+    {
+        "name": "pms - Imecal 0,25 mcg",
+        "contains": [
+            "Calcitriol"
+        ]
+    },
+    {
+        "name": "\u0110an s\u00e2m tam th\u1ea5t",
+        "contains": [
+            "Cao \u0111\u1eb7c \u0111an s\u00e2m",
+            "B\u1ed9t tam th\u1ea5t"
+        ]
+    },
+    {
+        "name": "\u0110\u1ed9c ho\u1ea1t tang k\u00fd sinh",
+        "contains": [
+            "Cao kh\u00f4 d\u01b0\u1ee3c li\u1ec7u t\u01b0\u01a1ng \u0111\u01b0\u01a1ng Tang k\u00fd sinh",
+            "\u0110\u1ecba ho\u00e0ng",
+            "B\u1ea1ch th\u01b0\u1ee3c",
+            "\u0110\u1ed7 tr\u1ecdng",
+            "\u0110\u1ea3ng s\u00e2m",
+            "Ph\u1ee5c linh",
+            "Ng\u01b0u t\u1ea5t",
+            "T\u1ea7n giao",
+            "Qu\u1ebf nh\u1ee5c",
+            "Ph\u00f2ng phong",
+            "Xuy\u00ean khung",
+            "\u0110\u1ed9c ho\u1ea1t",
+            "T\u1ebf t\u00e2n",
+            "Cam th\u1ea3o",
+            "\u0110\u01b0\u01a1ng quy",
+            "B\u1ed9t m\u1ecbn d\u01b0\u1ee3c li\u1ec7u g\u1ed3m: B\u1ea1ch th\u01b0\u1ee3c",
+            "\u0110\u1ed9c ho\u1ea1t",
+            "\u0110\u01b0\u01a1ng quy",
+            "Ng\u01b0u t\u1ea5t"
+        ]
+    },
+    {
+        "name": "\u0110\u1ed9c ho\u1ea1t tang k\u00fd sinh",
+        "contains": [
+            "\u0110\u1ed9c ho\u1ea1t",
+            "Tang k\u00fd sinh",
+            "Ph\u00f2ng phong",
+            "T\u1ea7n giao",
+            "T\u1ebf t\u00e2n",
+            "Qu\u1ebf chi",
+            "Ng\u01b0u t\u1ea5t",
+            "\u0110\u1ed7 tr\u1ecdng",
+            "\u0111\u01b0\u01a1ng qui",
+            "B\u1ea1ch th\u01b0\u1ee3c",
+            "Cam th\u1ea3o",
+            "Xuy\u00ean khung",
+            "Sinh \u0111\u1ecba",
+            "\u0110\u1ea3ng s\u00e2m",
+            "Ph\u1ee5c linh"
+        ]
+    }
+]
