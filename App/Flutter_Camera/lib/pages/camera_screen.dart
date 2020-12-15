@@ -84,11 +84,10 @@ class _CameraScreenState extends State {
                   padding: EdgeInsets.all(15),
                   color: Colors.white,
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    mainAxisAlignment: MainAxisAlignment.start,
                     children: <Widget>[
                       _cameraToggleRowWidget(),
                       _cameraControlWidget(context),
-                      // _imgGalleryWidget(context),
                       Spacer()
                     ],
                   ),
@@ -130,10 +129,7 @@ class _CameraScreenState extends State {
           mainAxisSize: MainAxisSize.max,
           children: <Widget>[
             FloatingActionButton(
-              child: Icon(
-                Icons.camera,
-                color: Colors.black,
-              ),
+              child: Icon(Icons.camera, color: Colors.black),
               backgroundColor: Colors.white,
               onPressed: () {
                 _onCapturePressed(context);
@@ -162,7 +158,7 @@ class _CameraScreenState extends State {
           icon: Icon(
             _getCameraLensIcon(lensDirection),
             color: Colors.black,
-            size: 40,
+            size: 24,
           ),
           label: Text(
             '${lensDirection.toString().substring(lensDirection.toString().indexOf('.') + 1).toUpperCase()}',

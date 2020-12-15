@@ -1,21 +1,24 @@
 import 'dart:ffi';
 
 class Medicine {
-  final String id;
   final String name;
   final String accuracy;
+  String morning;
+  String afternoon;
+  String evening;
   final String info;
-  final String time;
 
-  Medicine(this.id, this.name, this.accuracy, this.info, this.time);
+  Medicine(this.name, this.accuracy, this.morning, this.afternoon, this.evening,
+      this.info);
 
   factory Medicine.fromJson(dynamic json) {
     return Medicine(
-      json['id'] as String,
       json['name'] as String,
       json['accuracy'] as String,
+      json['morning'] as String,
+      json['afternoon'] as String,
+      json['evening'] as String,
       json['info'] as String,
-      json['time'] as String,
     );
   }
 }

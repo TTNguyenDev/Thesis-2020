@@ -31,11 +31,12 @@ class _MedicineListState extends State<MedicineList> {
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(
-          icon: Icon(Icons.arrow_back_ios, color: Colors.black),
+          icon: Icon(Icons.arrow_back_ios, color: Colors.white),
           onPressed: () => Navigator.of(context).pop(),
         ),
-        backgroundColor: Colors.blue[300],
-        title: Text(widget.title, style: TextStyle(color: Colors.black)),
+        backgroundColor: Color(0xFF3EB16F),
+        centerTitle: true,
+        title: Text(widget.title, style: TextStyle(color: Colors.white)),
       ),
       body: new ListView.builder(
           itemCount: medicine.length,
@@ -52,59 +53,54 @@ class _MedicineListState extends State<MedicineList> {
                             child: Row(children: <Widget>[
                               Text(
                                 medicine[index].name,
-                                style: new TextStyle(fontSize: 35.0),
+                                style: TextStyle(
+                                    fontSize: 24,
+                                    color: Color(0xFF3EB16F),
+                                    fontWeight: FontWeight.bold),
                               ),
-                              Icon(Icons.verified, color: Colors.blue),
+                              SizedBox(width: 10),
+                              (int.parse(medicine[index].accuracy) >= 90)
+                                  ? Icon(Icons.verified,
+                                      color: Color(0xFF3EB16F))
+                                  : Container(),
                               Spacer(),
-                              new Image.asset("assets/medicine.png"),
+                              Icon(
+                                IconData(0xe901, fontFamily: "Ic"),
+                                color: Color(0xFF3EB16F),
+                                size: 100,
+                              ),
                             ]),
                           ),
                           Padding(
                             padding:
-                                const EdgeInsets.only(top: 4.0, bottom: 80.0),
+                                const EdgeInsets.only(top: 4.0, bottom: 4.0),
                             child: Row(children: <Widget>[
-                              Text(medicine[index].time),
+                              Text(
+                                  'Sáng ${medicine[index].morning} Chiều ${medicine[index].afternoon} Tối ${medicine[index].evening}',
+                                  style: TextStyle(
+                                      fontSize: 17,
+                                      color: Color(0xFFC9C9C9),
+                                      fontWeight: FontWeight.bold)),
                             ]),
                           ),
-                          Padding(
-                            padding:
-                                const EdgeInsets.only(top: 8.0, bottom: 8.0),
-                            child: Row(
-                              children: <Widget>[
-                                Text(
-                                  "Uống trước khi ăn",
-                                  style: new TextStyle(fontSize: 20.0),
-                                ),
-                                Spacer(),
-                                Icon(Icons.lock_clock, color: Colors.blue),
-                              ],
-                            ),
-                          )
+                          // Padding(
+                          //   padding:
+                          //       const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                          //   child: Row(
+                          //     children: <Widget>[
+                          //       Text(
+                          //         "Uống trước khi ăn",
+                          //         style: new TextStyle(fontSize: 20.0),
+                          //       ),
+                          //       Spacer(),
+                          //       Icon(Icons.lock_clock,
+                          //           color: Color(0xFF3EB16F)),
+                          //     ],
+                          //   ),
+                          // )
                         ],
                       ))),
               onTap: () {
-                // showDialog(
-                //     context: context,
-                //     barrierDismissible: false,
-                //     child: new CupertinoAlertDialog(
-                //       title: new Column(
-                //         children: <Widget>[
-                //           new Text("Time"),
-                //           new Icon(
-                //             Icons.lock_clock,
-                //             color: Colors.blue,
-                //           )
-                //         ],
-                //       ),
-                //       content: new Text(medicine[index].id),
-                //       actions: <Widget>[
-                //         new FlatButton(
-                //             onPressed: () {
-                //               Navigator.of(context).pop();
-                //             },
-                //             child: new Text("OK"))
-                //       ],
-                //     ));
                 Navigator.push(
                     this.context,
                     MaterialPageRoute(
