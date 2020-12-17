@@ -28,10 +28,10 @@ class _PreviewScreenState extends State<PreviewScreen> {
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(
-          icon: Icon(Icons.arrow_back_ios, color: Colors.black),
+          icon: Icon(Icons.arrow_back_ios, color: Colors.white),
           onPressed: () => Navigator.of(context).pop(),
         ),
-        backgroundColor: Colors.white,
+        backgroundColor: Color(0xFF3EB16F),
         automaticallyImplyLeading: true,
       ),
       body: Container(
@@ -46,26 +46,53 @@ class _PreviewScreenState extends State<PreviewScreen> {
               ),
             ),
             Align(
-              alignment: Alignment.bottomCenter,
-              child: Container(
-                width: double.infinity,
-                height: 60.0,
-                color: Colors.white,
-                child: Center(
-                  child: IconButton(
-                    icon: Icon(
-                      Icons.send,
-                      color: Colors.black,
-                    ),
-                    onPressed: () {
-                      // getBytesFromFile().then((bytes){
-                      //   Share.file('Share via', basename(widget.imgPath), bytes.buffer.asUint8List(),'image/path');
-                      _startUploading();
-                    },
-                  ),
-                ),
-              ),
-            )
+                alignment: Alignment.bottomCenter,
+                child: Container(
+                    height: 60,
+                    child: Padding(
+                        padding: EdgeInsets.only(
+                            top: 10.0, bottom: 10, left: 150, right: 150),
+                        child: FlatButton(
+                          child: Center(
+                              child: Text(
+                            'Trích xuất',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 17,
+                              fontWeight: FontWeight.w500,
+                            ),
+                          )),
+                          color: Color(0xFF3EB16F),
+                          shape: StadiumBorder(),
+                          onPressed: () {
+                            _startUploading();
+                          },
+                          // child: Container(
+                          //   width: 200,
+                          //   height: 120,
+                          //   color: Colors.white,
+                          //   child: Center(
+                          //     child: FlatButton(
+                          //       color: Color(0xFF3EB16F),
+                          //       shape: StadiumBorder(),
+                          //       padding: EdgeInsets.only(top: 20, bottom: 20),
+                          //       onPressed: () {
+                          //         _startUploading();
+                          //       },
+                          //       child: Center(
+                          //         child: Text(
+                          //           "Trích xuất tên thuốc",
+                          //           style: TextStyle(
+                          //             color: Colors.white,
+                          //             fontSize: 17,
+                          //             fontWeight: FontWeight.w700,
+                          //           ),
+                          //         ),
+                          //       ),
+                          //     ),
+                          //   ),
+                          // ),
+                        ))))
           ],
         ),
       ),
@@ -96,13 +123,14 @@ class _PreviewScreenState extends State<PreviewScreen> {
     //   }
     //   throw e.error;
     // }
+    // ignore: non_constant_identifier_names
     String ResponeOutput =
-        '[{"id": "1", "name": "Paracetamol", "accuracy" : "0.98", "info" : "Paracetamol (Hapacol), là một loại thuốc giảm đau, hạ sốt được sử dụng để điều trị nhiều tình trạng như đau đầu, đau cơ, viêm khớp, đau lưng, đau răng, cảm lạnh và sốt. Thuốc có tác dụng giảm đau trong trường hợp viêm khớp nhẹ nhưng không có hiệu quả nếu tình trạng viêm và sưng khớp nặng hơn. Đôi khi bác sĩ sẽ chỉ định thuốc paracetamol cho những mục đích khác không được liệt kê trong tờ hướng dẫn sử dụng. Lúc ấy, bạn phải tuân thủ theo hướng dẫn của bác sĩ.", "time" : "Sáng 1 Chiều 1 Tối 1" }, {"id": "2", "name": "Paradol", "accuracy" : "0.6", "info" : "Paradol là một loại thuốc giảm đau, hạ sốt được sử dụng để điều trị nhiều tình trạng như đau đầu, đau cơ, viêm khớp, đau lưng, đau răng, cảm lạnh và sốt. Thuốc có tác dụng giảm đau trong trường hợp viêm khớp nhẹ nhưng không có hiệu quả nếu tình trạng viêm và sưng khớp nặng hơn. Đôi khi bác sĩ sẽ chỉ định thuốc paracetamol cho những mục đích khác không được liệt kê trong tờ hướng dẫn sử dụng. Lúc ấy, bạn phải tuân thủ theo hướng dẫn của bác sĩ.", "time" : "Sáng 1 Chiều 0 Tối 1" }]';
+        '[{"name":"Paracetamol","accuracy":"98","morning":"1","afternoon": "1","evening":"1","info":"Paracetamol là một loại thuốc giảm đau, hạ sốt được sử dụng để điều trị nhiều tình trạng như đau đầu, đau cơ, viêm khớp, đau lưng, đau răng, cảm lạnh và sốt. Thuốc có tác dụng giảm đau trong trường hợp viêm khớp nhẹ nhưng không có hiệu quả nếu tình trạng viêm và sưng khớp nặng hơn. Đôi khi bác sĩ sẽ chỉ định thuốc paracetamol cho những mục đích khác không được liệt kê trong tờ hướng dẫn sử dụng. Lúc ấy, bạn phải tuân thủ theo hướng dẫn của bác sĩ."},{"name":"Panadol","accuracy":"60","morning":"1","afternoon": "0","evening":"1","info":"Paracetamol là một loại thuốc giảm đau, hạ sốt được sử dụng để điều trị nhiều tình trạng như đau đầu, đau cơ, viêm khớp, đau lưng, đau răng, cảm lạnh và sốt. Thuốc có tác dụng giảm đau trong trường hợp viêm khớp nhẹ nhưng không có hiệu quả nếu tình trạng viêm và sưng khớp nặng hơn. Đôi khi bác sĩ sẽ chỉ định thuốc paracetamol cho những mục đích khác không được liệt kê trong tờ hướng dẫn sử dụng. Lúc ấy, bạn phải tuân thủ theo hướng dẫn của bác sĩ."}]';
+
     List<Medicine> medicines;
     medicines = (json.decode(ResponeOutput) as List)
         .map((i) => Medicine.fromJson(i))
         .toList(); // parse json to list
-    print("aaaa");
     print(ResponeOutput[0]);
     Navigator.push(
         this.context,
