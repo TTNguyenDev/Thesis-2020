@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- 
 import os
 import urllib.request
 from app import app
@@ -6,7 +8,9 @@ from werkzeug.utils import secure_filename
 import cv2
 import pytesseract
 
-pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files\Tesseract-OCR/tesseract.exe'
+
+
+# pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files\Tesseract-OCR/tesseract.exe'
 
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
@@ -36,7 +40,8 @@ def upload_file():
 		result = result.replace('\n\f', '')
 		print(result)
 		# file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-		resp = jsonify([{"id": 1, "px": 1, "py": 1, "width": 1, "height": 1, "accuracy": "99", "name": "a"}, {"id": 1, "px": 1, "py": 1, "width": 1, "height": 1, "accuracy": "99", "name": "a"}])
+		# resp = jsonify([{"id": 1, "px": 1, "py": 1, "width": 1, "height": 1, "accuracy": "99", "name": "a"}, {"id": 1, "px": 1, "py": 1, "width": 1, "height": 1, "accuracy": "99", "name": "a"}])
+		resp = jsonify([{"name":"Paracetamol","accuracy":"98","morning":"1","afternoon": "1","evening":"1","info":"abc."},{"name":"Panadol","accuracy":"60","morning":"1","afternoon": "0","evening":"1","info":"cdf"}])
 		resp.status_code = 201
 		return resp
 	else:
@@ -45,7 +50,7 @@ def upload_file():
 		return resp
 
 if __name__ == "__main__":
-    app.run(host='192.168.1.5')
+    app.run(host='192.168.1.133')
 	# print("hello")
 	# app.run()
 	

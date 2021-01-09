@@ -117,7 +117,7 @@ class _MedicineInfoState extends State<MedicineInfo> {
                               color: Color(0xFF3EB16F),
                               shape: StadiumBorder(),
                               onPressed: () {
-                                showTimePicker(context: null, initialTime: null)
+                                showTimePicker(context: null, initialTime: null);
                               },
                               child: Center(
                                 child: Text(
@@ -438,37 +438,37 @@ _showTimeDialog(context) async {
   //   );
   // }
 // }
-Future<TimeOfDay> showTimePicker({
-  @required BuildContext context,
-  @required TimeOfDay initialTime,
-  TransitionBuilder builder,
-  bool useRootNavigator = true,
-  TimePickerEntryMode initialEntryMode = TimePickerEntryMode.dial,
-  String cancelText,
-  String confirmText,
-  String helpText,
-  RouteSettings routeSettings,
-}) async {
-  assert(context != null);
-  assert(initialTime != null);
-  assert(useRootNavigator != null);
-  assert(initialEntryMode != null);
-  assert(debugCheckHasMaterialLocalizations(context));
-
-  final Widget dialog = _TimePickerDialog(
-    initialTime: initialTime,
-    initialEntryMode: initialEntryMode,
-    cancelText: cancelText,
-    confirmText: confirmText,
-    helpText: helpText,
-  );
-  return await showDialog<TimeOfDay>(
-    context: context,
-    useRootNavigator: useRootNavigator,
-    builder: (BuildContext context) {
-      return builder == null ? dialog : builder(context, dialog);
-    },
-    routeSettings: routeSettings,
-  );
-}
+// Future<TimeOfDay> showTimePicker({
+//   @required BuildContext context,
+//   @required TimeOfDay initialTime,
+//   TransitionBuilder builder,
+//   bool useRootNavigator = true,
+//   TimePickerEntryMode initialEntryMode = TimePickerEntryMode.dial,
+//   String cancelText,
+//   String confirmText,
+//   String helpText,
+//   RouteSettings routeSettings,
+// }) async {
+//   assert(context != null);
+//   assert(initialTime != null);
+//   assert(useRootNavigator != null);
+//   assert(initialEntryMode != null);
+//   assert(debugCheckHasMaterialLocalizations(context));
+//
+//   final Widget dialog = _TimePickerDialog(
+//     initialTime: initialTime,
+//     initialEntryMode: initialEntryMode,
+//     cancelText: cancelText,
+//     confirmText: confirmText,
+//     helpText: helpText,
+//   );
+//   return await showDialog<TimeOfDay>(
+//     context: context,
+//     useRootNavigator: useRootNavigator,
+//     builder: (BuildContext context) {
+//       return builder == null ? dialog : builder(context, dialog);
+//     },
+//     routeSettings: routeSettings,
+//   );
+// }
 
