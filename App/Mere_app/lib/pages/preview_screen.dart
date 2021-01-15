@@ -55,17 +55,17 @@ class _PreviewScreenState extends State<PreviewScreen> {
                         child: FlatButton(
                           child: Center(
                               child: Text(
-                            'Trích xuất',
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 17,
-                              fontWeight: FontWeight.w500,
-                            ),
-                          )),
+                                'Trích xuất',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 17,
+                                  fontWeight: FontWeight.w500,
+                                ),
+                              )),
                           color: Color(0xFF3EB16F),
                           shape: StadiumBorder(),
                           onPressed: () {
-                            _startUploading();
+                            _startUploading(context);
                           },
                           // child: Container(
                           //   width: 200,
@@ -99,35 +99,61 @@ class _PreviewScreenState extends State<PreviewScreen> {
     );
   }
 
+
   Future<ByteData> getBytesFromFile() async {
     Uint8List bytes = File(widget.imgPath).readAsBytesSync() as Uint8List;
     return ByteData.view(bytes.buffer);
   }
 
   var apiUrl = Uri.parse('http://192.168.1.133:5000/file-upload');
+
   // var response;
-  void _startUploading() async {
+  void _startUploading(context) async {
     Dio dio = new Dio();
     FormData formdata = new FormData.fromMap(<String, dynamic>{
       "file": await MultipartFile.fromFile(widget.imgPath, filename: 'abc.png')
     });
     print('Success');
     try {
-      var response =  await dio.post("http://192.168.1.133:5000/file-upload", data: formdata);
+      var response =
+      await dio.post("http://192.168.1.2:5000/file-upload", data: formdata);
+      var medicines;
+      if (response.statusCode == 201) {
+        print('Success to read image ');
+        medicines =
+        List<Medicine>.from(response.data.map((i) => Medicine.fromJson(i)));
+        Navigator.push(
+            this.context,
+            MaterialPageRoute(
+                builder: (context) => MedicineList(medicine: medicines)));
+      } else {
+        _alertBoxMessage(context);
+        //throw Exception(' Can not read image');
 
-      var medincines = List<Medicine>.from(response.data.map((i) => Medicine.fromJson(i)));
-
-      Navigator.push(
-          this.context,
-          MaterialPageRoute(
-              builder: (context) => MedicineList(medicine: medincines)));
-
+        //medicines = List<Medicine>(null);
+      }
     } on DioError catch (e) {
       print(e.error);
       if (e.error is SocketException) {
         print(e.error);
       }
       throw e.error;
-     }
+    }
   }
+}
+ _alertBoxMessage(context) async {
+  await showDialog<String>(
+      context: context,
+      child: AlertDialog(
+        title: Text("Alert Dialog Box"),
+        content: Text("Fail to read imgae"),
+        actions: <Widget>[
+          FlatButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+            },
+            child: Text("okay"),
+          ),
+        ],
+      ));
 }

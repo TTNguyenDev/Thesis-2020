@@ -1,16 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- 
 import os
-import urllib.request
+#import urllib.request
 from app import app
 from flask import Flask, request, redirect, jsonify
 from werkzeug.utils import secure_filename
 import cv2
 import pytesseract
+import json
 
 
 
-# pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files\Tesseract-OCR/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = '/usr/local/bin/tesseract'
 
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
@@ -35,13 +36,20 @@ def upload_file():
 		file.save(filepath)
 		img = cv2.imread(filepath)
 		
-		# config = ('-l eng --oem 1 --psm 7')
+		config = ('-l eng --oem 1 --psm 7')
 		result = pytesseract.image_to_string(img)
 		result = result.replace('\n\f', '')
-		print(result)
-		# file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-		# resp = jsonify([{"id": 1, "px": 1, "py": 1, "width": 1, "height": 1, "accuracy": "99", "name": "a"}, {"id": 1, "px": 1, "py": 1, "width": 1, "height": 1, "accuracy": "99", "name": "a"}])
+		
+		# if result != "":
+		# 	print('Nothing')
+		# 	resp = jsonify({})
+		# 	resp.status_code = 204
+		# 	return resp
+		# else:
+		# 	print('have something')
+		file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 		resp = jsonify([{"name":"Paracetamol","accuracy":"98","morning":"1","afternoon": "1","evening":"1","info":"abc."},{"name":"Panadol","accuracy":"60","morning":"1","afternoon": "0","evening":"1","info":"cdf"}])
+		# resp = jsonify(result)
 		resp.status_code = 201
 		return resp
 	else:
@@ -50,7 +58,8 @@ def upload_file():
 		return resp
 
 if __name__ == "__main__":
-    app.run(host='192.168.1.133')
+    app.run('192.168.1.2')
 	# print("hello")
 	# app.run()
+
 	

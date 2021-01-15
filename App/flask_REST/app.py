@@ -1,6 +1,9 @@
-from flask import Flask
 
+import sys
 UPLOAD_FOLDER = './'
+# from pip import main
+
+from flask import Flask
 
 app = Flask(__name__)
 #app.secret_key = "secret key"
