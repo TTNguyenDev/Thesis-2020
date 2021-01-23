@@ -145,10 +145,9 @@ def recognizer_predict(model, converter, test_loader, batch_max_length,\
 
     return result
 
-def get_recognizer(input_channel, output_channel, hidden_size, character,\
-                   separator_list, dict_list, model_path, device = 'cpu'):
+def get_recognizer(input_channel, output_channel, hidden_size, character, dict_list, model_path, device = 'cpu'):
 
-    converter = CTCLabelConverter(character, separator_list, dict_list)
+    converter = CTCLabelConverter(character, {}, dict_list)
     num_class = len(converter.character)
     model = Model(input_channel, output_channel, hidden_size, num_class)
 
@@ -188,8 +187,8 @@ def get_text(img, character, imgH, imgW, recognizer, converter, image_list,\
     # predict first round
     result1 = recognizer_predict(recognizer, converter, test_loader,batch_max_length,\
                                  ignore_idx, char_group_idx, decoder, beamWidth, device = device)
-    
-    # predict second round
+
+     # predict second round
     low_confident_idx = [i for i,item in enumerate(result1) if (item[1] < contrast_ths)]
     if len(low_confident_idx) > 0:
         img_list2 = [img_list[i] for i in low_confident_idx]
@@ -236,6 +235,8 @@ def get_text(img, character, imgH, imgW, recognizer, converter, image_list,\
                     result.append(('\n tesseract eng: ' + tesseractResult, '\n spell checking: ' + completed_medicine, pred2[1]) )
             else:
                 result.append(('\n tesseract eng: ' + tesseractResult,'\n spell checking: ' + completed_medicine, pred1[1]) )
+    
+   
         # correct = spellCorrection(tesseractResult)
         # if correct != '':
         # # if True:

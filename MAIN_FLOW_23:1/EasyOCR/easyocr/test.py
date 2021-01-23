@@ -10,38 +10,6 @@ from PIL import ImageDraw
 from utils import group_text_box, get_image_list, calculate_md5, get_paragraph,\
                    download_and_unzip, printProgressBar, diff, reformat_input
 
-
-def readtext(self, image, decoder = 'greedy', beamWidth= 5, batch_size = 1,\
-                 workers = 0, allowlist = None, blocklist = None, detail = 1,\
-                 paragraph = False, min_size = 20,\
-                 contrast_ths = 0.1,adjust_contrast = 0.5, filter_ths = 0.003,\
-                 text_threshold = 0.7, low_text = 0.4, link_threshold = 0.4,\
-                 canvas_size = 2560, mag_ratio = 1.,\
-                 slope_ths = 0.1, ycenter_ths = 0.5, height_ths = 0.5,\
-                 width_ths = 0.5, add_margin = 0.1):
-        '''
-        Parameters:
-        image: file path or numpy-array or a byte stream object
-        '''
-        img, img_cv_grey = reformat_input(image)
-        print("Hello")
-        horizontal_list, free_list = self.detect(img, min_size, text_threshold,\
-                                                 low_text, link_threshold,\
-                                                 canvas_size, mag_ratio,\
-                                                 slope_ths, ycenter_ths,\
-                                                 height_ths,width_ths,\
-                                                 add_margin, False)
-        print(horizontal_list[0])
-        print(free_list[0])
-        result = self.recognize(img_cv_grey, img, horizontal_list, free_list,\
-                                decoder, beamWidth, batch_size,\
-                                workers, allowlist, blocklist, detail,\
-                                paragraph, contrast_ths, adjust_contrast,\
-                                filter_ths, False)
-      
-        return result
-
-
 path = 'examples/main_test/image16.png'
 im = PIL.Image.open(path)
 reader = Reader(['en'])
