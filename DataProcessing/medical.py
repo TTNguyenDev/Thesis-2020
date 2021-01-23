@@ -81,5 +81,14 @@ nonTiengViet_df['shortname'] = new_df['short name']
 nonTiengViet_df['number'] = new_df['number']
 nonTiengViet_df['weight'] = new_df['weight']
 
-print(nonTiengViet_df.head(5))
+
+nonTiengViet_df['noSpace'] = nonTiengViet_df.shortname 
+rm_character = ['-', '\"', '/', ' ', ',', '.']
+rmSpecialCharacters(nonTiengViet_df)
+
+rmDuplicate(nonTiengViet_df)
+
+print(nonTiengViet_df.describe)
+print(nonTiengViet_df.tail(5))
 nonTiengViet_df.to_json(r'PreProcessData.json')
+
