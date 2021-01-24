@@ -74,7 +74,7 @@ def readtext(image, min_size = 20, contrast_ths = 0.1, adjust_contrast = 0.5, fi
         return result
 
 
-path = 'examples/main_test/image16.png'
+path = 'image16.png'
 im = Image.open(path)
 bounds = readtext(path)
 for i in range(0, len(bounds)):
