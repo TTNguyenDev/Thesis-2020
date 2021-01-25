@@ -58,7 +58,7 @@ def upload_file():
 		return resp
 
 if __name__ == "__main__":
-    app.run('192.168.1.2')
+    app.run('172.29.71.190')
 	# print("hello")
 	# app.run()
 
