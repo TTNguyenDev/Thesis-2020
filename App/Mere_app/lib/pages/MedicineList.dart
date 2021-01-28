@@ -83,21 +83,7 @@ class _MedicineListState extends State<MedicineList> {
                                       fontWeight: FontWeight.bold)),
                             ]),
                           ),
-                          // Padding(
-                          //   padding:
-                          //       const EdgeInsets.only(top: 8.0, bottom: 8.0),
-                          //   child: Row(
-                          //     children: <Widget>[
-                          //       Text(
-                          //         "Uống trước khi ăn",
-                          //         style: new TextStyle(fontSize: 20.0),
-                          //       ),
-                          //       Spacer(),
-                          //       Icon(Icons.lock_clock,
-                          //           color: Color(0xFF3EB16F)),
-                          //     ],
-                          //   ),
-                          // )
+
                         ],
                       ))),
               onTap: () {

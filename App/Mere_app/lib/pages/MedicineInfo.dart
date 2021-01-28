@@ -9,9 +9,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_launcher_icons/ios.dart';
 import 'package:path/path.dart';
-import 'package:http/http.dart' as http;
 import 'dart:convert' show json, jsonDecode;
 import 'package:auto_size_text/auto_size_text.dart';
+import 'package:flutter_camera_app/pages/MedicineRemind.dart';
 
 class MedicineInfo extends StatefulWidget {
   final Medicine medicine;
@@ -117,7 +117,11 @@ class _MedicineInfoState extends State<MedicineInfo> {
                               color: Color(0xFF3EB16F),
                               shape: StadiumBorder(),
                               onPressed: () {
-                                // showTimePicker(context: null, initialTime: null);
+                                Navigator.push(
+                                    this.context,
+                                    MaterialPageRoute(
+                                        builder: (context) =>
+                                            MedicineRemind(medicine: medicine)));
                               },
                               child: Center(
                                 child: Text(

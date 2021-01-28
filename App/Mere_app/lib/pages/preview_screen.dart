@@ -116,7 +116,7 @@ class _PreviewScreenState extends State<PreviewScreen> {
     print('Success');
     try {
       var response =
-      await dio.post("http://192.168.1.2:5000/file-upload", data: formdata);
+      await dio.post("http://172.29.71.190:5000/file-upload", data: formdata);
       var medicines;
       if (response.statusCode == 201) {
         print('Success to read image ');
