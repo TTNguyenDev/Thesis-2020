@@ -10,6 +10,7 @@ from PIL import ImageDraw
 from utils import group_text_box, get_image_list, calculate_md5, get_paragraph,\
                    download_and_unzip, printProgressBar, diff, reformat_input
 
+
 path = 'examples/main_test/image16.png'
 im = PIL.Image.open(path)
 reader = Reader(['en'])
