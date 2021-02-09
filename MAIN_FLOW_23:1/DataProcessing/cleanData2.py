@@ -19,3 +19,5 @@ df = readJsonFile(data_path)
 print(df.columns)
 print(df.head(5))
 print(df.tail(5))
+
+df['noSpace'].to_csv(r'noSpace.txt', header=None, index=None, sep='\n', mode='a')
