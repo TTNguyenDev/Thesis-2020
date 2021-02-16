@@ -6,6 +6,7 @@ import torch
 from PIL import Image, ImageDraw
 import pandas as pd
 from spellcheck import SpellCheck
+import os
 
 # detector parameters
 DETECTOR_FILENAME = 'craft_mlt_25k.pth'
@@ -80,11 +81,12 @@ def readtext(image, min_size = 0, contrast_ths = 0.1, adjust_contrast = 0.5, fil
 
             #put each line in to check func 
             # print(medicineClassifier.check(tesseractResult))
-            _, isMedicine = medicineClassifier.check(tesseractResult)
+            medicine_name, isMedicine = medicineClassifier.check(tesseractResult)
             if isMedicine >= 50: #xét trường hợp tên thuốc == từ điển thì xuất ra ~ 100% matching => handle case này riêng
                 #check xem đây là tên thuốc nào, nếu check 0 ra tên thuốc thì hiển thị đây là thuốc nhưng chưa có trong db
 
                 #nếu kết quả so khớp theo proccess và kết quả so kớp theo từ ~90% thì hiển thị ra tên, còn nếu không thì sẽ hiển thị warning và các option của hệ thống
+                #Check độ dài input, độ dài sửa theo từ, độ dài sửa theo dòng gần bằng nhau thì sẽ cho kết quả dạng option
                 print('original:\t' + tesseractResult)
                 print(medicineCorrection.correct(tesseractResult))
 
@@ -116,6 +118,13 @@ def readtext(image, min_size = 0, contrast_ths = 0.1, adjust_contrast = 0.5, fil
         return result
 
 
-path = 'image5.png'
-im = Image.open(path)
-bounds = readtext(path)
+image_path = 'high_res_image'
+
+for filename in os.listdir(image_path):
+    print('\n\n\n\t\t', filename)
+    path = os.path.join(image_path,filename)
+        # im = Image.open(path)
+    readtext(path)
+# path = 'high_res_image/image6.png'
+# # # im = Image.open(path)
+# bounds = readtext(path)

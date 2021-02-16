@@ -30,12 +30,13 @@ class SpellCheck:
         for i in range(len(string_words)):
             max_percent = 0
             temp_name = ""
-            ignore_symbol = ['lan', 'uong', 'moi', 'sang', 'trua', 'chieu', 'vien']
+            ignore_symbol = ['lan', 'uong', 'moi', 'sang', 'trua', 'chieu', 'vien', 'sau']
             if len(string_words[i]) > 2:
                 string_len += 1
-        
+                
                 for name in self.dictionary:
                     percent = fuzz.token_sort_ratio(string_words[i].lower(), name.lower())
+                    # print(percent, '\t', string_words[i].lower(), name.lower())
                     if percent >= THRES_HOLD:
                         if percent > max_percent:
                             temp_name = name
@@ -46,6 +47,7 @@ class SpellCheck:
                 words_percent.append(0)
            
             if (max_percent >= THRES_HOLD):
+                # print(max_percent, '\t', temp_name, string_words[i])
                 if max_percent == 100:
                     string_words[i] = temp_name
                     words_percent.append(140)
@@ -55,9 +57,9 @@ class SpellCheck:
                     string_words[i] = temp_name
                     words_percent.append(max_percent)
                     
-        if string_len > 1:
+        if string_len > 0 and string_words[0].isalpha():
             total_percent = sum(words_percent) / string_len
-            print(" ".join(string_words), '\t',  total_percent)
+            # print(" ".join(string_words), '\t',  total_percent)
             return " ".join(string_words), total_percent
         else:
             return '', 0.0
