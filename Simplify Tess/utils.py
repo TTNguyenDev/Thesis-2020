@@ -535,7 +535,7 @@ def cleanName(name):
     # print(name)
     string = re.sub(r'[^a-z0-9]', ' ', name.lower()) 
 
-    string = [x for x in string.split() if len(x) > 2]
+    string = [x.strip() for x in string.split() if len(x) > 2]
    
     return  ' '.join(string)
 

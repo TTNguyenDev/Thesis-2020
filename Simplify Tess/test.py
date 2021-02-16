@@ -108,8 +108,6 @@ def readtext(image, min_size = 0, contrast_ths = 0.1, adjust_contrast = 0.5, fil
             if isMedicine >= 50: #xét trường hợp tên thuốc == từ điển thì xuất ra ~ 100% matching => handle case này riêng
                 #check xem đây là tên thuốc nào, nếu check 0 ra tên thuốc thì hiển thị đây là thuốc nhưng chưa có trong db
 
-
-
                 #nếu kết quả so khớp theo proccess và kết quả so kớp theo từ ~90% thì hiển thị ra tên, còn nếu không thì sẽ hiển thị warning và các option của hệ thống
                 #Check độ dài input, độ dài sửa theo từ, độ dài sửa theo dòng gần bằng nhau thì sẽ cho kết quả dạng option
                 correct = process.extract(cleanName(tesseractResult), medicineCorrectionData, limit=5, scorer=fuzz.token_set_ratio)
@@ -117,18 +115,16 @@ def readtext(image, min_size = 0, contrast_ths = 0.1, adjust_contrast = 0.5, fil
                 
                 for previousResult in final_result:
                     for item in previousResult:
-                        if item['line'].lower() == first_match.lower():
+                        if cleanName(item['line']) == first_match:
                             isExist = True
 
                 if isExist:
                     continue
 
                 if percent_match >= 80:
-                    # final_result.append(first_match)
                     obj = findObj(first_match, medicineCorrectionData)
                     final_result.append([obj])
                 else:
-                    # print('original: ' + tesseractResult, '\ncorrect word: ', medicine_name, '\nprocess String: ', correct, '\n\n')
                     objs = [findObj(item[0], medicineCorrectionData) for item in correct]
                     final_result.append(objs)
                     #get first five suggestion
