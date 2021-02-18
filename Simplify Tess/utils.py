@@ -10,8 +10,9 @@ import hashlib
 import sys, os
 from zipfile import ZipFile
 from imgproc import loadImage
+import re
 
-from spell import spell_check_single_word, create_dictionary
+# from spell import spell_check_single_word, create_dictionary
 from spellcheck import SpellCheck
 import pytesseract
 
@@ -227,120 +228,6 @@ def ctcBeamSearch(mat, classes, ignore_idx, lm, beamWidth=25, dict_list = []):
         res = last.wordsearch(classes, ignore_idx, 20, dict_list)
     return res
 
-
-class CTCLabelConverter(object):
-    """ Convert between text-label and text-index """
-
-    def __init__(self, character, separator_list = {}, dict_pathlist = {}):
-        # character (str): set of the possible characters.
-        dict_character = list(character)
-
-        self.dict = {}
-        for i, char in enumerate(dict_character):
-            self.dict[char] = i + 1
-
-        self.character = ['[blank]'] + dict_character  # dummy '[blank]' token for CTCLoss (index 0)
-
-        self.separator_list = separator_list
-        separator_char = []
-        for lang, sep in separator_list.items():
-            separator_char += sep
-        self.ignore_idx = [0] + [i+1 for i,item in enumerate(separator_char)]
-
-        ####### latin dict
-        if len(separator_list) == 0:
-            dict_list = []
-            for lang, dict_path in dict_pathlist.items():
-                try:
-                    with open(dict_path, "r", encoding = "utf-8-sig") as input_file:
-                        word_count =  input_file.read().splitlines()
-                    dict_list += word_count
-                except:
-                    pass
-        else:
-            dict_list = {}
-            for lang, dict_path in dict_pathlist.items():
-                with open(dict_path, "r", encoding = "utf-8-sig") as input_file:
-                    word_count =  input_file.read().splitlines()
-                dict_list[lang] = word_count
-
-        self.dict_list = dict_list
-
-    def encode(self, text, batch_max_length=25):
-        """convert text-label into text-index.
-        input:
-            text: text labels of each image. [batch_size]
-
-        output:
-            text: concatenated text index for CTCLoss.
-                    [sum(text_lengths)] = [text_index_0 + text_index_1 + ... + text_index_(n - 1)]
-            length: length of each text. [batch_size]
-        """
-        length = [len(s) for s in text]
-        text = ''.join(text)
-        text = [self.dict[char] for char in text]
-
-        return (torch.IntTensor(text), torch.IntTensor(length))
-
-    def decode_greedy(self, text_index, length):
-        """ convert text-index into text-label. """
-        texts = []
-        index = 0
-        for l in length:
-            t = text_index[index:index + l]
-
-            char_list = []
-            for i in range(l):
-                # removing repeated characters and blank (and separator).
-                if t[i] not in self.ignore_idx and (not (i > 0 and t[i - 1] == t[i])):
-                    char_list.append(self.character[t[i]])
-            text = ''.join(char_list)
-
-            texts.append(text)
-            index += l
-        return texts
-
-    def decode_beamsearch(self, mat, beamWidth=5):
-        texts = []
-        for i in range(mat.shape[0]):
-            t = ctcBeamSearch(mat[i], self.character, self.ignore_idx, None, beamWidth=beamWidth)
-            texts.append(t)
-        return texts
-
-    def decode_wordbeamsearch(self, mat, beamWidth=5):
-        texts = []
-        argmax = np.argmax(mat, axis = 2)
-
-        for i in range(mat.shape[0]):
-            string = ''
-            # without separators - use space as separator
-            if len(self.separator_list) == 0:
-                space_idx = self.dict[' ']
-
-                data = np.argwhere(argmax[i]!=space_idx).flatten()
-                group = np.split(data, np.where(np.diff(data) != 1)[0]+1)
-                group = [ list(item) for item in group if len(item)>0]
-
-                for j, list_idx in enumerate(group):
-                    matrix = mat[i, list_idx,:]
-                    t = ctcBeamSearch(matrix, self.character, self.ignore_idx, None,\
-                                      beamWidth=beamWidth, dict_list=self.dict_list)
-                    if j == 0: string += t
-                    else: string += ' '+t
-
-            # with separators
-            else:
-                words = word_segmentation(argmax[i])
-
-                for word in words:
-                    matrix = mat[i, word[1][0]:word[1][1]+1,:]
-                    if word[0] == '': dict_list = []
-                    else: dict_list = self.dict_list[word[0]]
-                    t = ctcBeamSearch(matrix, self.character, self.ignore_idx, None, beamWidth=beamWidth, dict_list=dict_list)
-                    string += t
-            texts.append(string)
-        return texts
-
 def four_point_transform(image, rect):
     (tl, tr, br, bl) = rect
 
@@ -494,13 +381,6 @@ def get_image_list(horizontal_list, free_list, img, model_height = 64):
     image_list = sorted(image_list, key=lambda item: item[0][0][1]) # sort by vertical position
     return image_list, max_width
 
-def download_and_unzip(url, filename, model_storage_directory):
-    zip_path = os.path.join(model_storage_directory, 'temp.zip')
-    urlretrieve(url, zip_path,reporthook=printProgressBar(prefix = 'Progress:', suffix = 'Complete', length = 50))
-    with ZipFile(zip_path, 'r') as zipObj:
-        zipObj.extract(filename, model_storage_directory)
-    os.remove(zip_path)
-
 def calculate_md5(fname):
     hash_md5 = hashlib.md5()
     with open(fname, "rb") as f:
@@ -515,8 +395,15 @@ def get_paragraph(raw_result, x_ths=1, y_ths=0.5, mode = 'ltr'):
     # create basic attributes
     box_group = []
     for box in raw_result:
-        all_x = [int(coord[0]) for coord in box[0]]
-        all_y = [int(coord[1]) for coord in box[0]]
+        # temp = np.reshape(box, (4, 2))
+        # print(temp)
+        # print(coord[0])
+        print(box)
+        # for coord in box:
+        #     print(coord)
+
+        all_x = [coord % 2 == 0 for coord in box[0]]
+        all_y = [coord % 2 != 0 for coord in box[0]]
         min_x = min(all_x)
         max_x = max(all_x)
         min_y = min(all_y)
@@ -579,27 +466,6 @@ def get_paragraph(raw_result, x_ths=1, y_ths=0.5, mode = 'ltr'):
 
     return result
 
-
-def printProgressBar (prefix = '', suffix = '', decimals = 1, length = 100, fill = '█', printEnd = "\r"):
-    """
-    Call in a loop to create terminal progress bar
-    @params:
-        prefix      - Optional  : prefix string (Str)
-        suffix      - Optional  : suffix string (Str)
-        decimals    - Optional  : positive number of decimals in percent complete (Int)
-        length      - Optional  : character length of bar (Int)
-        fill        - Optional  : bar fill character (Str)
-        printEnd    - Optional  : end character (e.g. "\r", "\r\n") (Str)
-    """
-    def progress_hook(count, blockSize, totalSize):
-        progress = count * blockSize / totalSize
-        percent = ("{0:." + str(decimals) + "f}").format(progress * 100)
-        filledLength = int(length * progress)
-        bar = fill * filledLength + '-' * (length - filledLength)
-        print(f'\r{prefix} |{bar}| {percent}% {suffix}', end = printEnd)
-
-    return progress_hook
-
 def reformat_input(image):
     if type(image) == str:
         if image.startswith('http://') or image.startswith('https://'):
@@ -633,52 +499,11 @@ def reformat_input(image):
     return img, img_cv_grey
 
 
-def tesseract(box,image):
-    result = ''
-    result2 = ''
-    poly = np.array(box).astype(np.int32).reshape((-1))
-    poly = poly.reshape(4, 2)
-    # First find the minX minY maxX and maxY of the polygon
-    minX = image.shape[1]
-    maxX = -1
-    minY = image.shape[0]
-    maxY = -1
-    for point in poly:
-        x = point[0]
-        y = point[1]
-
-        if x < minX:
-            minX = x
-        if x > maxX:
-            maxX = x
-        if y < minY:
-            minY = y
-        if y > maxY:
-            maxY = y
-
-    # Go over the points in the image if thay are out side of the emclosing rectangle put zero
-    # if not check if thay are inside the polygon or not
-    cropedImage = np.zeros_like(image)
-    for y in range(0,image.shape[0]):
-        for x in range(0, image.shape[1]):
-
-            if x < minX or x > maxX or y < minY or y > maxY:
-                continue
-
-            if cv2.pointPolygonTest(np.asarray(poly),(x,y),False) >= 0:
-                cropedImage[y, x, 0] = image[y, x, 0]
-                cropedImage[y, x, 1] = image[y, x, 1]
-                cropedImage[y, x, 2] = image[y, x, 2]
-
-    # Now we can crop again just the envloping rectangle
-    finalImage = cropedImage[minY:maxY,minX:maxX]
+def tesseract(image):
     config = ('-l eng --oem 1 --psm 7')
-    text = pytesseract.image_to_string(finalImage, config=config)
-    config2 = ('-l medicine --oem 1 --psm 7')
-    text2 = pytesseract.image_to_string(finalImage, config=config2)
-    result += text
-    result2 += text2
-    return result, result2
+    text = pytesseract.image_to_string(Image.fromarray(image), config=config)
+    result = text
+    return result
 
 #load text recognition in input.txt 
 #output output.txt
@@ -703,3 +528,57 @@ def isMedicine(word_in, path):
     spell_check = SpellCheck(path)
     spell_check.check(word_in)
     return spell_check.isMedicine()
+
+def cleanName(name):
+    #cần kiểm tra xem hàm này đã xoá các kí tự tiếng việt chưa ví dụ ê, ư, ó, ò, é nếu chưa cần gọi thêm hàm depunc
+    dePunc(name) #thay thế các kí tự tiếng việt thành kí tự tiếng a tương ứng
+    # print(name)
+    string = re.sub(r'[^a-z0-9]', ' ', name.lower()) 
+
+    string = [x.strip() for x in string.split() if len(x) > 2]
+   
+    return  ' '.join(string)
+
+
+def dePunc(string):
+        tmp = ''
+        for text in string:
+            if text in 'aáàảãạăắằẳẵặâấầẩẫậ':
+                tmp += 'a'
+            elif text in 'eéèẻẽẹêếềểễệ':
+                tmp += 'e'
+            elif text in 'iíìỉĩị':
+                tmp += 'i'
+            elif text in 'IÍÌỈĨỊ':
+                tmp += 'I'
+            elif text in 'yýỳỷỹỵ':
+                tmp += 'y'
+            elif text in 'AÁÀẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬ':
+                tmp += 'A'
+            elif text in 'EÉÈẺẼẸÊẾỀỂỄỆ':
+                tmp += 'E'
+            elif text in 'OÓÒỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢ':
+                tmp += 'O'
+            elif text in 'oóòỏõọôốồổỗộơớờởỡợ':
+                tmp += 'o'
+            elif text in 'UÚÙỦŨỤƯỨỪỬỮỰ':
+                tmp += 'U'
+            elif text in 'uúùủũụưứừửữự':
+                tmp += 'u'
+            elif text in 'YÝỲỶỸỴ':
+                tmp += 'Y'
+            elif text in 'dđ':
+                tmp += 'd'
+            elif text in 'DĐ':
+                tmp += 'D'
+            elif text in '(':
+                tmp += ' ('
+            elif text in ')':
+                tmp +=  ') '
+            elif text in '/':
+                tmp += ' / '
+            else:
+                tmp += text
+        # if tmp[-1] == ' ':
+        #     tmp = tmp[:-1]
+        return tmp
