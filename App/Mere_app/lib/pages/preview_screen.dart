@@ -12,6 +12,8 @@ import 'package:flutter/services.dart';
 import 'package:path/path.dart';
 import 'MedicineList.dart';
 import 'dart:convert' show json, jsonDecode;
+import 'package:flutter_camera_app/pages/loading.dart';
+
 
 class PreviewScreen extends StatefulWidget {
   final String imgPath;
@@ -23,9 +25,10 @@ class PreviewScreen extends StatefulWidget {
 }
 
 class _PreviewScreenState extends State<PreviewScreen> {
+  bool loading = false;
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return loading ? Loading() : Scaffold(
       appBar: AppBar(
         leading: IconButton(
           icon: Icon(Icons.arrow_back_ios, color: Colors.white),
@@ -38,6 +41,7 @@ class _PreviewScreenState extends State<PreviewScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
+
             Expanded(
               flex: 2,
               child: Image.file(
@@ -67,31 +71,6 @@ class _PreviewScreenState extends State<PreviewScreen> {
                           onPressed: () {
                             _startUploading(context);
                           },
-                          // child: Container(
-                          //   width: 200,
-                          //   height: 120,
-                          //   color: Colors.white,
-                          //   child: Center(
-                          //     child: FlatButton(
-                          //       color: Color(0xFF3EB16F),
-                          //       shape: StadiumBorder(),
-                          //       padding: EdgeInsets.only(top: 20, bottom: 20),
-                          //       onPressed: () {
-                          //         _startUploading();
-                          //       },
-                          //       child: Center(
-                          //         child: Text(
-                          //           "Trích xuất tên thuốc",
-                          //           style: TextStyle(
-                          //             color: Colors.white,
-                          //             fontSize: 17,
-                          //             fontWeight: FontWeight.w700,
-                          //           ),
-                          //         ),
-                          //       ),
-                          //     ),
-                          //   ),
-                          // ),
                         ))))
           ],
         ),
@@ -105,10 +84,11 @@ class _PreviewScreenState extends State<PreviewScreen> {
     return ByteData.view(bytes.buffer);
   }
 
-  var apiUrl = Uri.parse('http://192.168.1.133:5000/file-upload');
+  // var apiUrl = Uri.parse('http://192.168.1.133:5000/file-upload');
 
   // var response;
   void _startUploading(context) async {
+    setState(() => loading = true);
     Dio dio = new Dio();
     FormData formdata = new FormData.fromMap(<String, dynamic>{
       "file": await MultipartFile.fromFile(widget.imgPath, filename: 'abc.png')
@@ -116,9 +96,10 @@ class _PreviewScreenState extends State<PreviewScreen> {
     print('Success');
     try {
       var response =
-      await dio.post("http://172.29.71.190:5000/file-upload", data: formdata);
+      await dio.post("http://ec2-18-222-38-237.us-east-2.compute.amazonaws.com:8080/file-upload", data: formdata);
       var medicines;
-      if (response.statusCode == 201) {
+      setState(() => loading = false);
+      if (response.statusCode == 200) {
         print('Success to read image ');
         medicines =
         List<Medicine>.from(response.data.map((i) => Medicine.fromJson(i)));

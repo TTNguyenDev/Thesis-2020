@@ -25,6 +25,9 @@ dependencies:
   add_2_calendar: ^1.4.0
   table_calendar: ^2.3.3
   shared_preferences: ^0.5.12+4
+  flutter_spinkit: ^4.1.2
+  introduction_screen: ^1.0.9
+
 
 dev_dependencies:
   flutter_test:
@@ -37,6 +40,9 @@ flutter:
   uses-material-design: true
   assets:
     - assets/medicine.png
+    - assets/splash_1.png
+    - assets/splash_2.png
+    - assets/splash_3.png
   fonts:
     - family: Ic
       fonts:
