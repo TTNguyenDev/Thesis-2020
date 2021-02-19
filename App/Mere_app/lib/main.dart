@@ -3,8 +3,18 @@ import 'package:flutter/services.dart';
 import 'package:flutter_camera_app/pages/camera_screen.dart';
 import 'package:flutter_camera_app/pages/routs.dart';
 import 'package:flutter_camera_app/screens/splash/splash_screen.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
-void main() => runApp(CameraApp());
+int initScreen;
+
+Future <void> main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  SharedPreferences preferences = await SharedPreferences.getInstance();
+  initScreen = await preferences.getInt('initScreen');
+  await preferences.setInt('initScreen', 1);
+
+  runApp(CameraApp());
+}
 
 class CameraApp extends StatelessWidget {
 
@@ -27,8 +37,13 @@ class CameraApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       //home:SplashScreen(),
-      initialRoute: SplashScreen.routeName,
-      routes: routes,
+      //initialRoute: SplashScreen.routeName,
+      initialRoute: initScreen == 0 || initScreen == null ? 'onboard' : 'home',
+      routes: {
+        'home':  (context) => CameraScreen(),
+        'onboard':  (context) => SplashScreen(),
+
+      },
     );
   }
 }

@@ -16,7 +16,7 @@ class _BodyState extends State<Body> {
       "image": "assets/splash_1.png"
     },
     {
-      "text": "Chúng tôi giúp bạn tìm ra\nthông tin thuốc trong đơn thuốc ",
+      "text": "Chúng tôi giúp bạn tìm ra\nthông tin thuốc trong đơn thuốc của bạn",
       "image": "assets/splash_2.png"
     },
     {
@@ -65,7 +65,11 @@ class _BodyState extends State<Body> {
                   DefaultButton(
                     text: "Tiếp theo",
                     press: (){
-                      Navigator.pushNamed(context, CameraScreen.routeName);
+                      //Navigator.pushNamed(context, CameraScreen.routeName);
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => CameraScreen()),
+                      );
                     },
                   ),
                   Spacer(),

@@ -9,5 +9,4 @@ import 'package:path/path.dart';
 final Map<String, WidgetBuilder> routes = {
   SplashScreen.routeName : (context) => SplashScreen(),
   CameraScreen.routeName : (context) => CameraScreen(),
-
 };
