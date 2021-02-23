@@ -11,7 +11,6 @@ app = Flask(__name__)
 def index():
     return "<h1>Welcome to TVT Group</h1> <h1>Medical prediction</h1>"
 
-
 ALLOWED_EXTENSIONS = set(["txt", "pdf", "png", "jpg", "jpeg", "gif"])
 
 
@@ -32,7 +31,7 @@ def upload_file():
         return resp
 
     if file and allowed_file(file.filename):
-        img = Image.open('test.png')
+        img = Image.open(file)
 
         config = "-l eng --oem 1 --psm 7"
         result = pytesseract.image_to_string(img)
