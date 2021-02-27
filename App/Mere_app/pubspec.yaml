@@ -27,6 +27,7 @@ dependencies:
   shared_preferences: ^0.5.12+4
   flutter_spinkit: ^4.1.2
   introduction_screen: ^1.0.9
+  flutter_easyloading: ^2.2.2
 
 
 dev_dependencies:

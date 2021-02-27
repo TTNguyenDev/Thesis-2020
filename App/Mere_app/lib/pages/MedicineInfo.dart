@@ -117,11 +117,12 @@ class _MedicineInfoState extends State<MedicineInfo> {
                               color: Color(0xFF3EB16F),
                               shape: StadiumBorder(),
                               onPressed: () {
-                                Navigator.push(
-                                    this.context,
-                                    MaterialPageRoute(
-                                        builder: (context) =>
-                                            MedicineRemind(medicine: medicine)));
+                                // Navigator.push(
+                                //     this.context,
+                                //     MaterialPageRoute(
+                                //         builder: (context) =>
+                                //             MedicineRemind(medicine: medicine)));
+                                _alertBoxMessage(context);
                               },
                               child: Center(
                                 child: Text(
@@ -380,6 +381,24 @@ _showTimeDialog(context) async {
     ),
   );
 }
+
+_alertBoxMessage(context) async {
+  await showDialog<String>(
+      context: context,
+      child: AlertDialog(
+        title: Text("Thông báo"),
+        content: Text("Tính năng đang đang phát triển"),
+        actions: <Widget>[
+          FlatButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+            },
+            child: Text("OK"),
+          ),
+        ],
+      ));
+}
+
 
 // class SelectTime extends StatefulWidget {
 //   @override

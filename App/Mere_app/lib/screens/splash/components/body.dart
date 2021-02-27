@@ -21,8 +21,20 @@ class _BodyState extends State<Body> {
     },
     {
       "text": "Chúng tôi sẽ nhắc nhở lịch uống thuốc cho bạn ",
-      "image": "assets/splash_3.png"
+      "image": "assets/splash_3.png",
     },
+    {
+      "text": "Chụp hình đơn thuốc rõ ràng",
+      "image": "assets/splash_1.png"
+    },
+    {
+      "text": "Kiểm tra thuốc ",
+      "image": "assets/splash_2.png"
+    },
+    {
+      "Text": "Đặt lịch nhắc nhở uống thuốc theo mong muốn",
+      "image": "assets/splash_1.png"
+    }
   ];
   @override
   Widget build(BuildContext context) {

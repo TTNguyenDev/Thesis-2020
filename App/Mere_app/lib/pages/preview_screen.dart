@@ -13,7 +13,7 @@ import 'package:path/path.dart';
 import 'MedicineList.dart';
 import 'dart:convert' show json, jsonDecode;
 import 'package:flutter_camera_app/pages/loading.dart';
-
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 
 class PreviewScreen extends StatefulWidget {
   final String imgPath;
@@ -25,10 +25,10 @@ class PreviewScreen extends StatefulWidget {
 }
 
 class _PreviewScreenState extends State<PreviewScreen> {
-  bool loading = false;
+  //bool loading = false;
   @override
   Widget build(BuildContext context) {
-    return loading ? Loading() : Scaffold(
+    return  Scaffold(
       appBar: AppBar(
         leading: IconButton(
           icon: Icon(Icons.arrow_back_ios, color: Colors.white),
@@ -55,7 +55,7 @@ class _PreviewScreenState extends State<PreviewScreen> {
                     height: 60,
                     child: Padding(
                         padding: EdgeInsets.only(
-                            top: 10.0, bottom: 10, left: 150, right: 150),
+                            top: 10.0, bottom: 10, left: 100, right: 100),
                         child: FlatButton(
                           child: Center(
                               child: Text(
@@ -71,7 +71,9 @@ class _PreviewScreenState extends State<PreviewScreen> {
                           onPressed: () {
                             _startUploading(context);
                           },
-                        ))))
+                        )
+                    ),
+                    ))
           ],
         ),
       ),
@@ -88,7 +90,9 @@ class _PreviewScreenState extends State<PreviewScreen> {
 
   // var response;
   void _startUploading(context) async {
-    setState(() => loading = true);
+    //setState(() => loading = true);
+    EasyLoadingStyle.dark;
+    EasyLoading.show(status: 'Loading');
     Dio dio = new Dio();
     FormData formdata = new FormData.fromMap(<String, dynamic>{
       "file": await MultipartFile.fromFile(widget.imgPath, filename: 'abc.png')
@@ -98,7 +102,8 @@ class _PreviewScreenState extends State<PreviewScreen> {
       var response =
       await dio.post("http://ec2-18-222-38-237.us-east-2.compute.amazonaws.com:8080/file-upload", data: formdata);
       var medicines;
-      setState(() => loading = false);
+      //setState(() => loading = false);
+      EasyLoading.dismiss();
       if (response.statusCode == 200) {
         print('Success to read image ');
         medicines =
