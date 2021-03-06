@@ -75,7 +75,7 @@ class _BodyState extends State<Body> {
                     flex: 3,
                   ),
                   DefaultButton(
-                    text: "Tiếp theo",
+                    text: "Bỏ qua",
                     press: (){
                       //Navigator.pushNamed(context, CameraScreen.routeName);
                       Navigator.push(
