@@ -10,7 +10,7 @@ import os
 from fuzzywuzzy import fuzz, process
 from collections import OrderedDict 
 
-from flask import Flask, request, redirect, jsonify
+from flask import Flask, request, redirect, jsonify, render_template
 from werkzeug.utils import secure_filename
 from PIL import Image
 import pytesseract
@@ -126,11 +126,11 @@ def readtext(image, min_size = 0, contrast_ths = 0.1, adjust_contrast = 0.5, fil
         return final_result
 
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
 @app.route("/")
 def index():
-    return "<h1>Welcome to TVT Group</h1> <h1>Medical prediction</h1>"
+    return render_template('policy.html') 
 
 ALLOWED_EXTENSIONS = set(["txt", "pdf", "png", "jpg", "jpeg", "gif"])
 
