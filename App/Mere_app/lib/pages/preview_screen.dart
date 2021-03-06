@@ -86,9 +86,6 @@ class _PreviewScreenState extends State<PreviewScreen> {
     return ByteData.view(bytes.buffer);
   }
 
-  // var apiUrl = Uri.parse('http://192.168.1.133:5000/file-upload');
-
-  // var response;
   void _startUploading(context) async {
     //setState(() => loading = true);
     EasyLoadingStyle.dark;
@@ -113,13 +110,12 @@ class _PreviewScreenState extends State<PreviewScreen> {
             MaterialPageRoute(
                 builder: (context) => MedicineList(medicine: medicines)));
       } else {
-        _alertBoxMessage(context);
-        //throw Exception(' Can not read image');
-
-        //medicines = List<Medicine>(null);
+        _alertBoxMessage(context, "Fail to read imgae");
       }
     } on DioError catch (e) {
-      print(e.error);
+      EasyLoading.dismiss();
+      // print(e.error);
+      _alertBoxMessage(context, e.message);
       if (e.error is SocketException) {
         print(e.error);
       }
@@ -127,12 +123,13 @@ class _PreviewScreenState extends State<PreviewScreen> {
     }
   }
 }
- _alertBoxMessage(context) async {
+
+ _alertBoxMessage(context, message) async {
   await showDialog<String>(
       context: context,
       child: AlertDialog(
         title: Text("Alert Dialog Box"),
-        content: Text("Fail to read imgae"),
+        content: Text(message),
         actions: <Widget>[
           FlatButton(
             onPressed: () {

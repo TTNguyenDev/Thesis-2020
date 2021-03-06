@@ -42,50 +42,53 @@ class _MedicineListState extends State<MedicineList> {
           itemCount: medicine.length,
           itemBuilder: (BuildContext context, int index) {
             return new GestureDetector(
-              child: Card(
-                  child: Padding(
-                      padding: const EdgeInsets.all(16.0),
-                      child: Column(
-                        children: <Widget>[
-                          Padding(
-                            padding:
-                                const EdgeInsets.only(top: 8.0, bottom: 4.0),
-                            child: Row(children: <Widget>[
-                              Text(
-                                medicine[index].name,
-                                style: TextStyle(
-                                    fontSize: 24,
-                                    color: Color(0xFF3EB16F),
-                                    fontWeight: FontWeight.bold),
-                              ),
-                              SizedBox(width: 10),
-                              (int.parse(medicine[index].accuracy) >= 90)
-                                  ? Icon(Icons.verified,
-                                      color: Color(0xFF3EB16F))
-                                  : Container(),
-                              Spacer(),
-                              Icon(
-                                IconData(0xe901, fontFamily: "Ic"),
-                                color: Color(0xFF3EB16F),
-                                size: 100,
-                              ),
-                            ]),
-                          ),
-                          Padding(
-                            padding:
-                                const EdgeInsets.only(top: 4.0, bottom: 4.0),
-                            child: Row(children: <Widget>[
-                              Text(
-                                  'Sáng ${medicine[index].morning} Chiều ${medicine[index].afternoon} Tối ${medicine[index].evening}',
+              child: Hero(
+                tag: 'imgaeHero',
+                child: Card(
+                    child: Padding(
+                        padding: const EdgeInsets.all(16.0),
+                        child: Column(
+                          children: <Widget>[
+                            Padding(
+                              padding:
+                              const EdgeInsets.only(top: 8.0, bottom: 4.0),
+                              child: Row(children: <Widget>[
+                                Text(
+                                  medicine[index].name,
                                   style: TextStyle(
-                                      fontSize: 17,
-                                      color: Color(0xFFC9C9C9),
-                                      fontWeight: FontWeight.bold)),
-                            ]),
-                          ),
+                                      fontSize: 24,
+                                      color: Color(0xFF3EB16F),
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                SizedBox(width: 10),
+                                (int.parse(medicine[index].accuracy) >= 90)
+                                    ? Icon(Icons.verified,
+                                    color: Color(0xFF3EB16F))
+                                    : Container(),
+                                Spacer(),
+                                Icon(
+                                  IconData(0xe901, fontFamily: "Ic"),
+                                  color: Color(0xFF3EB16F),
+                                  size: 100,
+                                ),
+                              ]),
+                            ),
+                            Padding(
+                              padding:
+                              const EdgeInsets.only(top: 4.0, bottom: 4.0),
+                              child: Row(children: <Widget>[
+                                Text(
+                                    'Sáng ${medicine[index].morning} Chiều ${medicine[index].afternoon} Tối ${medicine[index].evening}',
+                                    style: TextStyle(
+                                        fontSize: 17,
+                                        color: Color(0xFFC9C9C9),
+                                        fontWeight: FontWeight.bold)),
+                              ]),
+                            ),
 
-                        ],
-                      ))),
+                          ],
+                        ))),
+              ),
               onTap: () {
                 Navigator.push(
                     this.context,

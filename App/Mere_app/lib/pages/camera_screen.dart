@@ -113,7 +113,6 @@ class _CameraScreenState extends State {
         ),
       );
     }
-
     return AspectRatio(
       aspectRatio: controller.value.aspectRatio,
       child: CameraPreview(controller),
@@ -186,7 +185,6 @@ class _CameraScreenState extends State {
               ),
               backgroundColor: Colors.white,
               onPressed: () {
-                _imgFromGallery(context);
               },
             )
           ],
@@ -238,22 +236,4 @@ class _CameraScreenState extends State {
     _initCameraController(selectedCamera);
   }
 
-  void _imgFromGallery(context) async {
-    // try {
-    //   final path =
-    //       join((await getTemporaryDirectory()).path, '${DateTime.now()}.png');
-    //   await ImagePicker.pickImage(
-    //       source: ImageSource.gallery, imageQuality: 50);
-
-    //   Navigator.push(
-    //     context,
-    //     MaterialPageRoute(
-    //         builder: (context) => PreviewScreen(
-    //               imgPath: path,
-    //             )),
-    //   );
-    // } catch (e) {
-    //   _showCameraException(e);
-    // }
-  }
 }
