@@ -1,24 +1,33 @@
-from detection import get_detector, get_textbox
-from utils import group_text_box, get_image_list, diff, reformat_input, isMedicine, tesseract, checkUnitComponents, get_paragraph, cleanName
+from app.detection import get_detector, get_textbox
+from app.utils import group_text_box, get_image_list, diff, reformat_input, isMedicine, tesseract, checkUnitComponents, get_paragraph, cleanName
 import numpy as np
 import cv2
 import torch
 import pandas as pd
-from spellcheck import SpellCheck
+from app.spellcheck import SpellCheck
 import os
 
 from fuzzywuzzy import fuzz, process
 from collections import OrderedDict 
 
+from flask import Flask, request, redirect, jsonify
+from werkzeug.utils import secure_filename
+from PIL import Image
+import pytesseract
+import json
+
+from werkzeug.utils import secure_filename
+
+
 # detector parameters
-DETECTOR_FILENAME = 'craft_mlt_25k.pth'
+DETECTOR_FILENAME = 'app/craft_mlt_25k.pth'
 
 imgH = 64
 input_channel = 1
 output_channel = 512
 hidden_size = 512
 
-medicinePath =  'main_dict/high_res.csv'
+medicinePath =  'app/main_dict/high_res.csv'
 df = pd.read_csv(medicinePath, sep=';', quotechar="\"", header=0)
 
 def readData():
@@ -114,16 +123,46 @@ def readtext(image, min_size = 0, contrast_ths = 0.1, adjust_contrast = 0.5, fil
                     objs = [findObj(item[0], medicineCorrectionData) for item in correct]
                     final_result.append(objs)
         [print(item) for item in final_result]
-        return result
+        return final_result
 
 
-image_path = 'high_res_image'
+app = Flask(__name__)
 
-for filename in os.listdir(image_path):
-    print('\n\n\n\t\t', filename)
-    path = os.path.join(image_path,filename)
-        # im = Image.open(path)
-    readtext(path)
-# path = 'high_res_image/image6.png'
-# # # im = Image.open(path)
-# bounds = readtext(path)
+@app.route("/")
+def index():
+    return "<h1>Welcome to TVT Group</h1> <h1>Medical prediction</h1>"
+
+ALLOWED_EXTENSIONS = set(["txt", "pdf", "png", "jpg", "jpeg", "gif"])
+
+
+def allowed_file(filename):
+    return "." in filename and filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS
+
+
+@app.route("/file-upload", methods=["POST"])
+def upload_file():
+    if "file" not in request.files:
+        resp = jsonify({"message": "No file part in the request"})
+        resp.status_code = 400
+        return resp
+    file = request.files["file"]
+    if file.filename == "":
+        resp = jsonify({"message": "No file selected for uploading"})
+        resp.status_code = 400
+        return resp
+
+    if file and allowed_file(file.filename):
+        filename = secure_filename(file.filename)
+        filepath = os.path.join('app/userImages', filename)
+        file.save(filepath)
+        res = readtext(filepath)
+
+        resp = jsonify(res)
+        resp.status_code = 200
+        return resp
+    else:
+        resp = jsonify(
+            {"message": "Allowed file types are txt, pdf, png, jpg, jpeg, gif"}
+        )
+        resp.status_code = 400
+        return resp
