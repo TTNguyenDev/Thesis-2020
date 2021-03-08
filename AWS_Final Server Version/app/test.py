@@ -1,10 +1,10 @@
-from app.detection import get_detector, get_textbox
-from app.utils import group_text_box, get_image_list, diff, reformat_input, isMedicine, tesseract, checkUnitComponents, get_paragraph, cleanName
+from detection import get_detector, get_textbox
+from utils import group_text_box, get_image_list, diff, reformat_input, isMedicine, tesseract, checkUnitComponents, get_paragraph, cleanName
 import numpy as np
 import cv2
 import torch
 import pandas as pd
-from app.spellcheck import SpellCheck
+from spellcheck import SpellCheck
 import os
 
 from fuzzywuzzy import fuzz, process
