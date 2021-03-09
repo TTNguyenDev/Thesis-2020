@@ -11,7 +11,8 @@ class SplashContent extends StatelessWidget {
     return Column(
       children: <Widget>[
         Spacer(),
-        Text("MERE APP",
+        Text("MEDICINE RECOGNITION",
+            textAlign: TextAlign.center,
             style: TextStyle(
                 fontSize: getProportionateScreenWidth(36),
                 color: Color(0xFF3EB16F),

@@ -11,6 +11,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:path/path.dart';
 import 'MedicineList.dart';
+import 'package:flutter_camera_app/pages/menu_item.dart';
 import 'dart:convert' show json, jsonDecode;
 import 'package:flutter_camera_app/pages/loading.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
@@ -26,6 +27,7 @@ class PreviewScreen extends StatefulWidget {
 
 class _PreviewScreenState extends State<PreviewScreen> {
   //bool loading = false;
+  bool _isDrawerOpen = false;
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
@@ -36,6 +38,77 @@ class _PreviewScreenState extends State<PreviewScreen> {
         ),
         backgroundColor: Color(0xFF3EB16F),
         automaticallyImplyLeading: true,
+      ),
+      endDrawer: Drawer(
+        child: Stack(
+          children: <Widget>[
+            Container(
+              width: double.infinity,
+              height: MediaQuery.of(context).size.height - (MediaQuery.of(context).size.height / 1.8 - 90.0) - 120.0,
+              color: Color(0xFF3EB16F),
+              child: Stack(
+                children: <Widget>[
+                  Positioned(
+                    top: 50.0,
+                    left: 20.0,
+                    child: GestureDetector(
+                      onTap: () => setState(() => _isDrawerOpen = false),
+                      child: Icon(
+                        CupertinoIcons.clear,
+                        color: Colors.white,
+                        size: 40.0,
+                      ),
+                    ),
+                  ),
+                  Align(
+                    alignment: Alignment.bottomLeft,
+                    child: Padding(
+                      padding: const EdgeInsets.only(left: 46.0, bottom: 46.0),
+                      // child: UserInfo(
+                      //   picture: 'https://shopolo.hu/wp-content/uploads/2019/04/profile1-%E2%80%93-kopija.jpeg',
+                      //   name: 'Ryan',
+                      //   id: '0023-Ryan',
+                      //   company: 'Universal Data Center',
+                      // ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Align(
+              alignment: Alignment.bottomCenter,
+              child: Container(
+                width: double.infinity,
+                height: MediaQuery.of(context).size.height / 1.8 + 30.0,
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 46.0, top: 46.0),
+                  child: Column(
+                    children: <Widget>[
+                      MenuItem(
+                        icon: Icon(Icons.library_books_outlined),
+                        label: 'Policy',
+                      ),
+                      MenuItem(
+                        icon: Icon(Icons.account_circle),
+                        label: 'About Us',
+                      ),
+                      MenuItem(
+                        icon: Icon(Icons.phone),
+                        label: 'Contact Us',
+                      ),
+                      // MenuItem(
+                      //   icon: Icon(Icons.message),
+                      //   label: 'Contact us',
+                      // ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
+
+
       ),
       body: Container(
         child: Column(
@@ -59,7 +132,7 @@ class _PreviewScreenState extends State<PreviewScreen> {
                         child: FlatButton(
                           child: Center(
                               child: Text(
-                                'Trích xuất',
+                                'Extract',
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 17,
@@ -73,10 +146,11 @@ class _PreviewScreenState extends State<PreviewScreen> {
                           },
                         )
                     ),
-                    ))
+                    )),
           ],
         ),
       ),
+
     );
   }
 
@@ -97,7 +171,7 @@ class _PreviewScreenState extends State<PreviewScreen> {
     print('Success');
     try {
       var response =
-      await dio.post("http://ec2-18-222-38-237.us-east-2.compute.amazonaws.com:8080/file-upload", data: formdata);
+      await dio.post("http://172.29.64.185:8889/file-upload", data: formdata);
       var medicines;
       //setState(() => loading = false);
       EasyLoading.dismiss();
@@ -110,12 +184,12 @@ class _PreviewScreenState extends State<PreviewScreen> {
             MaterialPageRoute(
                 builder: (context) => MedicineList(medicine: medicines)));
       } else {
-        _alertBoxMessage(context, "Fail to read imgae");
+        _alertBoxMessage(context, "Fail to read image");
       }
     } on DioError catch (e) {
       EasyLoading.dismiss();
       // print(e.error);
-      _alertBoxMessage(context, e.message);
+      _alertBoxMessage(context, "Fail to read image");
       if (e.error is SocketException) {
         print(e.error);
       }
@@ -128,14 +202,14 @@ class _PreviewScreenState extends State<PreviewScreen> {
   await showDialog<String>(
       context: context,
       child: AlertDialog(
-        title: Text("Alert Dialog Box"),
-        content: Text(message),
+        title: Text("NOFITICATION"),
+        content: Text(message, textAlign: TextAlign.center),
         actions: <Widget>[
           FlatButton(
             onPressed: () {
               Navigator.of(context).pop();
             },
-            child: Text("okay"),
+            child: Text("OKAY"),
           ),
         ],
       ));

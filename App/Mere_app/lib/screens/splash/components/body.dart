@@ -12,29 +12,25 @@ class _BodyState extends State<Body> {
   int currentPage = 0;
   List<Map<String, String>> splashData = [
     {
-      "text": "Chào mừng đến với Mere App,\nHãy bắt đầu cách sử dụng. ",
+      "text": "Wellcome to Mere App,\nLet's started. ",
       "image": "assets/splash_1.png"
     },
     {
-      "text": "Chúng tôi giúp bạn tìm ra\nthông tin thuốc trong đơn thuốc của bạn",
+      "text": "We will find all the medicine name in the prescription",
       "image": "assets/splash_2.png"
     },
     {
-      "text": "Chúng tôi sẽ nhắc nhở lịch uống thuốc cho bạn ",
+      "text": "We will remind the time to take the medicine ",
       "image": "assets/splash_3.png",
     },
     {
-      "text": "Chụp hình đơn thuốc rõ ràng",
+      "text": "Take the image of the prescription clearly",
       "image": "assets/splash_1.png"
     },
     {
-      "text": "Kiểm tra thuốc ",
+      "text": "Check all the medicine name ",
       "image": "assets/splash_2.png"
     },
-    {
-      "Text": "Đặt lịch nhắc nhở uống thuốc theo mong muốn",
-      "image": "assets/splash_1.png"
-    }
   ];
   @override
   Widget build(BuildContext context) {
@@ -75,7 +71,7 @@ class _BodyState extends State<Body> {
                     flex: 3,
                   ),
                   DefaultButton(
-                    text: "Bỏ qua",
+                    text: "SKIP",
                     press: (){
                       //Navigator.pushNamed(context, CameraScreen.routeName);
                       Navigator.push(
