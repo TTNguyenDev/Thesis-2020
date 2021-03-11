@@ -3,15 +3,13 @@ import 'dart:typed_data';
 import 'package:dio/dio.dart';
 
 import 'package:flutter_camera_app/Model/ResponseData.dart';
-import 'package:esys_flutter_share/esys_flutter_share.dart';
 import 'package:flutter_camera_app/pages/MedicineInfo.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_launcher_icons/ios.dart';
-import 'package:path/path.dart';
-import 'package:http/http.dart' as http;
+
 import 'dart:convert' show json, jsonDecode;
+import 'drawer_content.dart';
+import 'camera_screen.dart';
 
 class MedicineList extends StatefulWidget {
   final List<Medicine> medicine;
@@ -38,66 +36,109 @@ class _MedicineListState extends State<MedicineList> {
         centerTitle: true,
         title: Text(widget.title, style: TextStyle(color: Colors.white)),
       ),
-      body: new ListView.builder(
-          itemCount: medicine.length,
-          itemBuilder: (BuildContext context, int index) {
-            return new GestureDetector(
-              child: Hero(
-                tag: 'imgaeHero',
-                child: Card(
-                    child: Padding(
-                        padding: const EdgeInsets.all(16.0),
-                        child: Column(
-                          children: <Widget>[
-                            Padding(
-                              padding:
-                              const EdgeInsets.only(top: 8.0, bottom: 4.0),
-                              child: Row(children: <Widget>[
-                                Text(
-                                  medicine[index].name,
-                                  style: TextStyle(
-                                      fontSize: 24,
-                                      color: Color(0xFF3EB16F),
-                                      fontWeight: FontWeight.bold),
-                                ),
-                                SizedBox(width: 10),
-                                (int.parse(medicine[index].accuracy) >= 90)
-                                    ? Icon(Icons.verified,
-                                    color: Color(0xFF3EB16F))
-                                    : Container(),
-                                Spacer(),
-                                Icon(
-                                  IconData(0xe901, fontFamily: "Ic"),
-                                  color: Color(0xFF3EB16F),
-                                  size: 100,
-                                ),
-                              ]),
-                            ),
-                            Padding(
-                              padding:
-                              const EdgeInsets.only(top: 4.0, bottom: 4.0),
-                              child: Row(children: <Widget>[
-                                Text(
-                                    'Sáng ${medicine[index].morning} Chiều ${medicine[index].afternoon} Tối ${medicine[index].evening}',
-                                    style: TextStyle(
-                                        fontSize: 17,
-                                        color: Color(0xFFC9C9C9),
-                                        fontWeight: FontWeight.bold)),
-                              ]),
-                            ),
-
-                          ],
-                        ))),
+      endDrawer: DrawerContent(),
+      body: Container(
+        child: Column(
+          children:<Widget> [
+            Expanded(
+              child: ListView.builder(
+                  itemCount: medicine.length,
+                  itemBuilder: (BuildContext context, int index) {
+                    return new GestureDetector(
+                      child: Hero(
+                        tag: 'imgaeHero',
+                        child: Card(
+                            child: Padding(
+                                padding: const EdgeInsets.all(16.0),
+                                child: Column(
+                                  children: <Widget>[
+                                    Padding(
+                                      padding:
+                                      const EdgeInsets.only(top: 8.0, bottom: 4.0),
+                                      child: Row(children: <Widget>[
+                                        Text(
+                                          medicine[index].display_name,
+                                          style: TextStyle(
+                                              fontSize: 24,
+                                              color: Color(0xFF3EB16F),
+                                              fontWeight: FontWeight.bold),
+                                        ),
+                                        SizedBox(width: 10),
+                                        // (int.parse(medicine[index].accuracy) >= 90)
+                                        //     ? Icon(Icons.verified,
+                                        //     color: Color(0xFF3EB16F))
+                                        //     : Container(),
+                                        Spacer(),
+                                        Icon(
+                                          IconData(0xe901, fontFamily: "Ic"),
+                                          color: Color(0xFF3EB16F),
+                                          size: 100,
+                                        ),
+                                      ]),
+                                    ),
+                                    Padding(
+                                      padding:
+                                      const EdgeInsets.only(top: 4.0, bottom: 4.0),
+                                      child: Row(children: <Widget>[
+                                        Text(
+                                            'Sáng ${medicine[index].morning} Chiều ${medicine[index].afternoon} Tối ${medicine[index].evening}',
+                                            style: TextStyle(
+                                                fontSize: 17,
+                                                color: Color(0xFFC9C9C9),
+                                                fontWeight: FontWeight.bold)),
+                                      ]),
+                                    ),
+                                  ],
+                                ))),
+                      ),
+                      onTap: () {
+                        Navigator.push(
+                            this.context,
+                            MaterialPageRoute(
+                                builder: (context) =>
+                                    MedicineInfo(medicine: medicine[index])));
+                      },);}),),
+            Expanded(
+              child: Align(
+                alignment: Alignment.bottomRight,
+                child:
+                // CircleAvatar(
+                //   backgroundColor: Color(0xFF3EB16F),
+                //   radius: 25,
+                //   child: IconButton(
+                //     padding: EdgeInsets.zero,
+                //     icon: Icon(
+                //         Icons.add,
+                //       size: 26,
+                //     ),
+                //     color: Colors.white,
+                //     onPressed: () =>   Navigator.push(
+                //             this.context,
+                //             MaterialPageRoute(
+                //                 builder: (context) => CameraScreen())),
+                //   ),
+                // ),
+                MaterialButton(
+                  onPressed: () =>
+                  Navigator.push(
+                        this.context,
+                        MaterialPageRoute(
+                            builder: (context) => CameraScreen())),
+                  color: Color(0xFF3EB16F),
+                  textColor: Colors.white,
+                  child: Icon(
+                    Icons.camera_alt,
+                    size: 26,
+                  ),
+                  padding: EdgeInsets.all(16),
+                  shape: CircleBorder(),
+                ),
               ),
-              onTap: () {
-                Navigator.push(
-                    this.context,
-                    MaterialPageRoute(
-                        builder: (context) =>
-                            MedicineInfo(medicine: medicine[index])));
-              },
-            );
-          }),
+            ),
+          ],
+        ),
+
+      ),
     );
   }
 }

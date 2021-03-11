@@ -27,7 +27,7 @@ class _MedicineInfoState extends State<MedicineInfo> {
   _MedicineInfoState(this.medicine);
   Hero makeIcon(double size) {
     return Hero(
-      tag: medicine.name + "1",
+      tag: medicine.display_name + "1",
       child: Icon(
         IconData(0xe901, fontFamily: "Ic"),
         color: Color(0xFF3EB16F),
@@ -39,7 +39,7 @@ class _MedicineInfoState extends State<MedicineInfo> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-        resizeToAvoidBottomPadding: false,
+        resizeToAvoidBottomInset: false,
         backgroundColor: Colors.white,
         appBar: AppBar(
           leading: IconButton(
@@ -68,19 +68,19 @@ class _MedicineInfoState extends State<MedicineInfo> {
                             Column(
                               children: <Widget>[
                                 Hero(
-                                  tag: medicine.name,
+                                  tag: medicine.display_name,
                                   child: Material(
                                       color: Colors.transparent,
                                       child: MainInfoTab(
                                         fieldTitle: "Tên Thuốc",
                                         customIcon: true,
-                                        fieldInfo: medicine.name,
+                                        fieldInfo: medicine.display_name,
                                       )),
                                 ),
                                 MainInfoTab(
                                   fieldTitle: "Độ chính xác",
                                   customIcon: false,
-                                  fieldInfo: medicine.accuracy,
+                                  fieldInfo: medicine.contain,
                                 )
                               ],
                             )
@@ -266,7 +266,7 @@ class ExtendedInfoTab extends StatelessWidget {
 _showMedicineDialog(context) async {
   await showDialog<String>(
     context: context,
-    child: new AlertDialog(
+    builder: (context) => AlertDialog(
       contentPadding: EdgeInsets.fromLTRB(20, 50, 20, 20),
       title: Text('Tên thuốc đúng'),
       content: new Row(
@@ -308,22 +308,10 @@ _showMedicineDialog(context) async {
 _showTimeDialog(context) async {
   await showDialog<String>(
     context: context,
-    child: new AlertDialog(
+    builder: (context) => AlertDialog(
       contentPadding: EdgeInsets.fromLTRB(20, 50, 20, 20),
       content: new Column(
         children: <Widget>[
-          // new Expanded(
-          //   child: new TextField(
-          //     autofocus: true,
-          //     decoration: new InputDecoration(
-          //       hintText: 'ex: Paracetamol',
-          //       border: new OutlineInputBorder(
-          //         borderRadius: new BorderRadius.circular(20.0),
-          //         borderSide: new BorderSide(),
-          //       ),
-          //     ),
-          //   ),
-          // )
           SizedBox(
             height: 16,
           ),
@@ -385,7 +373,7 @@ _showTimeDialog(context) async {
 _alertBoxMessage(context) async {
   await showDialog<String>(
       context: context,
-      child: AlertDialog(
+      builder: (context) => AlertDialog(
         title: Text("Thông báo"),
         content: Text("Tính năng đang đang phát triển"),
         actions: <Widget>[
