@@ -2,13 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 
 class PolicyView extends StatelessWidget{
+  final String url;
+  final String label;
+  const PolicyView({Key key, this.url, this.label}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
         "/": (_) => new WebviewScaffold(
-          url: "https://services.fit.hcmus.edu.vn:8889",
+          //url: "https://services.fit.hcmus.edu.vn:8889",
+          url: url,
           appBar: new AppBar(
             leading: IconButton(
               icon: Icon(Icons.arrow_back_ios, color: Colors.white),
@@ -16,7 +20,7 @@ class PolicyView extends StatelessWidget{
             ),
             backgroundColor: Color(0xFF3EB16F),
             centerTitle: true,
-            title: Text('Policy', style: TextStyle(color: Colors.white)),
+            title: Text(label, style: TextStyle(color: Colors.white)),
           ),
         ),
       },

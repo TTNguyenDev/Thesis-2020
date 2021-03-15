@@ -4,10 +4,11 @@ import 'policy_view.dart';
 class MenuItem extends StatelessWidget {
   final Icon icon;
   final String label;
-  final _url = 'https://flutter.dev';
+  final String url;
   MenuItem({
     @required this.icon,
     @required this.label,
+    @required this.url
   })  : assert(icon != null),
         assert(label != null);
 
@@ -16,7 +17,7 @@ class MenuItem extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(bottom: 42.0),
       child: GestureDetector(
-        onTap: () =>  Navigator.push(context, MaterialPageRoute(builder: (context) => PolicyView())),
+        onTap: () =>  Navigator.push(context, MaterialPageRoute(builder: (context) => PolicyView(url: url, label: label,))),
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[

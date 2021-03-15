@@ -54,10 +54,12 @@ class DrawerContent extends StatelessWidget{
                     MenuItem(
                       icon: Icon(Icons.library_books_outlined),
                       label: 'Policy',
+                      url: "https://services.fit.hcmus.edu.vn:8889/policy",
                     ),
                     MenuItem(
                       icon: Icon(Icons.account_circle),
                       label: 'About Us',
+                      url: "https://services.fit.hcmus.edu.vn:8889/about_us",
                     ),
                     MenuItem(
                       icon: Icon(Icons.phone),

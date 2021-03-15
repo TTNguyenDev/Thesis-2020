@@ -1,10 +1,7 @@
-import 'dart:io';
 import 'dart:typed_data';
 import 'package:commons/commons.dart';
-import 'package:dio/dio.dart';
 
 import 'package:flutter_camera_app/Model/ResponseData.dart';
-import 'package:esys_flutter_share/esys_flutter_share.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -16,8 +13,10 @@ import 'package:flutter_camera_app/pages/MedicineRemind.dart';
 
 class MedicineInfo extends StatefulWidget {
   final Medicine medicine;
+
   MedicineInfo({Key key, @required this.medicine}) : super(key: key);
   final title = 'More Information';
+
   @override
   _MedicineInfoState createState() => _MedicineInfoState(medicine);
 }
@@ -25,7 +24,9 @@ class MedicineInfo extends StatefulWidget {
 class _MedicineInfoState extends State<MedicineInfo> {
   final Medicine medicine;
   bool customIcon;
+
   _MedicineInfoState(this.medicine);
+
   Hero makeIcon(double size) {
     return Hero(
       tag: medicine.display_name + "1",
@@ -52,6 +53,7 @@ class _MedicineInfoState extends State<MedicineInfo> {
           title: Text(widget.title, style: TextStyle(color: Colors.white)),
         ),
         body: SingleChildScrollView(
+
             child: Stack(children: <Widget>[
           Container(
               child: Padding(
@@ -104,7 +106,7 @@ class _MedicineInfoState extends State<MedicineInfo> {
                         ExtendedInfoTab(
                             fieldTitle: "Information ",
                             customIcon: false,
-                            fieldInfo: "Tác dụng lên tiến trình viêm và miễn dịch:\nTính chất kháng viêm, ức chế miễn dịch và giảm đau của các glucocorticoid được sử dụng trong hầu hết các chỉ định."),
+                            fieldInfo: medicine.info),
                         Padding(
                           padding: EdgeInsets.only(
                             left: MediaQuery.of(context).size.height * 0.06,
@@ -149,12 +151,14 @@ class MainInfoTab extends StatelessWidget {
   final String fieldTitle;
   bool customIcon;
   final String fieldInfo;
+
   MainInfoTab(
       {Key key,
       @required this.fieldTitle,
       @required this.customIcon,
       @required this.fieldInfo})
       : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -186,10 +190,12 @@ class MainInfoTab extends StatelessWidget {
           AutoSizeText(
             fieldInfo,
             style: TextStyle(
-                fontSize: 24,
+                fontSize: 17,
                 color: Color(0xFF3EB16F),
                 fontWeight: FontWeight.bold),
-            maxLines: 1,
+            maxLines: 2,
+            minFontSize: 12,
+            overflow: TextOverflow.ellipsis,
           ),
         ],
       ),
@@ -208,6 +214,7 @@ class ExtendedInfoTab extends StatelessWidget {
       @required this.customIcon,
       @required this.fieldInfo})
       : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -216,17 +223,6 @@ class ExtendedInfoTab extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            // Padding(
-            //   padding: EdgeInsets.only(bottom: 8.0),
-            //   child: Text(
-            //     fieldTitle,
-            //     style: TextStyle(
-            //       fontSize: 20,
-            //       color: Colors.black,
-            //       fontWeight: FontWeight.bold,
-            //     ),
-            //   ),
-            // ),
             Padding(
               padding: EdgeInsets.only(bottom: 8.0),
               child: Container(
@@ -243,7 +239,6 @@ class ExtendedInfoTab extends StatelessWidget {
                           color: Color(0xFF3EB16F),
                           onPressed: () {
                             _alertBoxMessage(context);
-
                           },
                         )
                       : Container(),
@@ -373,22 +368,19 @@ _showTimeDialog(context) async {
 }
 
 _alertBoxMessage(context) async {
-  await infoDialog(context,
-      "Funtion is updating", textAlign: TextAlign.center, neutralText: "OK", title: "Nofitication"
-    //title: new Text("Nofitioncation", style: TextStyle(color: Colors.black))
-  );
-      //   title: Text("Thông báo"),
-      //   content: Text("Tính năng đang đang phát triển"),
-      //   actions: <Widget>[
-      //     FlatButton(
-      //       onPressed: () {
-      //         Navigator.of(context).pop();
-      //       },
-      //       child: Text("OK"),
-      //     ),
-      //   ],
-      // ));
+  await infoDialog(context, "Funtion is updating",
+      textAlign: TextAlign.center, neutralText: "OK", title: "Nofitication"
+      //title: new Text("Nofitioncation", style: TextStyle(color: Colors.black))
+      );
+  //   title: Text("Thông báo"),
+  //   content: Text("Tính năng đang đang phát triển"),
+  //   actions: <Widget>[
+  //     FlatButton(
+  //       onPressed: () {
+  //         Navigator.of(context).pop();
+  //       },
+  //       child: Text("OK"),
+  //     ),
+  //   ],
+  // ));
 }
-
-
-
