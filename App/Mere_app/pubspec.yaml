@@ -47,6 +47,10 @@ flutter:
     - assets/splash_2.png
     - assets/splash_3.png
     - assets/image1.png
+    - assets/company_logo.png
+
+    - assets/logo.png
+
   fonts:
     - family: Ic
       fonts:

@@ -11,6 +11,7 @@ import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'drawer_content.dart';
 import 'package:commons/commons.dart';
 
+import 'package:path/path.dart';
 
 class PreviewScreen extends StatefulWidget {
   final String imgPath;
@@ -41,9 +42,9 @@ class _PreviewScreenState extends State<PreviewScreen> {
             Expanded(
                flex: 2,
               child: Image.file(
-              //child: Image.file(
+              // //child: Image.file(
                 File(widget.imgPath),
-                // File("assets/image1.png"),
+                //File("assets/image1.png"),
                 fit: BoxFit.cover,
               ),
               // child: Image.asset(
@@ -96,22 +97,33 @@ class _PreviewScreenState extends State<PreviewScreen> {
     diofile.Dio dio = new diofile.Dio();
     diofile.FormData formdata = new diofile.FormData.fromMap(<String, dynamic>{
       "file": await diofile.MultipartFile.fromFile(widget.imgPath, filename: 'abc.png')
-      //"file": await MultipartFile.fromFile("assets/image1.png", filename: 'abc.png')
+      // "file": await diofile.MultipartFile.fromFile("", filename: 'abc.png')
     });
     print('Success');
     try {
       var response =
       await dio.post("https://services.fit.hcmus.edu.vn:8889/file-upload", data: formdata);
-      var medicines;
+      List<List<Medicine>> listMedicines = [];
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         print('Success to read image ');
-        medicines =
-        List<Medicine>.from(response.data.map((i) => Medicine.fromJson(i)));
+
+        for(var i = 0; i< response.data.length; i++) {
+          var medicines = List<Medicine>.from(response.data[i].map((i) => Medicine.fromJson(i)));
+          print("DEBUG TRIET");
+          print(medicines[0].line);
+          print(medicines[0].contains);
+          print(medicines[0].info);
+          // print(medicines[0].line);
+          listMedicines.add(medicines);
+        }
+        print(listMedicines[4]);
+
+
         Navigator.push(
             this.context,
             MaterialPageRoute(
-                builder: (context) => MedicineList(medicine: medicines)));
+                builder: (context) => MedicineList(medicine: listMedicines)));
       } else {
         _alertBoxMessage(context, "Fail to read image");
       }
@@ -131,8 +143,8 @@ class _PreviewScreenState extends State<PreviewScreen> {
   await errorDialog(
       context,
       message,
-    positiveText: "Okay",
-    positiveAction:() => Navigator.of(context).pop(),
+    neutralText: "Okay",
+    neutralAction:() => Navigator.of(context).pop(),
   );
 
   // await Dialog<String>(

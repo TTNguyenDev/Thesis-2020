@@ -12,17 +12,16 @@ import 'drawer_content.dart';
 import 'camera_screen.dart';
 
 class MedicineList extends StatefulWidget {
-  final List<Medicine> medicine;
+  final List<List<Medicine>> medicine;
   MedicineList({Key key, @required this.medicine}) : super(key: key);
 
-  final String title = "Đơn Thuốc";
+  final String title = "Prescription";
 
   @override
   _MedicineListState createState() => _MedicineListState(medicine);
 }
-
 class _MedicineListState extends State<MedicineList> {
-  final List<Medicine> medicine;
+  final List<List<Medicine>> medicine;
   _MedicineListState(this.medicine);
   @override
   Widget build(BuildContext context) {
@@ -31,6 +30,7 @@ class _MedicineListState extends State<MedicineList> {
         leading: IconButton(
           icon: Icon(Icons.arrow_back_ios, color: Colors.white),
           onPressed: () => Navigator.of(context).pop(),
+          // onPressed: () => printMedicine(),
         ),
         backgroundColor: Color(0xFF3EB16F),
         centerTitle: true,
@@ -42,7 +42,7 @@ class _MedicineListState extends State<MedicineList> {
           children:<Widget> [
             Expanded(
               child: ListView.builder(
-                  itemCount: medicine.length,
+                  itemCount: 5,
                   itemBuilder: (BuildContext context, int index) {
                     return new GestureDetector(
                       child: Hero(
@@ -57,7 +57,7 @@ class _MedicineListState extends State<MedicineList> {
                                       const EdgeInsets.only(top: 8.0, bottom: 4.0),
                                       child: Row(children: <Widget>[
                                         Text(
-                                          medicine[index].display_name,
+                                          medicine[index][0].display_name,
                                           style: TextStyle(
                                               fontSize: 24,
                                               color: Color(0xFF3EB16F),
@@ -81,7 +81,7 @@ class _MedicineListState extends State<MedicineList> {
                                       const EdgeInsets.only(top: 4.0, bottom: 4.0),
                                       child: Row(children: <Widget>[
                                         Text(
-                                            'Sáng ${medicine[index].morning} Chiều ${medicine[index].afternoon} Tối ${medicine[index].evening}',
+                                            'Morning ${medicine[index][0].morning} Afternoon ${medicine[index][0].afternoon} Evening ${medicine[index][0].evening}',
                                             style: TextStyle(
                                                 fontSize: 17,
                                                 color: Color(0xFFC9C9C9),
@@ -96,49 +96,37 @@ class _MedicineListState extends State<MedicineList> {
                             this.context,
                             MaterialPageRoute(
                                 builder: (context) =>
-                                    MedicineInfo(medicine: medicine[index])));
+                                    MedicineInfo(medicine: medicine[index][0])));
                       },);}),),
-            Expanded(
-              child: Align(
-                alignment: Alignment.bottomRight,
-                child:
-                // CircleAvatar(
-                //   backgroundColor: Color(0xFF3EB16F),
-                //   radius: 25,
-                //   child: IconButton(
-                //     padding: EdgeInsets.zero,
-                //     icon: Icon(
-                //         Icons.add,
-                //       size: 26,
-                //     ),
-                //     color: Colors.white,
-                //     onPressed: () =>   Navigator.push(
-                //             this.context,
-                //             MaterialPageRoute(
-                //                 builder: (context) => CameraScreen())),
-                //   ),
-                // ),
-                MaterialButton(
-                  onPressed: () =>
-                  Navigator.push(
-                        this.context,
-                        MaterialPageRoute(
-                            builder: (context) => CameraScreen())),
-                  color: Color(0xFF3EB16F),
-                  textColor: Colors.white,
-                  child: Icon(
-                    Icons.camera_alt,
-                    size: 26,
-                  ),
-                  padding: EdgeInsets.all(16),
-                  shape: CircleBorder(),
-                ),
-              ),
-            ),
+            // Expanded(
+            //   child: Align(
+            //     alignment: Alignment.bottomRight,
+            //     child:
+            //     MaterialButton(
+            //       onPressed: () =>
+            //       Navigator.push(
+            //             this.context,
+            //             MaterialPageRoute(
+            //                 builder: (context) => CameraScreen())),
+            //       color: Color(0xFF3EB16F),
+            //       textColor: Colors.white,
+            //       child: Icon(
+            //         Icons.camera_alt,
+            //         size: 26,
+            //       ),
+            //       padding: EdgeInsets.all(16),
+            //       shape: CircleBorder(),
+            //     ),
+            //   ),
+            // ),
           ],
         ),
 
       ),
     );
+  }
+  void printMedicine(){
+    print(medicine.length);
+    print(medicine[4]);
   }
 }

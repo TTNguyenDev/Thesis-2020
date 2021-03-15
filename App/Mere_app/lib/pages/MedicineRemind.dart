@@ -43,23 +43,6 @@ class _MedicineRemindState extends State<MedicineRemind> {
   }
   @override
   Widget build(BuildContext context) {
-    // return Scaffold(
-    //   appBar: AppBar(
-    //     leading: IconButton(
-    //       icon: Icon(Icons.arrow_back_ios, color: Colors.white),
-    //       onPressed: () => Navigator.of(context).pop(),
-    //     ),
-    //     backgroundColor: Color(0xFF3EB16F),
-    //     centerTitle: true,
-    //     title: Text(widget.title, style: TextStyle(color: Colors.white)),
-    //   ),
-    //   body: SfCalendar(
-    //       view: CalendarView.week,
-    //       showNavigationArrow: true,
-    //       monthViewSettings: MonthViewSettings(
-    //           appointmentDisplayMode: MonthAppointmentDisplayMode.appointment)),
-    // );
-
     return Scaffold(
         appBar: AppBar(
           leading: IconButton(

@@ -31,8 +31,9 @@ class MenuItem extends StatelessWidget {
               label,
 
               style: TextStyle(
-                color: Colors.blue,
-                fontWeight: FontWeight.w700,
+                fontSize: 18,
+                color: Color(0xFF3EB16F),
+                fontWeight: FontWeight.bold,
               ),
             ),
           ],

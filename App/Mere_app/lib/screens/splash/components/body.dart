@@ -12,7 +12,7 @@ class _BodyState extends State<Body> {
   int currentPage = 0;
   List<Map<String, String>> splashData = [
     {
-      "text": "Wellcome to Mere App,\nLet's started. ",
+      "text": "Wellcome to Prescription Recognition,\nLet's started. ",
       "image": "assets/splash_1.png"
     },
     {
@@ -68,7 +68,7 @@ class _BodyState extends State<Body> {
                         splashData.length, (index) => buildDot(index: index)),
                   ),
                   Spacer(
-                    flex: 3,
+                    flex: 2,
                   ),
                   DefaultButton(
                     text: "SKIP",

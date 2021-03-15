@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'menu_item.dart';
+import 'company_info.dart';
 
 class DrawerContent extends StatelessWidget{
   @override
@@ -27,15 +28,15 @@ class DrawerContent extends StatelessWidget{
                   ),
                 ),
                 Align(
-                  alignment: Alignment.bottomLeft,
+                  alignment: Alignment.bottomRight,
                   child: Padding(
-                    padding: const EdgeInsets.only(left: 46.0, bottom: 46.0),
-                    // child: UserInfo(
-                    //   picture: 'https://shopolo.hu/wp-content/uploads/2019/04/profile1-%E2%80%93-kopija.jpeg',
-                    //   name: 'Ryan',
-                    //   id: '0023-Ryan',
-                    //   company: 'Universal Data Center',
-                    // ),
+                    padding: const EdgeInsets.only(left: 90.0, bottom: 46.0),
+                    child: CompanyInfo(
+                      picture: 'assets/company_logo.png',
+                      name: 'TVT Group',
+                      id: 'lnthanhmedic@gmail.com',
+                      company: 'Prescription Recognition',
+                    ),
                   ),
                 ),
               ],

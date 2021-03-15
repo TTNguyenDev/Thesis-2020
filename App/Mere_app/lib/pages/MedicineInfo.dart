@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'dart:typed_data';
+import 'package:commons/commons.dart';
 import 'package:dio/dio.dart';
 
 import 'package:flutter_camera_app/Model/ResponseData.dart';
@@ -16,7 +17,7 @@ import 'package:flutter_camera_app/pages/MedicineRemind.dart';
 class MedicineInfo extends StatefulWidget {
   final Medicine medicine;
   MedicineInfo({Key key, @required this.medicine}) : super(key: key);
-  final title = 'Thông tin thuốc';
+  final title = 'More Information';
   @override
   _MedicineInfoState createState() => _MedicineInfoState(medicine);
 }
@@ -72,15 +73,15 @@ class _MedicineInfoState extends State<MedicineInfo> {
                                   child: Material(
                                       color: Colors.transparent,
                                       child: MainInfoTab(
-                                        fieldTitle: "Tên Thuốc",
+                                        fieldTitle: "Name",
                                         customIcon: true,
                                         fieldInfo: medicine.display_name,
                                       )),
                                 ),
                                 MainInfoTab(
-                                  fieldTitle: "Độ chính xác",
+                                  fieldTitle: "Ingredient",
                                   customIcon: false,
-                                  fieldInfo: medicine.contain,
+                                  fieldInfo: medicine.contains,
                                 )
                               ],
                             )
@@ -91,19 +92,19 @@ class _MedicineInfoState extends State<MedicineInfo> {
                       Container(
                           child: ListView(shrinkWrap: true, children: <Widget>[
                         ExtendedInfoTab(
-                            fieldTitle: "Liều lượng ",
+                            fieldTitle: "Dosage ",
                             customIcon: true,
                             fieldInfo:
-                                'Sáng ${medicine.morning} Chiều ${medicine.afternoon} Tối ${medicine.evening}'),
+                                'Morning: ${medicine.morning} pill\nAfternoon: ${medicine.afternoon} pill\nEvening: ${medicine.evening} pill'),
                         // Icon(
                         //   Icons.insert_comment_outlined,
                         //   color: Color(0xFF3EB16F),
                         //   size: 17,
                         // ),
                         ExtendedInfoTab(
-                            fieldTitle: "Thông tin ",
+                            fieldTitle: "Information ",
                             customIcon: false,
-                            fieldInfo: medicine.info),
+                            fieldInfo: "Tác dụng lên tiến trình viêm và miễn dịch:\nTính chất kháng viêm, ức chế miễn dịch và giảm đau của các glucocorticoid được sử dụng trong hầu hết các chỉ định."),
                         Padding(
                           padding: EdgeInsets.only(
                             left: MediaQuery.of(context).size.height * 0.06,
@@ -126,7 +127,7 @@ class _MedicineInfoState extends State<MedicineInfo> {
                               },
                               child: Center(
                                 child: Text(
-                                  "Đặt lời nhắc",
+                                  "Set Reminder",
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 17,
@@ -241,7 +242,8 @@ class ExtendedInfoTab extends StatelessWidget {
                           icon: Icon(Icons.insert_comment_outlined),
                           color: Color(0xFF3EB16F),
                           onPressed: () {
-                            _showTimeDialog(context);
+                            _alertBoxMessage(context);
+
                           },
                         )
                       : Container(),
@@ -268,7 +270,7 @@ _showMedicineDialog(context) async {
     context: context,
     builder: (context) => AlertDialog(
       contentPadding: EdgeInsets.fromLTRB(20, 50, 20, 20),
-      title: Text('Tên thuốc đúng'),
+      title: Text('Correct Name'),
       content: new Row(
         children: <Widget>[
           new Expanded(
@@ -289,14 +291,14 @@ _showMedicineDialog(context) async {
         new FlatButton(
             color: Colors.red,
             textColor: Colors.white,
-            child: const Text('HỦY BỎ'),
+            child: const Text('CANCEL'),
             onPressed: () {
               Navigator.pop(context);
             }),
         new FlatButton(
             color: Color(0xFF3EB16F),
             textColor: Colors.white,
-            child: const Text('ĐỒNG Ý'),
+            child: const Text('OK'),
             onPressed: () {
               Navigator.pop(context);
             })
@@ -319,7 +321,7 @@ _showTimeDialog(context) async {
             keyboardType: TextInputType.number,
             decoration: InputDecoration(
               border: OutlineInputBorder(),
-              labelText: 'Sáng',
+              labelText: 'Morning',
               isDense: true, // Added this
               contentPadding: EdgeInsets.all(8), // Added this
             ),
@@ -331,7 +333,7 @@ _showTimeDialog(context) async {
             keyboardType: TextInputType.number,
             decoration: InputDecoration(
               border: OutlineInputBorder(),
-              labelText: 'Chiều',
+              labelText: 'Afternoon',
               isDense: true, // Added this
               contentPadding: EdgeInsets.all(8), // Added this
             ),
@@ -343,7 +345,7 @@ _showTimeDialog(context) async {
             keyboardType: TextInputType.number,
             decoration: InputDecoration(
               border: OutlineInputBorder(),
-              labelText: 'Tối',
+              labelText: 'Evening',
               isDense: true, // Added this
               contentPadding: EdgeInsets.all(8), // Added this
             ),
@@ -354,14 +356,14 @@ _showTimeDialog(context) async {
         new FlatButton(
             color: Colors.red,
             textColor: Colors.white,
-            child: const Text('HỦY BỎ'),
+            child: const Text('CANCEL'),
             onPressed: () {
               Navigator.pop(context);
             }),
         new FlatButton(
             color: Color(0xFF3EB16F),
             textColor: Colors.white,
-            child: const Text('ĐỒNG Ý'),
+            child: const Text('OK'),
             onPressed: () {
               Navigator.pop(context);
             })
@@ -371,20 +373,21 @@ _showTimeDialog(context) async {
 }
 
 _alertBoxMessage(context) async {
-  await showDialog<String>(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: Text("Thông báo"),
-        content: Text("Tính năng đang đang phát triển"),
-        actions: <Widget>[
-          FlatButton(
-            onPressed: () {
-              Navigator.of(context).pop();
-            },
-            child: Text("OK"),
-          ),
-        ],
-      ));
+  await infoDialog(context,
+      "Funtion is updating", textAlign: TextAlign.center, neutralText: "OK", title: "Nofitication"
+    //title: new Text("Nofitioncation", style: TextStyle(color: Colors.black))
+  );
+      //   title: Text("Thông báo"),
+      //   content: Text("Tính năng đang đang phát triển"),
+      //   actions: <Widget>[
+      //     FlatButton(
+      //       onPressed: () {
+      //         Navigator.of(context).pop();
+      //       },
+      //       child: Text("OK"),
+      //     ),
+      //   ],
+      // ));
 }
 
 
