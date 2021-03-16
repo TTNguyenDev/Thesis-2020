@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_camera_app/pages/preview_screen.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:image_picker/image_picker.dart';
 
 class CameraScreen extends StatefulWidget {
   static String routeName = "/screen";

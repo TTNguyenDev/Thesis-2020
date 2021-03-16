@@ -53,8 +53,8 @@ class _MedicineInfoState extends State<MedicineInfo> {
           title: Text(widget.title, style: TextStyle(color: Colors.white)),
         ),
         body: SingleChildScrollView(
-
-            child: Stack(children: <Widget>[
+          scrollDirection: Axis.vertical,
+            child: Column(children: <Widget>[
           Container(
               child: Padding(
                   padding: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
@@ -143,7 +143,8 @@ class _MedicineInfoState extends State<MedicineInfo> {
                       ])),
                     ],
                   )))
-        ])));
+        ],
+            )));
   }
 }
 
