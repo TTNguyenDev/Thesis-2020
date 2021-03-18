@@ -34,6 +34,7 @@ class _PreviewScreenState extends State<PreviewScreen> {
         backgroundColor: Color(0xFF3EB16F),
         automaticallyImplyLeading: true,
       ),
+
       endDrawer: DrawerContent(),
       body: Container(
         child: Column(
@@ -117,7 +118,9 @@ class _PreviewScreenState extends State<PreviewScreen> {
           // print(medicines[0].line);
           listMedicines.add(medicines);
         }
-        print(listMedicines[4]);
+        if(listMedicines.length <= 0 ){
+          _alertMedicineMessage(context);
+        }
 
 
         Navigator.push(
@@ -130,7 +133,7 @@ class _PreviewScreenState extends State<PreviewScreen> {
     } on diofile.DioError catch (e) {
       EasyLoading.dismiss();
       // print(e.error);
-      _alertBoxMessage(context, "Fail to read image");
+      _alertMedicineMessage(context);
       if (e.error is SocketException) {
         print(e.error);
       }
@@ -146,21 +149,15 @@ class _PreviewScreenState extends State<PreviewScreen> {
     neutralText: "Okay",
     neutralAction:() => Navigator.of(context).pop(),
   );
-
-  // await Dialog<String>(
-  //     context: context,
-  //     builder: (context) => AlertDialog(
-  //       title: Text("NOFITICATION"),
-  //       content: Text(message, textAlign: TextAlign.center),
-  //       actions: <Widget>[
-  //         FlatButton(
-  //           onPressed: () {
-  //             Navigator.of(context).pop();
-  //           },
-  //           child: Text("OKAY"),
-  //         ),
-  //       ],
-  //     ));
 }
+  _alertMedicineMessage (context) async{
+  await infoDialog(
+      context,
+      "We are trying to upadte the database.\nTry again later",
+    title: "Can't find the međicne",
+    neutralText: "Okay",
+    neutralAction:() => Navigator.of(context).pop(),
+  );
+  }
 
 

@@ -92,12 +92,14 @@ class _MedicineInfoState extends State<MedicineInfo> {
                       ),
                       SizedBox(height: 15),
                       Container(
-                          child: ListView(shrinkWrap: true, children: <Widget>[
+                          child: Column(
+                          children: <Widget>[
                         ExtendedInfoTab(
                             fieldTitle: "Dosage ",
                             customIcon: true,
                             fieldInfo:
-                                'Morning: ${medicine.morning} pill\nAfternoon: ${medicine.afternoon} pill\nEvening: ${medicine.evening} pill'),
+                                'Morning: ${medicine.morning} pill\nAfternoon: ${medicine.afternoon} pill\nEvening: ${medicine.evening} pill'
+                        ),
                         // Icon(
                         //   Icons.insert_comment_outlined,
                         //   color: Color(0xFF3EB16F),

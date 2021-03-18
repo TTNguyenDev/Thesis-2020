@@ -11,7 +11,6 @@ class PolicyView extends StatelessWidget{
       debugShowCheckedModeBanner: false,
       routes: {
         "/": (_) => new WebviewScaffold(
-          //url: "https://services.fit.hcmus.edu.vn:8889",
           url: url,
           appBar: new AppBar(
             leading: IconButton(

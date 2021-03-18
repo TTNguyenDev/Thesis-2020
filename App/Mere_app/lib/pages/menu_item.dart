@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'policy_view.dart';
+import 'dart:io';
 class MenuItem extends StatelessWidget {
   final Icon icon;
   final String label;
@@ -17,7 +18,10 @@ class MenuItem extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(bottom: 42.0),
       child: GestureDetector(
-        onTap: () =>  Navigator.push(context, MaterialPageRoute(builder: (context) => PolicyView(url: url, label: label,))),
+        onTap: (
+
+         )=>  _checkInternet(context),
+            //Navigator.push(context, MaterialPageRoute(builder: (context) => PolicyView(url: url, label: label,))),
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
@@ -42,5 +46,19 @@ class MenuItem extends StatelessWidget {
       ),
     );
   }
+  void _checkInternet(context) async {
+    try {
+      final result = await InternetAddress.lookup('google.com');
+      if (result.isNotEmpty && result[0].rawAddress.isNotEmpty) {
+        Navigator.push(context, MaterialPageRoute(builder: (context) => PolicyView(url: url, label: label,)));
+        print('Connected');
+      }
+    } on SocketException catch (_) {
+      Navigator.pop(context);
+      print('You have to turn on Wifi or 3G to use application’s feature.');
 
+    }
+
+  }
 }
+

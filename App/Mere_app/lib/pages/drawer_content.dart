@@ -61,11 +61,6 @@ class DrawerContent extends StatelessWidget{
                       label: 'About Us',
                       url: "https://services.fit.hcmus.edu.vn:8889/about_us",
                     ),
-                    MenuItem(
-                      icon: Icon(Icons.phone),
-                      label: 'Contact Us',
-                    ),
-
                   ],
                 ),
               ),
