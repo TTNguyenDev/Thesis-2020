@@ -1,4 +1,3 @@
-
 import 'dart:io';
 import 'package:dio/dio.dart' as diofile;
 import 'package:flutter_camera_app/Model/ResponseData.dart';
@@ -25,71 +24,59 @@ class PreviewScreen extends StatefulWidget {
 class _PreviewScreenState extends State<PreviewScreen> {
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+    return Scaffold(
       appBar: AppBar(
         leading: IconButton(
           icon: Icon(Icons.arrow_back_ios, color: Colors.white),
-          onPressed: () => Navigator.of(context).pop(),
+          onPressed: () => {
+            EasyLoading.dismiss(),
+            Navigator.of(context).pop(),
+          },
         ),
         backgroundColor: Color(0xFF3EB16F),
         automaticallyImplyLeading: true,
       ),
-
       endDrawer: DrawerContent(),
       body: Container(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Expanded(
-               flex: 2,
+              flex: 2,
               child: Image.file(
-              // //child: Image.file(
                 File(widget.imgPath),
-                //File("assets/image1.png"),
                 fit: BoxFit.cover,
               ),
-              // child: Image.asset(
-              //     "assets/image1.png",
-              //   fit: BoxFit.cover,
-              // ),
             ),
             Align(
                 alignment: Alignment.bottomCenter,
                 child: Container(
-                    height: 60,
-                    child: Padding(
-                        padding: EdgeInsets.only(
-                            top: 10.0, bottom: 10, left: 100, right: 100),
-                        child: FlatButton(
-                          child: Center(
-                              child: Text(
-                                'Extract',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 17,
-                                  fontWeight: FontWeight.w500,
-                                ),
-                              )),
-                          color: Color(0xFF3EB16F),
-                          shape: StadiumBorder(),
-                          onPressed: () {
-                            _startUploading(context);
-                          },
-                        )
-                    ),
-                    )),
+                  height: 60,
+                  child: Padding(
+                      padding: EdgeInsets.only(
+                          top: 10.0, bottom: 10, left: 100, right: 100),
+                      child: FlatButton(
+                        child: Center(
+                            child: Text(
+                          'Extract',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 17,
+                            fontWeight: FontWeight.w500,
+                          ),
+                        )),
+                        color: Color(0xFF3EB16F),
+                        shape: StadiumBorder(),
+                        onPressed: () {
+                          _startUploading(context);
+                        },
+                      )),
+                )),
           ],
         ),
       ),
-
     );
   }
-
-
-  // Future<ByteData> getBytesFromFile() async {
-  //   Uint8List bytes = File(widget.imgPath).readAsBytesSync() as Uint8List;
-  //   return ByteData.view(bytes.buffer);
-  // }
 
   void _startUploading(context) async {
     //setState(() => loading = true);
@@ -97,20 +84,23 @@ class _PreviewScreenState extends State<PreviewScreen> {
     EasyLoading.show(status: 'Loading');
     diofile.Dio dio = new diofile.Dio();
     diofile.FormData formdata = new diofile.FormData.fromMap(<String, dynamic>{
-      "file": await diofile.MultipartFile.fromFile(widget.imgPath, filename: 'abc.png')
+      "file": await diofile.MultipartFile.fromFile(widget.imgPath,
+          filename: 'abc.png')
       // "file": await diofile.MultipartFile.fromFile("", filename: 'abc.png')
     });
     print('Success');
     try {
-      var response =
-      await dio.post("https://services.fit.hcmus.edu.vn:8889/file-upload", data: formdata);
+      var response = await dio.post(
+          "https://services.fit.hcmus.edu.vn:8889/file-upload",
+          data: formdata);
       List<List<Medicine>> listMedicines = [];
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         print('Success to read image ');
 
-        for(var i = 0; i< response.data.length; i++) {
-          var medicines = List<Medicine>.from(response.data[i].map((i) => Medicine.fromJson(i)));
+        for (var i = 0; i < response.data.length; i++) {
+          var medicines = List<Medicine>.from(
+              response.data[i].map((i) => Medicine.fromJson(i)));
           print("DEBUG TRIET");
           print(medicines[0].line);
           print(medicines[0].contains);
@@ -118,10 +108,9 @@ class _PreviewScreenState extends State<PreviewScreen> {
           // print(medicines[0].line);
           listMedicines.add(medicines);
         }
-        if(listMedicines.length <= 0 ){
+        if (listMedicines.length <= 0) {
           _alertMedicineMessage(context);
         }
-
 
         Navigator.push(
             this.context,
@@ -142,22 +131,21 @@ class _PreviewScreenState extends State<PreviewScreen> {
   }
 }
 
- _alertBoxMessage(context, message) async {
+_alertBoxMessage(context, message) async {
   await errorDialog(
-      context,
-      message,
+    context,
+    message,
     neutralText: "Okay",
-    neutralAction:() => Navigator.of(context).pop(),
+    neutralAction: () => Navigator.of(context).pop(),
   );
 }
-  _alertMedicineMessage (context) async{
+
+_alertMedicineMessage(context) async {
   await infoDialog(
-      context,
-      "We are trying to upadte the database.\nTry again later",
-    title: "Can't find the međicne",
+    context,
+    "Can not find medicine's name in your image.\nTry another one",
+    title: "Notification",
     neutralText: "Okay",
-    neutralAction:() => Navigator.of(context).pop(),
+    neutralAction: () => Navigator.of(context).pop(),
   );
-  }
-
-
+}
