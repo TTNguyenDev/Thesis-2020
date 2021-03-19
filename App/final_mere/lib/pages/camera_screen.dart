@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_camera_app/pages/preview_screen.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
+import 'video_tutorial.dart';
 
 class CameraScreen extends StatefulWidget {
   static String routeName = "/screen";
@@ -84,11 +85,12 @@ class _CameraScreenState extends State {
                   padding: EdgeInsets.all(15),
                   color: Colors.white,
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       _cameraToggleRowWidget(),
                       _cameraControlWidget(context),
-                      Spacer()
+                      _showVideoTutorial(context),
+                      // Spacer()
                     ],
                   ),
                 ),
@@ -157,7 +159,7 @@ class _CameraScreenState extends State {
           icon: Icon(
             _getCameraLensIcon(lensDirection),
             color: Colors.black,
-            size: 24,
+            size: 40,
           ),
           label: Text(
             '${lensDirection.toString().substring(lensDirection.toString().indexOf('.') + 1).toUpperCase()}',
@@ -169,21 +171,27 @@ class _CameraScreenState extends State {
   }
 
   /// Display the control bar with buttons to take pictures
-  Widget _imgGalleryWidget(context) {
+  Widget _showVideoTutorial(context) {
     return Expanded(
       child: Align(
-        alignment: Alignment.centerRight,
+        alignment: Alignment.centerLeft,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           mainAxisSize: MainAxisSize.max,
           children: <Widget>[
-            FloatingActionButton(
-              child: Icon(
-                Icons.photo_library,
-                color: Colors.black,
+            GestureDetector(
+              // child: Icon(
+              //   Icons.info_outline,
+              //   color: Colors.black,
+              //   size: 40,
+              // ),
+              child: Image.asset(
+                  'assets/question.png',
+                height: 30,
+                width: 30,
               ),
-              backgroundColor: Colors.white,
-              onPressed: () {
+              onTap: () => {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => VideoTutorial())),
               },
             )
           ],

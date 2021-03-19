@@ -29,6 +29,7 @@ dependencies:
   flutter_webview_plugin: ^0.3.11
   commons: ^0.7.8+3
   connection_status_bar: ^1.1.4
+  video_player: ^2.0.2
 
 
 
@@ -48,8 +49,9 @@ flutter:
     - assets/splash_3.png
     - assets/image1.png
     - assets/company_logo.png
-
+    - assets/question.png
     - assets/logo.png
+    - assets/example.mp4
 
   fonts:
     - family: Ic
