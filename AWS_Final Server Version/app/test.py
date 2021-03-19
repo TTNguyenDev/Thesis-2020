@@ -30,11 +30,22 @@ hidden_size = 512
 medicinePath =  'app/main_dict/high_res.csv'
 df = pd.read_csv(medicinePath, sep=';', quotechar="\"", header=0)
 
+class Medicine(object):
+    afternoon = 1
+    contains = ''
+    display_name = ''
+    evening = ''
+    info = 'Chưa có thông tin về thuốc'
+    line = ''
+    morning = 1
+
 def readData():
     full_name = df[df.columns[0]].tolist()
     contains = df[df.columns[2]].tolist()
 
     singleName = [name.split() for name in full_name]
+    print("HELLO DEBUG HERE")
+    print(contains)
     singleContain = [contain.split() for contain in contains]
 
     singleName = [cleanName(item) for sublist in singleName for item in sublist]
@@ -116,12 +127,25 @@ def readtext(image, min_size = 0, contrast_ths = 0.1, adjust_contrast = 0.5, fil
                 if isExist:
                     continue
 
-                if percent_match >= 80:
+                if percent_match >= 90:
                     obj = findObj(first_match, medicineCorrectionData)
                     final_result.append([obj])
-                else:
+                elif percent_match >= 70:
                     objs = [findObj(item[0], medicineCorrectionData) for item in correct]
                     final_result.append(objs)
+                else:
+                    objs = Medicine()
+                    objs.display_name = medicine_name
+                    final_result.append([objs])
+        #             {
+        #     "afternoon": "1",
+        #     "contains": "",
+        #     "display_name": "",
+        #     "evening": "1",
+        #     "info": "Chưa có thông tin về thuốc",
+        #     "line": "",
+        #     "morning": "1"
+        # }
         [print(item) for item in final_result]
         return final_result
 
@@ -157,9 +181,14 @@ def upload_file():
         file.save(filepath)
         res = readtext(filepath)
 
-        resp = jsonify(res)
-        resp.status_code = 200
-        return resp
+        if len(res) > 0:
+            resp = jsonify(res)
+            resp.status_code = 200
+            return resp
+        else:
+            resp = jsonify({"message": "Not found medical data in your image!"})
+            resp.status_code = 400
+            return resp
     else:
         resp = jsonify(
             {"message": "Allowed file types are txt, pdf, png, jpg, jpeg, gif"}
