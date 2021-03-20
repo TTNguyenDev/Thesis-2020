@@ -1,10 +1,10 @@
-from app.detection import get_detector, get_textbox
-from app.utils import group_text_box, get_image_list, diff, reformat_input, isMedicine, tesseract, checkUnitComponents, get_paragraph, cleanName
+from detection import get_detector, get_textbox
+from utils import group_text_box, get_image_list, diff, reformat_input, isMedicine, tesseract, checkUnitComponents, get_paragraph, cleanName
 import numpy as np
 import cv2
 import torch
 import pandas as pd
-from app.spellcheck import SpellCheck
+from spellcheck import SpellCheck
 import os
 
 from fuzzywuzzy import fuzz, process
@@ -20,15 +20,15 @@ from werkzeug.utils import secure_filename
 
 
 # detector parameters
-DETECTOR_FILENAME = 'app/craft_mlt_25k.pth'
+DETECTOR_FILENAME = 'craft_mlt_25k.pth'
 
 imgH = 64
 input_channel = 1
 output_channel = 512
 hidden_size = 512
 
-medicinePath =  'app/main_dict/high_res.csv'
-df = pd.read_csv(medicinePath, sep=';', quotechar="\"", header=0)
+medicinePath =  'main_dict/high_res.csv'
+df = pd.read_csv(medicinePath, sep=';', quotechar="\"", header=0, dtype=str)
 
 class Medicine(object):
     afternoon = 1
@@ -177,7 +177,7 @@ def upload_file():
 
     if file and allowed_file(file.filename):
         filename = secure_filename(file.filename)
-        filepath = os.path.join('app/userImages', filename)
+        filepath = os.path.join('userImages', filename)
         file.save(filepath)
         res = readtext(filepath)
 

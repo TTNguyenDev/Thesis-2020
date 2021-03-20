@@ -1,7 +1,7 @@
 line;display_name;contains;info;morning;afternoon;evening
 cefuroxim 500mg (efodyl 500mg);cefuroxim 500mg;efodyl 500mg;"Thuốc uống Cefuroxime axetil được dùng để điều trị nhiễm khuẩn thể nhẹ đến vừa ở đường hô hấp dưới, viêm tai giữa và viêm xoang tái phát, viêm amiđan và viêm họng tái phát do vi khuẩn nhạy cảm gây ra. Tuy nhiên, cefuroxime không phải là thuốc lựa chọn hàng đầu để điều trị những nhiễm khuẩn này, mà amoxicilin mới là thuốc ưu tiên sử dụng hàng đầu và an toàn hơn. Cefuroxime axetil cũng được dùng để điều trị nhiễm khuẩn đường tiết niệu không biến chứng, nhiễm khuẩn da và mô mềm do các vi khuẩn nhạy cảm gây ra. Cefuroxime axetil uống cũng được dùng để điều trị bệnh Lyme thời kỳ đầu biểu hiện bằng triệu chứng ban đỏ loang do Borrelia burgdorferi.
 Thuốc tiêm Cefuroxime natri được dùng để điều trị nhiễm khuẩn thể nặng đường hô hấp dưới (kể cả viêm phổi), nhiễm khuẩn da và mô mềm, nhiễm khuẩn xương và khớp, nhiễm khuẩn thể nặng niệu - sinh dục, nhiễm khuẩn huyết và viêm màng não do các vi khuẩn nhạy cảm gây ra. Cefuroxime natri cũng được tiêm để điều trị dự phòng nhiễm khuẩn khi phẫu thuật.
-Lưu ý: Nên nuôi cấy vi khuẩn, làm kháng sinh đồ trước và trong quá trình điều trị. Cần phải tiến hành thử chức năng thận khi có chỉ định.";1;1;1
+Lưu ý: Nên nuôi cấy vi khuẩn, làm kháng sinh đồ trước và trong quá trình điều trị. Cần phải tiến hành thử chức năng thận khi có chỉ định.";;;
 methylprednisolon 16mg (menison 16mg);menison 16 mg;Methylprednisolon;"Methylprednisolon được chỉ định cho các bệnh cần hoạt tính glucocorticoid như:
 - Rối loạn nội tiết: thiểu năng thượng thận nguyên phát và thứ phát, tăng sản thượng thận bẩm sinh.
 - Rối loạn thấp khớp: viêm khớp dạng thấp, viêm cột sống dính khớp, viêm khớp mạn tính ở trẻ em.
@@ -14,14 +14,14 @@ methylprednisolon 16mg (menison 16mg);menison 16 mg;Methylprednisolon;"Methylpre
 - Bệnh khối u: bệnh bạch cầu (cấp tính và bạch huyết), u lympho ác tính.
 - Bệnh đường tiêu hóa: viêm loét đại tràng, bệnh Crohn.
 - Khác: lao màng não (với hoá trị liệu lao thích hợp), ghép cơ quan.
-";1;1;1
+";;;
 bromhexin 8mg (bromhexin 8mg);bromhexin 8mg;bromhexin 8mg;"Bromhexin là chất có tác dụng long đờm. Do hoạt hóa tổng hợp sialomucin và phá vỡ các sợi acid mucopolysaccharid nên thuốc làm đờm lỏng hơn và ít quánh hơn. Giúp đờm từ phế quản thoát ra ngoài có hiệu quả. Khi uống, thường phải sau 2 - 3 ngày mới có tác dụng trên lâm sàng
 Theo Dược thư Quốc gia 2015, thuốc được chỉ định trong các trường hợp: Rối loạn tiết dịch phế quản, nhất là trong viêm phế quản cấp tính, đợt cấp tính của viêm phế quản mạn tính. Bromhexin thường được dùng như một chất bổ trợ với kháng sinh, khi bị nhiễm khuẩn nặng đường hô hấp.
 Theo khuyến cáo của nhà sản xuất, liều dùng của bromhexin là:
 Trẻ từ 2-5 tuổi: 4mg/ lần x 2 lần/ ngày
 Trẻ trên 5 tuổi – 12 tuổi: 4mg/ lần x 4 lần/ ngày
 Trẻ trên 12 tuổi và người lớn: 8mg/ lần x 3 lần/ ngày. Liều dùng có thể lên đến 12mg/ lần x 4 lần/ ngày nhưng cần có ý kiến của bác sĩ.
-";1;1;1
+";;;
 paracetomal 500mg caffeine 65mg ;panadol extra 500;paracetomal 500, caffeine 65mg;"Loại thuốc giảm đau không gây nghiện này chứa paracetamol là một chất hạ sốt, giảm đau và caffeine – một chất tăng cường tác dụng giảm đau của paracetamol. Do đó, Panadol đỏ có thể đem lại hiệu quả trong điều trị các tình trạng liên quan đến đau nhẹ đến vừa và hạ sốt, bao gồm:
 Đau đầu
 Đau nửa đầu
@@ -34,11 +34,11 @@ Sốt và đau sau khi tiêm vắc xin
 Đau răng
 Đau do viêm xương khớp
 Một số tác dụng khác của thuốc không được liệt kê trên nhãn thuốc đã được phê duyệt nhưng bác sĩ có thể chỉ định bạn dùng. Bạn chỉ sử dụng thuốc này để điều trị một số bệnh lý chỉ khi có chỉ định của bác sĩ.
-";1;1;1
+";;;
 dorithricin 5mg rentschler germany;dorithricin ;dorithricin ;"Một viên ngậm Dorithricin chứa 3 thành phần chính gồm: Tyrothricin (0.5 mg), Benzalkonium chlorid (1.0 mg) và Benzocain (1.5 mg).
 Tyrothricin và benzalkonium chloride là 2 kháng sinh có tác dụng tại chỗ, phổ tác dụng bao gồm cả vi khuẩn Gram dương và Gram âm (trong đó có 2 chủng streptococci và staphylococci là tác nhân gây bệnh thường gặp liên quan đến các bệnh nhiễm khuẩn miệng và hầu họng).
 Benzocain là thuốc gây tê bề mặt, đem lại tác dụng giảm đau nhanh. làm dịu nhẹ các triệu chứng viêm họng, bao gồm đau họng, đau khi nuốt của người bệnh.
-Các thành phần có hoạt tính của thuốc không bị hấp thu, hoặc chỉ được hấp thu một phần nhỏ vào cơ thể, do đó cho đến nay chưa ghi nhận được trường hợp nào xảy ra ngộ độc sau khi dùng thuốc";1;1;1
+Các thành phần có hoạt tính của thuốc không bị hấp thu, hoặc chỉ được hấp thu một phần nhỏ vào cơ thể, do đó cho đến nay chưa ghi nhận được trường hợp nào xảy ra ngộ độc sau khi dùng thuốc";;;
 gadoxime 200 cefpodoxim;Cefpodoxime 200;gadoxime;"Cefpodoxime được chỉ định để điều trị các nhiễm khuẩn sau đây :
 - Nhiễm khuẩn hô hấp trên bao gồm viêm tai giữa cấp, viêm xoang, viêm amiđan và viêm họng.
 - Viêm phổi cấp tính mắc phải trong cộng đồng.
@@ -53,19 +53,19 @@ Thử nghiệm độ nhạy cảm:
 Kết quả thử nghiệm bằng cách sử dụng một đĩa khuếch tán 10mcg được giải thích như sau:
 Ðường kính ≥ 21(mm): Ðánh giá Nhạy cảm (S)
 Ðường kính từ 18-20(mm): Ðánh giá Nhạy cảm trung bình (I)
-Ðường kính ≤ 17(mm): Ðánh giá Ðề kháng (R).";1;1;1
-predstad 20mg prednisolon;Predstad 20mg;prednisolon;"Dùng liều thấp nhất có hiệu quả trong thời gian ngắn nhất có thể. Người lớn, người cao tuổi: khởi đầu 5-60 mg/ngày hoặc hơn, chia nhiều liều nhỏ; duy trì/điều chỉnh cho đến khi đạt đáp ứng mong muốn; giảm từ từ tới liều thấp nhất mà vẫn duy trì được đáp ứng mong muốn. Điều trị lâu dài: có thể cần tạm thời tăng liều khi bị stress hoặc trong đợt cấp. Nếu thiếu đáp ứng thích hợp: ngưng thuốc từ từ và chuyển sang liệu pháp thay thế. Chế độ liều ngắt quãng: liều duy nhất, cách nhật/cách khoảng xa hơn. Một số rối loạn đáp ứng được với corticosteroid (1)bệnh cấp tính/nặng: có thể khởi đầu liều cao rồi giảm đến liều duy trì thấp nhất có hiệu quả càng sớm càng tốt, (2)điều trị lâu dài: không giảm liều quá 5-7.5 mg/ngày. Dị ứng, rối loạn ở da: khởi đầu 5-15 mg/ngày. Bệnh chất tạo keo: khởi đầu 20-30 mg/ngày, nếu có các triệu chứng nghiêm trọng hơn: có thể liều cao hơn. Viêm khớp dạng thấp: khởi đầu 10-15 mg/ngày, duy trì liều hàng ngày thấp nhất tương ứng việc giảm các triệu chứng vừa phải. Rối loạn máu, u bạch huyết: khởi đầu 15-60 mg/ngày, giảm liều sau khi đạt đáp ứng hoặc huyết học thỏa đáng; liều cao hơn có thể giúp thuyên giảm bệnh bạch cầu cấp. Trẻ em: chỉ dùng khi được chỉ định đặc biệt, xác định liều theo đáp ứng; nếu có thể, liều cách nhật thích hợp hơn.";1;1;1
+Ðường kính ≤ 17(mm): Ðánh giá Ðề kháng (R).";;;
+predstad 20mg prednisolon;Predstad 20mg;prednisolon;"Dùng liều thấp nhất có hiệu quả trong thời gian ngắn nhất có thể. Người lớn, người cao tuổi: khởi đầu 5-60 mg/ngày hoặc hơn, chia nhiều liều nhỏ; duy trì/điều chỉnh cho đến khi đạt đáp ứng mong muốn; giảm từ từ tới liều thấp nhất mà vẫn duy trì được đáp ứng mong muốn. Điều trị lâu dài: có thể cần tạm thời tăng liều khi bị stress hoặc trong đợt cấp. Nếu thiếu đáp ứng thích hợp: ngưng thuốc từ từ và chuyển sang liệu pháp thay thế. Chế độ liều ngắt quãng: liều duy nhất, cách nhật/cách khoảng xa hơn. Một số rối loạn đáp ứng được với corticosteroid (1)bệnh cấp tính/nặng: có thể khởi đầu liều cao rồi giảm đến liều duy trì thấp nhất có hiệu quả càng sớm càng tốt, (2)điều trị lâu dài: không giảm liều quá 5-7.5 mg/ngày. Dị ứng, rối loạn ở da: khởi đầu 5-15 mg/ngày. Bệnh chất tạo keo: khởi đầu 20-30 mg/ngày, nếu có các triệu chứng nghiêm trọng hơn: có thể liều cao hơn. Viêm khớp dạng thấp: khởi đầu 10-15 mg/ngày, duy trì liều hàng ngày thấp nhất tương ứng việc giảm các triệu chứng vừa phải. Rối loạn máu, u bạch huyết: khởi đầu 15-60 mg/ngày, giảm liều sau khi đạt đáp ứng hoặc huyết học thỏa đáng; liều cao hơn có thể giúp thuyên giảm bệnh bạch cầu cấp. Trẻ em: chỉ dùng khi được chỉ định đặc biệt, xác định liều theo đáp ứng; nếu có thể, liều cách nhật thích hợp hơn.";;;
 Oribier 200mg N-acetylcystein;Oribier 200mg; N-acetylcystein;"N-Acetyl cystein có tác dụng cắt đứt các cầu nối S-S của dich nhày đờm ở đường hô hấp, cùng với phản xạ ho giúp đẩy chất đờm ra ngoài.
 
 N-Acetyl cystein còn có tác dụng là thuốc giải độc khi quá liều paracetamol. Sau khi vào cơ thể N-Acetyl cystein chuyển hóa thành acetylcystein kích thích gan tổng hợp glutathion do đó duy trì hoặc khôi phục nồng độ glutathion của gan là chất cần thiết để làm bất hoạt chất chuyển hóa trung gian của paracetmol gây độc cho gan. Vì vậy có thể bảo vệ gan nếu được điều trị sớm.
-";1;1;1
+";;;
 partamol tab 500mg paracetamol;partamol tab 500mg;paracetamol;"	Giảm đau, hạ sốt. Các cơn đau do cảm cúm, nhức đầu, đau họng, đau nhức cơ xương, đau do hành kinh, đau răng, đau nửa đầu.
 	Partamol 500 được dùng bằng đường uống.
 	Người lớn và trẻ em trên 12 tuổi: 500 - 1000 mg mỗi 4 - 6 giờ khi cần thiết nhưng không được quá 4 g/ngày.
 	Trẻ em từ 6 - 12 tuổi: 250 - 500 mg mỗi 4 - 6 giờ khi cần thiết, tối đa 4 lần/ngày.
 	Không được tự ý dùng paracetamol để giảm đau quá 10 ngày đối với người lớn và 5 ngày đối với trẻ em.
 	Không được tự ý dùng paracetamol để hạ sốt trong những trường hợp sốt quá cao (trên 39,5OC), sốt kéo dài hơn 3 ngày hoặc sốt tái phát.
-	Hoặc theo hướng dẫn của bác sỹ.";1;1;1
+	Hoặc theo hướng dẫn của bác sỹ.";;;
 Levofloxacin Quinotab 500mg;Levofloxacin;Quinotab 500mg;"Levofloxacin thuộc nhóm thuốc kháng sinh quinolon có tác dụng diệt khuẩn do ức chế enzyme thiết yếu  tham gia vào quá trình sao chép, phiên mã và tu sửa ADN của vi khuẩn. Đây là một thuốc kháng sinh phổ rộng, có thể tiêu diệt được nhiều loài vi khuẩn.  Levofloxacin là một kháng sinh phổ rộng được chỉ định để điều trị các trường hợp nhiễm khuẩn do các vi khuẩn nhạy cảm với nó như:
 Viêm phổi cộng đồng, viêm phổi bệnh viện
 Nhiễm khuẩn đường tiết niệu có biến chứng bao gồm viêm bể thận
@@ -79,85 +79,85 @@ Viêm phế quản cấp và viêm phế quản mạn tính đang trong giai đo
 Nhiễm khuẩn ở mắt: viêm bờ mi, túi lệ, lẹo, viêm kết mạc, viêm sụn mi, viêm giác mạc, loét giác mạc…
 Dự phòng nhiễm khuẩn trước và sau khi phẫu thuật mắt
 Thuốc này sẽ không hiệu quả trong các trường hợp nhiễm virus (như cảm lạnh thông thường, cúm). Việc sử dụng khi không cần thiết hoặc lạm dụng kháng sinh có thể giảm hiệu quả của thuốc sau này.
-Một số tác dụng khác của thuốc không được liệt kê trên nhãn thuốc đã được phê duyệt nhưng bác sĩ có thể chỉ định bạn dùng. Bạn chỉ sử dụng thuốc này để điều trị bệnh chỉ khi có chỉ định của bác sĩ. ";1;1;1
+Một số tác dụng khác của thuốc không được liệt kê trên nhãn thuốc đã được phê duyệt nhưng bác sĩ có thể chỉ định bạn dùng. Bạn chỉ sử dụng thuốc này để điều trị bệnh chỉ khi có chỉ định của bác sĩ. ";;;
 prednisolon acetat prednisolon 5mg;Prednisolon 5mg;prednisolon acetat ;"Prednisolon là một glucocorticoid bán tổng hợp cũng có tác dụng chống di ứng, chống viêm và ức chế miễn dịch giống như các glucocorticoid khác.
 Cơ chế tác dụng của Prednisolon
 Prednisolone có tác dụng chống viêm thông qua cơ chế ức chế tổng hợp phospholipase A2 từ đó làm giảm sản xuất các chất trung gian hóa học tham gia vào phản ứng viêm như: leucotrien, prostagrandin. Ngoài ra tác dụng chống viêm của prednisolone còn thông qua việc ức chế bạch cầu di chuyển về ổ viêm. Vì vậy prednisolone có tác dụng chống viêm.
 Prednisolone có tác dụng chống dị ứng thông qua cơ chế ức chế phospholipase C. bình thường khi gặp phải các dị nguyên, các chất gây dị ứng thì IgE sẽ hoạt hóa các thụ thể trên các dưỡng bào và base trung tính từ đó sẽ hoạt hóa phospholipase C, sự hoạt hóa này sẽ tăng cường giải phóng các chất trung gian hóa học tham gia vào các phản ứng dị ứng điển hình như histamin từ bào tương của tế bào. Như vậy khi ức chế phospholipase C sẽ ức chế sự giải phóng các chất trung gian hoá học tham gia vào phản ứng dị ứng từ đó làm giảm các triệu chứng của dị ứng.
-Prednisolone có tác dụng ức chế miễn dịch nhờ vào làm giảm sản xuất tế bào lympho do  prednisolone làm teo các cơ quan lympho đồng thời làm giảm khả năng nhận diện kháng nguyên của đại thực bào, ức chế sản xuất kháng thể để vô hiệu hóa các yếu tố lạ.";1;1;1
+Prednisolone có tác dụng ức chế miễn dịch nhờ vào làm giảm sản xuất tế bào lympho do  prednisolone làm teo các cơ quan lympho đồng thời làm giảm khả năng nhận diện kháng nguyên của đại thực bào, ức chế sản xuất kháng thể để vô hiệu hóa các yếu tố lạ.";;;
 Desloratadin Neocilor tablet 5mg;Neocilor tablet ;Desloratadin 5mg;"Viêm mũi dị ứng theo mùa:
 Neocilor siro được chỉ định để giảm các triệu chứng liên quan đến mũi hoặc không liên quan đến mũi của bệnh viêm mũi dị ứng theo mùa.
 Viêm mũi đị ứng quanh năm:
 Neocilor siro được chỉ định để giảm nhẹ các triệu chứng liên quan đến mũi hoặc không liên quan đến mũi của bệnh viêm mũi dị ứng quanh năm.
 Bệnh mày đay mãn tính tự phát:
 Neocilor siro được chỉ định để giảm triệu chứng ngứa, giảm số lượng phát ban ngoài da.
-";1;1;1
+";;;
 paracetamol acetaminophen bivinadol power 650mg;acetaminophen;paracetamol;"Thuốc Acetaminophen được sử dụng phổ biến trong các trường hợp giảm đau từ nhẹ đến trung bình. Thuốc phù hợp điều trị các cơn đau đầu, đau bụng do kỳ kinh nguyệt, đau răng, đau lưng, viêm xương khớp hoặc đau nhức do cảm lạnh / cảm cúm và hạ sốt.
-Thuốc Acetaminophen không gây loét dạ dày và ruột như giống thuốc NSAID (aspirin, ibuprofen và naproxen). Tuy nhiên, thuốc này cũng không có tác dụng làm giảm sưng (viêm) như NSAID.";1;1;1
+Thuốc Acetaminophen không gây loét dạ dày và ruột như giống thuốc NSAID (aspirin, ibuprofen và naproxen). Tuy nhiên, thuốc này cũng không có tác dụng làm giảm sưng (viêm) như NSAID.";;;
 paracetamol acetaminophen bivinadol power 650mg;bivinadol power 650mg;paracetamol;"Bivinadol có tác dụng làm giảm nhanh các triệu chứng đau cấp tính và mạn tính như đau đầu, đau răng, đau bụng kinh, đau thần kinh, đau khớp và đau cơ. Thuốc Bivinadol cũng có tác dụng giúp hạ sốt ở bệnh nhân bị cảm hay những bệnh nhân gặp các vấn đề liên quan đến sốt.
-Một số tác dụng khác của thuốc không được liệt kê trên nhãn thuốc đã được phê duyệt, bác sĩ có thể chỉ định bạn dùng. Bạn chỉ sử dụng thuốc này để điều trị một số bệnh lý khác khi có chỉ định của bác sĩ";1;1;1
+Một số tác dụng khác của thuốc không được liệt kê trên nhãn thuốc đã được phê duyệt, bác sĩ có thể chỉ định bạn dùng. Bạn chỉ sử dụng thuốc này để điều trị một số bệnh lý khác khi có chỉ định của bác sĩ";;;
 Pantoprazol pantotab 40mg;"PANTOTAB 40mg
-";pantoprazol;Pantoprazole là dược chất thuộc nhóm thế benzimidazol, thuốc ngăn chặn giai đoạn cuôi của quá trình tiết acid ở dạ dày bằng cách ức chế lên men H+K+ATPASE của bơm proton ngay tại tế bào viền tiết acid của niêm mạc dạ dày, làm ức chế cả hai quá trình tiết acid tự nhiên lẫn quá trình tiết acid do kích thích.;1;1;1
+";pantoprazol;Pantoprazole là dược chất thuộc nhóm thế benzimidazol, thuốc ngăn chặn giai đoạn cuôi của quá trình tiết acid ở dạ dày bằng cách ức chế lên men H+K+ATPASE của bơm proton ngay tại tế bào viền tiết acid của niêm mạc dạ dày, làm ức chế cả hai quá trình tiết acid tự nhiên lẫn quá trình tiết acid do kích thích.;;;
 cebastin 20mg ebastin;cebastin 20mg ;ebastin ;"Ebastine được sử dụng để điều trị các bệnh dị ứng. Đây là thuốc kháng histamine thế hệ 2 thường được dùng để trị viêm mũi dị ứng theo mùa hoặc mãn tính. Ebastine khó vượt qua hàng rào máu não, do đó chỉ hoạt động trên thụ thể histamine trên cơ thể bạn.  Điều này giúp loại bỏ sự buồn ngủ và khó chịu, hai tác dụng phụ thường gặp của thuốc kháng histamin cũ. Khi uống Ebastine, bạn sẽ cảm thấy dễ chịu, bạn có thể uống thuốc trong khi lái xe, vận hành máy móc.
-";1;1;1
+";;;
 Cetirizin (Cetirizin 10mg);cetirizin 10mg;cetirizin 10mg;"Cetirizine là một thuốc nhóm kháng histamine nên có khả năng ức chế hoạt động của histamine gây dị ứng. Nếu bạn bị dị ứng quanh năm hoặc dị ứng theo mùa như sốt cỏ khô, bác sĩ có thể chỉ định cho bạn sử dụng cetirizine. Tuy không có khả năng ngăn ngừa, thuốc sẽ giúp làm giảm các triệu chứng dị ứng từ nhẹ đến vừa như:
 Hắt hơi
 Sổ mũi
 Ngứa hoặc chảy nước mắt
 Ngứa cổ họng hoặc mũi
 Ngoài ra, cetirizine cũng giúp giảm tình trạng nổi mề đay do dị ứng thức ăn hoặc thuốc. Tình trạng này có thể biểu hiện bởi những nốt mẩn ngứa nổi trên da. Không những vậy, cetirizine có thể được sử dụng để điều trị tình trạng cảm lạnh, phù mạch, phản ứng phản vệ, ngứa, viêm kết mạc dị ứng.
-Thuốc Cetirizine có thể được kê cho các mục đích sử dụng khác. Bạn nên tham khảo bác sĩ hoặc dược sĩ để biết thêm thông tin.";1;1;1
-Vitamin C (Vitamin C 500mg) ;Vitamin C ;Vitamin C 500mg;Thiếu vitamin C: Uống vitamin C bằng đường uống hoặc đường tiêm sẽ giúp ngăn ngừa và điều trị thiếu vitamin C, bao gồm cả bệnh scurvy. Ngoài ra, uống vitamin C có thể đảo ngược các vấn đề liên quan đến bệnh scurvy.;1;1;1
-lean max 900gr;LEAN MAX_L 900gr;lean max l 900gr;Sữa Lean Max Adult là sản phẩm giúp phục hồi nhanh chóng dành cho, người bệnh, người cao tuổi, tiêu hóa kém,khó nhai nuốt và trẻ em trên 10 tuổi, giúp tăng cường hệ miễn dịch, nhanh khỏi bệnh, nhanh liền da, người suy nhược cơ thể, người cần phục hồi dinh dưỡng, người cần bổ sung năng lượng và cần tăng cân, phụ nữ có thai và cho con bú.;1;1;1
+Thuốc Cetirizine có thể được kê cho các mục đích sử dụng khác. Bạn nên tham khảo bác sĩ hoặc dược sĩ để biết thêm thông tin.";;;
+Vitamin C (Vitamin C 500mg) ;Vitamin C ;Vitamin C 500mg;Thiếu vitamin C: Uống vitamin C bằng đường uống hoặc đường tiêm sẽ giúp ngăn ngừa và điều trị thiếu vitamin C, bao gồm cả bệnh scurvy. Ngoài ra, uống vitamin C có thể đảo ngược các vấn đề liên quan đến bệnh scurvy.;;;
+lean max 900gr;LEAN MAX_L 900gr;lean max l 900gr;Sữa Lean Max Adult là sản phẩm giúp phục hồi nhanh chóng dành cho, người bệnh, người cao tuổi, tiêu hóa kém,khó nhai nuốt và trẻ em trên 10 tuổi, giúp tăng cường hệ miễn dịch, nhanh khỏi bệnh, nhanh liền da, người suy nhược cơ thể, người cần phục hồi dinh dưỡng, người cần bổ sung năng lượng và cần tăng cân, phụ nữ có thai và cho con bú.;;;
 Protease, amylase, lipase, lactase enzymes IP;6 enzymes IP;Protease, amylase, lipase, lactase;"Phòng ngừa biếng ăn, cải thiện tiêu hóa, đầy bụng, khó tiêu, táo bón.
 Bổ sung hỗn hợp 6 enzymes (men tiêu hóa), protease, pepsin, amylase, lipase, lactase, cellulase giúp tăng cường hấp thu dinh dưỡng.
 Bổ sung hàm lượng lysine, kẽm giúp kích thích ăn ngon.
 Các vitamin nhóm B giúp tăng khả năng chuyển hóa chất dinh dưỡng.
-Bổ sung Immune-path IP giúp kích thích hệ miễn dịch, tăng trưởng hệ vi khuẩn có lợi và tăng lớp nhung mao bảo vệ đường ruột.";1;1;1
+Bổ sung Immune-path IP giúp kích thích hệ miễn dịch, tăng trưởng hệ vi khuẩn có lợi và tăng lớp nhung mao bảo vệ đường ruột.";;;
 zenodem 100mg Cefpodoxime proxetil;zenodem 100mg ;Cefpodoxime proxetil;"Cefpodoxime được chỉ định để điều trị các nhiễm khuẩn sau đây :
 - Nhiễm khuẩn hô hấp trên bao gồm viêm tai giữa cấp, viêm xoang, viêm amiđan và viêm họng.
 - Viêm phổi cấp tính mắc phải trong cộng đồng.
 - Nhiễm lậu cầu cấp chưa có biến chứng.
 - Nhiễm khuẩn đường tiểu chưa có biến chứng.
-- Nhiễm khuẩn da và cấu trúc da.";1;1;1
-strase;strase;strase;Giảm đau, giảm viêm, sưng nề, tụ máu : Viêm cấp và mãn ở các bệnh lý tai mũi họng, mắt, răng, khớp. Viêm phần phụ. Sau chấn thương, phẫu thuật. Viêm tĩnh mạch huyết khối. Khó khăn trong khạc đờm do bệnh lý đường hô hấp và sau khi gây mê.;1;1;1
+- Nhiễm khuẩn da và cấu trúc da.";;;
+strase;strase;strase;Giảm đau, giảm viêm, sưng nề, tụ máu : Viêm cấp và mãn ở các bệnh lý tai mũi họng, mắt, răng, khớp. Viêm phần phụ. Sau chấn thương, phẫu thuật. Viêm tĩnh mạch huyết khối. Khó khăn trong khạc đờm do bệnh lý đường hô hấp và sau khi gây mê.;;;
 lisinex 5mg Levocetirizine dihydrochloride;Lisinex 5mg ;Levocetirizine dihydrochloride;"Chứng ho do họng & phế quản bị kích thích khi cảm lạnh thông thường hoặc khi hít phải các chất kích thích. Ho không đờm, mạn tính.
 Liều lượng - Cách dùng
 - Người lớn & trẻ > 12 tuổi: 30 mg/lần cách 6 - 8 giờ, tối đa 120 mg/24 giờ.
 - Trẻ 6 - 12 tuổi: 15 mg/lần cách 6 - 8 giờ, tối đa 60 mg/24 giờ.
-- Trẻ 2 - 6 tuổi: 7,5 mg/lần cách 6 - 8 giờ, tối đa 30 mg/24 giờ.";1;1;1
+- Trẻ 2 - 6 tuổi: 7,5 mg/lần cách 6 - 8 giờ, tối đa 30 mg/24 giờ.";;;
 bisolvon 8mg bromhexine hcl;Bisolvon 8mg;bromhexine hcl;"Làm loãng đờm trong các bệnh phế quản phổi cấp và mạn tính có kèm theo sự tiết chất nhầy bất thường và giảm sự vận chuyển chất nhầy.  Người lớn và trẻ trên 12 tuổi: 8mg (1 viên) 3 lần mỗi ngày.
 Trẻ em 6 - 12 tuổi: 4mg (1/2 viên) 3 lần mỗi ngày.
 Trẻ nhỏ 2 - 6 tuổi: 4mg (1/2 viên) 2 lần mỗi ngày.
 Khi bắt đầu điều trị có thể cần tăng tổng liều hàng ngày lên đến 48mg ở người lớn.
 Nên thông báo cho bệnh nhân điều trị với BISOLVON về khả năng gia tăng bài tiết chất nhày.
 Trong chỉ định cho bệnh hô hấp cấp tính, cần hỏi ý kiến bác sỹ nếu các triệu chứng không cải thiện hoặc xấu đi trong thời gian điều trị.
-Không khuyến cáo dùng BISOLVON dạng viên nén cho trẻ dưới 2 tuổi. BISOLVON Kids dạng xi-rô phù hợp hơn với lứa tuổi này.";1;1;1
+Không khuyến cáo dùng BISOLVON dạng viên nén cho trẻ dưới 2 tuổi. BISOLVON Kids dạng xi-rô phù hợp hơn với lứa tuổi này.";;;
 eldpopile 80mg thymomodulin;eldpopile 80mg ;thymomodulin;"Epidolle là thuốc thuộc nhóm tác động vào hệ thống miễn dịch và một trong những loại thuốc chống ung thư.
 Thuốc được bào chế dưới dạng viên nang
-Thuốc có thành phần dược chất chính là Thymomodulin với hàm lượng là 80mg và các tá dược khác vừa đủ 1 viên nang";1;1;1
+Thuốc có thành phần dược chất chính là Thymomodulin với hàm lượng là 80mg và các tá dược khác vừa đủ 1 viên nang";;;
 Fexofenadin Fefasdin 60 60mg;Fefasdin 60; Fexofenadin 60mg;"Điều trị triệu chứng viêm mũi dị ứng theo mùa
 
 Người lớn và trẻ em trên 12 tuổi: 60mg x 2lần/ngày hoặc 180mg x 1lần/ngày. 
 Bệnh nhân bị suy thận liều khởi đầu 60mg x 1lần/ngày 
 Trẻ em từ 6-11 tuổi: 30mg x 2lần/ngày. 
 Trẻ em bị suy thận liều khởi đầu 30mg x 1lần/ngày. 
-";1;1;1
-Fusidic acid betamethason pesancort ;pesancort;Fusidic acid betamethason ;Các bệnh da do viêm khi xảy ra hoặc có thể xảy ra nhiễm khuẩn. Các bệnh da do viêm bao gồm chàm khu trú, chàm do ứ đọng, viêm da tiết bã, viêm da do tiếp xúc, lichen đơn mạn tính, vẩy nến & lupus đỏ dạng đĩa.;1;1;1
+";;;
+Fusidic acid betamethason pesancort ;pesancort;Fusidic acid betamethason ;Các bệnh da do viêm khi xảy ra hoặc có thể xảy ra nhiễm khuẩn. Các bệnh da do viêm bao gồm chàm khu trú, chàm do ứ đọng, viêm da tiết bã, viêm da do tiếp xúc, lichen đơn mạn tính, vẩy nến & lupus đỏ dạng đĩa.;;;
 Desloratadin Neocilor 5mg;Neocilor;Desloratadin 5mg;"Viêm mũi dị ứng theo mùa:
 Neocilor siro được chỉ định để giảm các triệu chứng liên quan đến mũi hoặc không liên quan đến mũi của bệnh viêm mũi dị ứng theo mùa.
 Viêm mũi đị ứng quanh năm:
 Neocilor siro được chỉ định để giảm nhẹ các triệu chứng liên quan đến mũi hoặc không liên quan đến mũi của bệnh viêm mũi dị ứng quanh năm.
 Bệnh mày đay mãn tính tự phát:
 Neocilor siro được chỉ định để giảm triệu chứng ngứa, giảm số lượng phát ban ngoài da.
-";1;1;1
+";;;
 Zinnat 500mg;Zinnat tablets 500mg;Cefuroxime Axetil 500mg;"Nhiễm khuẩn đường hô hấp trên như nhiễm khuẩn ở tai, mũi, họng ví dụ như viêm tai giữa, viêm xoang, viêm amidan, viêm họng.
 Nhiễm khuẩn đường hô hấp dưới như viêm phổi và viêm phế quản cấp.
 Nhiễm khuẩn niệu-sinh dục như viêm bể thận, viêm bàng quang, viêm niệu đạo.
 Nhiễm khuẩn da và mô mềm như bệnh nhọt, mủ da, chốc lở.
 Bệnh lậu, như viêm bể thận và viêm cổ tử cung cấp không biến chứng do lậu cầu.
  Người lớn: trong bệnh viêm phế quản và viêm phổi, nên dùng 500 mg hai lần mỗi ngày. Đa số các nhiễm trùng ở vị trí khác sẽ đáp ứng với liều 250 mg hai lần mỗi ngày. Trong nhiễm trùng đường niệu, dùng 125 mg hai lần mỗi ngày. Liều duy nhất 1g được khuyến cáo dùng cho điều trị bệnh lậu không biến chứng.
-Trẻ em: liều thông thường là 125 mg hai lần mỗi ngày hay 10 mg/kg hai lần mỗi ngày tới tối đa 250 mg/ngày. Ở trẻ em 2 tuổi hay lớn hơn mắc bệnh viêm tai giữa, có thể dùng 250 mg hai lần mỗi ngày hay 15 mg/kg hai lần mỗi ngày tới tối đa 500 mg/ngày. Do ce furoxime axetil có vị đắng, không nên nghiền nát và do đó, dạng viên không thích hợp cho bệnh nhân không thể nuốt viên thuốc như ở trẻ nhỏ dưới 2 tuổi.";1;1;1
+Trẻ em: liều thông thường là 125 mg hai lần mỗi ngày hay 10 mg/kg hai lần mỗi ngày tới tối đa 250 mg/ngày. Ở trẻ em 2 tuổi hay lớn hơn mắc bệnh viêm tai giữa, có thể dùng 250 mg hai lần mỗi ngày hay 15 mg/kg hai lần mỗi ngày tới tối đa 500 mg/ngày. Do ce furoxime axetil có vị đắng, không nên nghiền nát và do đó, dạng viên không thích hợp cho bệnh nhân không thể nuốt viên thuốc như ở trẻ nhỏ dưới 2 tuổi.";;;
 Medsolu 4mg;Medsolu 4mg;Methylprednisolon 4mg;"Medsolu thuộc nhóm thuốc hormon, nội tiết tố, thuốc có tác dụng chống viêm và ức chế hệ miễn dịch khi sử dụng ở liều cao.
 Thuốc được sản xuất bởi công ty Cổ phần Dược phẩm Quảng Bình – Việt Nam, hiện đang được lưu hành trên thị trường với số đăng ký là VD-21349-14.
 Thành phần dược chất chính: Methylprednisolon
@@ -174,7 +174,7 @@ Thuốc được chỉ định điều trị trong thời gian ngắn nhằm gi�
 Điều trị bệnh thiểu năng tuyến thượng thận nguyên phát hoặc thứ phát. Trong trường hợp này thuốc được kết hợp điều trị với mineralocorticoid như cortisol hay hydrocortisone. Các bệnh rối loạn nội tiết tố khác như viêm tuyến giáp không mưng mủ, tăng sản vỏ thượng thận bẩm sinh, tăng calci huyết trong bệnh ung thư.
 Điều trị bệnh bạch cầu và u lympho cho trẻ nhỏ.
 Ngoài ra thuốc còn được chỉ định điều trị bệnh Crohn, điều trị các đợt cấp của xơ cứng rải rác, bệnh viêm màng não do vi khuẩn lao. Điều trị hội chứng thận hư giúp bài trừ niệu, giảm protein niệu.
-";1;1;1
+";;;
 Minocyclin 50mg zalenka;Zalenka 50mg;Minocyclin 50mg;"Minocyclin là một kháng sinh phổ rộng, dùng đường uống, để điều trị nhiễm trùng gây ra bởi các chủng vi khuẩn nhạy cảm với tetracyclin và một số chủng Staphylococci đề kháng tetracyclin.
 Các chỉ định bao gồm: Mụn trứng cá, nhiễm trùng da và mô mềm, nhiễm trùng mắt, viêm phế quản cấp và mãn tính, giãn phế quản, áp xe phổi, nhiễm trùng tai mũi họng, nhiễm trùng vùng chậu, nhiễm trùng đường tiểu, bệnh lậu, viêm niệu đạo và viêm tuyến tiền liệt không do lậu cầu.
 Ngoài ra, minocyclin còn được chỉ định để điều trị:
@@ -185,7 +185,7 @@ Ngoài ra, minocyclin còn được chỉ định để điều trị:
 - Nhiễm trùng do các vi khuẩn họ Nocardia.
 - Viêm khớp dạng thấp.
 - Minocyclin dùng trong điều trị dự phòng ở người lành mang Neisseria meningitidis không có triệu chứng.
-- Dùng trước và sau khi phẫu thuật để dự phòng nhiễm trùng.";1;1;1
+- Dùng trước và sau khi phẫu thuật để dự phòng nhiễm trùng.";;;
 Clofady;Clofady;Clofady;"Công dụng của ‘Clofady 200mg’
 Điều trị chứng tinh trùng yếu, cải thiệt chất lượng tinh trùng  Thể trạng mệt mỏi, người già yếu, chống thoái hóa võng mạc, đục thủy tinh thể và phòng chống cận thị.  Phụ nữ có thai và cho con bú.  Hỗ trợ điều trị vô sinh và các bệnh liên quan đến hiếm muộn (tăng chất lượng tinh trùng và trứng).  Phục hồi sức khỏe trong hoặc sau khi điều trị bệnh.  Bổ sung vitamin và khoáng chất cần thiết cho các bệnh về da, tóc, móng.  Hỗ trợ điều trị trong các trường hợp: Bệnh tim mạch, bệnh thoái hóa thần kinh ở người lớn tuổi (Alzheimer, Pakinson...), ung thư (tăng cường miễn dịch, ngăn ngừa các tổn thương cơ quan do hóa trị và xạ trị gây ra), các bệnh nội khoa mãn tính (suy gan, suy thận, tiểu đường ...)";1;1;1
 Heparos;Heparos;Heparos;"Công dụng thuốc Heparos là gì?
@@ -258,7 +258,7 @@ Khi điều trị bằng Sucralfat các vết loét có thể lành trong một 
 Tương Tác Với Các Thuốc Khác Và Các Dạng Tương Tác Khác:
 Các thuốc Antacid có thể ảnh hưởng sự gắn kết của Sucralfat trên niêm mạc dạ dày. Khi dùng kết hợp nên dùng cách xa 30 phút.
 Sucralfat có thể làm giảm hấp thu một số thuốc dùng chung như Cimetidin, Ranitidin, Digoxin, Ketoconazol, Phenytoin, Fluoroquinolon kháng khuẩn, Tetracylin, Quinidin, Theophylin, Thyroxin và Warfarin. Nên dùng các thuốc trên ít nhất 2 giờ trước hoặc sau khi dùng Sucralfat.";1;1;1
-Meloxicam 7,5mg meloxicam;;Meloxicam 7,5mg ;"Chỉ định Meloxicam
+Meloxicam 7,5mg meloxicam;Meloxicam 7,5mg meloxicam;Meloxicam 7,5mg ;"Chỉ định Meloxicam
 Điều trị đau và viêm trong bệnh khớp dạng thấp; đợt cấp bệnh thoái hoá xương hớp; viêm cột sống dính khớp (thời gian ngắn).
 Chống chỉ định Meloxicam
 Mẫn cảm với thuốc, người có tiền sử dị ứng với aspirin hoặc các thuốc chống viêm không steroid khác. Không được dùng meloxicam cho những người có triệu chứng hen phế quản, polyp mũi, phù mạch thần kinh hoặc bị phù Quincke. Loét dạ dày tá tràng tiến triển.
@@ -505,7 +505,7 @@ Trẻ 6-12 tuổi: 70 mcg/kg (tới 5 mg) x 1 lần/ngày, tăng trong 1-2 tuầ
 Người lớn suy thận: độ thanh thải creatinin (Clcr) trong khoảng 31 – 80 ml/phút: 5-10 mg x 1 lần/ngày. Clcr = 10-30 ml/phút: 2,5-5 mg x 1 lần/ngày. Clcr < 10 ml/phút hoặc thẩm tách máu: 2,5 mg x 1 lần/ngày. Không dùng cho trẻ có độ lọc cầu thận < 30 ml/phút/1,73 m2.
 Cách dùng:
 Lisinopril STELLA 10 mg được dùng bằng đường uống.";1;1;1
-SILKERON CREME 10g;Silkeron cream 10g - Thuốc điều trị các bệnh da liễu hiệu quả;Gentamicin 10mg, Betamethason dipropionat 6.4mg, Clotrimazol 100mg;"Tác dụng của thuốc Silkeron
+SILKERON CREME 10g;Silkeron cream 10g - Thuốc điều trị các bệnh da liễu hiệu quả;SILKERON CREME;"Tác dụng của thuốc Silkeron
 Clotrimazole là một imidazol, có tác dụng kháng nấm phổ rộng, có thể kháng lại hầu hết các loại nấm gây bệnh ở người, ở liều điều trị, thuốc có tác dụng ức chế sự tổng hợp của vách tế bào, nhưng ở liều cao thì có khả năng phá hủy màng tế bào. Thường được điều chế dưới dạng bôi ngoài da.
 Betamethasone là một thuốc corticoid, nên có tác dụng chống viêm, chống thấp khớp. Ngoài ra chúng còn làm giảm khả năng miễn dịch của cơ thể trước các dị nguyên lạ nên khi dùng với liều cao, thuốc có tác dụng ức chế miễn dịch. Thuốc có thể truyền từ mẹ sang con qua đường nhau thai hoặc cho con bú. Thuốc có khả năng hấp thụ tốt qua da và tại chỗ.
 Gentamicin là kháng sinh thuộc nhóm aminoglycoside, có tác dụng phòng ngừa nhiễm khuẩn, giúp giảm tình trạng nhiễm khuẩn với người bị suy giảm miễn dịch do dùng thuốc. 
@@ -813,3 +813,74 @@ CHỈ ĐỊNH:
 LIỀU DÙNG :
 Liều dùng thông thường là nhai kỹ 1 viên sau bữa ăn và trước khi đi ngủ, 3-4 lần/ngày.
 Trong trường hợp chuẩn bị chụp X quang thì dùng 2 hoặc 3 ngày trước khi chụp. Liều dùng được điều chỉnh tùy theo tuổi và triệu chứng của bệnh nhân.";1;1;1
+(Itoprid) Elthon 50mg;(Itoprid) Elthon 50mg;itopride hydrochloride;"Công dụng thuốc Elthon là gì?
+Elthon được dùng để điều trị các triệu chứng dạ dày ruột gây ra bởi khó tiêu chức năng, khó tiêu không do loét (viêm dạ dày mãn tính): đầy bụng, chướng bụng, đau/khó chịu vùng bụng trên, ăn mau no, chán ăn, ợ nóng, buồn nôn, nôn.
+Liều dùng thuốc Elthon
+Những thông tin được cung cấp không thể thay thế cho lời khuyên của các chuyên viên y tế. Hãy luôn tham khảo ý kiến bác sĩ hoặc dược sĩ trước khi quyết định dùng thuốc.
+Liều dùng thuốc Elthon cho người lớn như thế nào?
+Bạn dùng 1 viên, 3 lần/ngày.
+Liều dùng thuốc Elthon cho trẻ em như thế nào?
+Chưa có thông tin về liều dùng dành cho trẻ em. Bạn hãy tham khảo ý kiến bác sĩ để biết thêm thông tin chi tiết.
+Cách dùng thuốc Elthon
+Bạn nên dùng thuốc Elthon như thế nào?
+Bạn nên uống thuốc trước bữa ăn. Bạn phải đọc kĩ hướng dẫn sử dụng trước khi dùng. Bạn hãy hỏi bác sĩ hoặc dược sĩ về bất kì điều gì bạn không rõ liên quan đến việc dùng thuốc.
+Bạn phải dùng thuốc theo đúng chỉ định của bác sĩ, không được dùng nhiều hơn hoặc ít hơn so với liều chỉ định, không được tự ý ngưng thuốc nếu không có sự cho phép của bác sĩ.
+Bạn nên làm gì trong trường hợp dùng quá liều?
+Trong trường hợp khẩn cấp hoặc quá liều, gọi ngay cho Trung tâm cấp cứu 115 hoặc đến trạm Y tế địa phương gần nhất.
+Ngoài ra, bạn cần ghi lại và mang theo danh sách những loại thuốc bạn đã dùng, bao gồm cả thuốc kê toa và thuốc không kê toa.
+Bạn nên làm gì nếu quên một liều?
+Nếu bạn quên dùng một liều thuốc, hãy dùng càng sớm càng tốt. Tuy nhiên, nếu gần với liều kế tiếp, hãy bỏ qua liều đã quên và dùng liều kế tiếp vào thời điểm như kế hoạch. Không dùng gấp đôi liều đã quy định.
+Tác dụng phụ của thuốc Elthon
+Thuốc Elthon có thể gây ra những tác dụng phụ nào?
+Các tác dụng phụ của thuốc gồm: tiêu chảy, nhức đầu, đau bụng, táo bón, tăng SGOT/SGPT, sốc, phản ứng quá mẫn.
+Các tác dụng phụ hiếm gồm: giảm bạch cầu, tăng prolactin.
+Đây không phải là danh mục đầy đủ tất cả các tác dụng phụ và có thể xảy ra những tác dụng phụ khác. Nếu bạn có bất kỳ thắc mắc nào về tác dụng phụ, hãy tham khảo ý kiến bác sĩ hoặc dược sĩ.
+Thận trọng khi dùng thuốc Elthon
+Trước khi dùng thuốc Elthon, bạn nên lưu ý gì?
+Thuốc chống chỉ định cho các trường hợp sau:
+Tiền sử mẫn cảm với thành phần thuốc.
+Phụ nữ có thai/cho con bú (trừ khi thật sự cần thiết và phải có chỉ định của bác sĩ).
+Bạn cần thận trọng khi dùng thuốc trong các trường hợp sau:
+Đang dùng acetylcholin: thuốc làm tăng hoạt tính của acetylcholin.
+Dùng cho người cao tuổi và trẻ em (độ an toàn chưa xác định).
+Tương tác thuốc Elthon
+Thuốc Elthon có thể tương tác với những thuốc nào?
+Thuốc này có thể làm thay đổi khả năng hoạt động của thuốc khác mà bạn đang dùng hoặc gia tăng ảnh hưởng của các tác dụng phụ. Để tránh tình trạng tương tác thuốc, tốt nhất là bạn viết một danh sách những thuốc bạn đang dùng (bao gồm thuốc được kê toa, không kê toa, thảo dược và thực phẩm chức năng) và cho bác sĩ hoặc dược sĩ xem. Để đảm bảo an toàn khi dùng thuốc, bạn không tự ý dùng thuốc, ngưng hoặc thay đổi liều lượng của thuốc mà không có sự cho phép của bác sĩ.
+Bạn cần lưu ý khi dùng thuốc Elthon với những thuốc kháng Cholinergic: Tiquizium bromide, scopolamine butyl bromide, timepidium bromid. Các thuốc này có thể làm giảm tác dụng tăng nhu động dạ dày – ruột của itopride (tác dụng cholinergic).
+Thuốc Elthon có thể tương tác với thực phẩm, đồ uống nào?
+Thức ăn, rượu và thuốc lá có thể tương tác với vài loại thuốc nhất định. Hãy tham khảo ý kiến bác sĩ về việc uống thuốc cùng thức ăn, rượu và thuốc lá. Bạn không nên uống rượu trong thời gian dùng thuốc.
+Tình trạng sức khỏe nào ảnh hưởng đến thuốc Elthon?
+Tình trạng sức khỏe của bạn có thể ảnh hưởng đến việc sử dụng thuốc này. Báo cho bác sĩ biết nếu bạn có bất kỳ vấn đề sức khỏe nào.
+Bảo quản thuốc Elthon
+Bạn nên bảo quản thuốc Elthon như thế nào?
+Bạn nên bảo quản thuốc ở nhiệt độ phòng, tránh ẩm, tránh ánh sáng. Bạn không nên bảo quản thuốc trong phòng tắm. Bạn không nên bảo quản thuốc trong ngăn đá. Mỗi loại thuốc có thể có các phương pháp bảo quản khác nhau. Bạn hãy đọc kỹ hướng dẫn bảo quản trên bao bì, hoặc hỏi dược sĩ. Bạn hãy giữ thuốc tránh xa tầm tay trẻ em và thú nuôi.
+Bạn không vứt thuốc vào toilet hoặc đường ống dẫn nước trừ khi có yêu cầu. Bạn hãy vứt thuốc đúng cách khi thuốc quá hạn hoặc không thể sử dụng. Tham khảo ý kiến dược sĩ hoặc công ty xử lý rác thải địa phương về cách tiêu hủy thuốc an toàn.
+Dạng bào chế thuốc Elthon
+Thuốc Elthon có những dạng nào?
+Elthon có dạng viên nén, hàm lượng 50mg.
+Hello Bacsi không đưa ra các lời khuyên, chẩn đoán hay các phương pháp điều trị y khoa.
+Các bài viết của Hello Health Group và Hello Bacsi chỉ có tính chất tham khảo, không thay thế cho việc chẩn đoán hoặc điều trị y khoa.";1;1;1
+(Magnesi hydroxyd) Apigel - Plus 800mg;(Magnesi hydroxyd) Apigel - Plus 800mg;Magnesi hydroxyd;"Chỉ định:
+Viêm dạ dày cấp tính – mãn tính, bệnh nhân trào ngược dạ dày thực quản, người bị viêm hang vị dạ dày.
+
+Người bị viêm loát tá tràng.
+
+Người bị đầy hơi, chướng bụng, đau bụng, khó tiêu trong quá trình thực hiện thủ thuật chụp X quang.
+
+Bệnh nhân ngộ độc các chất acid, các chất ăn mòn gây xuất huyết, ngộ độc kiềm…
+Liều lượng - Cách dùng
+Người lớn: 1 gói x 3 lần / ngày.
+
+Thời điểm uống thuốc có thể là trước khi ăn hoặc trước khi đi ngủ.
+Chống chỉ định:
+Dị ứng với các thành phần có trong thuốc
+Tương tác thuốc:
+Muối Fe, kháng thụ thể H2, tetracyclin, fluoroquinolon, ketoconazol, norfloxacin, ciprofloxacin, thuốc dạng viên bao tan trong ruột, mecamylamin, methenamin, Na polystyren sulfonat resin.
+Tác dụng phụ:
+Rối loạn tiêu hóa: Buồn nôn, đầy hơi, chướng bụng, táo bón, tiêu chảy…
+Chú ý đề phòng:
+Bị rối loạn chức năng thận, gan 
+
+Đang mang thai hoặc cho con bú 
+
+Trẻ nhỏ dưới 5 tuổi ";1;1;1
