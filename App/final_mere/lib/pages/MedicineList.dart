@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'dart:typed_data';
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:dio/dio.dart';
 
 import 'package:flutter_camera_app/Model/ResponseData.dart';
@@ -22,7 +23,12 @@ class MedicineList extends StatefulWidget {
 }
 class _MedicineListState extends State<MedicineList> {
   final List<List<Medicine>> medicine;
+
   _MedicineListState(this.medicine);
+
+  int _value = 1;
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,10 +45,10 @@ class _MedicineListState extends State<MedicineList> {
       endDrawer: DrawerContent(),
       body: Container(
         child: Column(
-          children:<Widget> [
+          children: <Widget>[
             Expanded(
               child: ListView.builder(
-                  itemCount: 5,
+                  itemCount: medicine.length,
                   itemBuilder: (BuildContext context, int index) {
                     return new GestureDetector(
                       child: Hero(
@@ -54,14 +60,23 @@ class _MedicineListState extends State<MedicineList> {
                                   children: <Widget>[
                                     Padding(
                                       padding:
-                                      const EdgeInsets.only(top: 8.0, bottom: 4.0),
+                                      const EdgeInsets.only(
+                                          top: 8.0, bottom: 4.0),
                                       child: Row(children: <Widget>[
-                                        Text(
-                                          medicine[index][0].display_name,
-                                          style: TextStyle(
-                                              fontSize: 24,
-                                              color: Color(0xFF3EB16F),
-                                              fontWeight: FontWeight.bold),
+                                        SizedBox(
+                                          width: 200,
+                                          // child: medicine[index].length > 1 ? _dropDownMenu(
+                                          //     medicine[index]) :
+                                          child: AutoSizeText(
+                                            medicine[index][0].display_name,
+                                            style: TextStyle(
+                                                fontSize: 24,
+                                                color: Color(0xFF3EB16F),
+                                                fontWeight: FontWeight.bold),
+                                            maxLines: 2,
+                                            minFontSize: 14,
+                                            overflow: TextOverflow.ellipsis,
+                                          ),
                                         ),
                                         SizedBox(width: 10),
                                         // (int.parse(medicine[index].accuracy) >= 90)
@@ -78,10 +93,14 @@ class _MedicineListState extends State<MedicineList> {
                                     ),
                                     Padding(
                                       padding:
-                                      const EdgeInsets.only(top: 4.0, bottom: 4.0),
+                                      const EdgeInsets.only(
+                                          top: 4.0, bottom: 4.0),
                                       child: Row(children: <Widget>[
                                         Text(
-                                            'Morning ${medicine[index][0].morning} Afternoon ${medicine[index][0].afternoon} Evening ${medicine[index][0].evening}',
+                                            'Morning ${medicine[index][0]
+                                                .morning} Afternoon ${medicine[index][0]
+                                                .afternoon} Evening ${medicine[index][0]
+                                                .evening}',
                                             style: TextStyle(
                                                 fontSize: 17,
                                                 color: Color(0xFFC9C9C9),
@@ -96,8 +115,10 @@ class _MedicineListState extends State<MedicineList> {
                             this.context,
                             MaterialPageRoute(
                                 builder: (context) =>
-                                    MedicineInfo(medicine: medicine[index][0])));
-                      },);}),),
+                                    MedicineInfo(
+                                        medicine: medicine[index][0])));
+                      },);
+                  }),),
             // Expanded(
             //   child: Align(
             //     alignment: Alignment.bottomRight,
@@ -125,8 +146,38 @@ class _MedicineListState extends State<MedicineList> {
       ),
     );
   }
-  void printMedicine(){
-    print(medicine.length);
-    print(medicine[4]);
+
+  _dropDownMenu(List<Medicine> medicine) async {
+    return DropdownButton(
+      value: _value,
+      items: [
+        DropdownMenuItem(
+          child: Text(medicine[0].display_name),
+          value: 1,
+        ),
+        DropdownMenuItem(
+          child: Text(medicine[1].display_name),
+          value: 2,
+        ),
+        DropdownMenuItem(
+            child: Text(medicine[2].display_name),
+            value: 3
+        ),
+        DropdownMenuItem(
+            child: Text(medicine[3].display_name),
+            value: 4
+        ),
+        DropdownMenuItem(
+            child: Text(medicine[4].display_name),
+            value: 5
+        ),
+      ],
+      onChanged: (value){
+        setState(() {
+          _value = value;
+        });
+      },
+    );
   }
+
 }

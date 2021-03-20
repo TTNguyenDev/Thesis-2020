@@ -85,7 +85,7 @@ class _CameraScreenState extends State {
                   padding: EdgeInsets.all(15),
                   color: Colors.white,
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
                       _cameraToggleRowWidget(),
                       _cameraControlWidget(context),

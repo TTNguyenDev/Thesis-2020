@@ -79,7 +79,6 @@ class _PreviewScreenState extends State<PreviewScreen> {
   }
 
   void _startUploading(context) async {
-    //setState(() => loading = true);
     EasyLoadingStyle.dark;
     EasyLoading.show(status: 'Loading');
     diofile.Dio dio = new diofile.Dio();
@@ -97,25 +96,24 @@ class _PreviewScreenState extends State<PreviewScreen> {
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         print('Success to read image ');
-
+        // print(response.data);
         for (var i = 0; i < response.data.length; i++) {
           var medicines = List<Medicine>.from(
               response.data[i].map((i) => Medicine.fromJson(i)));
-          print("DEBUG TRIET");
-          print(medicines[0].line);
-          print(medicines[0].contains);
-          print(medicines[0].info);
-          // print(medicines[0].line);
           listMedicines.add(medicines);
+
         }
+        for(var i = 0; i < listMedicines.length; i++)
+          print(listMedicines[i][0].display_name);
         if (listMedicines.length <= 0) {
           _alertMedicineMessage(context);
-        }else{
+        }else {
           Navigator.push(
               this.context,
               MaterialPageRoute(
                   builder: (context) => MedicineList(medicine: listMedicines)));
         }
+
       } else {
         _alertBoxMessage(context, "Fail to read image");
       }
@@ -135,7 +133,7 @@ _alertBoxMessage(context, message) async {
   await errorDialog(
     context,
     message,
-    neutralText: "Okay",
+    neutralText: "OK",
     neutralAction: () => Navigator.of(context).pop(),
   );
 }
@@ -143,9 +141,9 @@ _alertBoxMessage(context, message) async {
 _alertMedicineMessage(context) async {
   await infoDialog(
     context,
-    "Can not find medicine's name in your image.\nTry another one",
+    "Can not find medicine's name in your image.\nPlease try another one",
     title: "Notification",
-    neutralText: "Okay",
+    neutralText: "OK",
     neutralAction: () => Navigator.of(context).pop(),
   );
 }

@@ -65,7 +65,7 @@ class _MedicineInfoState extends State<MedicineInfo> {
                       Container(
                         child: Row(
                           children: <Widget>[
-                            makeIcon(175),
+                            makeIcon(130),
                             SizedBox(
                               width: 15,
                             ),
@@ -374,17 +374,5 @@ _showTimeDialog(context) async {
 _alertBoxMessage(context) async {
   await infoDialog(context, "Funtion is updating",
       textAlign: TextAlign.center, neutralText: "OK", title: "Nofitication"
-      //title: new Text("Nofitioncation", style: TextStyle(color: Colors.black))
       );
-  //   title: Text("Thông báo"),
-  //   content: Text("Tính năng đang đang phát triển"),
-  //   actions: <Widget>[
-  //     FlatButton(
-  //       onPressed: () {
-  //         Navigator.of(context).pop();
-  //       },
-  //       child: Text("OK"),
-  //     ),
-  //   ],
-  // ));
 }

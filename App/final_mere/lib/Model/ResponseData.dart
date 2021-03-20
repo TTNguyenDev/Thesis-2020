@@ -30,12 +30,4 @@ class Medicine {
     return '{ ${this.contains}, ${this.display_name}, ${this.morning} ${this.afternoon}, ${this.evening}, ${this.info}, ${this.line} }';
   }
 }
-// class ListMedicine{
-//   List <Medicine> listmedicine ;
-//   ListMedicine(this.listmedicine);
-//   // factory ListMedicine.fromJson(dynamic json){
-//   //   var ListMedicine =
-//   // }
-//   }
-//
-// }
+
