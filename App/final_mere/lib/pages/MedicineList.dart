@@ -79,9 +79,9 @@ class _MedicineListState extends State<MedicineList> {
                                           ),
                                         ),
                                         SizedBox(width: 10),
-                                        // (int.parse(medicine[index].accuracy) >= 90)
-                                        //     ? Icon(Icons.verified,
-                                        //     color: Color(0xFF3EB16F))
+                                        // (medicine[index].length > 1)
+                                        //     ? Icon(Icons.warning,
+                                        //     color: Colors.red)
                                         //     : Container(),
                                         Spacer(),
                                         Icon(

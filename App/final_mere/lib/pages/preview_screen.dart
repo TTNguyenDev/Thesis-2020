@@ -103,8 +103,8 @@ class _PreviewScreenState extends State<PreviewScreen> {
           listMedicines.add(medicines);
 
         }
-        for(var i = 0; i < listMedicines.length; i++)
-          print(listMedicines[i][0].display_name);
+        // for(var i = 0; i < listMedicines.length; i++)
+        //   print(listMedicines[i][0].display_name);
         if (listMedicines.length <= 0) {
           _alertMedicineMessage(context);
         }else {
