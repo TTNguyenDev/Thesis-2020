@@ -9,7 +9,7 @@ import 'package:flutter_launcher_icons/ios.dart';
 import 'package:path/path.dart';
 import 'dart:convert' show json, jsonDecode;
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:flutter_camera_app/pages/MedicineRemind.dart';
+import 'drawer_content.dart';
 
 class MedicineInfo extends StatefulWidget {
   final Medicine medicine;
@@ -52,6 +52,7 @@ class _MedicineInfoState extends State<MedicineInfo> {
           centerTitle: true,
           title: Text(widget.title, style: TextStyle(color: Colors.white)),
         ),
+        endDrawer: DrawerContent(),
         body: SingleChildScrollView(
           scrollDirection: Axis.vertical,
             child: Column(children: <Widget>[

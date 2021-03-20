@@ -110,12 +110,12 @@ class _PreviewScreenState extends State<PreviewScreen> {
         }
         if (listMedicines.length <= 0) {
           _alertMedicineMessage(context);
+        }else{
+          Navigator.push(
+              this.context,
+              MaterialPageRoute(
+                  builder: (context) => MedicineList(medicine: listMedicines)));
         }
-
-        Navigator.push(
-            this.context,
-            MaterialPageRoute(
-                builder: (context) => MedicineList(medicine: listMedicines)));
       } else {
         _alertBoxMessage(context, "Fail to read image");
       }
