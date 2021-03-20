@@ -44,8 +44,6 @@ def readData():
     contains = df[df.columns[2]].tolist()
 
     singleName = [name.split() for name in full_name]
-    print("HELLO DEBUG HERE")
-    print(contains)
     singleContain = [contain.split() for contain in contains]
 
     singleName = [cleanName(item) for sublist in singleName for item in sublist]
@@ -129,14 +127,16 @@ def readtext(image, min_size = 0, contrast_ths = 0.1, adjust_contrast = 0.5, fil
 
                 if percent_match >= 90:
                     obj = findObj(first_match, medicineCorrectionData)
+                    print(obj)
                     final_result.append([obj])
                 elif percent_match >= 70:
                     objs = [findObj(item[0], medicineCorrectionData) for item in correct]
                     final_result.append(objs)
-                else:
+                elif percent_match > 50:
                     objs = Medicine()
                     objs.display_name = medicine_name
-                    final_result.append([objs])
+                    # print(objs)
+                    final_result.append([{'line': '', 'display_name': medicine_name, 'morning': 1, 'afternoon': 1, 'evening': 1}])
         #             {
         #     "afternoon": "1",
         #     "contains": "",
@@ -146,7 +146,7 @@ def readtext(image, min_size = 0, contrast_ths = 0.1, adjust_contrast = 0.5, fil
         #     "line": "",
         #     "morning": "1"
         # }
-        [print(item) for item in final_result]
+        # [print(item) for item in final_result]
         return final_result
 
 
@@ -182,6 +182,7 @@ def upload_file():
         res = readtext(filepath)
 
         if len(res) > 0:
+            print(res)
             resp = jsonify(res)
             resp.status_code = 200
             return resp
