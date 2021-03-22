@@ -30,6 +30,7 @@ dependencies:
   commons: ^0.7.8+3
   connection_status_bar: ^1.1.4
   video_player: ^2.0.2
+  recase: ^3.0.1
 
 
 

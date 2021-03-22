@@ -96,7 +96,6 @@ class _PreviewScreenState extends State<PreviewScreen> {
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         print('Success to read image ');
-        // print(response.data);
         for (var i = 0; i < response.data.length; i++) {
           var medicines = List<Medicine>.from(
               response.data[i].map((i) => Medicine.fromJson(i)));

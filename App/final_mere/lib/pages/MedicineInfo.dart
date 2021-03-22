@@ -10,6 +10,7 @@ import 'package:path/path.dart';
 import 'dart:convert' show json, jsonDecode;
 import 'package:auto_size_text/auto_size_text.dart';
 import 'drawer_content.dart';
+import 'package:recase/recase.dart';
 
 class MedicineInfo extends StatefulWidget {
   final Medicine medicine;
@@ -78,13 +79,13 @@ class _MedicineInfoState extends State<MedicineInfo> {
                                       child: MainInfoTab(
                                         fieldTitle: "Name",
                                         customIcon: true,
-                                        fieldInfo: medicine.display_name,
+                                        fieldInfo: medicine.display_name.sentenceCase,
                                       )),
                                 ),
                                 MainInfoTab(
                                   fieldTitle: "Ingredient",
                                   customIcon: false,
-                                  fieldInfo: medicine.contains,
+                                  fieldInfo: medicine.contains.sentenceCase,
                                 )
                               ],
                             )
