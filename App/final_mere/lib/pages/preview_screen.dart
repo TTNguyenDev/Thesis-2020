@@ -96,15 +96,14 @@ class _PreviewScreenState extends State<PreviewScreen> {
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         print('Success to read image ');
-        // print(response.data);
         for (var i = 0; i < response.data.length; i++) {
           var medicines = List<Medicine>.from(
               response.data[i].map((i) => Medicine.fromJson(i)));
           listMedicines.add(medicines);
 
         }
-        for(var i = 0; i < listMedicines.length; i++)
-          print(listMedicines[i][0].display_name);
+        // for(var i = 0; i < listMedicines.length; i++)
+        //   print(listMedicines[i][0].display_name);
         if (listMedicines.length <= 0) {
           _alertMedicineMessage(context);
         }else {

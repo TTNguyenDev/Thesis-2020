@@ -7,10 +7,10 @@ import 'package:flutter_camera_app/Model/ResponseData.dart';
 import 'package:flutter_camera_app/pages/MedicineInfo.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+import 'package:commons/commons.dart';
 import 'dart:convert' show json, jsonDecode;
 import 'drawer_content.dart';
-import 'camera_screen.dart';
+import 'package:recase/recase.dart';
 
 class MedicineList extends StatefulWidget {
   final List<List<Medicine>> medicine;
@@ -64,11 +64,11 @@ class _MedicineListState extends State<MedicineList> {
                                           top: 8.0, bottom: 4.0),
                                       child: Row(children: <Widget>[
                                         SizedBox(
-                                          width: 200,
+                                          width: 150,
                                           // child: medicine[index].length > 1 ? _dropDownMenu(
                                           //     medicine[index]) :
-                                          child: AutoSizeText(
-                                            medicine[index][0].display_name,
+                                          child:  AutoSizeText(
+                                            medicine[index][0].display_name.sentenceCase,
                                             style: TextStyle(
                                                 fontSize: 24,
                                                 color: Color(0xFF3EB16F),
@@ -79,10 +79,15 @@ class _MedicineListState extends State<MedicineList> {
                                           ),
                                         ),
                                         SizedBox(width: 10),
-                                        // (int.parse(medicine[index].accuracy) >= 90)
-                                        //     ? Icon(Icons.verified,
-                                        //     color: Color(0xFF3EB16F))
-                                        //     : Container(),
+                                        (medicine[index].length > 1)
+                                            ? GestureDetector(
+                                            child: Icon(Icons.warning,
+                                                color: Colors.red,
+                                              size: 24,
+                                            ),
+                                          onTap: ()=> warningDialog(context,'This medicine maybe incorrect\nBe careful with this.', title: 'Warning',neutralText: "OK"),
+                                        )
+                                            : Container(),
                                         Spacer(),
                                         Icon(
                                           IconData(0xe901, fontFamily: "Ic"),
