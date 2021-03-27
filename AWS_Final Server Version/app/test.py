@@ -6,7 +6,7 @@ import torch
 import pandas as pd
 from spellcheck import SpellCheck
 import os
-
+import uuid
 from fuzzywuzzy import fuzz, process
 from collections import OrderedDict 
 
@@ -129,24 +129,13 @@ def readtext(image, min_size = 0, contrast_ths = 0.1, adjust_contrast = 0.5, fil
                     obj = findObj(first_match, medicineCorrectionData)
                     print(obj)
                     final_result.append([obj])
-                elif percent_match >= 70:
+                elif percent_match >=70:
                     objs = [findObj(item[0], medicineCorrectionData) for item in correct]
                     final_result.append(objs)
-                elif percent_match > 50:
-                    objs = Medicine()
-                    objs.display_name = medicine_name
-                    # print(objs)
-                    final_result.append([{'line': '', 'display_name': medicine_name, 'morning': 1, 'afternoon': 1, 'evening': 1}])
-        #             {
-        #     "afternoon": "1",
-        #     "contains": "",
-        #     "display_name": "",
-        #     "evening": "1",
-        #     "info": "Chưa có thông tin về thuốc",
-        #     "line": "",
-        #     "morning": "1"
-        # }
-        # [print(item) for item in final_result]
+                elif percent_match >= 50:
+                    objs = [findObj(item[0], medicineCorrectionData) for item in correct]
+                    objs.insert(0, {'line': '', 'display_name': medicine_name, 'morning': '1', 'afternoon': '1', 'evening': '1', 'info': 'Thông tin đang được cập nhật', 'contains': ''})
+                    final_result.append(objs)
         return final_result
 
 
@@ -155,6 +144,14 @@ app = Flask(__name__, template_folder='templates')
 @app.route("/")
 def index():
     return render_template('policy.html') 
+
+@app.route("/policy")
+def policy():
+    return render_template('policy.html') 
+
+@app.route("/about_us")
+def about_us():
+    return render_template('aboutUs.html') 
 
 ALLOWED_EXTENSIONS = set(["txt", "pdf", "png", "jpg", "jpeg", "gif"])
 
@@ -176,8 +173,9 @@ def upload_file():
         return resp
 
     if file and allowed_file(file.filename):
+        print("TRIET FILENAME:" + file.filename)
         filename = secure_filename(file.filename)
-        filepath = os.path.join('userImages', filename)
+        filepath = os.path.join('userImages', str(uuid.uuid4()) + filename)
         file.save(filepath)
         res = readtext(filepath)
 

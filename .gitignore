@@ -2922,3 +2922,9 @@ App/Mere_app/android/app/build/outputs/mapping/r8/release/resources.txt
 App/Mere_app/android/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module
 App/Mere_app/android/app/build/tmp/kotlin-classes/release/META-INF/app_release.kotlin_module
 App/Mere_app/android/app/build/tmp/packLibsflutterBuildDebug/MANIFEST.MF
+
+AWS_Final Server Version/app/craft_mlt_25k.pth
+
+AWS_Final Server Version/app/latin.pth
+
+AWS_Final Server Version/app/medicine.traineddata

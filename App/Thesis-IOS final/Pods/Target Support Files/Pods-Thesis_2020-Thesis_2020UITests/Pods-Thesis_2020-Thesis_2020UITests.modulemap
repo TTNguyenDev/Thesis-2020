@@ -1,6 +1,0 @@
-framework module Pods_Thesis_2020_Thesis_2020UITests {
-  umbrella header "Pods-Thesis_2020-Thesis_2020UITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
