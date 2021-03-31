@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:io';
 import 'package:dio/dio.dart' as diofile;
 import 'package:flutter_camera_app/Model/ResponseData.dart';
@@ -22,6 +23,8 @@ class PreviewScreen extends StatefulWidget {
 }
 
 class _PreviewScreenState extends State<PreviewScreen> {
+  Timer _timer;
+  double _progress;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -77,24 +80,52 @@ class _PreviewScreenState extends State<PreviewScreen> {
       ),
     );
   }
-
+  void configLoading() {
+    EasyLoading.instance
+      ..displayDuration = const Duration(milliseconds: 2000)
+      ..indicatorType = EasyLoadingIndicatorType.fadingCircle
+      ..loadingStyle = EasyLoadingStyle.dark
+      ..indicatorSize = 45.0
+      ..radius = 10.0
+      ..progressColor = Colors.yellow
+      ..backgroundColor = Colors.green
+      ..indicatorColor = Colors.yellow
+      ..textColor = Colors.yellow
+      ..maskColor = Colors.blue.withOpacity(0.5)
+      ..userInteractions = true
+      ..dismissOnTap = false;
+  }
   void _startUploading(context) async {
-    EasyLoadingStyle.dark;
-    EasyLoading.show(status: 'Loading');
+    EasyLoading.show(status: "Loading");
+
     diofile.Dio dio = new diofile.Dio();
     diofile.FormData formdata = new diofile.FormData.fromMap(<String, dynamic>{
       "file": await diofile.MultipartFile.fromFile(widget.imgPath,
           filename: 'abc.png')
       // "file": await diofile.MultipartFile.fromFile("", filename: 'abc.png')
+
     });
-    print('Success');
+    // _progress = 0;
+    // _timer?.cancel();
+    // _timer = Timer.periodic(const Duration(milliseconds: 400), (Timer timer) {
+    //   EasyLoading.showProgress(_progress,
+    //       status: '${(_progress * 100).toStringAsFixed(0)}%');
+    //   _progress += 0.03;
+    //   if(_progress >= 1){
+    //     _timer?.cancel();
+    //     EasyLoading.dismiss();
+    //   }
+    // });
     try {
       var response = await dio.post(
           "https://services.fit.hcmus.edu.vn:8889/file-upload",
           data: formdata);
+
       List<List<Medicine>> listMedicines = [];
       EasyLoading.dismiss();
+
       if (response.statusCode == 200) {
+        EasyLoading.dismiss();
         print('Success to read image ');
         for (var i = 0; i < response.data.length; i++) {
           var medicines = List<Medicine>.from(
@@ -114,6 +145,7 @@ class _PreviewScreenState extends State<PreviewScreen> {
         }
 
       } else {
+        EasyLoading.dismiss();
         _alertBoxMessage(context, "Fail to read image");
       }
     } on diofile.DioError catch (e) {

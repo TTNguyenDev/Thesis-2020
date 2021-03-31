@@ -99,8 +99,8 @@ class _MedicineInfoState extends State<MedicineInfo> {
                         ExtendedInfoTab(
                             fieldTitle: "Dosage ",
                             customIcon: true,
-                            fieldInfo:
-                                'Morning: ${medicine.morning} pill\nAfternoon: ${medicine.afternoon} pill\nEvening: ${medicine.evening} pill'
+                            fieldInfo: 'Moring ...\nAfternoon ...\nEvening ...\n'
+                                //'Morning: ${medicine.morning} pill\nAfternoon: ${medicine.afternoon} pill\nEvening: ${medicine.evening} pill'
                         ),
                         // Icon(
                         //   Icons.insert_comment_outlined,
