@@ -2928,3 +2928,9 @@ AWS_Final Server Version/app/craft_mlt_25k.pth
 AWS_Final Server Version/app/latin.pth
 
 AWS_Final Server Version/app/medicine.traineddata
+
+servers/app/medicine.traineddata
+
+servers/app/craft_mlt_25k.pth
+
+servers/app/latin.pth
