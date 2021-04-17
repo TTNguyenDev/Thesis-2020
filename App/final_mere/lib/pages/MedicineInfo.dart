@@ -77,13 +77,13 @@ class _MedicineInfoState extends State<MedicineInfo> {
                                   child: Material(
                                       color: Colors.transparent,
                                       child: MainInfoTab(
-                                        fieldTitle: "Name",
+                                        fieldTitle: "NAME",
                                         customIcon: true,
                                         fieldInfo: medicine.display_name.sentenceCase,
                                       )),
                                 ),
                                 MainInfoTab(
-                                  fieldTitle: "Ingredient",
+                                  fieldTitle: "COMPOSITION",
                                   customIcon: false,
                                   fieldInfo: medicine.contains.sentenceCase,
                                 )
@@ -97,7 +97,7 @@ class _MedicineInfoState extends State<MedicineInfo> {
                           child: Column(
                           children: <Widget>[
                         ExtendedInfoTab(
-                            fieldTitle: "Dosage ",
+                            fieldTitle: "DOSAGE ",
                             customIcon: true,
                             fieldInfo: 'Moring ...\nAfternoon ...\nEvening ...\n'
                                 //'Morning: ${medicine.morning} pill\nAfternoon: ${medicine.afternoon} pill\nEvening: ${medicine.evening} pill'
@@ -108,7 +108,7 @@ class _MedicineInfoState extends State<MedicineInfo> {
                         //   size: 17,
                         // ),
                         ExtendedInfoTab(
-                            fieldTitle: "Information ",
+                            fieldTitle: "INFORMATION ",
                             customIcon: false,
                             fieldInfo: medicine.info),
                         Padding(
