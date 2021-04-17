@@ -8,6 +8,9 @@ import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'video_tutorial.dart';
 
+import 'dart:io';
+import 'package:flutter_exif_rotation/flutter_exif_rotation.dart';
+
 class CameraScreen extends StatefulWidget {
   static String routeName = "/screen";
   @override
@@ -186,12 +189,13 @@ class _CameraScreenState extends State {
               //   size: 40,
               // ),
               child: Image.asset(
-                  'assets/question.png',
+                'assets/question.png',
                 height: 30,
                 width: 30,
               ),
               onTap: () => {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => VideoTutorial())),
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => VideoTutorial())),
               },
             )
           ],
@@ -224,6 +228,17 @@ class _CameraScreenState extends State {
           join((await getTemporaryDirectory()).path, '${DateTime.now()}.png');
       await controller.takePicture(path);
 
+      // if (image != null && image.path != null) {
+      File rotatedImage =
+          await FlutterExifRotation.rotateAndSaveImage(path: path);
+
+      // if (rotatedImage != null) {
+      //   setState(() {
+      //     _image = rotatedImage;
+      //   });
+      // }
+      // }
+
       Navigator.push(
         context,
         MaterialPageRoute(
@@ -243,4 +258,18 @@ class _CameraScreenState extends State {
     _initCameraController(selectedCamera);
   }
 
+  //fix orientation
+  // Future getImageAndSave() async {
+  //   final image = await picker.getImage(source: ImageSource.gallery);
+  //   if (image != null && image.path != null) {
+  //     File rotatedImage =
+  //         await FlutterExifRotation.rotateAndSaveImage(path: image.path);
+
+  //     if (image != null) {
+  //       setState(() {
+  //         _image = rotatedImage;
+  //       });
+  //     }
+  //   }
+  // }
 }
