@@ -243,7 +243,7 @@ class _CameraScreenState extends State {
         context,
         MaterialPageRoute(
             builder: (context) => PreviewScreen(
-                  imgPath:  file.path,
+                  imgPath: file.path,
                 )),
       );
     } catch (e) {
@@ -274,6 +274,5 @@ class _CameraScreenState extends State {
   // }
   //
   // import 'dart:io';
-
 
 }
