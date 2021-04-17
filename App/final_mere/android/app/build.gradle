@@ -34,12 +34,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.devplanet.flutter_camera_app"MedicineInfo(
-                                        medicine: medicine[index][0])
+        applicationId "com.devplanet.flutter_camera_app"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 14
-        versionName "2.1.5"
+        versionCode 15
+        versionName "2.1.6"
     }
 
     buildTypes {

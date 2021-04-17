@@ -9,6 +9,8 @@ import 'MedicineList.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'drawer_content.dart';
 import 'package:commons/commons.dart';
+import 'package:flutter_exif_rotation/flutter_exif_rotation.dart';
+
 
 import 'package:path/path.dart';
 
@@ -22,6 +24,9 @@ class PreviewScreen extends StatefulWidget {
 }
 
 class _PreviewScreenState extends State<PreviewScreen> {
+  Timer _timer;
+  double _progress;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -45,6 +50,7 @@ class _PreviewScreenState extends State<PreviewScreen> {
               flex: 2,
               child: Image.file(
                 File(widget.imgPath),
+
                 fit: BoxFit.cover,
               ),
             ),
@@ -77,6 +83,8 @@ class _PreviewScreenState extends State<PreviewScreen> {
       ),
     );
   }
+  void _startUploading(context) async {
+    EasyLoading.show(status: "Analyzing your prescription, Please wait...");
 
   void _startUploading(context) async {
     EasyLoadingStyle.dark;
