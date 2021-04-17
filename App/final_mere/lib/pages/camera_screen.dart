@@ -3,16 +3,13 @@ import 'dart:math';
 import 'package:camera/camera.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_camera_app/pages/preview_screen.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'video_tutorial.dart';
 
 import 'dart:io';
-import 'package:flutter_exif_rotation/flutter_exif_rotation.dart';
-
-import 'package:exif/exif.dart';
-import 'package:image/image.dart' as img;
 
 class CameraScreen extends StatefulWidget {
   static String routeName = "/screen";
@@ -50,7 +47,7 @@ class _CameraScreenState extends State {
       await controller.dispose();
     }
     controller = CameraController(cameraDescription, ResolutionPreset.high);
-
+    controller.lockCaptureOrientation(DeviceOrientation.portraitUp);
     controller.addListener(() {
       if (mounted) {
         setState(() {});
@@ -229,8 +226,9 @@ class _CameraScreenState extends State {
     try {
       final path =
           join((await getTemporaryDirectory()).path, '${DateTime.now()}.png');
-      await controller.takePicture(path);
-      final image = fixExifRotation(path);
+      XFile file = await controller.takePicture();
+
+      // final image = fixExifRotation(path);
       // if (image != null && image.path != null) {
       // File rotatedImage = await FlutterExifRotation.rotateImage(path: path);
 
@@ -245,7 +243,7 @@ class _CameraScreenState extends State {
         context,
         MaterialPageRoute(
             builder: (context) => PreviewScreen(
-                  imgPath: path,
+                  imgPath:  file.path,
                 )),
       );
     } catch (e) {
@@ -277,48 +275,5 @@ class _CameraScreenState extends State {
   //
   // import 'dart:io';
 
-  Future<File> fixExifRotation(String imagePath) async {
-    final originalFile = File(imagePath);
-    List<int> imageBytes = await originalFile.readAsBytes();
 
-    final originalImage = img.decodeImage(imageBytes);
-
-    final height = originalImage.height;
-    final width = originalImage.width;
-
-    // // Let's check for the image size
-    // // This will be true also for upside-down photos but it's ok for me
-    // if (height >= width) {
-    //   // I'm interested in portrait photos so
-    //   // I'll just return here
-    //   return originalFile;
-    // }
-
-    // We'll use the exif package to read exif data
-    // This is map of several exif properties
-    // Let's check 'Image Orientation'
-    final exifData = await readExifFromBytes(imageBytes);
-
-    img.Image fixedImage;
-
-    // if (height < width) {
-    if (exifData['Image Orientation'].printable.contains('Horizontal')) {
-      fixedImage = img.copyRotate(originalImage, 90);
-    } else if (exifData['Image Orientation'].printable.contains('180')) {
-      fixedImage = img.copyRotate(originalImage, -90);
-    } else if (exifData['Image Orientation'].printable.contains('CCW')) {
-      fixedImage = img.copyRotate(originalImage, 180);
-    } else {
-      fixedImage = img.copyRotate(originalImage, 0);
-    }
-    // }
-
-    // Here you can select whether you'd like to save it as png
-    // or jpg with some compression
-    // I choose jpg with 100% quality
-    final fixedFile =
-        await originalFile.writeAsBytes(img.encodeJpg(fixedImage));
-
-    return fixedFile;
-  }
 }

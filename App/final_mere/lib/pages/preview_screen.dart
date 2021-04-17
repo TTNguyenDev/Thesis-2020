@@ -11,11 +11,13 @@ import 'drawer_content.dart';
 import 'package:commons/commons.dart';
 import 'package:flutter_exif_rotation/flutter_exif_rotation.dart';
 
+import 'package:exif/exif.dart';
+import 'package:image/image.dart' as img;
 
 import 'package:path/path.dart';
 
 class PreviewScreen extends StatefulWidget {
-  final String imgPath;
+  String imgPath;
 
   PreviewScreen({this.imgPath});
 
@@ -24,8 +26,6 @@ class PreviewScreen extends StatefulWidget {
 }
 
 class _PreviewScreenState extends State<PreviewScreen> {
-  Timer _timer;
-  double _progress;
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +33,8 @@ class _PreviewScreenState extends State<PreviewScreen> {
       appBar: AppBar(
         leading: IconButton(
           icon: Icon(Icons.arrow_back_ios, color: Colors.white),
-          onPressed: () => {
+          onPressed: () =>
+          {
             EasyLoading.dismiss(),
             Navigator.of(context).pop(),
           },
@@ -51,7 +52,7 @@ class _PreviewScreenState extends State<PreviewScreen> {
               child: Image.file(
                 File(widget.imgPath),
 
-                fit: BoxFit.cover,
+                fit: BoxFit.fitWidth,
               ),
             ),
             Align(
@@ -64,16 +65,17 @@ class _PreviewScreenState extends State<PreviewScreen> {
                       child: FlatButton(
                         child: Center(
                             child: Text(
-                          'Extract',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 17,
-                            fontWeight: FontWeight.w500,
-                          ),
-                        )),
+                              'Extract',
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 17,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            )),
                         color: Color(0xFF3EB16F),
                         shape: StadiumBorder(),
                         onPressed: () {
+                          // _rotateImage(context);
                           _startUploading(context);
                         },
                       )),
@@ -83,73 +85,98 @@ class _PreviewScreenState extends State<PreviewScreen> {
       ),
     );
   }
+  //
+  // void _rotateImage(context) async {
+  //     final originalFile = File(widget.imgPath);
+  //     List<int> imageBytes = await originalFile.readAsBytes();
+  //
+  //     final originalImage = img.decodeImage(imageBytes);
+  //
+  //
+  //     // We'll use the exif package to read exif data
+  //     // This is map of several exif properties
+  //     // Let's check 'Image Orientation'
+  //     final exifData = await readExifFromBytes(imageBytes);
+  //
+  //     img.Image fixedImage;
+  //     fixedImage = img.copyRotate(originalImage, 90);
+  //     final fixedFile =
+  //     await originalFile.writeAsBytes(img.encodeJpg(fixedImage));
+  //     setState(() {
+  //       widget.imgPath = widget.imgPath;
+  //     });
+  // }
+
   void _startUploading(context) async {
     EasyLoading.show(status: "Analyzing your prescription, Please wait...");
 
-  void _startUploading(context) async {
-    EasyLoadingStyle.dark;
-    EasyLoading.show(status: 'Loading');
-    diofile.Dio dio = new diofile.Dio();
-    diofile.FormData formdata = new diofile.FormData.fromMap(<String, dynamic>{
-      "file": await diofile.MultipartFile.fromFile(widget.imgPath,
-          filename: 'abc.png')
-      // "file": await diofile.MultipartFile.fromFile("", filename: 'abc.png')
-    });
-    print('Success');
-    try {
-      var response = await dio.post(
-          "https://services.fit.hcmus.edu.vn:8889/file-upload",
-          data: formdata);
-      List<List<Medicine>> listMedicines = [];
-      EasyLoading.dismiss();
-      if (response.statusCode == 200) {
-        print('Success to read image ');
-        // print(response.data);
-        for (var i = 0; i < response.data.length; i++) {
-          var medicines = List<Medicine>.from(
-              response.data[i].map((i) => Medicine.fromJson(i)));
-          listMedicines.add(medicines);
-        }
-        for (var i = 0; i < listMedicines.length; i++)
-          print(listMedicines[i][0].display_name);
-        if (listMedicines.length <= 0) {
-          _alertMedicineMessage(context);
+    void _startUploading(context) async {
+      EasyLoadingStyle.dark;
+      EasyLoading.show(status: 'Loading');
+      diofile.Dio dio = new diofile.Dio();
+      diofile.FormData formdata = new diofile.FormData.fromMap(
+          <String, dynamic>{
+            "file": await diofile.MultipartFile.fromFile(widget.imgPath,
+                filename: 'abc.png')
+            // "file": await diofile.MultipartFile.fromFile("", filename: 'abc.png')
+          });
+      print('Success');
+      try {
+        var response = await dio.post(
+            "https://services.fit.hcmus.edu.vn:8889/file-upload",
+            data: formdata);
+        List<List<Medicine>> listMedicines = [];
+        EasyLoading.dismiss();
+        if (response.statusCode == 200) {
+          print('Success to read image ');
+          // print(response.data);
+          for (var i = 0; i < response.data.length; i++) {
+            var medicines = List<Medicine>.from(
+                response.data[i].map((i) => Medicine.fromJson(i)));
+            listMedicines.add(medicines);
+          }
+          for (var i = 0; i < listMedicines.length; i++)
+            print(listMedicines[i][0].display_name);
+          if (listMedicines.length <= 0) {
+            _alertMedicineMessage(context);
+          } else {
+            Navigator.push(
+                this.context,
+                MaterialPageRoute(
+                    builder: (context) =>
+                        MedicineList(medicine: listMedicines)));
+          }
         } else {
-          Navigator.push(
-              this.context,
-              MaterialPageRoute(
-                  builder: (context) => MedicineList(medicine: listMedicines)));
+          _alertBoxMessage(context, "Fail to read image");
         }
-      } else {
-        _alertBoxMessage(context, "Fail to read image");
+      } on diofile.DioError catch (e) {
+        EasyLoading.dismiss();
+        // print(e.error);
+        _alertMedicineMessage(context);
+        if (e.error is SocketException) {
+          print(e.error);
+        }
+        throw e.error;
       }
-    } on diofile.DioError catch (e) {
-      EasyLoading.dismiss();
-      // print(e.error);
-      _alertMedicineMessage(context);
-      if (e.error is SocketException) {
-        print(e.error);
-      }
-      throw e.error;
     }
   }
-}
 
-_alertBoxMessage(context, message) async {
-  await errorDialog(
-    context,
-    message,
-    neutralText: "OK",
-    neutralAction: () => Navigator.of(context).pop(),
-  );
-}
+  _alertBoxMessage(context, message) async {
+    await errorDialog(
+      context,
+      message,
+      neutralText: "OK",
+      neutralAction: () => Navigator.of(context).pop(),
+    );
+  }
 
-_alertMedicineMessage(context) async {
-  await infoDialog(
-    context,
-    "Can not find medicine's name in your image.\nPlease try another one",
-    title: "Notification",
-    neutralText: "OK",
-    neutralAction: () => Navigator.of(context).pop(),
-  );
+  _alertMedicineMessage(context) async {
+    await infoDialog(
+      context,
+      "Can not find medicine's name in your image.\nPlease try another one",
+      title: "Notification",
+      neutralText: "OK",
+      neutralAction: () => Navigator.of(context).pop(),
+    );
+  }
 }
