@@ -15,13 +15,14 @@ def readJsonFile(path):
 
 
 df = readJsonFile(data_path)
+print(df)
 # del df['name']
-df.dropna(subset = ["shortname"], inplace=True)
-print(df.columns)
-print(df.tail(5))
+# df.dropna(subset = ["shortname"], inplace=True)
+# print(df.columns)
+# print(df.tail(5))
 
-short_name = df[df.columns[3]].tolist()
-contains = df[df.columns[1]].tolist()
+# short_name = df[df.columns[3]].tolist()
+# contains = df[df.columns[1]].tolist()
 
-print(short_name)
+# print(short_name)
 # df.to_json(r'PreProcessData.json')
