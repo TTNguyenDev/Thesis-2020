@@ -9,11 +9,11 @@ from PIL import Image
 import hashlib
 import sys, os
 from zipfile import ZipFile
-from app.imgproc import loadImage
+from imgproc import loadImage
 import re
 
 # from spell import spell_check_single_word, create_dictionary
-from app.spellcheck import SpellCheck
+from spellcheck import SpellCheck
 import pytesseract
 
 if sys.version_info[0] == 2:
