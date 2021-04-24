@@ -6,9 +6,9 @@ from collections import OrderedDict
 
 import cv2
 import numpy as np
-from app.craft_utils import getDetBoxes, adjustResultCoordinates
-from app.imgproc import resize_aspect_ratio, normalizeMeanVariance
-from app.craft import CRAFT
+from craft_utils import getDetBoxes, adjustResultCoordinates
+from imgproc import resize_aspect_ratio, normalizeMeanVariance
+from craft import CRAFT
 
 def copyStateDict(state_dict):
     if list(state_dict.keys())[0].startswith("module"):
