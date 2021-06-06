@@ -53,14 +53,6 @@ class _VideoTutorialState extends State<VideoTutorial> {
               child: VideoPlayerWidget(controller: _controller),
             ),
             Spacer(),
-            // Align(
-            //     alignment: Alignment.bottomCenter,
-            //     child: Container(
-            //       height: 120,
-            //       width: double.infinity,
-            //       padding: EdgeInsets.all(15),
-            //       color: Colors.black,
-            //     ))
           ],
         ),
       ),

@@ -37,8 +37,8 @@ android {
         applicationId "com.devplanet.flutter_camera_app"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 16
-        versionName "2.1.7"
+        versionCode 17
+        versionName "2.1.8"
     }
 
     buildTypes {

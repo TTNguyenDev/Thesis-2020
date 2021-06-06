@@ -46,119 +46,134 @@ class _MedicineListState extends State<MedicineList> {
       ),
       endDrawer: DrawerContent(),
       body: Container(
-        child: Column(
-          children: <Widget>[
-            Expanded(
-              child: ListView.builder(
-                  itemCount: medicine.length,
-                  itemBuilder: (BuildContext context, int index) {
-                    return new GestureDetector(
-                      child: Hero(
-                        tag: 'imgaeHero',
-                        child: Card(
-                            child: Padding(
-                                padding: const EdgeInsets.all(16.0),
-                                child: Column(
-                                  children: <Widget>[
-                                    Padding(
-                                      padding:
-                                      const EdgeInsets.only(
-                                          top: 8.0, bottom: 4.0),
-                                      child: Row(children: <Widget>[
-                                        SizedBox(
-                                          width: 150,
-                                          child: medicine[index].length > 1 ? GestureDetector(
-                                            child: AutoSizeText(
-                                               medicine[index][_selectedItem].display_name.sentenceCase,
-                                              style: TextStyle(
-                                                  fontSize: 24,
-                                                  color: Color(0xFF3EB16F),
-                                                  fontWeight: FontWeight.bold),
-                                              maxLines: 2,
-                                              minFontSize: 14,
-                                              overflow: TextOverflow.ellipsis,
-                                            ),
-                                            onTap: (){
-                                              Set<SimpleItem> set = Set<SimpleItem>()
-                                                ..add(SimpleItem(0, medicine[index][0].display_name))
-                                                ..add(SimpleItem(1, medicine[index][1].display_name))
-                                                ..add(SimpleItem(2, medicine[index][2].display_name))
-                                                ..add(SimpleItem(3, medicine[index][3].display_name))
-                                                ..add(SimpleItem(4, medicine[index][4].display_name));
-                                              radioListDialog(
-                                                context,
-                                                "Choose medicine you think it correct.",
-                                                set,
-                                                    (item) {
-                                                  setState(() {
-                                                    _selectedMedcine = item.toString();
-                                                    _selectedItem = _findIndex(medicine[index]);
-                                                  });
-                                                },
-                                              );
-                                            },
-                                          ):
-                                          // child: medicine[index].length > 1 ? _dropDownMenu(medicine[index]) :
-                                            AutoSizeText(
-                                            medicine[index][0].display_name.sentenceCase,
-                                            style: TextStyle(
-                                                fontSize: 24,
-                                                color: Color(0xFF3EB16F),
-                                                fontWeight: FontWeight.bold),
-                                            maxLines: 2,
-                                            minFontSize: 14,
-                                            overflow: TextOverflow.ellipsis,
-                                          ),
-                                          // Icon(Icons.radio_button_checked),
-                                        ),
-                                        SizedBox(width: 10),
-                                        (medicine[index].length > 1)
-                                            ? GestureDetector(
-                                            child: Icon(Icons.warning,
-                                                color: Colors.red,
-                                              size: 24,
-                                            ),
-                                          onTap: ()=> warningDialog(context,'This medicine maybe incorrect\nBe careful with this.', title: 'Warning',neutralText: "OK"),
-                                        )
-                                            : Container(),
-                                        Spacer(),
-                                        Icon(
-                                          IconData(0xe901, fontFamily: "Ic"),
-                                          color: Color(0xFF3EB16F),
-                                          size: 100,
-                                        ),
-                                      ]),
-                                    ),
-                                    Padding(
-                                      padding:
-                                      const EdgeInsets.only(
-                                          top: 4.0, bottom: 4.0),
-                                      child: Row(children: <Widget>[
-                                        Text('Morning ... Afternoon ... Evening ...',
-                                            // 'Morning ${medicine[index][0]
-                                            //     .morning} Afternoon ${medicine[index][0]
-                                            //     .afternoon} Evening ${medicine[index][0]
-                                            //     .evening}',
-                                            style: TextStyle(
-                                                fontSize: 17,
-                                                color: Color(0xFFC9C9C9),
-                                                fontWeight: FontWeight.bold)),
-                                      ]),
-                                    ),
-                                  ],
-                                ))),
+        child: ListView.builder(
+            itemCount: medicine.length,
+            itemBuilder: (BuildContext context, int index) {
+              return  Container(
+                decoration: BoxDecoration(
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(.5),
+                      blurRadius: 10.0, // soften the shadow
+                      spreadRadius: 0.0, //extend the shadow
+                      offset: Offset(
+                        5.0, // Move to right 10  horizontally
+                        5.0, // Move to bottom 10 Vertically
                       ),
-                      onTap: () {
-                        Navigator.push(
-                            this.context,
-                            MaterialPageRoute(
-                                builder: (context) =>
-                                    MedicineInfo(
-                                        medicine: medicine[index][_selectedItem]) ));
-                      },);
-                  }),),
-          ],
-        ),
+                    )
+                  ],
+                ),
+                padding: EdgeInsets.all(10),
+                child: Card(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: GestureDetector(
+                    child: Hero(
+                      tag: 'imgaeHero',
+                      child: Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Column(
+                            children: <Widget>[
+                              Padding(
+                                padding:
+                                const EdgeInsets.only(
+                                    top: 8.0, bottom: 4.0),
+                                child: Row(children: <Widget>[
+                                  SizedBox(
+                                    width: 150,
+                                    child: medicine[index].length > 1 ? GestureDetector(
+                                      child: AutoSizeText(
+                                         medicine[index][_selectedItem].display_name.sentenceCase,
+                                        style: TextStyle(
+                                            fontSize: 24,
+                                            color: Color(0xFF3EB16F),
+                                            fontWeight: FontWeight.bold),
+                                        maxLines: 2,
+                                        minFontSize: 14,
+                                        overflow: TextOverflow.ellipsis,
+                                      ),
+                                      onTap: (){
+                                        Set<SimpleItem> set = Set<SimpleItem>()
+                                          ..add(SimpleItem(0, medicine[index][0].display_name))
+                                          ..add(SimpleItem(1, medicine[index][1].display_name))
+                                          ..add(SimpleItem(2, medicine[index][2].display_name))
+                                          ..add(SimpleItem(3, medicine[index][3].display_name))
+                                          ..add(SimpleItem(4, medicine[index][4].display_name));
+                                        radioListDialog(
+                                          context,
+                                          "Choose medicine you think it correct.",
+                                          set,
+                                              (item) {
+                                            setState(() {
+                                              _selectedMedcine = item.toString();
+                                              _selectedItem = _findIndex(medicine[index]);
+                                            });
+                                          },
+                                        );
+                                      },
+                                    ):
+                                    // child: medicine[index].length > 1 ? _dropDownMenu(medicine[index]) :
+                                      AutoSizeText(
+                                      medicine[index][0].display_name.sentenceCase,
+                                      style: TextStyle(
+                                          fontSize: 24,
+                                          color: Color(0xFF3EB16F),
+                                          fontWeight: FontWeight.bold),
+                                      maxLines: 2,
+                                      minFontSize: 14,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                    // Icon(Icons.radio_button_checked),
+                                  ),
+                                  SizedBox(width: 10),
+                                  (medicine[index].length > 1)
+                                      ? GestureDetector(
+                                      child: Icon(Icons.warning,
+                                          color: Colors.red,
+                                        size: 24,
+                                      ),
+                                    onTap: ()=> warningDialog(context,'This medicine maybe incorrect\nBe careful with this.', title: 'Warning',neutralText: "OK"),
+                                  )
+                                      : Container(),
+                                  Spacer(),
+                                  Icon(
+                                    IconData(0xe901, fontFamily: "Ic"),
+                                    color: Color(0xFF3EB16F),
+                                    size: 100,
+                                  ),
+                                ]),
+                              ),
+                              // Padding(
+                              //   padding:
+                              //   const EdgeInsets.only(
+                              //       top: 4.0, bottom: 4.0),
+                              //   child: Row(children: <Widget>[
+                              //     Text('Morning ... Afternoon ... Evening ...',
+                              //         // 'Morning ${medicine[index][0]
+                              //         //     .morning} Afternoon ${medicine[index][0]
+                              //         //     .afternoon} Evening ${medicine[index][0]
+                              //         //     .evening}',
+                              //         style: TextStyle(
+                              //             fontSize: 17,
+                              //             color: Color(0xFFC9C9C9),
+                              //             fontWeight: FontWeight.bold)),
+                              //   ]),
+                              // ),
+                            ],
+                          )),
+                    ),
+                    onTap: () {
+                      Navigator.push(
+                          this.context,
+                          MaterialPageRoute(
+                              builder: (context) =>
+                                  MedicineInfo(
+                                      medicine: medicine[index][_selectedItem]) ));
+                    },),
+                ),
+              );
+            }),
       ),
     );
   }

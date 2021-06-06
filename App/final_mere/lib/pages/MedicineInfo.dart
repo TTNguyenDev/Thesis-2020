@@ -1,13 +1,12 @@
-import 'dart:typed_data';
+
 import 'package:commons/commons.dart';
 
 import 'package:flutter_camera_app/Model/ResponseData.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_launcher_icons/ios.dart';
-import 'package:path/path.dart';
-import 'dart:convert' show json, jsonDecode;
+
+
 import 'package:auto_size_text/auto_size_text.dart';
 import 'drawer_content.dart';
 import 'package:recase/recase.dart';
@@ -110,7 +109,9 @@ class _MedicineInfoState extends State<MedicineInfo> {
                         ExtendedInfoTab(
                             fieldTitle: "INFORMATION ",
                             customIcon: false,
-                            fieldInfo: medicine.info),
+                            //fieldInfo: medicine.info
+                          fieldInfo: 'This information is updating',
+                        ),
                         Padding(
                           padding: EdgeInsets.only(
                             left: MediaQuery.of(context).size.height * 0.06,
