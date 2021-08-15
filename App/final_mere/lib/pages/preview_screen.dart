@@ -99,7 +99,7 @@ class _PreviewScreenState extends State<PreviewScreen> {
     print('Success');
     try {
       var response = await dio.post(
-          "https://services.fit.hcmus.edu.vn:8889/file-upload",
+          "http://103.153.75.195:8889/file-upload",
           data: formdata);
       List<List<Medicine>> listMedicines = [];
       _timer.cancel();
